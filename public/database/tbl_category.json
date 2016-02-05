@@ -1,0 +1,18 @@
+[
+	{
+        "field":"objectId:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"name:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"image:string",
+        "type":"file",
+        "validations": ""
+    }
+
+]

@@ -1,0 +1,77 @@
+[
+	{
+        "field":"objectId:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"username:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"password:string",
+        "type":"password",
+        "validations": ""
+    },
+    {
+        "field":"email:string",
+        "type":"email",
+        "validations": ""
+    },
+    {
+        "field":"facebookId:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"isTlgTownshipExit:boolean",
+        "type":"checkbox",
+        "validations": ""
+    },
+    {
+        "field":"isTestAcc:boolean",
+        "type":"checkbox",
+        "validations": ""
+    },
+    {
+        "field":"phoneNo:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"profileimage:string",
+        "type":"file",
+        "validations": ""
+    },
+    {
+        "field":"searchName:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_city_address:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"user_profile_img:string",
+        "type":"file",
+        "validations": ""
+    },
+    {
+        "field":"updatedAt:string",
+        "type":"date",
+        "validations": ""
+    },
+    {
+        "field":"registerBODname:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"userImgPath:string",
+        "type":"text",
+        "validations": ""
+    }
+]

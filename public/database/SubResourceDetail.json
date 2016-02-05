@@ -1,0 +1,263 @@
+{ "results": [
+	{
+        "authorName": "Dr Astrid Tuminez",
+        "author_id": {
+            "__type": "Pointer",
+            "className": "Author",
+            "objectId": "2rXvn2cEAl"
+        },
+        "author_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-af33b6a9-1c03-4263-a01b-38b39c003979-Dr-Astrid-Tuminez.jpg",
+        "createdAt": "2015-09-17T15:25:18.764Z",
+        "isAllow": true,
+        "objectId": "3sJQdaBKul",
+        "posted_date": {
+            "__type": "Date",
+            "iso": "2015-09-17T16:18:00.000Z"
+        },
+        "resource_id": {
+            "__type": "Pointer",
+            "className": "Resources",
+            "objectId": "SRBlN1Kow5"
+        },
+        "sub_res_icon_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-0c9ef7e5-e022-426c-91d8-8a6ed01a81c6-leadership.png",
+        "sub_resouce_content_eng": "2.\tBe aware that people may first stereotype you due to ignorance and bias – but confront and challenge these shortcomings and show people the breadth and depth of your culture. Don’t give in to the prevailing notions of the Philippines being always stuck in corruption and poverty – be proud of the talent and honesty that also exists there.",
+        "sub_resouce_content_mm": "အစပထမတြင္ လူေတြက မသိနားမလည္မႈႏွင့္ဘက္လုိက္မႈေတြေၾကာင့္ သင့္ကုိ သာမန္ ထူးျခားမႈမရွိေသာလူတစ္ဦးအေနျဖင့္ သတ္မွတ္ထားၾကမည္ကုိ သတိျပဳပါ - သုိ႔ေသာ္ အဆုိပါ ခၽြတ္ယြင္းခ်က္မ်ားကို ရင္ဆုိင္စိန္ေခၚ၍ သင့္ယဥ္ေက်းမႈ၏ က်ယ္ေျပာမႈႏွင့္နက္ ရိႈင္းမႈတုိ႔ကုိ ျပသပါ။ လာဘ္ေပးလာဘ္ယူမႈႏွင့္ ဆင္းရဲႏြမ္းပါးမႈတုိ႔ေၾကာင့္ လက္ရွိျဖစ္ေပၚ ေနေသာ ဖိလစ္ပုိင္ႏုိင္ငံအေပၚ ထင္ျမင္ယူဆခ်က္မ်ားေၾကာင့္ ၿပိဳလဲအရံႈးေပးစရာမလုိပါ၊ မိ မိႏုိင္ငံမွာရွိသည့္  ထက္ျမက္မႈမ်ားႏွင့္ရုိးသားမႈမ်ားအတြက္ ဂုဏ္ယူလုိက္ပါ",
+        "sub_resource_title_eng": "Leadership Lessons  - 2",
+        "sub_resource_title_mm": "အၾကံဳၿပဳခ်က္ (၂)",
+        "updatedAt": "2015-10-12T17:59:41.564Z"
+    },
+	{
+        "createdAt": "2015-10-12T17:49:19.461Z",
+        "isAllow": true,
+        "objectId": "43rUPziMrC",
+        "resource_id": {
+            "__type": "Pointer",
+            "className": "Resources",
+            "objectId": "CE4uXJnDZu"
+        },
+        "sub_res_icon_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-31a0fe92-cdcf-489d-bf4e-0d87c59dd4b9-laws.png",
+        "sub_resouce_content_mm": "CEDAW(Convention on the Elimination of All Forms of Discrimination Against Women) စီေဒါဆိုသည္မွာ အျပည္ျပည္ဆိုင္ရာ လူ႕အခြင္႔အေရးသေဘာတူညီခ်က္၊ အထူးသျဖင္႔ အမ်ိဳးသမီးမ်ားႏွင္႔ မိန္းကေလးငယ္မ်ား၏ အခြင္႔အေရးတို႔ကို ရည္ညြွန္းပါသည္။ ညီလာခံ၏ သေဘာတူညီခ်က္စာတမ္းတြင္ လူ႔အခြင္႔အေရးဆိုင္ရာမူဝါဒမ်ား၊ ႏိုင္ငံေတာ္အစိုးရမွ ညီလာခံတြင္ သေဘာတူညီထားသည္္႔ ျဖည္႔ဆည္းေပးရမည္႔ တာဝန္မ်ားပါရွိပါသည္။\n\tစီေဒါအတြက္ ႏိုင္ငံေတာ္အစိုးရအေနျဖင္႔ တန္းတူညီမ်ွအသိအမွတ္ျပဳျခင္း၊ အမိ်ဳးသမီးတစ္ဉီး ျဖစ္ျခင္းကို အေျခခံ၍ ခြဲျခားဆက္ဆံမွဳမရွိဘဲ လူ႔အခြင္႔အေရးမ်ား ခံစားခြင္႔ရွိျခင္းတို႔ကို က်င္႔သံုး လိုက္နာမွဳ ရွိေစေရးအတြက္တာဝန္ယူရန္လိုအပ္ပါသည္။\n\tစီေဒါတြင္ႏိုင္ငံေတာ္အစိုးရမွ အမ်ိဳးသမီးမ်ားအား တိုက္ရိုက္ခြဲျခားဆက္ဆံသည္႔ ဥပေဒမ်ား မရွိေစေရးအတြက္ ပိုမိုေဆာင္ရြက္ရပါမည္။ အမိ်ဳးသမီးမ်ားအေနျဖင္႔ ၎တို႔၏ဘဝတြင္ အမွန္တကယ္ တန္းတူညီမွ်မွဳကို ခံစားႏိုင္မည္႔ အစီအမံမ်ားကိုလည္း ခ်မွတ္ေဆာင္ရြက္ရပါမည္။\n",
+        "sub_resource_title_mm": "စီေဒါဆိုသည္မွာအဘယ္နည္း။",
+        "updatedAt": "2015-10-12T18:11:20.235Z"
+    },
+	{
+        "authorName": "Dr Astrid Tuminez",
+        "author_id": {
+            "__type": "Pointer",
+            "className": "Author",
+            "objectId": "2rXvn2cEAl"
+        },
+        "author_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-af33b6a9-1c03-4263-a01b-38b39c003979-Dr-Astrid-Tuminez.jpg",
+        "createdAt": "2015-09-17T15:26:10.697Z",
+        "isAllow": true,
+        "objectId": "4e3cjsSnTK",
+        "posted_date": {
+            "__type": "Date",
+            "iso": "2015-09-17T16:18:00.000Z"
+        },
+        "resource_id": {
+            "__type": "Pointer",
+            "className": "Resources",
+            "objectId": "SRBlN1Kow5"
+        },
+        "sub_res_icon_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-0c9ef7e5-e022-426c-91d8-8a6ed01a81c6-leadership.png",
+        "sub_resouce_content_eng": "4.\tBe proud of your secular and religious roots. Many of us have a strong religious upbringing but have also worked in secular settings. Balance the two, think critically, and apply the best of what both worlds can bring to your personal development and service to others.",
+        "sub_resouce_content_mm": "သင္၏ ေလာကီေရးရာႏွင့္ေလာကုတၱရာေရးရာ အရင္းအျမစ္မ်ားကုိ ဂုဏ္ယူပါ။ ကၽြန္မတုိ႔ အမ်ားစုမွာ ဘာသာေရးသြန္သင္ဆံုးမႈမ်ားၾကားမွႀကီးျပင္းလာသူမ်ားျဖစ္သလုိ၊ ေလာကီ ေရးရာကိစၥရပ္မ်ားကုိလည္း လုပ္ကုိင္ေဆာင္ရြက္ၾကရပါသည္။ ယင္းလုပ္ငန္း ၂ ခုကုိ မွ်မွ် တတ ေဆာင္ရြက္ပါ၊ ေ၀ဖန္ပုိင္းျခား စဥ္းစားဆင္ျခင္ပါ၊ အဆုိပါက႑ ၂ ခုလံုးက သင္၏ ကုိယ္ရည္ကုိယ္ေသြးဖြံ႕ၿဖိဳးတုိးတက္မႈနဲ႔ အျခားသူမ်ား အက်ဳိးသယ္ပုိးေဆာင္ရြက္မႈကုိ ျဖစ္ ေပၚေစႏုိင္သည့္ အေကာင္းဆံုးအရာမ်ားကုိ အသံုးျပဳပါ။",
+        "sub_resource_title_eng": "Leadership Lessons  - 4",
+        "sub_resource_title_mm": "အၾကံဳၿပဳခ်က္ (၄)",
+        "updatedAt": "2015-10-12T17:59:34.845Z"
+    },
+	{
+        "authorName": "Dr Astrid Tuminez",
+        "author_id": {
+            "__type": "Pointer",
+            "className": "Author",
+            "objectId": "2rXvn2cEAl"
+        },
+        "author_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-af33b6a9-1c03-4263-a01b-38b39c003979-Dr-Astrid-Tuminez.jpg",
+        "createdAt": "2015-09-17T15:27:08.832Z",
+        "isAllow": true,
+        "objectId": "8pKMPgi72e",
+        "posted_date": {
+            "__type": "Date",
+            "iso": "2015-09-17T16:18:00.000Z"
+        },
+        "resource_id": {
+            "__type": "Pointer",
+            "className": "Resources",
+            "objectId": "SRBlN1Kow5"
+        },
+        "sub_res_icon_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-0c9ef7e5-e022-426c-91d8-8a6ed01a81c6-leadership.png",
+        "sub_resouce_content_eng": "6.\tEducation will set you free. The way out of the mire of poverty and hardship is learning, knowledge and hard work.  Take advantage of any and all opportunities to learn.  In the old days, you had to have serious money to get a decent education.  Today, so much knowledge is accessible through technology.  Take advantage of this.",
+        "sub_resouce_content_mm": "ပညာေရးက သင့္ကုိ လြတ္ေျမာက္ေအာင္ ျပဳလုပ္ေပးပါလိမ့္မည္။ ဆင္းရဲႏြံနစ္ေနမႈ ႏွင့္ ခက္ခဲၾကမ္းတမ္းမႈ တုိ႔မွ လြတ္ေျမာက္ရာနည္းလမ္းသည္ ေလ့လာသင္ယူမႈ၊ ဗဟုသုတရွိမႈ ႏွင့္ အလုပ္ႀကိဳးစားမႈ တုိ႔ျဖစ္သည္။ ေလ့လာသင္ယူရန္ အခြင့္အေရးတစ္ခုခုျဖစ္ေစ၊ အားလံုးကုိျဖစ္ေစ အက်ဳိးရွိေအာင္ အသံုးခ်ပါ။ ေရွးယခင္ကာလတံုးကဆုိလွ်င္ ေကာင္းမြန္ ေသာ ပညာေရးတစ္ခုရရွိရန္အတြက္ ေငြေၾကးအေျမာက္အမ်ားအသံုးျပဳရန္ လုိအပ္သည္။ ယေန႔ေခတ္တြင္ နည္းပညာအသံုးျပဳျခင္းျဖင့္ ပညာဗဟုသုတမ်ားစြာ ရရွႏုိင္ပါသည္။ ယင္း အေျခအေနကုိ အက်ဳိးရွိေအာင္ အသံုးခ်ပါ။",
+        "sub_resource_title_eng": "Leadership Lessons  - 6",
+        "sub_resource_title_mm": "အၾကံဳၿပဳခ်က္ (၆)",
+        "updatedAt": "2015-10-12T17:59:31.826Z"
+    },
+	{
+        "authorName": "Dr Astrid Tuminez",
+        "author_id": {
+            "__type": "Pointer",
+            "className": "Author",
+            "objectId": "2rXvn2cEAl"
+        },
+        "author_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-af33b6a9-1c03-4263-a01b-38b39c003979-Dr-Astrid-Tuminez.jpg",
+        "createdAt": "2015-09-17T15:25:43.235Z",
+        "isAllow": true,
+        "objectId": "PqOxYwUsTk",
+        "posted_date": {
+            "__type": "Date",
+            "iso": "2015-09-17T16:18:00.000Z"
+        },
+        "resource_id": {
+            "__type": "Pointer",
+            "className": "Resources",
+            "objectId": "SRBlN1Kow5"
+        },
+        "sub_res_icon_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-0c9ef7e5-e022-426c-91d8-8a6ed01a81c6-leadership.png",
+        "sub_resouce_content_eng": "3.\tLearning about yourself and your people is a life-long occupation. There is so much to be discovered and reconciled about the Philippines’ troubled history, as conflicts in the south reveal – get to the heart of the matter, because from understanding comes peace.",
+        "sub_resouce_content_mm": "သင္ကုိယ္တုိင္ႏွင့္သင္၏ျပည္သူမ်ားအေၾကာင္းကုိေလ့လာမႈသည္ တစ္သက္တာလးံု လုပ္ ေဆာင္ရမည့္အလုပ္ျဖစ္သည္။ ဖိလစ္ပုိင္ႏုိင္ငံ၏ ဒုကၡမ်ားႀကံဳေတြ႕ခဲ့ရေသာ သမုိင္းေၾကာင္း ကို စူးစမ္းေလ့လာရန္ ႏွင့္ ျပန္လည္ရင္ၾကားေစ့ရန္ မ်ားစြာလုိအပ္ေနေသးၿပီး ႏုိင္ငံေတာင္ ပုိင္းမွ ပဋိပကၡမ်ားသည္ အဓိကေျဖရွင္းရမည့္ကစၥရပ္တစ္ခုျဖစ္ေနပါသည္။ ယင္းသုိ႔ေဆာင္ ရြက္လုိအပ္ရသည့္အေၾကာင္းအရင္းမွာ သိရွိနားလည္မႈမွေန၍ ၿငိမ္းခ်မ္းေရး ေပၚထြက္လာ ႏုိင္ေသာေၾကာင့္ ျဖစ္ပါသည္။",
+        "sub_resource_title_eng": "Leadership Lessons  - 3",
+        "sub_resource_title_mm": "အၾကံဳၿပဳခ်က္ (၃)",
+        "updatedAt": "2015-10-12T17:59:37.061Z"
+    },
+	{
+        "authorName": "Ann Daniels",
+        "author_id": {
+            "__type": "Pointer",
+            "className": "Author",
+            "objectId": "usdrpROCK1"
+        },
+        "author_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-285c6634-e4ce-4b92-bbea-65283bdfc3cc-Ann-Daniels-Main.jpg",
+        "createdAt": "2016-01-26T07:51:52.927Z",
+        "isAllow": true,
+        "objectId": "WHVwhSTKpT",
+        "posted_date": {
+            "__type": "Date",
+            "iso": "2016-01-20T07:54:00.000Z"
+        },
+        "resource_id": {
+            "__type": "Pointer",
+            "className": "Resources",
+            "objectId": "SRBlN1Kow5"
+        },
+        "sub_res_icon_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-0c9ef7e5-e022-426c-91d8-8a6ed01a81c6-leadership.png",
+        "sub_resouce_content_eng": "1.\tBelieve in yourself and your vision.\n2.\tBelieve in your team and help them to achieve their best.\n3.\tPlan, prepare and work hard to make it happen\n",
+        "sub_resouce_content_mm": "၁။ မိမိကိုယ္တိုင္နဲ႕ မိမိရဲ႕ အနာဂတ္အိပ္မက္ကို ယံုၾကည္ပါ။ \n၂။ မိမိရဲ႕အဖဲြ႕ကို ယံုၾကည္ၿပီး သူတို႔ေတြ အေကာင္းဆံုး စြမ္းေဆာင္ႏိုင္ေအာင္ ကူညီေပးပါ။\n၃။ အစီအစဥ္ဆဲြပါ၊ ျပင္ဆင္ပါ၊ ၿပီးရင္ တကယ္ျဖစ္လာေအာင္ ႀကိဳးစားအားထုတ္ပါ။\n",
+        "sub_resource_title_eng": "Leadership Tips",
+        "sub_resource_title_mm": "ေခါင္းေဆာင္မွုု ဆိုုင္ရာ သင္ခန္းစာ",
+        "updatedAt": "2016-01-26T08:07:52.610Z"
+    },
+	{
+        "authorName": "i-Women Team",
+        "author_id": {
+            "__type": "Pointer",
+            "className": "Author",
+            "objectId": "ahsu4L7Lcu"
+        },
+        "author_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-7f0323bc-a862-4184-9e51-d55189fcab18-ic_launcher.png",
+        "createdAt": "2016-01-15T08:57:52.376Z",
+        "isAllow": true,
+        "objectId": "ikmueWxskv",
+        "resource_id": {
+            "__type": "Pointer",
+            "className": "Resources",
+            "objectId": "9FOfvHjwML"
+        },
+        "sub_res_icon_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-c72a0243-18a6-4185-a1fe-e8de147f971a-leadership.png",
+        "sub_resouce_content_mm": "ဖုုန္း၀ယ္မယ္ဆိုုလွ်င္ ဆိုုင္မွာအားမနာတမ္းေမးသင့္ သည္မ်ားကေတာ ့\n\nၿမန္မာစာ ေၿပာင္းရန္\nမယ္မိုုရီ ဘယ္ေလာက္ ဆန့္လဲ ကတ္ ထပ္ထည့္လိုု ့ရလား ဘယ္ဆိုုက္ေလာက္ထိထည့္လိုု ့ရသလဲ\n1 GB  ဆိုုတာ ၀မ္းဂစ္လိုု ့ဖတ္ပါတယ္ . 2GB ဆိုုတာ တူးဂစ္လိုု ့ဖတ္ပါတယ္.\nဖုုန္းထဲမွာပါ ပီးသား Internal Memory ဘယ္ေလာက္လဲ 1 GB , 2 GB, 3 GB,4 GB မ်ားေလေကာင္းေလပါ\n512 MB ဆိုုတာ 1 GB ထက္ နည္းပါတယ္ MB ဆိုု လွ်င္မ၀ယ္သင္ ့ပါ ။\n\nမန္မိုုရီကတ္ ထည့္လိုု ့ရလွ်င္ ဘယ္ေလာက္ ဆိုုက္ ကတ္ ထည့္လိုု ့ရလဲေမးပါ။ \n2 GB , 4GB ဆိုုလ်င္နည္းပါတယ္ 8GB, 16 GB , 32 GB အထိထည့္လိုု ့ရတယ္ဆိုုလ်င္ပိုုေကာင္းပါတယ္.\n\nကင္မရာေကာင္းလား အေရွ ့ကင္မရာ ပစ္ဇယ္ (pizel) ဘယ္ေလာက္ပါလဲ \nအေနာက္ ကင္မရာ ပစ္ဇယ္ဘယ္ေလာက္ပါလဲေမးပါ\n\nသာမန္ဖုုန္းအသင္ ့အတင့္ပံုုထြက္ေကာင္းတဲ ့ပစ္ဇယ္ က 5 MP ပါ\nအေရွ ့ကင္မရာ မ်ားေသာအားၿဖင့္ 3 MP ဘဲရွိပါတယ္ \nထိုု ့ေၾကာင္ ့ camera pixel 5MP , 3 MP ထက္ၾကီးေလ ပိုုေကာင္းေလပါ။\nsamsung ဖုုန္းအမ်ားစုုမွာ အနည္းဆံုုး camera ပစ္ဇယ္ 8 MP ရွိပါသည္။\n\nအေပါ ္ကအခ်က္ေတြက အေရးအၾကီးဆံုုးပါ။ အၿခားအခ်က္မ်ားေတာ ့\nRadio ရလား အသံဖမ္းလိုု ့ရလား application အမ်ားၾကိး သြင္းလိုု ့ရလား\nေမးပါ ။ ဖုုန္းတစ္လံုုးနဲ့တစ္လံုုး ေစ်းကြာသလိုု Features ဆိုုတဲ ့လုုပ္ေဆာင္\nခ်က္ ကြာသြားပါတယ္ ။ လုုပ္ေဆာင္ မ်ားတဲ့ ဖုုန္းဆိုုရာ ဖုုန္းတစ္လံဳးထဲနဲ ့\nအကုုန္သံုုးလိုု ့ရတာပါ တစ္ခ်ိဳ ့ဖုုန္းေတြ က အကုုန္လုုပ္လိုု ့မရပါဖူး ။ အကုုန္ဆိုုတာ \nထြက္သမ်ွ application အကုုန္လံုုးအဆင္ေ\nၿပတာ camera ေကာင္းတာ အၾကမ္းခံတာ\nၿပဳတ္ၾကလဲ စက္မရပ္သြားတာ မ်ိဳးပါ ။ \n",
+        "sub_resource_title_eng": "",
+        "sub_resource_title_mm": "ဖုုန္း၀ယ္မယ္ဆိုုလွ်င္ ဆိုုင္မွာအားမနာတမ္းေမးသင့္ သည္မ်ားကေတာ ့",
+        "updatedAt": "2016-01-15T09:01:49.016Z"
+    },
+	{
+        "createdAt": "2015-10-12T18:00:20.086Z",
+        "isAllow": true,
+        "objectId": "nHnK3u0pkA",
+        "posted_date": {
+            "__type": "Date",
+            "iso": "2015-10-12T18:11:00.000Z"
+        },
+        "resource_id": {
+            "__type": "Pointer",
+            "className": "Resources",
+            "objectId": "CE4uXJnDZu"
+        },
+        "sub_res_icon_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-31a0fe92-cdcf-489d-bf4e-0d87c59dd4b9-laws.png",
+        "sub_resouce_content_mm": "၁။\tစီေဒါသည္ အမိ်ဳးသမီးမ်ား၏ အခြင္႔အေရးကို အေလးထားျမွင္႔တင္ျခင္းႏွင္႔ ကာကြယ္ျခင္း အတြက္ စနစ္တက်ေရးဆြဲထားသည္႔ လံုးဝဥႆုံျပီးျပည္႔စံုသည္႔ တစ္ခုတည္းေသာ\nအျပည္ျပည္ဆိုင္ရာ ဥပေဒလက္နက္တစ္ခုျဖစ္ပါသည္။\n\n၂။\tစီေဒါတြင္ အမ်ိဳးသားႏွင္႔အမ်ိဳးသမီးမ်ားအၾကား “ ျပီးျပည္႔စံုေသာ တန္းတူညီမွ်မွဳဝါဒ “ ကို\nေဖၚညြွန္းထားပါသည္။ ဆိုလိုသည္မွာ အမ်ိဳးသားမ်ားႏွင္႔ အမ်ိဳးသမီးမ်ားအၾကား တန္းတူ ညီမွ်မွဳဝါဒကိုအေျခခံျခင္းေၾကာင္႔၊ အခြင္႔အေရးတန္းတူညီမ်ွမွဳအတြက္ကို အာမခံျခင္းမ်ိဳးသာ\nမဟုတ္ဘဲ အမွန္တကယ္ အကိ်ဳးတူခံစားႏိုင္ေစျခင္းျဖစ္ပါသည္။\n\n၃။\tစီေဒါတြင္ ခဲြျခားဆက္ဆံျခင္း၏ အဓိပၸါယ္အျပည္႔အစံုကို ေဖာ္ျပထားပါသည္။\n\n၄။\tစီေဒါသည္ ပါဝင္လက္မွတ္ေရးထိုး၍ အတည္ျပဳထားေသာ ႏိုင္ငံအားလံုးအား ညီလာခံ၏ ေၾကညာခ်က္အားလံုးကို ျဖည္႔ဆည္းလိုက္နာရန္၊ ကာကြယ္ရန္ႏွင္႔ အမိ်ဳးသမီးမ်ား၏ လူ႔အခြင္႔အေရးကို ေလးစားရန္ ဥပေဒေၾကာင္းအရ ခ်ည္ေႏွာင္ထားျခင္းျဖစ္ပါသည္။\n\n\t\t\t\nစီေဒါေၾကျငာစာတမ္းတြင္ အေထြေထြေထာက္ခံခ်က္မ်ားႏွင္္႔\n\t\t\tေလ႔လာေတြ႔ရွိခ်က္မ်ားကိုလည္းေဖာ္ျပထားပါသည္။\n\n၅။\tစီေဒါတြင္ နယ္ပယ္၊ အဆင္႔အားလံုးျဖစ္သည္႔ မိသားစုအတြင္း၊ လူမွဳအသိုက္အဝန္းအတြင္း၊ ေစ်းကြက္ႏွင္႔ ျပည္နယ္ေဒသအတြင္း က်ား-မေရးရာ မညီမွ်မွဳမ်ားကို ရည္ညြွန္းေဖၚျပ ထားပါသည္။ စီေဒါသည္ ပုဂၢဳိလ္ေရးနယ္ပယ္ျဖစ္ေသာ အိမ္တြင္း၌ အမ်ိဳးသမီးမ်ား၏ လူ႔အခြင္႔အေရးခ်ိဳးေဖာက္ခံရမွဳ မ်ားကိုပါေဖာ္ျပထားပါသည္။\n\n၆။\tစီေဒါအရပုဂၢလိက အဖြဲ႔အစည္းမ်ား၊ စီးပြားေရးလုုပ္ငန္းမ်ားႏွင္႔ လူပုဂၢဳိလ္တစ္ဦးခ်င္းစီအေနျဖင္႔ \nအမ်ိဳးသမီး အခြင္႔အေရးမ်ားကိုျမင္႔တင္၊ ကာကြယ္ေရးအတြက္ ႏိုင္ငံေတာ္မွ တာဝန္ခံရန္ လိုအပ္ပါသည္။\n\n၇။\tစီေဒါတြင္ အမ်ိဳးသမီးမ်ား၏တိုးတတ္မွဳကိုအဟန္႔အတားျဖစ္ေစသည္႔ နိမ္႔က်ျခင္း၊ ျမင္႔ျမတ္ျခင္း အေတြးအေခၚပိုင္းတြင္ နက္ရွိဳင္းစြာတည္ရွိေနေသာဘက္လိုက္ျခင္းမ်ား၊ ဓေလ႔ထံုးတမ္းမ်ားႏွင္႔ အျခားအျပဳအမူ အားလံုးကို ႏိုင္ငံေတာ္မွပယ္ဖ်က္ေပးရန္လိုအပ္ပါသည္။\n\n",
+        "sub_resource_title_mm": "အဘယ္႔ေၾကာင္႔ စီေဒါအေရးၾကီးပါသနည္း ?",
+        "updatedAt": "2015-10-12T18:11:30.581Z"
+    },
+	{
+        "createdAt": "2015-10-12T18:01:40.987Z",
+        "isAllow": true,
+        "objectId": "q3lO9lltVf",
+        "posted_date": {
+            "__type": "Date",
+            "iso": "2015-10-12T18:11:00.000Z"
+        },
+        "resource_id": {
+            "__type": "Pointer",
+            "className": "Resources",
+            "objectId": "CE4uXJnDZu"
+        },
+        "sub_res_icon_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-31a0fe92-cdcf-489d-bf4e-0d87c59dd4b9-laws.png",
+        "sub_resouce_content_mm": "စီေဒါတြင္ အမ်ိဳးသမီးတို႔၏လူ႔အခြင္႔အေရးမ်ားကို မူ(၃) ရပ္အေပၚတြင္အေျခခံထားပါသည္။\n\n\t၁။\tစစ္မွန္ေသာ တန္တူညီမ်ွမွဳ\n\t၂။\tခြဲျခားဆက္ဆံမွဳ မရွိျခင္း\n\t၃။\tႏိုင္ငံေတာ္၏ တာဝန္မ်ား\n\t\n\t အထက္ပါမူမ်ားသည္ က်ား၊ မ ေရးရာ ခြဲျခားဆက္ဆံမွဳမ်ားကို အသိအမွတ္ျပဳနားလည္ရန္ သာမသဟုတ္ဘဲ၊ အမ်ိဳးသမီးမ်ား၏ လူ႔အခြင္႔အေရးႏွင္႔ လြတ္လပ္ခြင္႔တို႔ကို အဟန္႔အတား ျဖစ္ေစသည္႔ တားဆီးမွဳမ်ား၊ အစြဲအလမ္းမ်ားကို ေလွ်ာ႔ခ်ေစမည္႔ နည္းလမ္းမ်ားႏွင္႔ဗ်ဴဟာမ်ား ခ်မွတ္ႏိုင္ေရးအတြက္ နည္းလမ္းေကာင္းမ်ားျဖစ္ပါသည္။ မူတစ္ခုခ်င္းစီသည္ ထူးျခားမွဳရွိျပီး\nအျပန္အလွန္ဆက္စပ္မွဳ ရွိပါသည္။ မူ သံုးခုစလံုးကုိ ေပါင္းစပ္ပါက ျပီးျပည္႔စံုေသာအမိ်ဳးသမီး အခြင္႔အေရးမ်ားအတြက္ အေျခခံမူကိုခ်မွတ္ႏိုင္မည္ျဖစ္ပါသည္။\n",
+        "sub_resource_title_mm": "စီေဒါ၏အေျခခံမူမ်ားမွာ အဘယ္နည္း ?",
+        "updatedAt": "2015-10-12T18:11:29.371Z"
+    },
+	{
+        "authorName": "Dr Astrid Tuminez",
+        "author_id": {
+            "__type": "Pointer",
+            "className": "Author",
+            "objectId": "2rXvn2cEAl"
+        },
+        "author_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-af33b6a9-1c03-4263-a01b-38b39c003979-Dr-Astrid-Tuminez.jpg",
+        "createdAt": "2015-09-17T15:23:56.244Z",
+        "isAllow": true,
+        "objectId": "ubSvr0uP7T",
+        "posted_date": {
+            "__type": "Date",
+            "iso": "2015-09-17T16:18:00.000Z"
+        },
+        "resource_id": {
+            "__type": "Pointer",
+            "className": "Resources",
+            "objectId": "SRBlN1Kow5"
+        },
+        "sub_res_icon_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-0c9ef7e5-e022-426c-91d8-8a6ed01a81c6-leadership.png",
+        "sub_resouce_content_eng": "1.\tBe proud of your identity. No matter where in the world you go and no matter how high up you rise in the business and political world, don’t lose touch with who you are and where you come from. Don’t be ashamed of your beginnings, no matter how humble they may be.",
+        "sub_resouce_content_mm": "သင့္ရဲ႕ကုိယ္ပုိင္စရုိက္လကၡဏာကုိ ဂုဏ္ယူပါ - သင္သည္ ကမၻာေပၚမွာရွိတဲ့ ဘယ္ေနရာ ကုိ သြားသည္ျဖစ္ေစ၊ စီးပြားေရးနယ္ပယ္ ႏွင့္ ႏုိင္ငံေရးေလာကတြင္ ဘယ္ေလာက္အထိ  ေအာင္ျမင္ တုိးတက္ျမင့္မားသည္ျဖစ္ေစ၊ သင္သည္ ဘယ္သူျဖစ္သည္ဆုိသည္ ႏွင့္ သင္ ဘယ္ကလာသည္ဆုိသည္ကုိ မေမ့ပါႏွင့္။ သင္၏ဘ၀အစပုိင္းမ်ားသည္ ဘယ္ေလာက္ပင္ နိမ့္က်ေနသည္ျဖစ္ေစ ယင္းတုိ႔ကုိ ရွက္စရာမလုိပါ။",
+        "sub_resource_title_eng": "Leadership Lessons  - 1",
+        "sub_resource_title_mm": "အၾကံဳၿပဳခ်က္ (၁)",
+        "updatedAt": "2015-10-12T17:59:45.032Z"
+    },
+	{
+        "authorName": "Dr Astrid Tuminez",
+        "author_id": {
+            "__type": "Pointer",
+            "className": "Author",
+            "objectId": "2rXvn2cEAl"
+        },
+        "author_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-af33b6a9-1c03-4263-a01b-38b39c003979-Dr-Astrid-Tuminez.jpg",
+        "createdAt": "2015-09-17T15:26:31.605Z",
+        "isAllow": true,
+        "objectId": "zAZwbh8mAK",
+        "posted_date": {
+            "__type": "Date",
+            "iso": "2015-09-17T16:18:00.000Z"
+        },
+        "resource_id": {
+            "__type": "Pointer",
+            "className": "Resources",
+            "objectId": "SRBlN1Kow5"
+        },
+        "sub_res_icon_img_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-0c9ef7e5-e022-426c-91d8-8a6ed01a81c6-leadership.png",
+        "sub_resouce_content_eng": "5.\tDream big dreams and believe that hard work, friendships, and the grace of God will attend you. No matter how humble your beginnings, remember that your own mind is free to imagine what you can become.  Work harder than everybody else.  Have fun while you’re at it!",
+        "sub_resouce_content_mm": "ရည္မွန္းခ်က္ ႀကီးႀကီးထားပါ။ အလုပ္ႀကိဳးစားမႈ၊ မိတ္ေဆြအေပါင္အသင္းမ်ားမႈ ႏွင့္ ဘုရား သခင္၏ ဘုန္းက်က္သေရတုိ႔က သင့္ကုိ ေစာင့္ေရွာက္ပါလိမ့္မယ္။ သင္၏ဘ၀အစပုိင္းမ်ား သည္ မည္မွ်ပင္နိမ့္က်ေနပါေစ သင္ျဖစ္ႏုိင္ေသာအရာမ်ားကုိ သင္၏စိတ္က လြတ္လပ္စြာ စိတ္ကူးယဥ္ႏုိင္ပါသည္။ အျခားလူတုိင္းလူတုိင္းထက္ ပုိ၍ႀကီဳးစားပါ။ သင္ျဖစ္ခ်င္တာ အမွန္တကယ္ျဖစ္လာခဲ့လွ်င္ ေပ်ာ္ရႊင္ႏုိင္ပါေစ။",
+        "sub_resource_title_eng": "Leadership Lessons  - 5",
+        "sub_resource_title_mm": "အၾကံဳၿပဳခ်က္ (၅)",
+        "updatedAt": "2015-10-12T17:59:32.843Z"
+    }
+] }

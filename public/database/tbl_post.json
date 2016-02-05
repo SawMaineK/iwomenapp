@@ -1,0 +1,113 @@
+[
+
+    {
+        "field":"objectId:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"content:text",
+        "type":"textarea",
+        "validations": "required"
+    },
+    {
+        "field":"contentType:string",
+        "type":"text",
+        "validations": "required"
+    },
+    {
+        "field":"content_mm:text",
+        "type":"textarea",
+        "validations": "required"
+    },
+    {
+        "field":"image:string",
+        "type":"file",
+        "validations": ""
+    },
+    {
+        "field":"likes:integer",
+        "type":"number",
+        "validations": ""
+    },
+    {
+        "field":"postUploadName:string",
+        "type":"text",
+        "validations": "required"
+    },
+    {
+        "field":"postUploadPersonImg:string",
+        "type":"file",
+        "validations": ""
+    },
+    {
+        "field":"postUploadedDate:timestamp",
+        "type":"date",
+        "validations": ""
+    },
+    {
+        "field":"suggest_section:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"suggest_section_eng:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"title:string",
+        "type":"text",
+        "validations": "required"
+    },
+    {
+        "field":"titleMm:string",
+        "type":"text",
+        "validations": "required"
+    },
+    {
+        "field":"userId:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"userRelation:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"videoId:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"audioFile:string",
+        "type":"file",
+        "validations": ""
+    },
+    {
+        "field":"comment_count:integer",
+        "type":"number",
+        "validations":""
+    },
+    {
+        "field":"isAllow:boolean",
+        "type":"checkbox",
+        "validations":""
+    },
+    {
+        "field":"postUploadUserImgPath:string",
+        "type":"text",
+        "validations":""
+    },
+    {
+        "field":"share_count:integer",
+        "type":"number",
+        "validations":""
+    },
+    {
+        "field":"category_id:string",
+        "type":"select:Calendar,Livelihood,Q & A, Activities, Poem",
+        "validations":""
+    }
+]

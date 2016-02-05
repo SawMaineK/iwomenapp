@@ -1,0 +1,189 @@
+{ "results": [
+	{
+        "createdAt": "2015-10-02T15:18:13.428Z",
+        "objectId": "0RMTC41NLp",
+        "stickerImg": {
+            "__type": "File",
+            "name": "tfss-ca6ccda8-ea20-4e10-9637-39c0dac95c97-sticker_bird.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-ca6ccda8-ea20-4e10-9637-39c0dac95c97-sticker_bird.png"
+        },
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-ca6ccda8-ea20-4e10-9637-39c0dac95c97-sticker_bird.png",
+        "stickerName": "sticker_bird",
+        "updatedAt": "2015-10-02T15:31:04.746Z"
+    },
+	{
+        "createdAt": "2015-10-02T15:19:57.497Z",
+        "objectId": "0jOdxBxlbB",
+        "stickerImg": {
+            "__type": "File",
+            "name": "tfss-22b8d9a5-f5e8-42f8-a135-07fc265b1f28-sticker_pony.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-22b8d9a5-f5e8-42f8-a135-07fc265b1f28-sticker_pony.png"
+        },
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-22b8d9a5-f5e8-42f8-a135-07fc265b1f28-sticker_pony.png",
+        "stickerName": "sticker_pony",
+        "updatedAt": "2015-10-02T15:27:26.944Z"
+    },
+	{
+        "createdAt": "2015-10-02T15:19:29.806Z",
+        "objectId": "2f4epioTTg",
+        "stickerImg": {
+            "__type": "File",
+            "name": "tfss-d2341df9-f203-470a-8498-3f7236343dee-sticker_hamster.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-d2341df9-f203-470a-8498-3f7236343dee-sticker_hamster.png"
+        },
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-d2341df9-f203-470a-8498-3f7236343dee-sticker_hamster.png",
+        "stickerName": "sticker_hamster",
+        "updatedAt": "2015-10-02T15:28:40.186Z"
+    },
+	{
+        "createdAt": "2015-10-02T15:20:04.716Z",
+        "objectId": "7lJ1nk6cgU",
+        "stickerImg": {
+            "__type": "File",
+            "name": "tfss-7f3b7114-6a01-4da3-ae62-73cbb19c3864-sticker_puppy.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-7f3b7114-6a01-4da3-ae62-73cbb19c3864-sticker_puppy.png"
+        },
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-7f3b7114-6a01-4da3-ae62-73cbb19c3864-sticker_puppy.png",
+        "stickerName": "sticker_puppy",
+        "updatedAt": "2015-10-02T15:26:47.102Z"
+    },
+	{
+        "createdAt": "2015-10-02T15:19:14.455Z",
+        "objectId": "AkP4h4EdqK",
+        "stickerImg": {
+            "__type": "File",
+            "name": "tfss-49fc82c9-0c8c-4c01-914a-3a7b1f4fe4f8-sticker_frog.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-49fc82c9-0c8c-4c01-914a-3a7b1f4fe4f8-sticker_frog.png"
+        },
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-49fc82c9-0c8c-4c01-914a-3a7b1f4fe4f8-sticker_frog.png",
+        "stickerName": "sticker_frog",
+        "updatedAt": "2015-10-02T15:30:47.816Z"
+    },
+	{
+        "createdAt": "2015-10-02T15:18:54.438Z",
+        "objectId": "BWdO7Q8Lh4",
+        "stickerImg": {
+            "__type": "File",
+            "name": "tfss-dcb119c4-480e-4cef-9f55-7aa685fef4dd-sticker_chihuahua.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-dcb119c4-480e-4cef-9f55-7aa685fef4dd-sticker_chihuahua.png"
+        },
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-dcb119c4-480e-4cef-9f55-7aa685fef4dd-sticker_chihuahua.png",
+        "stickerName": "sticker_chihuahua",
+        "updatedAt": "2015-10-02T15:29:42.685Z"
+    },
+	{
+        "createdAt": "2015-10-02T15:18:41.817Z",
+        "objectId": "CqYIEYcZFi",
+        "stickerImg": {
+            "__type": "File",
+            "name": "tfss-9739b91f-e78c-411a-af7b-68348544c29f-sticker_chicken.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-9739b91f-e78c-411a-af7b-68348544c29f-sticker_chicken.png"
+        },
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-9739b91f-e78c-411a-af7b-68348544c29f-sticker_chicken.png",
+        "stickerName": "sticker_chicken",
+        "updatedAt": "2015-10-02T15:29:58.002Z"
+    },
+	{
+        "createdAt": "2015-10-02T15:19:36.693Z",
+        "objectId": "IhhFx9Qrwf",
+        "stickerImg": {
+            "__type": "File",
+            "name": "tfss-19bd63d1-3da1-46d1-a681-0f8dbbe4d16d-sticker_horse.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-19bd63d1-3da1-46d1-a681-0f8dbbe4d16d-sticker_horse.png"
+        },
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-19bd63d1-3da1-46d1-a681-0f8dbbe4d16d-sticker_horse.png",
+        "stickerName": "sticker_horse",
+        "updatedAt": "2015-10-02T15:30:38.089Z"
+    },
+	{
+        "createdAt": "2015-10-02T15:19:43.823Z",
+        "objectId": "Lfrzq3QZha",
+        "stickerImg": {
+            "__type": "File",
+            "name": "tfss-a2ac6a93-c792-4a29-9d6b-6150fffd9dfc-sticker_mouse.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-a2ac6a93-c792-4a29-9d6b-6150fffd9dfc-sticker_mouse.png"
+        },
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-a2ac6a93-c792-4a29-9d6b-6150fffd9dfc-sticker_mouse.png",
+        "stickerName": "sticker_mouse",
+        "updatedAt": "2015-10-02T15:28:26.899Z"
+    },
+	{
+        "createdAt": "2016-01-05T10:21:41.056Z",
+        "objectId": "TWm7SGwgoa",
+        "stickerImg": {
+            "__type": "File",
+            "name": "tfss-06f18fed-199e-4aa8-8e56-74475674cf84-applause-to-the-woman.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-06f18fed-199e-4aa8-8e56-74475674cf84-applause-to-the-woman.png"
+        },
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-06f18fed-199e-4aa8-8e56-74475674cf84-applause-to-the-woman.png",
+        "stickerName": "applause-to-the-woman",
+        "updatedAt": "2016-01-05T10:23:53.349Z"
+    },
+	{
+        "createdAt": "2016-01-05T10:23:01.085Z",
+        "objectId": "bIPPsssIbj",
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-b06f0901-87c3-4f89-b52e-39eecf7f4fa5-unity-is-strength.png",
+        "stickerName": "unity-is-strength",
+        "updatedAt": "2016-01-05T10:24:36.283Z"
+    },
+	{
+        "createdAt": "2015-10-02T15:18:28.286Z",
+        "objectId": "g5gy4ahPpo",
+        "stickerImg": {
+            "__type": "File",
+            "name": "tfss-8e71d7e2-3e77-4ba3-b0e6-9b5b27c1fb7c-sticker_black_cat.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-8e71d7e2-3e77-4ba3-b0e6-9b5b27c1fb7c-sticker_black_cat.png"
+        },
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-8e71d7e2-3e77-4ba3-b0e6-9b5b27c1fb7c-sticker_black_cat.png",
+        "stickerName": "sticker_black_cat",
+        "updatedAt": "2015-10-02T15:30:56.245Z"
+    },
+	{
+        "createdAt": "2016-01-05T10:22:41.614Z",
+        "objectId": "jgEgka1vy1",
+        "stickerImg": {
+            "__type": "File",
+            "name": "tfss-b0069850-941d-460c-85f6-5c8631abca4f-lets-go.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-b0069850-941d-460c-85f6-5c8631abca4f-lets-go.png"
+        },
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-b0069850-941d-460c-85f6-5c8631abca4f-lets-go.png",
+        "stickerName": "lets-go",
+        "updatedAt": "2016-01-05T10:24:18.815Z"
+    },
+	{
+        "createdAt": "2015-10-02T15:19:50.796Z",
+        "objectId": "myaOLI42vJ",
+        "stickerImg": {
+            "__type": "File",
+            "name": "tfss-d746c153-1722-4c94-9770-69475ea7e0cd-sticker_pig.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-d746c153-1722-4c94-9770-69475ea7e0cd-sticker_pig.png"
+        },
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-d746c153-1722-4c94-9770-69475ea7e0cd-sticker_pig.png",
+        "stickerName": "sticker_pig",
+        "updatedAt": "2015-10-02T15:27:35.834Z"
+    },
+	{
+        "createdAt": "2016-01-05T10:22:14.953Z",
+        "objectId": "v5C7OyJRf4",
+        "stickerImg": {
+            "__type": "File",
+            "name": "tfss-760c37e9-f739-4222-992c-d0f2232a61fa-dun-believe-the-rumour.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-760c37e9-f739-4222-992c-d0f2232a61fa-dun-believe-the-rumour.png"
+        },
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-760c37e9-f739-4222-992c-d0f2232a61fa-dun-believe-the-rumour.png",
+        "stickerName": "dun-believe-the-rumour",
+        "updatedAt": "2016-01-05T10:24:03.197Z"
+    },
+	{
+        "createdAt": "2015-10-02T15:19:04.531Z",
+        "objectId": "yNBrZQpzDM",
+        "stickerImg": {
+            "__type": "File",
+            "name": "tfss-609ef165-aee8-4c4f-9bed-0bb78c60ae05-sticker_cow.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-609ef165-aee8-4c4f-9bed-0bb78c60ae05-sticker_cow.png"
+        },
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-609ef165-aee8-4c4f-9bed-0bb78c60ae05-sticker_cow.png",
+        "stickerName": "sticker_cow",
+        "updatedAt": "2015-10-02T15:29:31.626Z"
+    }
+] }

@@ -1,0 +1,42 @@
+[
+			{
+		        "field":"objectId:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"comment_contents:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"comment_created_time:timestamp",
+		        "type":"date",
+		        "validations": ""
+		    },
+            {
+		        "field":"postId:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"sticker_img_path:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"userId:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"user_img_path:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"user_name:string",
+		        "type":"text",
+		        "validations": ""
+		    }
+]

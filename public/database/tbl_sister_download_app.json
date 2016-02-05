@@ -1,0 +1,32 @@
+[
+			{
+		        "field":"objectId:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"app_img:string",
+		        "type":"file",
+		        "validations": ""
+		    },
+            {
+		        "field":"app_link:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"app_name:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"app_package_name:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"isAllow:boolean",
+		        "type":"checkbox",
+		        "validations": ""
+		    }
+]

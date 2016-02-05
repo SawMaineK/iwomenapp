@@ -1,0 +1,42 @@
+[
+			{
+		        "field":"objectId:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"author_img_path:string",
+		        "type":"file",
+		        "validations": ""
+		    },
+            {
+		        "field":"isAllow:boolean",
+		        "type":"checkbox",
+		        "validations": ""
+		    },
+            {
+		        "field":"resource_author_id:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"resource_author_name:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"resource_icon_img:string",
+		        "type":"file",
+		        "validations": ""
+		    },
+            {
+		        "field":"resource_title_eng:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"resource_title_mm:string",
+		        "type":"text",
+		        "validations": ""
+		    }
+]

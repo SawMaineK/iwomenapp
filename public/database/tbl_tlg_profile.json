@@ -1,0 +1,113 @@
+[
+	{
+        "field":"objectId:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_group_address:string",
+        "type":"text",
+        "validations": "required"
+    },
+    {
+        "field":"tlg_group_address_mm:string",
+        "type":"text",
+        "validations": "required"
+    },
+    {
+        "field":"tlg_group_key_activity:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_group_key_activity_mm:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_group_key_skills:string",
+        "type":"text",
+        "validations": ""
+    },
+
+    {
+        "field":"tlg_group_key_skills_mm:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_group_lat_address:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_group_lng_address:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_group_logo:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_group_member_no:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_group_name:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_group_name_mm:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_group_other_member_no:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_leader_fb_link:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_leader_img:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_leader_name:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_leader_name_mm:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_leader_ph:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_leader_role:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_member_ph:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"tlg_member_ph_no:string",
+        "type":"text",
+        "validations": ""
+    }
+]

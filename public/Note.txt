@@ -1,0 +1,1 @@
+php artisan mitul.generator:scaffold_api Post --paginate=10 --softDelete --fieldsFile="/Users/Mitul/laravel-api-generator/fields.json"

@@ -1,0 +1,53 @@
+[
+
+    {
+        "field":"objectId:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"title:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"title_mm:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"description:text",
+        "type":"textarea",
+        "validations": ""
+    },
+    {
+        "field":"description_mm:text",
+        "type":"textarea",
+        "validations": "required"
+    },
+    {
+        "field":"location:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"start_date:timestamp",
+        "type":"date",
+        "validations": ""
+    },
+    {
+        "field":"end_date:timestamp",
+        "type":"date",
+        "validations": ""
+    },
+    {
+        "field":"start_time:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"end_time:string",
+        "type":"text",
+        "validations": ""
+    }
+]

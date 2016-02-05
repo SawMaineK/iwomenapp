@@ -1,0 +1,49 @@
+<?php namespace $NAMESPACE_CONTROLLER$;
+
+use $NAMESPACE_APP$\Http\Controllers\Controller as AppBaseController;
+use Illuminate\Http\Request;
+use Response;
+use Symfony\Component\HttpKernel\Exception\HttpException;
+
+class AppBaseController extends AppBaseController
+{
+    /**
+     * Validate request for current resource
+     *
+     * @param Request $request
+     * @param array $rules
+     * @param array $messages
+     * @param array $customAttributes
+     */
+    public function validateRequestOrFail($request, array $rules, $messages = [], $customAttributes = [])
+    {
+        $validator = $this->getValidationFactory()->make($request->all(), $rules, $messages, $customAttributes);
+
+        if ($validator->fails()) {
+            return $this->getFirstMessage($validator, $rules);
+        }
+    }
+
+    public function getFirstMessage($validator, array $rules){
+        foreach ($rules as $rule => $value) {
+            if($validator->errors()->has($rule))
+                return Response::json($validator->errors()->first($rule), 400);
+        }
+    }
+
+    public function makeResponse($result, $message)
+    {
+        $result['message'] = $message;
+        return $result;
+    }
+
+    public function sendResponse($result, $message)
+    {
+        return Response::json($this->makeResponse($result, $message));
+    }
+
+	public function sendResponse($result, $message)
+	{
+		return Response::json($this->makeResponse($result, $message));
+	}
+}

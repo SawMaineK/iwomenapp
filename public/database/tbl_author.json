@@ -1,0 +1,39 @@
+[
+
+			{
+		        "field":"objectId:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"authorImg:string",
+		        "type":"file",
+		        "validations": ""
+		    },
+            {
+		        "field":"authorInfoEng:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"authorInfoMM:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"authorName:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"authorTitleEng:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+            {
+		        "field":"authorTitleMM:string",
+		        "type":"text",
+		        "validations": ""
+		    }
+
+]	

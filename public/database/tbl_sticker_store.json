@@ -1,0 +1,22 @@
+[
+	{
+        "field":"objectId:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"stickerImg:string",
+        "type":"file",
+        "validations": ""
+    },
+    {
+        "field":"stickerImgPath:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"stickerName:string",
+        "type":"text",
+        "validations": ""
+    }
+]
