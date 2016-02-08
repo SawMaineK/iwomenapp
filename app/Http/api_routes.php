@@ -9,7 +9,7 @@
 |
 */
 
-
+Route::get("postCounts/{user_id}", "PostAPIController@getPostCount");
 
 Route::resource("posts", "PostAPIController");
 

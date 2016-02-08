@@ -17,6 +17,11 @@ class PostAPIController extends AppBaseController
 		$this->postRepository = $postRepo;
 	}
 
+	public function getPostCount($user_id){
+		$count = Post::where('userId', $user_id)->count();
+		return response()->json($count);
+	}
+
 	/**
 	 * Display a listing of the Post.
 	 * GET|HEAD /posts

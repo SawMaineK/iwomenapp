@@ -39,6 +39,9 @@ class Comment extends Model
     ];
 
 	public static $rules = [
+
+		"postId"	=> "required",
+	    "userId" 	=> "required",
 	    
 	];
 
