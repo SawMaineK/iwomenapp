@@ -3,9 +3,12 @@
 use App\Http\Requests;
 use App\Libraries\Repositories\UserRepository;
 use App\Models\User;
+use App\Models\Role;
 use Illuminate\Http\Request;
-use Mitul\Controller\AppBaseController as AppBaseController;
+use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
+use Validator;
+use Auth;
 
 class UserAPIController extends AppBaseController
 {
@@ -34,6 +37,38 @@ class UserAPIController extends AppBaseController
 				
 		return response()->json($posts);
 	}
+
+	public function login(Request $request){
+		$validator = Validator::make($request->all(), [
+            'username'     => 'required',
+            'password'     => 'required',
+        ]);
+
+        if ($validator->fails()) {
+            if($validator->errors()->has('username')){
+                return response()->json($validator->errors()->first('username'), 400);
+            }
+            if($validator->errors()->has('password')){
+                return response()->json($validator->errors()->first('password'), 400);
+            }
+        }
+
+		$input = $request->all();
+
+		if(Auth::attempt($input)){
+            if(Auth::check()){
+            	$role = Role::where('userId', Auth::user()->objectId)->first();
+            	$user = Auth::user();
+            	if($role)
+            		$user['role'] = $role->name;
+            	else
+            		$user['role'] = 'User';
+                return response()->json($user);
+            }
+        }else{
+        	return response()->json("Invalid username and password.");
+        }
+}
 
 	/**
 	 * Show the form for creating a new User.
@@ -71,6 +106,22 @@ class UserAPIController extends AppBaseController
 
 		return $this->sendResponse($users->toArray(), "User saved successfully");
 	}
+
+	public function postUploadImage(Request $request){
+        $validator = Validator::make($request->all(), [
+            'image'     => 'required',
+        ]);
+
+        if ($validator->fails()) {
+            if($validator->errors()->has('image')){
+                return response()->json($validator->errors()->first('image'), 400);
+            }
+        }
+
+        $photoname = $this->uploadImage($request->image, '/users_photo/');
+        
+        return response()->json($photoname);
+    }
 
 	/**
 	 * Display the specified User.

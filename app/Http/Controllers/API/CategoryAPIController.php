@@ -4,7 +4,7 @@ use App\Http\Requests;
 use App\Libraries\Repositories\CategoryRepository;
 use App\Models\Category;
 use Illuminate\Http\Request;
-use Mitul\Controller\AppBaseController as AppBaseController;
+use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
 
 class CategoryAPIController extends AppBaseController

@@ -4,8 +4,9 @@ use App\Http\Requests;
 use App\Libraries\Repositories\PostRepository;
 use App\Models\Post;
 use Illuminate\Http\Request;
-use Mitul\Controller\AppBaseController as AppBaseController;
+use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
+use Validator;
 
 class PostAPIController extends AppBaseController
 {
@@ -75,6 +76,36 @@ class PostAPIController extends AppBaseController
 
 		return $this->sendResponse($posts->toArray(), "Post saved successfully");
 	}
+
+	public function postUploadImage(Request $request){
+        $validator = Validator::make($request->all(), [
+            'image'     => 'required',
+        ]);
+
+        if ($validator->fails()) {
+            if($validator->errors()->has('image')){
+                return response()->json($validator->errors()->first('image'), 400);
+            }
+        }
+
+        $photoname = $this->uploadImage($request->image, '/posts_photo/');
+        
+        return response()->json($photoname);
+    }
+
+    public function postUploadAudio(Request $request){
+
+        $audio_name = $this->uploadAudio($request->uploaded_file, '/posts_audio/');
+        
+        return response()->json($audio_name);
+    }
+
+    public function postUploadVideo(Request $request){
+        
+        $video_name = $this->uploadAudio($request->uploaded_file, '/posts_video/');
+        
+        return response()->json($video_name);
+    }
 
 	/**
 	 * Display the specified Post.

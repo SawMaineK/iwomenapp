@@ -4,7 +4,7 @@ use App\Http\Requests;
 use App\Libraries\Repositories\StickerStoreRepository;
 use App\Models\StickerStore;
 use Illuminate\Http\Request;
-use Mitul\Controller\AppBaseController as AppBaseController;
+use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
 
 class StickerStoreAPIController extends AppBaseController

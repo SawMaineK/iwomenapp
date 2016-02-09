@@ -4,7 +4,7 @@ use App\Http\Requests;
 use App\Libraries\Repositories\CommentRepository;
 use App\Models\Comment;
 use Illuminate\Http\Request;
-use Mitul\Controller\AppBaseController as AppBaseController;
+use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
 
 class CommentAPIController extends AppBaseController

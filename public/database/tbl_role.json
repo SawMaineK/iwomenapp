@@ -1,0 +1,18 @@
+[
+	{
+        "field":"objectId:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"name:string",
+        "type":"select:Admin,BOD,User",
+        "validations":""
+    },
+    {
+        "field":"userId:string",
+        "type":"select:Username",
+        "validations": ""
+    }
+
+]

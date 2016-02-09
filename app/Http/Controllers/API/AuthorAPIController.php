@@ -4,7 +4,7 @@ use App\Http\Requests;
 use App\Libraries\Repositories\AuthorRepository;
 use App\Models\Author;
 use Illuminate\Http\Request;
-use Mitul\Controller\AppBaseController as AppBaseController;
+use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
 
 class AuthorAPIController extends AppBaseController
