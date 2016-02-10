@@ -150,3 +150,10 @@ Route::get('calendars/{id}/delete', [
     'as' => 'calendars.delete',
     'uses' => 'CalendarController@destroy',
 ]);
+
+Route::resource('roles', 'RoleController');
+
+Route::get('roles/{id}/delete', [
+    'as' => 'roles.delete',
+    'uses' => 'RoleController@destroy',
+]);

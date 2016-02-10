@@ -9,7 +9,17 @@
 |
 */
 
+Route::get("postCounts/{user_id}", "PostAPIController@getPostCount");
 
+Route::post("file/imageUpload", "PostAPIController@postUploadImage");
+
+Route::post("file/audioUpload", "PostAPIController@postUploadAudio");
+
+Route::post("file/videoUpload", "PostAPIController@postUploadVideo");
+
+Route::post("usersUpload", "UserAPIController@postUploadImage");
+
+Route::post("login", "UserAPIController@login");
 
 Route::resource("posts", "PostAPIController");
 
@@ -36,3 +46,5 @@ Route::resource("users", "UserAPIController");
 Route::resource("categories", "CategoryAPIController");
 
 Route::resource("calendars", "CalendarAPIController");
+
+Route::resource("roles", "RoleAPIController");

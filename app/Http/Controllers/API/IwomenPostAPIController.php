@@ -4,7 +4,7 @@ use App\Http\Requests;
 use App\Libraries\Repositories\IwomenPostRepository;
 use App\Models\IwomenPost;
 use Illuminate\Http\Request;
-use Mitul\Controller\AppBaseController as AppBaseController;
+use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
 
 class IwomenPostAPIController extends AppBaseController

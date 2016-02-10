@@ -4,7 +4,7 @@ use App\Http\Requests;
 use App\Libraries\Repositories\ResourcesRepository;
 use App\Models\Resources;
 use Illuminate\Http\Request;
-use Mitul\Controller\AppBaseController as AppBaseController;
+use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
 
 class ResourcesAPIController extends AppBaseController
