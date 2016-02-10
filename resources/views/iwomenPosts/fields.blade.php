@@ -7,7 +7,15 @@
 <!-- Audiofile Field -->
 <div class="form-group col-sm-6 col-lg-4">
     {!! Form::label('audioFile', 'Audiofile:') !!}
-	{!! Form::file('audioFile') !!}
+	<div class="fileinput fileinput-new" data-provides="fileinput">
+        <span class="btn btn-primary btn-file m-r-10">
+            <span class="fileinput-new">Select file</span>
+            <span class="fileinput-exists">Change</span>
+            <input type="file" name="audioFile">
+        </span>
+        <span class="fileinput-filename"></span>
+        <a href="#" class="close fileinput-exists" data-dismiss="fileinput">&times;</a>
+    </div>
 </div>
 
 <!-- Authorid Field -->
@@ -67,14 +75,28 @@
 <!-- Image Field -->
 <div class="form-group col-sm-6 col-lg-4">
     {!! Form::label('image', 'Image:') !!}
-	{!! Form::file('image') !!}
+	<div class="fileinput fileinput-new" data-provides="fileinput">
+        <div class="fileinput-preview thumbnail" data-trigger="fileinput"></div>
+        <div>
+            <span class="btn btn-info btn-file">
+                <span class="fileinput-new">Select image</span>
+                <span class="fileinput-exists">Change</span>
+                <input type="file" name="image">
+            </span>
+            <a href="#" class="btn btn-danger fileinput-exists" data-dismiss="fileinput">Remove</a>
+        </div>
+    </div>
 </div>
 
 <!-- Isallow Field -->
 <div class="form-group col-sm-6 col-lg-4">
     <div class="checkbox">
-		<label>{!! Form::checkbox('isAllow', 1, true) !!}Isallow</label>
-	</div>
+        <label>
+            {!! Form::checkbox('isAllow', 1, true) !!}
+            <i class="input-helper"></i>
+            Isallow
+        </label>
+    </div>
 </div>
 
 <!-- Likes Field -->
@@ -92,7 +114,18 @@
 <!-- Postuploadpersonimg Field -->
 <div class="form-group col-sm-6 col-lg-4">
     {!! Form::label('postUploadPersonImg', 'Postuploadpersonimg:') !!}
-	{!! Form::file('postUploadPersonImg') !!}
+	<!-- {!! Form::file('postUploadPersonImg') !!} -->
+	<div class="fileinput fileinput-new" data-provides="fileinput">
+        <div class="fileinput-preview thumbnail" data-trigger="fileinput"></div>
+        <div>
+            <span class="btn btn-info btn-file">
+                <span class="fileinput-new">Select image</span>
+                <span class="fileinput-exists">Change</span>
+                <input type="file" name="postUploadPersonImg">
+            </span>
+            <a href="#" class="btn btn-danger fileinput-exists" data-dismiss="fileinput">Remove</a>
+        </div>
+    </div>
 </div>
 
 <!-- Postuploaduserimgpath Field -->
@@ -104,7 +137,13 @@
 <!-- Postuploadeddate Field -->
 <div class="form-group col-sm-6 col-lg-4">
     {!! Form::label('postUploadedDate', 'Postuploadeddate:') !!}
-	{!! Form::date('postUploadedDate', null, ['class' => 'form-control']) !!}
+	<!-- {!! Form::date('postUploadedDate', null, ['class' => 'form-control']) !!} -->
+	<div class="input-group form-group">
+        <span class="input-group-addon"><i class="zmdi zmdi-calendar"></i></span>
+            <div class="dtp-container fg-line">
+            <input type='text' name="postUploadedDate" class="form-control date-picker" placeholder="dd/mm/yyyy">
+        </div>
+    </div>
 </div>
 
 <!-- Post Author Role Field -->

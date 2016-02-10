@@ -1,26 +1,28 @@
 <div class="table-responsive">
-	<table class="table">
+    <table id="data-table-command" class="table table-striped table-vmiddle">
 	    <thead>
-	    <th>Objectid</th>
-				<th>Username</th>
-				<th>Password</th>
-				<th>Email</th>
-				<th>Facebookid</th>
-				<th>Istlgtownshipexit</th>
-				<th>Istestacc</th>
-				<th>Phoneno</th>
-				<th>Profileimage</th>
-				<th>Searchname</th>
-				<th>Tlg City Address</th>
-				<th>User Profile Img</th>
-				<th>Updatedat</th>
-				<th>Registerbodname</th>
-				<th>Userimgpath</th>
-	    <th width="50px">Action</th>
+            <th data-column-id="id" data-visible="false">Id</th>
+	    	<th data-column-id="objectId">Objectid</th>
+			<th data-column-id="username">Username</th>
+			<th data-column-id="password" data-visible="false">Password</th>
+			<th data-column-id="email">Email</th>
+			<th data-column-id="facebookId">Facebookid</th>
+			<th data-column-id="isTlgTownshipExit">Istlgtownshipexit</th>
+			<th data-column-id="isTestAcc">Istestacc</th>
+			<th data-column-id="phoneNo">Phoneno</th>
+			<th data-column-id="profileimage">Profileimage</th>
+			<th data-column-id="searchName">Searchname</th>
+			<th data-column-id="tlg_city_address">Tlg City Address</th>
+			<th data-column-id="user_profile_img">User Profile Img</th>
+			<th data-column-id="updatedAt">Updatedat</th>
+			<th data-column-id="registerBODname">Registerbodname</th>
+			<th data-column-id="userImgPath">Userimgpath</th>
+            <th data-column-id="commands" data-formatter="commands" data-sortable="false">Action</th>
 	    </thead>
 	    <tbody>
 	    @foreach($users as $user)
 	        <tr>
+	            <td>{!! $user->id !!}</td>
 	            <td>{!! $user->objectId !!}</td>
 				<td>{!! $user->username !!}</td>
 				<td>{!! $user->password !!}</td>

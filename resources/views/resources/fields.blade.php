@@ -7,13 +7,17 @@
 <!-- Author Img Path Field -->
 <div class="form-group col-sm-6 col-lg-4">
     {!! Form::label('author_img_path', 'Author Img Path:') !!}
-	{!! Form::file('author_img_path') !!}
+	{!! Form::text('author_img_path', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Isallow Field -->
 <div class="form-group col-sm-6 col-lg-4">
     <div class="checkbox">
-		<label>{!! Form::checkbox('isAllow', 1, true) !!}Isallow</label>
+		<label>
+	        {!! Form::checkbox('isAllow', 1, true) !!}
+	        <i class="input-helper"></i>
+	        Isallow
+	    </label>
 	</div>
 </div>
 
@@ -32,7 +36,18 @@
 <!-- Resource Icon Img Field -->
 <div class="form-group col-sm-6 col-lg-4">
     {!! Form::label('resource_icon_img', 'Resource Icon Img:') !!}
-	{!! Form::file('resource_icon_img') !!}
+	<!-- {!! Form::file('resource_icon_img') !!} -->
+	<div class="fileinput fileinput-new" data-provides="fileinput">
+        <div class="fileinput-preview thumbnail" data-trigger="fileinput"></div>
+        <div>
+            <span class="btn btn-info btn-file">
+                <span class="fileinput-new">Select image</span>
+                <span class="fileinput-exists">Change</span>
+                <input type="file" name="resource_icon_img">
+            </span>
+            <a href="#" class="btn btn-danger fileinput-exists" data-dismiss="fileinput">Remove</a>
+        </div>
+    </div>
 </div>
 
 <!-- Resource Title Eng Field -->

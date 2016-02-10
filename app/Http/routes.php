@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/th', function () {
+    return view('layouts.app1');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -81,14 +85,6 @@ Route::resource('resources', 'ResourcesController');
 Route::get('resources/{id}/delete', [
     'as' => 'resources.delete',
     'uses' => 'ResourcesController@destroy',
-]);
-
-
-Route::resource('iwomenPosts', 'IwomenPostController');
-
-Route::get('iwomenPosts/{id}/delete', [
-    'as' => 'iwomenPosts.delete',
-    'uses' => 'IwomenPostController@destroy',
 ]);
 
 
