@@ -63,6 +63,8 @@ Route::group(['prefix' => 'api', 'namespace' => 'API'], function ()
 	{
         require Config::get('generator.path_api_routes');
 
+        Route::resource('app', 'APKController');
+
         Route::resource('competition', 'CompetitionController');
 
         Route::resource('error_report', 'AndroidErrorReportController');
