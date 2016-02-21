@@ -52,13 +52,13 @@
                         iconUp: 'zmdi-expand-less'
                     },
                     formatters: {
-                        "image": function(column, row) {
-                            // return '<img class="img-responsive" src="'+data-row-image+'">';
-                            return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
+                        "sticker_img_path": function(column, row) {
+                            return '<img class="img-responsive" src="'+row.sticker_img_path+'">';
+                            // return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
                         },
-                        "postUploadPersonImg": function(column, row) {
-                            // return '<img class="img-responsive" src="'+data-row-postUploadPersonImg+'">';
-                            return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
+                        "user_img_path": function(column, row) {
+                            return '<img class="img-responsive" src="'+row.user_img_path+'">';
+                            // return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
                         },
                         "commands": function(column, row) {
                             return "<a href='comments/"+row.id+"/edit'><button type=\"button\" class=\"btn btn-icon command-edit\" data-row-id=\"" + row.id + "\"><span class=\"zmdi zmdi-edit\"></span></button></a> " + 

@@ -18,7 +18,7 @@
 			<th data-column-id="likes">Likes</th>
 			<th data-column-id="postUploadName">Postuploadname</th>
 			<th data-column-id="postUploadPersonImg" data-formatter="postUploadPersonImg">Postuploadpersonimg</th>
-			<th data-column-id="postUploadUserImgPath">Postuploaduserimgpath</th>
+			<th data-column-id="postUploadUserImgPath" data-formatter="postUploadUserImgPath">Postuploaduserimgpath</th>
 			<th data-column-id="postUploadedDate">Postuploadeddate</th>
 			<th data-column-id="post_author_role">Post Author Role</th>
 			<th data-column-id="post_author_role_mm">Post Author Role Mm</th>

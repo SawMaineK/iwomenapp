@@ -66,25 +66,14 @@
                             </div>
 
                             <div class="profile-info">
-                                Login User Name
-
+                                    {{@Auth::user()->username}}
                                 <i class="zmdi zmdi-settings"></i>
                             </div>
                         </a>
 
                         <ul class="main-menu">
-                            <!--
                             <li>
-                                <a href="profile-about.html"><i class="zmdi zmdi-account"></i> View Profile</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="zmdi zmdi-input-antenna"></i> Privacy Settings</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="zmdi zmdi-settings"></i> Settings</a>
-                            </li> -->
-                            <li>
-                                <a href="#"><i class="zmdi zmdi-time-restore"></i> Logout</a>
+                                <a href="/logout"><i class="zmdi zmdi-time-restore"></i> Logout</a>
                             </li>
                         </ul>
                     </div>

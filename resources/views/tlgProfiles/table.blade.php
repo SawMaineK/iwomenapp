@@ -11,13 +11,13 @@
 			<th data-column-id="tlg_group_key_skills_mm">Tlg Group Key Skills Mm</th>
 			<th data-column-id="tlg_group_lat_address">Tlg Group Lat Address</th>
 			<th data-column-id="tlg_group_lng_address">Tlg Group Lng Address</th>
-			<th data-column-id="tlg_group_logo">Tlg Group Logo</th>
+			<th data-column-id="tlg_group_logo" data-formatter="tlg_group_logo">Tlg Group Logo</th>
 			<th data-column-id="tlg_group_member_no">Tlg Group Member No</th>
 			<th data-column-id="tlg_group_name">Tlg Group Name</th>
 			<th data-column-id="tlg_group_name_mm">Tlg Group Name Mm</th>
 			<th data-column-id="tlg_group_other_member_no">Tlg Group Other Member No</th>
 			<th data-column-id="tlg_leader_fb_link">Tlg Leader Fb Link</th>
-			<th data-column-id="tlg_leader_img">Tlg Leader Img</th>
+			<th data-column-id="tlg_leader_img" data-formatter="tlg_leader_img">Tlg Leader Img</th>
 			<th data-column-id="tlg_leader_name">Tlg Leader Name</th>
 			<th data-column-id="tlg_leader_name_mm">Tlg Leader Name Mm</th>
 			<th data-column-id="tlg_leader_ph">Tlg Leader Ph</th>

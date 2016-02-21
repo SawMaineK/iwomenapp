@@ -5,7 +5,7 @@
             <th data-column-id="id" data-visible="false">id</th>
             <th data-column-id="objectId">Objectid</th>
 			<th data-column-id="stickerImg" data-formatter="stickerImg">Stickerimg</th>
-			<th data-column-id="stickerImgPath">Stickerimgpath</th>
+			<th data-column-id="stickerImgPath" data-formatter="stickerImgPath">Stickerimgpath</th>
 			<th data-column-id="stickerName">Stickername</th>
             <th data-column-id="commands" data-formatter="commands" data-sortable="false">Action</th>
         </thead>

@@ -53,8 +53,8 @@
                     },
                     formatters: {
                         "authorImg": function(column, row) {
-                            // return '<img class="img-responsive" src="'+data-row-authorImg+'">';
-                            return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
+                            return '<img class="img-responsive" src="'+row.authorImg+'">';
+                            // return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
                         },
                         "commands": function(column, row) {
                             return "<a href='authors/"+row.id+"/edit'><button type=\"button\" class=\"btn btn-icon command-edit\" data-row-id=\"" + row.id + "\"><span class=\"zmdi zmdi-edit\"></span></button> </a> " + 
