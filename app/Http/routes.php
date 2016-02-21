@@ -31,15 +31,22 @@ Route::get('/th', function () {
 */
 
 
-
-/*Route::group(['middleware' => 'web'], function () {
+Route::group(['middleware' => 'web', 'prefix' => 'admin'], function () {
     Route::auth();
 
-    Route::get('/home', 'HomeController@index');
     Route::get('/import', 'HomeController@import');
+
+    Route::resource('competition-question',             'CompetitionQuestionController');
+    Route::post('competition-question/{id}/update',     'CompetitionQuestionController@update');
+    Route::get('competition-question/{id}/delete',      'CompetitionQuestionController@destroy');
+
+    Route::resource('competition-answers',              'CompetitionAnswerController');
+    Route::get('competition-answers-correct/{id}',      'CompetitionAnswerController@correct');
+    Route::get('competition-answers-uncorrect/{id}',    'CompetitionAnswerController@uncorrect');
+
+    Route::resource('group-users',                      'GroupUserController');
 });
 
-*/
 /*
 |--------------------------------------------------------------------------
 | API routes
@@ -51,6 +58,21 @@ Route::group(['prefix' => 'api', 'namespace' => 'API'], function ()
 	Route::group(['prefix' => 'v1'], function ()
 	{
         require Config::get('generator.path_api_routes');
+
+        Route::resource('app', 'APKController');
+
+        Route::resource('competition', 'CompetitionController');
+
+        Route::resource('error_report', 'AndroidErrorReportController');
+
+        Route::resource('review', 'ReviewController');
+
+        Route::post('competitionanswer', 'CompetitionController@answer');
+
+        Route::get('competitionanswer/{id}', 'CompetitionController@getUserAnswer');
+
+        Route::get('competitiongroup', 'CompetitionController@getGroupUser');
+
 	});
 });
 
