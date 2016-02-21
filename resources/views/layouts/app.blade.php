@@ -196,6 +196,18 @@
                                 <li><a href="/calendars/create">Create New Calendars</a></li>
                             </ul>
                         </li>
+                        <li> <a href="/admin/competition-question"><i class="zmdi zmdi zmdi zmdi-collection-text"></i>Competition Questions</a></li>
+                        <li class="sub-menu @if(isset($title)) toggled @endif">
+                            <a href="#"><i class="zmdi zmdi zmdi zmdi-layers"></i>Competition Answers</a>
+
+                            <ul @if(isset($title)) style="display: block;" @endif>
+                                <li><a @if(isset($title) && $title=='Competition Answer List (Submitted)') class="active" @endif href="/admin/competition-answers">Submitted Answers</a></li>
+                                <li><a @if(isset($title) && $title=='Competition Answer List (Unsubmitted)') class="active" @endif href="/admin/competition-answers?q=unsubimt">Unsubmitted Answers</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/admin/group-users"><i class="zmdi zmdi zmdi zmdi-accounts-add"></i>Competition Group Users</a></li>
+
+                        
                         <li>&nbsp;<br><br></li>
                         <li>&nbsp;<br><br></li>
 
