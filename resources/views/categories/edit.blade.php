@@ -21,7 +21,7 @@
 
 		    @include('common.errors')
 
-		    {!! Form::model($category, ['route' => ['categories.update', $category->id], 'method' => 'patch']) !!}
+		    {!! Form::model($category, ['route' => ['categories.update', $category->id], 'method' => 'patch','enctype'=>'multipart/form-data']) !!}
 
 		        @include('categories.fields')
 

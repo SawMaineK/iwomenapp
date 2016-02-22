@@ -53,6 +53,9 @@ class StickerStoreController extends AppBaseController
 	{
 		$input = $request->all();
 
+		if($request->file('stickerImg'))
+			$input['stickerImg'] = json_encode($this->uploadImage($request->file('stickerImg'),'/stickers_photo/'));
+
 		$stickerStore = $this->stickerStoreRepository->create($input);
 
 		Flash::success('StickerStore saved successfully.');
@@ -121,7 +124,12 @@ class StickerStoreController extends AppBaseController
 			return redirect(route('stickerStores.index'));
 		}
 
-		$this->stickerStoreRepository->updateRich($request->all(), $id);
+		$input = $request->all();
+
+		if($request->file('stickerImg'))
+			$input['stickerImg'] = json_encode($this->uploadImage($request->file('stickerImg'),'/stickers_photo/'));
+
+		$this->stickerStoreRepository->updateRich($input, $id);
 
 		Flash::success('StickerStore updated successfully.');
 

@@ -21,7 +21,7 @@
 
 		    @include('common.errors')
 
-		    {!! Form::model($stickerStore, ['route' => ['stickerStores.update', $stickerStore->id], 'method' => 'patch']) !!}
+		    {!! Form::model($stickerStore, ['route' => ['stickerStores.update', $stickerStore->id], 'method' => 'patch','enctype'=>'multipart/form-data']) !!}
 
 		        @include('stickerStores.fields')
 

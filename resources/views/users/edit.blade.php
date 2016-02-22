@@ -21,7 +21,7 @@
 
 		    @include('common.errors')
 
-		    {!! Form::model($user, ['route' => ['users.update', $user->id], 'method' => 'patch']) !!}
+		    {!! Form::model($user, ['route' => ['users.update', $user->id], 'method' => 'patch','enctype'=>'multipart/form-data']) !!}
 
 		        @include('users.fields')
 

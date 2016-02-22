@@ -21,7 +21,7 @@
     	<div class="row">
 		    @include('common.errors')
 
-		    {!! Form::open(['route' => 'posts.store']) !!}
+		    {!! Form::open(['route' => 'posts.store','enctype'=>'multipart/form-data']) !!}
 
 		        @include('posts.fields')
 
