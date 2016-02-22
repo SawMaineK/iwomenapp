@@ -21,7 +21,7 @@
 			<th data-column-id="audioFile">Audiofile</th>
 			<th data-column-id="comment_count">Comment Count</th>
 			<th data-column-id="isAllow">Isallow</th>
-			<th data-column-id="postUploadUserImgPath">Postuploaduserimgpath</th>
+			<th data-column-id="postUploadUserImgPath" data-formatter="postUploadUserImgPath">Postuploaduserimgpath</th>
 			<th data-column-id="share_count">Share Count</th>
 			<th data-column-id="category_id">Category Id</th>
 			<th data-column-id="commands" data-formatter="commands" data-sortable="false">Commands</th>

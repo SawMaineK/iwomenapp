@@ -53,13 +53,18 @@
                     },
                     formatters: {
                         "image": function(column, row) {
-                            // return '<img class="img-responsive" src="'+data-row-image+'">';
-                            return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
+                            return '<img class="img-responsive" src="'+row.image+'">';
+                            // return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
                         },
                         "postUploadPersonImg": function(column, row) {
-                            // return '<img class="img-responsive" src="'+data-row-postUploadPersonImg+'">';
-                            return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
+                            return '<img class="img-responsive" src="'+row.postUploadPersonImg+'">';
+                            // return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
                         },
+                        "postUploadUserImgPath": function(column, row) {
+                            return '<img class="img-responsive" src="'+row.postUploadUserImgPath+'">';
+                            // return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
+                        },
+                        
                         "commands": function(column, row) {
                             return "<a href='/iwomenPosts/"+row.id+"/edit'><button type=\"button\" class=\"btn btn-icon command-edit\" data-row-id=\"" + row.id + "\"><span class=\"zmdi zmdi-edit\"></span></button> </a> " + 
                                 "<a href='/iwomenPosts/"+row.id+"/delete'><button type=\"button\" class=\"btn btn-icon command-delete\" data-row-id=\"" + row.id + "\"><span class=\"zmdi zmdi-delete\"></span></button></a>";

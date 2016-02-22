@@ -13,10 +13,10 @@
 			<th data-column-id="profileimage">Profileimage</th>
 			<th data-column-id="searchName">Searchname</th>
 			<th data-column-id="tlg_city_address">Tlg City Address</th>
-			<th data-column-id="user_profile_img">User Profile Img</th>
+			<th data-column-id="user_profile_img" data-formatter="user_profile_img">User Profile Img</th>
 			<th data-column-id="updatedAt">Updatedat</th>
 			<th data-column-id="registerBODname">Registerbodname</th>
-			<th data-column-id="userImgPath">Userimgpath</th>
+			<th data-column-id="userImgPath" data-formatter="userImgPath">Userimgpath</th>
             <th data-column-id="commands" data-formatter="commands" data-sortable="false">Action</th>
 	    </thead>
 	    <tbody>

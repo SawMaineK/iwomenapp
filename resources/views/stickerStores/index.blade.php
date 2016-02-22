@@ -53,8 +53,12 @@
                     },
                     formatters: {
                         "stickerImg": function(column, row) {
-                            // return '<img class="img-responsive" src="'+data-row-stickerImg+'">';
-                            return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
+                            return '<img class="img-responsive" src="'+row.stickerImg+'">';
+                            // return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
+                        },
+                        "stickerImgPath": function(column, row) {
+                            return '<img class="img-responsive" src="'+row.stickerImgPath+'">';
+                            // return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
                         },
                         
                         "commands": function(column, row) {

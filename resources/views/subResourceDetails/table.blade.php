@@ -7,7 +7,7 @@
 			<th data-column-id="isAllow">Isallow</th>
 			<th data-column-id="resource_author_id">Resource Author Id</th>
 			<th data-column-id="resource_author_name">Resource Author Name</th>
-			<th data-column-id="resource_icon_img">Resource Icon Img</th>
+			<th data-column-id="resource_icon_img" data-formatter="resource_icon_img">Resource Icon Img</th>
 			<th data-column-id="resource_title_eng">Resource Title Eng</th>
 			<th data-column-id="resource_title_mm">Resource Title Mm</th>
             <th data-column-id="commands" data-formatter="commands" data-sortable="false">Action</th>

@@ -3,7 +3,7 @@
         <thead>
             <th data-column-id="id" data-visible="false">id</th>
             <th data-column-id="objectId" data-visible="false">Objectid</th>
-			<th data-column-id="author_img_path">Author Img Path</th>
+			<th data-column-id="author_img_path" data-formatter="author_img_path">Author Img Path</th>
 			<th data-column-id="isAllow">Isallow</th>
 			<th data-column-id="resource_author_id">Resource Author Id</th>
 			<th data-column-id="resource_author_name">Resource Author Name</th>
