@@ -5,7 +5,7 @@ use App\Http\Requests\CreateCategoryRequest;
 use App\Http\Requests\UpdateCategoryRequest;
 use App\Libraries\Repositories\CategoryRepository;
 use Flash;
-use Mitul\Controller\AppBaseController as AppBaseController;
+use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
 
 class CategoryController extends AppBaseController
@@ -54,6 +54,9 @@ class CategoryController extends AppBaseController
 		$input = $request->all();
 
 		$input['objectId'] = str_random(10);
+
+		if($request->file('image'))
+			$input['image'] = json_encode($this->uploadImage($request->file('image'),'/categories_photo/'));
 
 		$category = $this->categoryRepository->create($input);
 
@@ -123,7 +126,12 @@ class CategoryController extends AppBaseController
 			return redirect(route('categories.index'));
 		}
 
-		$this->categoryRepository->updateRich($request->all(), $id);
+		$input = $request->all();
+
+		if($request->file('image'))
+			$input['image'] = json_encode($this->uploadImage($request->file('image'),'/categories_photo/'));
+
+		$this->categoryRepository->updateRich($input, $id);
 
 		Flash::success('Category updated successfully.');
 

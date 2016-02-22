@@ -53,6 +53,9 @@ class PostController extends AppBaseController
 	{
 		$input = $request->all();
 
+		if($request->file('image'))
+			$input['image'] = json_encode($this->uploadImage($request->file('image'),'/posts_photo/'));
+
 		$post = $this->postRepository->create($input);
 
 		Flash::success('Post saved successfully.');
@@ -121,7 +124,12 @@ class PostController extends AppBaseController
 			return redirect(route('posts.index'));
 		}
 
-		$this->postRepository->updateRich($request->all(), $id);
+		$input = $request->all();
+
+		if($request->file('image'))
+			$input['image'] = json_encode($this->uploadImage($request->file('image'),'/posts_photo/'));
+
+		$this->postRepository->updateRich($input, $id);
 
 		Flash::success('Post updated successfully.');
 

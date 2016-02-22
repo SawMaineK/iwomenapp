@@ -53,6 +53,9 @@ class IwomenPostController extends AppBaseController
 	{
 		$input = $request->all();
 
+		if($request->file('image'))
+			$input['image'] = json_encode($this->uploadImage($request->file('image'),'/posts_photo/'));
+
 		$iwomenPost = $this->iwomenPostRepository->create($input);
 
 		Flash::success('IwomenPost saved successfully.');
@@ -121,7 +124,12 @@ class IwomenPostController extends AppBaseController
 			return redirect(route('iwomenPosts.index'));
 		}
 
-		$this->iwomenPostRepository->updateRich($request->all(), $id);
+		$input = $request->all();
+
+		if($request->file('image'))
+			$input['image'] = json_encode($this->uploadImage($request->file('image'),'/posts_photo/'));
+
+		$this->iwomenPostRepository->updateRich($input, $id);
 
 		Flash::success('IwomenPost updated successfully.');
 

@@ -54,6 +54,8 @@ class UserController extends AppBaseController
 		$input = $request->all();
 		$input['objectId'] = str_random(10);
 		$input['password'] = bcrypt($input['password']);
+		if($request->file('image'))
+			$input['profileimage'] = json_encode($this->uploadImage($request->file('profileimage'),'/posts_photo/'));
 
 		$user = $this->userRepository->create($input);
 

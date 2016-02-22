@@ -42,7 +42,7 @@ class LoginController extends Controller
         // return view('login.login');
         $username=$request->username;
         $password=$request->password;
-        $field = filter_var($username, FILTER_VALIDATE_EMAIL) ? 'email' : 'user_name';
+        $field = filter_var($username, FILTER_VALIDATE_EMAIL) ? 'email' : 'username';
         $pass  ='Password';
         
         if(Auth::attempt([$field=>$username, 'password'=>$password])){

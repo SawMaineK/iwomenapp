@@ -59,6 +59,7 @@ class AppBaseController extends Controller
                 break;
             default: die('image type not supported');
         }
+        $resize_url = [];
         foreach ($resize as $key => $value) {
             $width      = $value; 
             $height     = round($width*$size[1]/$size[0]);
@@ -66,13 +67,15 @@ class AppBaseController extends Controller
             $photoY     = ImagesY($source_image);
             $images_fin = ImageCreateTrueColor($width, $height);
             ImageCopyResampled($images_fin, $source_image, 0, 0, 0, 0, $width+1, $height+1, $photoX, $photoY);
-            if(!file_exists($file_path.'x'.$value))
+            if(!file_exists($file_path.'x'.$value)){
                 mkdir($file_path.'x'.$value);
+            }
+            $resize_url[] = $_SERVER['HTTP_ORIGIN'].$path.'x'.$value.'/'.$filename;
             ImageJPEG($images_fin, $file_path.'x'.$value.'/'.$filename, 100);
         }
         ImageDestroy($source_image);
         ImageDestroy($images_fin);
-        return $filename;
+        return ['__type'=>'File', 'name' => $filename, 'url'=>$_SERVER['HTTP_ORIGIN'].$path.$filename,'resize_url' => $resize_url];
     }
 
     public function uploadAudio($file, $path){

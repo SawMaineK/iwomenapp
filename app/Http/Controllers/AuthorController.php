@@ -53,6 +53,9 @@ class AuthorController extends AppBaseController
 	{
 		$input = $request->all();
 
+		if($request->file('authorImg'))
+			$input['authorImg'] = json_encode($this->uploadImage($request->file('authorImg'),'/authors_photo/'));
+
 		$author = $this->authorRepository->create($input);
 
 		Flash::success('Author saved successfully.');
@@ -121,7 +124,12 @@ class AuthorController extends AppBaseController
 			return redirect(route('authors.index'));
 		}
 
-		$this->authorRepository->updateRich($request->all(), $id);
+		$input = $request->all();
+
+		if($request->file('authorImg'))
+			$input['authorImg'] = json_encode($this->uploadImage($request->file('authorImg'),'/authors_photo/'));
+
+		$this->authorRepository->updateRich($input, $id);
 
 		Flash::success('Author updated successfully.');
 
