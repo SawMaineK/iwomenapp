@@ -53,7 +53,7 @@ class Controller extends BaseController
         $file_path = public_path().$path;
         $file->move($file_path, $filename);
 
-        return $filename;
+        return $_SERVER['HTTP_ORIGIN'].$path.$filename;
     }
 
     public function uploadVideo($file, $path){
@@ -61,7 +61,7 @@ class Controller extends BaseController
         $file_path = public_path().$path;
         $file->move($file_path, $filename);
 
-        return $filename;
+        return $_SERVER['HTTP_ORIGIN'].$path.$filename;
     }
 
     public function uploadAPK($file, $path){
@@ -69,6 +69,6 @@ class Controller extends BaseController
         $file_path = public_path().$path;
         $file->move($file_path, $filename);
 
-        return $filename;
+        return $_SERVER['HTTP_ORIGIN'].$path.$filename;
     }
 }
