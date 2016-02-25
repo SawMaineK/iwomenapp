@@ -53,8 +53,10 @@ class AuthorController extends AppBaseController
 	{
 		$input = $request->all();
 
-		if($request->file('authorImg'))
-			$input['authorImg'] = json_encode($this->uploadImage($request->file('authorImg'),'/authors_photo/'));
+		if($request->file('authorImg')){
+			$uploadImage = $this->uploadImage($request->file('authorImg'),'/authors_photo/');
+			$input['authorImg'] = $uploadImage['resize_url'][0];
+		}
 
 		$author = $this->authorRepository->create($input);
 
@@ -126,8 +128,10 @@ class AuthorController extends AppBaseController
 
 		$input = $request->all();
 
-		if($request->file('authorImg'))
-			$input['authorImg'] = json_encode($this->uploadImage($request->file('authorImg'),'/authors_photo/'));
+		if($request->file('authorImg')){
+			$uploadImage = $this->uploadImage($request->file('authorImg'),'/authors_photo/');
+			$input['authorImg'] = $uploadImage['resize_url'][0];
+		}
 
 		$this->authorRepository->updateRich($input, $id);
 

@@ -53,8 +53,10 @@ class StickerStoreController extends AppBaseController
 	{
 		$input = $request->all();
 
-		if($request->file('stickerImg'))
-			$input['stickerImg'] = json_encode($this->uploadImage($request->file('stickerImg'),'/stickers_photo/'));
+		if($request->file('stickerImg')){
+			$uploadImage = $this->uploadImage($request->file('stickerImg'),'/stickers_photo/');
+			$input['stickerImg'] = $uploadImage['resize_url'][0];
+		}
 
 		$stickerStore = $this->stickerStoreRepository->create($input);
 
@@ -126,8 +128,10 @@ class StickerStoreController extends AppBaseController
 
 		$input = $request->all();
 
-		if($request->file('stickerImg'))
-			$input['stickerImg'] = json_encode($this->uploadImage($request->file('stickerImg'),'/stickers_photo/'));
+		if($request->file('stickerImg')){
+			$uploadImage = $this->uploadImage($request->file('stickerImg'),'/stickers_photo/');
+			$input['stickerImg'] = $uploadImage['resize_url'][0];
+		}
 
 		$this->stickerStoreRepository->updateRich($input, $id);
 

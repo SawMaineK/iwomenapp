@@ -53,8 +53,10 @@ class PostController extends AppBaseController
 	{
 		$input = $request->all();
 
-		if($request->file('image'))
-			$input['image'] = json_encode($this->uploadImage($request->file('image'),'/posts_photo/'));
+		if($request->file('image')){
+			$image = $this->uploadImage($request->file('image'),'/posts_photo/');
+			$input['image'] = $image['resize_url'][0];
+		}
 
 		$post = $this->postRepository->create($input);
 
@@ -126,8 +128,10 @@ class PostController extends AppBaseController
 
 		$input = $request->all();
 
-		if($request->file('image'))
-			$input['image'] = json_encode($this->uploadImage($request->file('image'),'/posts_photo/'));
+		if($request->file('image')){
+			$image = $this->uploadImage($request->file('image'),'/posts_photo/');
+			$input['image'] = $image['resize_url'][0];
+		}
 
 		$this->postRepository->updateRich($input, $id);
 
