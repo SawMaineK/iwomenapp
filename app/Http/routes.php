@@ -195,3 +195,11 @@ Route::group(['middleware' => ['web']], function () {
 
 
 
+
+
+Route::resource('gcms', 'GcmController');
+
+Route::get('gcms/{id}/delete', [
+    'as' => 'gcms.delete',
+    'uses' => 'GcmController@destroy',
+]);

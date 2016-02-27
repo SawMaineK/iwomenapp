@@ -1,0 +1,17 @@
+[
+			{
+		        "field":"reg_id:string",
+		        "type":"text",
+		        "validations": "required"
+		    },
+            {
+		        "field":"device_id:string",
+		        "type":"text",
+		        "validations": "required"
+		    },
+            {
+		        "field":"user_id:string",
+		        "type":"text",
+		        "validations": "required"
+		    }
+]
