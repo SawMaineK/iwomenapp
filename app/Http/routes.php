@@ -203,3 +203,11 @@ Route::get('gcms/{id}/delete', [
     'as' => 'gcms.delete',
     'uses' => 'GcmController@destroy',
 ]);
+
+
+Route::resource('gcmMessages', 'GcmMessageController');
+
+Route::get('gcmMessages/{id}/delete', [
+    'as' => 'gcmMessages.delete',
+    'uses' => 'GcmMessageController@destroy',
+]);

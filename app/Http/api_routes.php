@@ -50,3 +50,5 @@ Route::resource("calendars", "CalendarAPIController");
 Route::resource("roles", "RoleAPIController");
 
 Route::resource("gcms", "GcmAPIController");
+
+Route::resource("gcmMessages", "GcmMessageAPIController");
