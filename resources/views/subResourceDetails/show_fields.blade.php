@@ -1,13 +1,19 @@
-<!-- Objectid Field -->
+<!-- Authorname Field -->
 <div class="form-group">
-    {!! Form::label('objectId', 'Objectid:') !!}
-    <p>{!! $subResourceDetail->objectId !!}</p>
+    {!! Form::label('authorName', 'Authorname:') !!}
+    <p>{!! $subResourceDetail->authorName !!}</p>
 </div>
 
-<!-- Author Img Path Field -->
+<!-- Author Id Field -->
 <div class="form-group">
-    {!! Form::label('author_img_path', 'Author Img Path:') !!}
-    <p>{!! $subResourceDetail->author_img_path !!}</p>
+    {!! Form::label('author_id', 'Author Id:') !!}
+    <p>{!! $subResourceDetail->author_id !!}</p>
+</div>
+
+<!-- Author Img Url Field -->
+<div class="form-group">
+    {!! Form::label('author_img_url', 'Author Img Url:') !!}
+    <p>{!! $subResourceDetail->author_img_url !!}</p>
 </div>
 
 <!-- Isallow Field -->
@@ -16,33 +22,51 @@
     <p>{!! $subResourceDetail->isAllow !!}</p>
 </div>
 
-<!-- Resource Author Id Field -->
+<!-- Objectid Field -->
 <div class="form-group">
-    {!! Form::label('resource_author_id', 'Resource Author Id:') !!}
-    <p>{!! $subResourceDetail->resource_author_id !!}</p>
+    {!! Form::label('objectId', 'Objectid:') !!}
+    <p>{!! $subResourceDetail->objectId !!}</p>
 </div>
 
-<!-- Resource Author Name Field -->
+<!-- Posted Date Field -->
 <div class="form-group">
-    {!! Form::label('resource_author_name', 'Resource Author Name:') !!}
-    <p>{!! $subResourceDetail->resource_author_name !!}</p>
+    {!! Form::label('posted_date', 'Posted Date:') !!}
+    <p>{!! $subResourceDetail->posted_date !!}</p>
 </div>
 
-<!-- Resource Icon Img Field -->
+<!-- Resource Id Field -->
 <div class="form-group">
-    {!! Form::label('resource_icon_img', 'Resource Icon Img:') !!}
-    <p>{!! $subResourceDetail->resource_icon_img !!}</p>
+    {!! Form::label('resource_id', 'Resource Id:') !!}
+    <p>{!! $subResourceDetail->resource_id !!}</p>
 </div>
 
-<!-- Resource Title Eng Field -->
+<!-- Sub Res Icon Img Url Field -->
 <div class="form-group">
-    {!! Form::label('resource_title_eng', 'Resource Title Eng:') !!}
-    <p>{!! $subResourceDetail->resource_title_eng !!}</p>
+    {!! Form::label('sub_res_icon_img_url', 'Sub Res Icon Img Url:') !!}
+    <p>{!! $subResourceDetail->sub_res_icon_img_url !!}</p>
 </div>
 
-<!-- Resource Title Mm Field -->
+<!-- Sub Resouce Content Eng Field -->
 <div class="form-group">
-    {!! Form::label('resource_title_mm', 'Resource Title Mm:') !!}
-    <p>{!! $subResourceDetail->resource_title_mm !!}</p>
+    {!! Form::label('sub_resouce_content_eng', 'Sub Resouce Content Eng:') !!}
+    <p>{!! $subResourceDetail->sub_resouce_content_eng !!}</p>
+</div>
+
+<!-- Sub Resouce Content Mm Field -->
+<div class="form-group">
+    {!! Form::label('sub_resouce_content_mm', 'Sub Resouce Content Mm:') !!}
+    <p>{!! $subResourceDetail->sub_resouce_content_mm !!}</p>
+</div>
+
+<!-- Sub Resource Title Eng Field -->
+<div class="form-group">
+    {!! Form::label('sub_resource_title_eng', 'Sub Resource Title Eng:') !!}
+    <p>{!! $subResourceDetail->sub_resource_title_eng !!}</p>
+</div>
+
+<!-- Sub Resource Title Mm Field -->
+<div class="form-group">
+    {!! Form::label('sub_resource_title_mm', 'Sub Resource Title Mm:') !!}
+    <p>{!! $subResourceDetail->sub_resource_title_mm !!}</p>
 </div>
 

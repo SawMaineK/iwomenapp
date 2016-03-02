@@ -33,8 +33,6 @@ Route::resource("iwomenPosts", "IwomenPostAPIController");
 
 Route::resource("iwomenPosts", "IwomenPostAPIController");
 
-Route::resource("subResourceDetails", "SubResourceDetailAPIController");
-
 Route::resource("comments", "CommentAPIController");
 
 Route::resource("sisterDownloadApps", "SisterDownloadAppAPIController");
@@ -52,3 +50,5 @@ Route::resource("roles", "RoleAPIController");
 Route::resource("gcms", "GcmAPIController");
 
 Route::resource("gcmMessages", "GcmMessageAPIController");
+
+Route::resource("subResourceDetails", "SubResourceDetailAPIController");

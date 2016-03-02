@@ -1,65 +1,74 @@
+<!-- Authorname Field -->
+<div class="form-group col-sm-6 col-lg-4">
+    {!! Form::label('authorName', 'Authorname:') !!}
+	{!! Form::text('authorName', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Author Id Field -->
+<div class="form-group col-sm-6 col-lg-4">
+    {!! Form::label('author_id', 'Author Id:') !!}
+	{!! Form::text('author_id', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Author Img Url Field -->
+<div class="form-group col-sm-6 col-lg-4">
+    {!! Form::label('author_img_url', 'Author Img Url:') !!}
+	{!! Form::text('author_img_url', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Isallow Field -->
+<div class="form-group col-sm-6 col-lg-4">
+    <div class="checkbox">
+		<label>{!! Form::checkbox('isAllow', 1, true) !!}Isallow</label>
+	</div>
+</div>
+
 <!-- Objectid Field -->
 <div class="form-group col-sm-6 col-lg-4">
     {!! Form::label('objectId', 'Objectid:') !!}
 	{!! Form::text('objectId', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Author Img Path Field -->
+<!-- Posted Date Field -->
 <div class="form-group col-sm-6 col-lg-4">
-    {!! Form::label('author_img_path', 'Author Img Path:') !!}
-	{!! Form::text('author_img_path', null, ['class' => 'form-control']) !!}
+    {!! Form::label('posted_date', 'Posted Date:') !!}
+	{!! Form::date('posted_date', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Isallow Field -->
+<!-- Resource Id Field -->
 <div class="form-group col-sm-6 col-lg-4">
-    <div class="checkbox">
-        <label>
-            {!! Form::checkbox('isAllow', 1, true) !!}
-            <i class="input-helper"></i>
-            Isallow
-        </label>
-    </div>
+    {!! Form::label('resource_id', 'Resource Id:') !!}
+	{!! Form::text('resource_id', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Resource Author Id Field -->
+<!-- Sub Res Icon Img Url Field -->
 <div class="form-group col-sm-6 col-lg-4">
-    {!! Form::label('resource_author_id', 'Resource Author Id:') !!}
-	{!! Form::text('resource_author_id', null, ['class' => 'form-control']) !!}
+    {!! Form::label('sub_res_icon_img_url', 'Sub Res Icon Img Url:') !!}
+	{!! Form::file('sub_res_icon_img_url') !!}
 </div>
 
-<!-- Resource Author Name Field -->
+<!-- Sub Resouce Content Eng Field -->
 <div class="form-group col-sm-6 col-lg-4">
-    {!! Form::label('resource_author_name', 'Resource Author Name:') !!}
-	{!! Form::text('resource_author_name', null, ['class' => 'form-control']) !!}
+    {!! Form::label('sub_resouce_content_eng', 'Sub Resouce Content Eng:') !!}
+	{!! Form::text('sub_resouce_content_eng', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Resource Icon Img Field -->
+<!-- Sub Resouce Content Mm Field -->
 <div class="form-group col-sm-6 col-lg-4">
-    {!! Form::label('resource_icon_img', 'Resource Icon Img:') !!}
-	<!-- {!! Form::file('resource_icon_img') !!} -->
-	<div class="fileinput fileinput-new" data-provides="fileinput">
-        <div class="fileinput-preview thumbnail" data-trigger="fileinput"></div>
-        <div>
-            <span class="btn btn-info btn-file">
-                <span class="fileinput-new">Select image</span>
-                <span class="fileinput-exists">Change</span>
-                <input type="file" name="resource_icon_img">
-            </span>
-            <a href="#" class="btn btn-danger fileinput-exists" data-dismiss="fileinput">Remove</a>
-        </div>
-    </div>
+    {!! Form::label('sub_resouce_content_mm', 'Sub Resouce Content Mm:') !!}
+	{!! Form::text('sub_resouce_content_mm', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Resource Title Eng Field -->
+<!-- Sub Resource Title Eng Field -->
 <div class="form-group col-sm-6 col-lg-4">
-    {!! Form::label('resource_title_eng', 'Resource Title Eng:') !!}
-	{!! Form::text('resource_title_eng', null, ['class' => 'form-control']) !!}
+    {!! Form::label('sub_resource_title_eng', 'Sub Resource Title Eng:') !!}
+	{!! Form::text('sub_resource_title_eng', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Resource Title Mm Field -->
+<!-- Sub Resource Title Mm Field -->
 <div class="form-group col-sm-6 col-lg-4">
-    {!! Form::label('resource_title_mm', 'Resource Title Mm:') !!}
-	{!! Form::text('resource_title_mm', null, ['class' => 'form-control']) !!}
+    {!! Form::label('sub_resource_title_mm', 'Sub Resource Title Mm:') !!}
+	{!! Form::text('sub_resource_title_mm', null, ['class' => 'form-control']) !!}
 </div>
 
 

@@ -16,14 +16,18 @@ class CreateSubResourceDetailsTable extends Migration
 		Schema::create('subResourceDetails', function(Blueprint $table)
 		{
 			$table->increments('id');
-			$table->string('objectId');
-			$table->string('author_img_path');
+			$table->string('authorName');
+			$table->string('author_id');
+			$table->string('author_img_url');
 			$table->boolean('isAllow');
-			$table->string('resource_author_id');
-			$table->string('resource_author_name');
-			$table->string('resource_icon_img');
-			$table->string('resource_title_eng');
-			$table->string('resource_title_mm');
+			$table->string('objectId');
+			$table->timestamp('posted_date');
+			$table->string('resource_id');
+			$table->string('sub_res_icon_img_url');
+			$table->text('sub_resouce_content_eng');
+			$table->text('sub_resouce_content_mm');
+			$table->text('sub_resource_title_eng');
+			$table->text('sub_resource_title_mm');
 			$table->timestamps();
 			$table->softDeletes();
 		});

@@ -1,41 +1,64 @@
 [
 			{
-		        "field":"objectId:string",
+		        "field":"authorName:string",
 		        "type":"text",
 		        "validations": ""
 		    },
             {
-		        "field":"author_img_path:string",
+		        "field":"author_id:string",
 		        "type":"text",
 		        "validations": ""
 		    },
             {
+		        "field":"author_img_url:string",
+		        "type":"text",
+		        "validations": ""
+		    },
+		    {
 		        "field":"isAllow:boolean",
 		        "type":"checkbox",
 		        "validations": ""
 		    },
             {
-		        "field":"resource_author_id:string",
+		        "field":"objectId:string",
 		        "type":"text",
 		        "validations": ""
 		    },
             {
-		        "field":"resource_author_name:string",
+		        "field":"posted_date:timestamp",
+		        "type":"date",
+		        "validations": ""
+		    },
+            {
+		        "field":"resource_id:string",
 		        "type":"text",
 		        "validations": ""
 		    },
             {
-		        "field":"resource_icon_img:string",
+		        "field":"sub_res_icon_img_url:string",
 		        "type":"file",
 		        "validations": ""
 		    },
             {
-		        "field":"resource_title_eng:string",
+		        "field":"sub_resouce_content_eng:text",
 		        "type":"text",
 		        "validations": ""
-		    },
+		    }
+		    ,
             {
-		        "field":"resource_title_mm:string",
+		        "field":"sub_resouce_content_mm:text",
+		        "type":"text",
+		        "validations": ""
+		    }
+		    ,
+            {
+		        "field":"sub_resource_title_eng:text",
+		        "type":"text",
+		        "validations": ""
+		    }
+		    ,
+            {
+		        "field":"sub_resource_title_mm:text",
 		        "type":"text",
 		        "validations": ""
 		    }

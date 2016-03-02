@@ -37,8 +37,8 @@ class HomeController extends Controller
         return view('home');
     }
 
-    /*public function import(){
-        $dataJson = $this->readJson('TlgProfile.json');
+    public function import(){
+     /*   $dataJson = $this->readJson('TlgProfile.json');
         foreach ($dataJson['results'] as $key => $data) {
             $data['tlg_group_logo'] = isset($data['tlg_group_logo']) ? $data['tlg_group_logo']['url'] : '';
             $data['tlg_leader_img'] = isset($data['tlg_leader_img']) ? $data['tlg_leader_img']['url'] : '';
@@ -78,14 +78,14 @@ class HomeController extends Controller
             $data['postId'] = isset($data['postId']) ? $data['postId']['objectId'] : '';
             $data['userId'] = isset($data['userId']) ? $data['userId']['objectId'] : '';
             Comment::create($data);
-        }
+        }*/
         $dataJson = $this->readJson('SubResourceDetail.json');
         foreach ($dataJson['results'] as $key => $data) {
             $data['author_id'] = isset($data['author_id']) ? $data['author_id']['objectId'] : '';
             $data['posted_date'] = isset($data['posted_date']) ? $data['posted_date']['iso'] : '';
             $data['resource_id'] = isset($data['resource_id']) ? $data['resource_id']['objectId'] : '';
             SubResourceDetail::create($data);
-        }
+        }/*
         $dataJson = $this->readJson('SisterDownloadApp.json');
         foreach ($dataJson['results'] as $key => $data) {
             $data['app_img'] = isset($data['app_img']) ? $data['app_img']['url'] : '';
@@ -102,9 +102,9 @@ class HomeController extends Controller
             $data['user_profile_img'] = isset($data['user_profile_img']) ? $data['user_profile_img']['url'] : '';
             $data['profileimage'] = isset($data['profileimage']) ? $data['profileimage']['url'] : '';
             User::create($data);
-        }
+        }*/
         return response()->json('success');
-    }*/
+    }
 
     /**
      * To Read from Json File.

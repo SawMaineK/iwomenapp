@@ -13,14 +13,18 @@ class SubResourceDetail extends Model
 
 
 	public $fillable = [
-	    "objectId",
-		"author_img_path",
+	    "authorName",
+		"author_id",
+		"author_img_url",
 		"isAllow",
-		"resource_author_id",
-		"resource_author_name",
-		"resource_icon_img",
-		"resource_title_eng",
-		"resource_title_mm"
+		"objectId",
+		"posted_date",
+		"resource_id",
+		"sub_res_icon_img_url",
+		"sub_resouce_content_eng",
+		"sub_resouce_content_mm",
+		"sub_resource_title_eng",
+		"sub_resource_title_mm"
 	];
 
     /**
@@ -29,14 +33,17 @@ class SubResourceDetail extends Model
      * @var array
      */
     protected $casts = [
-        "objectId" => "string",
-		"author_img_path" => "string",
+        "authorName" => "string",
+		"author_id" => "string",
+		"author_img_url" => "string",
 		"isAllow" => "boolean",
-		"resource_author_id" => "string",
-		"resource_author_name" => "string",
-		"resource_icon_img" => "string",
-		"resource_title_eng" => "string",
-		"resource_title_mm" => "string"
+		"objectId" => "string",
+		"resource_id" => "string",
+		"sub_res_icon_img_url" => "string",
+		"sub_resouce_content_eng" => "string",
+		"sub_resouce_content_mm" => "string",
+		"sub_resource_title_eng" => "string",
+		"sub_resource_title_mm" => "string"
     ];
 
 	public static $rules = [

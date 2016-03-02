@@ -124,14 +124,6 @@ Route::group(['middleware' => ['web']], function () {
             ]);
 
 
-            Route::resource('subResourceDetails', 'SubResourceDetailController');
-
-            Route::get('subResourceDetails/{id}/delete', [
-                'as' => 'subResourceDetails.delete',
-                'uses' => 'SubResourceDetailController@destroy',
-            ]);
-
-
             Route::resource('comments', 'CommentController');
 
             Route::get('comments/{id}/delete', [
@@ -185,29 +177,30 @@ Route::group(['middleware' => ['web']], function () {
                 'as' => 'roles.delete',
                 'uses' => 'RoleController@destroy',
             ]);
+
+
+            Route::resource('gcms', 'GcmController');
+
+            Route::get('gcms/{id}/delete', [
+                'as' => 'gcms.delete',
+                'uses' => 'GcmController@destroy',
+            ]);
+
+
+            Route::resource('gcmMessages', 'GcmMessageController');
+
+            Route::get('gcmMessages/{id}/delete', [
+                'as' => 'gcmMessages.delete',
+                'uses' => 'GcmMessageController@destroy',
+            ]);
+
+
+            Route::resource('subResourceDetails', 'SubResourceDetailController');
+
+            Route::get('subResourceDetails/{id}/delete', [
+                'as' => 'subResourceDetails.delete',
+                'uses' => 'SubResourceDetailController@destroy',
+            ]);
         });
     });
 
-
-
-
-
-
-
-
-
-
-Route::resource('gcms', 'GcmController');
-
-Route::get('gcms/{id}/delete', [
-    'as' => 'gcms.delete',
-    'uses' => 'GcmController@destroy',
-]);
-
-
-Route::resource('gcmMessages', 'GcmMessageController');
-
-Route::get('gcmMessages/{id}/delete', [
-    'as' => 'gcmMessages.delete',
-    'uses' => 'GcmMessageController@destroy',
-]);

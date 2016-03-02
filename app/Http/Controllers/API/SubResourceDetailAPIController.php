@@ -23,16 +23,11 @@ class SubResourceDetailAPIController extends AppBaseController
 	 *
 	 * @return Response
 	 */
-	public function index(Request $request)
+	public function index()
 	{
-		$offset  = $request->page ? $request->page : 1;
-		$limit   = $request->limit ? $request->limit : 12;
+		$subResourceDetails = $this->subResourceDetailRepository->all();
 
-		$offset  = ($offset - 1) * $limit;
-		
-		$posts = SubResourceDetail::orderBy('id','desc')->offset($offset)->limit($limit)->get();
-				
-		return response()->json($posts);
+		return $this->sendResponse($subResourceDetails->toArray(), "SubResourceDetails retrieved successfully");
 	}
 
 	/**
@@ -55,16 +50,10 @@ class SubResourceDetailAPIController extends AppBaseController
 	 */
 	public function store(Request $request)
 	{
-		if(sizeof(SubResourceDetail::$rules) > 0){
-			$validator =  $this->validateRequestOrFail($request, SubResourceDetail::$rules);
-			if($validator){
-				return $validator;
-			}
-		}
+		if(sizeof(SubResourceDetail::$rules) > 0)
+			$this->validateRequestOrFail($request, SubResourceDetail::$rules);
 
 		$input = $request->all();
-
-		$input['objectId'] = str_random(10);
 
 		$subResourceDetails = $this->subResourceDetailRepository->create($input);
 
