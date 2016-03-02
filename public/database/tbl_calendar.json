@@ -31,6 +31,11 @@
         "validations": ""
     },
     {
+        "field":"location_mm:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
         "field":"start_date:timestamp",
         "type":"date",
         "validations": ""

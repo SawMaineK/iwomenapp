@@ -19,6 +19,7 @@ class Calendar extends Model
 		"description",
 		"description_mm",
 		"location",
+		"location_mm",
 		"start_date",
 		"end_date",
 		"start_time",
@@ -37,6 +38,7 @@ class Calendar extends Model
 		"description" => "string",
 		"description_mm" => "string",
 		"location" => "string",
+		"location_mm" => "string",
 		"start_time" => "string",
 		"end_time" => "string"
     ];

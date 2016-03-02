@@ -21,6 +21,8 @@ Route::post("usersUpload", "UserAPIController@postUploadImage");
 
 Route::post("login", "UserAPIController@login");
 
+Route::get("checkRole/{id}", "UserAPIController@checkRole");
+
 Route::resource("posts", "PostAPIController");
 
 Route::resource("tlgProfiles", "TlgProfileAPIController");
@@ -44,6 +46,10 @@ Route::resource("users", "UserAPIController");
 Route::resource("categories", "CategoryAPIController");
 
 Route::resource("calendars", "CalendarAPIController");
+
+Route::get("dates", "CalendarAPIController@getCalendarDate");
+
+Route::get("events", "CalendarAPIController@getEvent");
 
 Route::resource("roles", "RoleAPIController");
 

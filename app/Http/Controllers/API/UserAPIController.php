@@ -68,7 +68,15 @@ class UserAPIController extends AppBaseController
         }else{
         	return response()->json("Invalid username and password.", 400);
         }
-}
+	}
+
+	public function checkRole($id){
+		$role = Role::where('userId', $id)->first();
+		if($role){
+			return response()->json($role->name);
+		}
+		return response()->json('User');
+	}
 
 	/**
 	 * Show the form for creating a new User.
@@ -103,6 +111,8 @@ class UserAPIController extends AppBaseController
 		$input['password'] = bcrypt($input['password']);
 
 		$users = $this->userRepository->create($input);
+
+		$users['role'] = 'User';
 
 		return $this->sendResponse($users->toArray(), "User saved successfully");
 	}

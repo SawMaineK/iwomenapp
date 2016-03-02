@@ -53,6 +53,8 @@ class SubResourceDetailController extends AppBaseController
 	{
 		$input = $request->all();
 
+		$input['objectId'] = str_random(10);
+
 		$subResourceDetail = $this->subResourceDetailRepository->create($input);
 
 		Flash::success('SubResourceDetail saved successfully.');

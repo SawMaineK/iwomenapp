@@ -53,6 +53,8 @@ class CalendarController extends AppBaseController
 	{
 		$input = $request->all();
 
+		$input['objectId'] = str_random(10);
+
 		$calendar = $this->calendarRepository->create($input);
 
 		Flash::success('Calendar saved successfully.');

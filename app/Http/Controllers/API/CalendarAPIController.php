@@ -23,16 +23,27 @@ class CalendarAPIController extends AppBaseController
 	 *
 	 * @return Response
 	 */
-	public function index(Request $request)
+	public function index()
 	{
-		$offset  = $request->page ? $request->page : 1;
-		$limit   = $request->limit ? $request->limit : 12;
+		$calendars = $this->calendarRepository->all();
 
-		$offset  = ($offset - 1) * $limit;
-		
-		$posts = Calendar::orderBy('id','desc')->offset($offset)->limit($limit)->get();
-				
-		return response()->json($posts);
+		return $this->sendResponse($calendars->toArray(), "Calendars retrieved successfully");
+	}
+
+	public function getCalendarDate(Request $request){
+		$month = date('m',strtotime($request->date));
+		$year  = date('Y',strtotime($request->date));
+		$end_day_month = date("t", strtotime($request->date));
+
+		$filter_start_date = $year.'-'.$month.'-01';
+		$filter_end_date 	= $year.'-'.$month.'-'.$end_day_month;
+		$calendars = Calendar::whereBetween('start_date', array($filter_start_date, $filter_end_date))->get();
+		return response()->json($calendars);
+	}
+
+	public function getEvent(Request $request){
+		$calendars = Calendar::where('start_date','<=', $request->date)->where('end_date','>=', $request->date)->get();
+		return response()->json($calendars);
 	}
 
 	/**
@@ -59,8 +70,6 @@ class CalendarAPIController extends AppBaseController
 			$this->validateRequestOrFail($request, Calendar::$rules);
 
 		$input = $request->all();
-
-		$input['objectId'] = str_random(10);
 
 		$calendars = $this->calendarRepository->create($input);
 

@@ -34,6 +34,12 @@
     <p>{!! $calendar->location !!}</p>
 </div>
 
+<!-- Location Mm Field -->
+<div class="form-group">
+    {!! Form::label('location_mm', 'Location Mm:') !!}
+    <p>{!! $calendar->location_mm !!}</p>
+</div>
+
 <!-- Start Date Field -->
 <div class="form-group">
     {!! Form::label('start_date', 'Start Date:') !!}
