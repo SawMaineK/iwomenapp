@@ -37,6 +37,23 @@ class CompetitionController extends Controller
         }
 
         $competition_question = CompetitionQuestion::where('start_date','<=',$today)->where('end_date','>=',$today)->orderBy('id','desc')->first();
+
+        // Changes for multi question
+        $multiple_question = [];
+
+        // For Textbox
+        $textbox_question = ['type' => 'text','question'=>'What is your name?','option'=>[]];
+        $multiple_question[] = $textbox_question;
+
+        // For Checkbox
+        $checkbox_question = ['type' => 'checkbox','question'=>'What is your favourite food?','option'=>['Cakes','Cookies','Crackers','Beverages']];
+        $multiple_question[] = $checkbox_question;
+
+        // For Radio
+        $radio_question = ['type' => 'radio','question'=>'Gender?','option'=>['Male','Female']];
+        $multiple_question[] = $radio_question;
+
+        $competition_question['multiple_question'] = $multiple_question;
         if($competition_question){
         	$datetime1 = new DateTime($today);
 			$datetime2 = new DateTime($competition_question->end_date);
