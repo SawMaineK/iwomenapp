@@ -45,6 +45,10 @@ class CompetitionController extends Controller
         $textbox_question = ['type' => 'text','question'=>'What is your name?','option'=>[]];
         $multiple_question[] = $textbox_question;
 
+        // For Textbox
+        $textbox_question = ['type' => 'text','question'=>'How old are you?','option'=>[]];
+        $multiple_question[] = $textbox_question;
+
         // For Checkbox
         $checkbox_question = ['type' => 'checkbox','question'=>'What is your favourite food?','option'=>['Cakes','Cookies','Crackers','Beverages']];
         $multiple_question[] = $checkbox_question;
