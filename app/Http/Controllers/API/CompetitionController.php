@@ -65,6 +65,10 @@ class CompetitionController extends Controller
         $radio_question = ['id'=>6, 'type' => 'radio','question'=>'Are you programmer?','option'=>['Yes','No'], 'answer'=>''];
         $multiple_question[] = $radio_question;
 
+        // For Image
+        $image_question = ['id'=>7, 'type' => 'image','question'=>'Which is your photo','option'=>['http://iwomenapp.org//users_photo/x200/photo_20160303085631_1637244829png_01.png','http://iwomenapp.org//users_photo/x400/photo_20160303085725_908458365png_02.png','http://iwomenapp.org//users_photo/x400/photo_20160303085800_905029675png_03.png'], 'answer'=>''];
+        $multiple_question[] = $image_question;
+
         $competition_question['multiple_question'] = $multiple_question;
         if($competition_question){
         	$datetime1 = new DateTime($today);
