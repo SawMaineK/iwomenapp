@@ -23,11 +23,16 @@ class CalendarAPIController extends AppBaseController
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function index(Request $request)
 	{
-		$calendars = $this->calendarRepository->all();
+		$offset  = $request->page ? $request->page : 1;
+		$limit   = $request->limit ? $request->limit : 12;
 
-		return $this->sendResponse($calendars->toArray(), "Calendars retrieved successfully");
+		$offset  = ($offset - 1) * $limit;
+		
+		$calendars = Calendar::orderBy('id','desc')->offset($offset)->limit($limit)->get();
+				
+		return response()->json($calendars);
 	}
 
 	public function getCalendarDate(Request $request){

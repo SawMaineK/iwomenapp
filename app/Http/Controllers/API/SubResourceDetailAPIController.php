@@ -23,11 +23,22 @@ class SubResourceDetailAPIController extends AppBaseController
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function index(Request $request)
 	{
-		$subResourceDetails = $this->subResourceDetailRepository->all();
+		
 
-		return $this->sendResponse($subResourceDetails->toArray(), "SubResourceDetails retrieved successfully");
+		$offset  = $request->page ? $request->page : 1;
+		$limit   = $request->limit ? $request->limit : 12;
+
+		$offset  = ($offset - 1) * $limit;
+		
+		if($request->resource_id){
+			$subResourceDetails = SubResourceDetail::where('resource_id', $request->resource_id)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
+		}else{
+			$subResourceDetails = SubResourceDetail::orderBy('id','desc')->offset($offset)->limit($limit)->get();;
+		}
+				
+		return response()->json($subResourceDetails);
 	}
 
 	/**
