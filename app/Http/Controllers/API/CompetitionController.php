@@ -163,7 +163,7 @@ class CompetitionController extends Controller
         foreach ($group_list as $key => $value) {
             $profile_img = json_decode($value->profile_img, true);
             if($profile_img){
-                $group_list[$key]['image_url'] = $profile_img['url'];
+                $group_list[$key]['image_url'] = isset($profile_img['url']) ? $profile_img['url'] : '';
             }else
                 $group_list[$key]['image_url'] = "http://url";
             $group_list[$key]['total_has_answer'] = count($group_list) * 3;
