@@ -53,8 +53,16 @@ class CompetitionController extends Controller
         $checkbox_question = ['id'=>3, 'type' => 'checkbox','question'=>'What is your favourite food?','option'=>['Cakes','Cookies','Crackers','Beverages'], 'answer'=>''];
         $multiple_question[] = $checkbox_question;
 
+        // For Checkbox
+        $checkbox_question = ['id'=>4, 'type' => 'checkbox','question'=>'What is your favourite programme?','option'=>['Java','PHP','ASP.NET','C#'], 'answer'=>''];
+        $multiple_question[] = $checkbox_question;
+
         // For Radio
-        $radio_question = ['id'=>4, 'type' => 'radio','question'=>'Gender?','option'=>['Male','Female'], 'answer'=>''];
+        $radio_question = ['id'=>5, 'type' => 'radio','question'=>'What is your Gender?','option'=>['Male','Female'], 'answer'=>''];
+        $multiple_question[] = $radio_question;
+
+        // For Radio
+        $radio_question = ['id'=>6, 'type' => 'radio','question'=>'Are you programmer?','option'=>['Yes','No'], 'answer'=>''];
         $multiple_question[] = $radio_question;
 
         $competition_question['multiple_question'] = $multiple_question;
