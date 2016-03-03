@@ -70,12 +70,12 @@ class AppBaseController extends Controller
             if(!file_exists($file_path.'x'.$value)){
                 mkdir($file_path.'x'.$value);
             }
-            $resize_url[] = "http://iwomenapp.org".$path.'x'.$value.'/'.$filename;
+            $resize_url[] = "http://api.iwomenapp.org".$path.'x'.$value.'/'.$filename;
             ImageJPEG($images_fin, $file_path.'x'.$value.'/'.$filename, 100);
         }
         ImageDestroy($source_image);
         ImageDestroy($images_fin);
-        return ['__type'=>'File', 'name' => $filename, 'url'=>"http://iwomenapp.org".$path.$filename,'resize_url' => $resize_url];
+        return ['__type'=>'File', 'name' => $filename, 'url'=>"http://api.iwomenapp.org".$path.$filename,'resize_url' => $resize_url];
     }
 
     public function uploadAudio($file, $path){

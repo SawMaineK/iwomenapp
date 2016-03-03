@@ -66,7 +66,7 @@ class CompetitionController extends Controller
         $multiple_question[] = $radio_question;
 
         // For Image
-        $image_question = ['id'=>7, 'type' => 'image','question'=>'Which is your photo','option'=>['http://iwomenapp.org//users_photo/x200/photo_20160303085631_1637244829png_01.png','http://iwomenapp.org//users_photo/x400/photo_20160303085725_908458365png_02.png','http://iwomenapp.org//users_photo/x400/photo_20160303085800_905029675png_03.png'], 'answer'=>''];
+        $image_question = ['id'=>7, 'type' => 'image','question'=>'Which is your photo?','option'=>['http://api.iwomenapp.org//users_photo/x400/photo_20160303085631_1637244829png_01.png','http://api.iwomenapp.org//users_photo/x400/photo_20160303085725_908458365png_02.png','http://api.iwomenapp.org//users_photo/x400/photo_20160303085800_905029675png_03.png'], 'answer'=>''];
         $multiple_question[] = $image_question;
 
         $competition_question['multiple_question'] = $multiple_question;
