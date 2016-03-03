@@ -62,3 +62,5 @@ Route::resource("subResourceDetails", "SubResourceDetailAPIController");
 Route::resource("mutipleQuestions", "MutipleQuestionAPIController");
 
 Route::resource("mutipleOptions", "MutipleOptionAPIController");
+
+Route::resource("mutipleAnswers", "MutipleAnswerAPIController");

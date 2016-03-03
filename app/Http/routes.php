@@ -221,3 +221,11 @@ Route::group(['middleware' => ['web']], function () {
     });
 
 
+
+
+Route::resource('mutipleAnswers', 'MutipleAnswerController');
+
+Route::get('mutipleAnswers/{id}/delete', [
+    'as' => 'mutipleAnswers.delete',
+    'uses' => 'MutipleAnswerController@destroy',
+]);

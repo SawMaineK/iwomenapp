@@ -105,7 +105,13 @@ class MutipleOptionController extends AppBaseController
 			return redirect(route('mutipleOptions.index'));
 		}
 
-		return view('mutipleOptions.edit')->with('mutipleOption', $mutipleOption);
+		$mutipleQuestion = MutipleQuestion::orderBy('id','desc')->get();
+		$mutipleQuestions = [];
+		foreach ($mutipleQuestion as $key => $value) {
+			$mutipleQuestions[$value->id] = $value->question;
+		}
+
+		return view('mutipleOptions.edit')->with(['mutipleOption'=> $mutipleOption, 'mutipleQuestions' => $mutipleQuestions]);
 	}
 
 	/**
