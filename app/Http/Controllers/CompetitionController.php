@@ -14,6 +14,7 @@ use App\CompetitionGroup;
 use App\CompetitionGroupUser;
 use App\CompetitionQuestion;
 use App\CompetitionAnswer;
+use App\Models\User;
 
 
 class CompetitionController extends Controller
@@ -91,32 +92,17 @@ class CompetitionController extends Controller
             $question->end_date = $request->end_date;
             $question->save();
 
-            $header = array(
-              'http'=>array(
-                'method'=>  "GET",
-                'header'=>  array(
-                                'X-Parse-Application-Id: WyU802fB70eNhyF9uSoj1SgKVKGLYYAZ0kX96xhr',
-                                'X-Parse-REST-API-Key: 02De951aEWCJ367IhEwqhFJ1tVjQZ3y6RoQ8c2Xi'
-                            )
-              )
-            );
+            $users = User::all();
 
-            $context = stream_context_create($header);
-
-            $response = file_get_contents('https://api.parse.com/1/classes/_User?where={"isTlgTownshipExit":true}', false, $context);
-
-            if($response){
-
-                $competition_users = json_decode($response,true);
-
-                shuffle ( $competition_users['results'] );           
+            if($users){     
 
                 $group_users = array();
 
-                foreach ($competition_users['results'] as $i => $user) {
+                foreach ($users as $i => $user) {
 
                 	//Grouping
-                	$group_users[$user['tlg_city_address']][] = $user;
+                    if(isset($user['tlg_city_address']) && $user['tlg_city_address'])
+                	   $group_users[$user['tlg_city_address']][] = $user;
                 	
                    
                 }
@@ -131,7 +117,7 @@ class CompetitionController extends Controller
 
 	                    $group_user = new CompetitionGroupUser();
 	                    $group_user->group_name = $group_name;
-	                    $group_user->user_id = $user['objectId'];
+	                    $group_user->user_id = $user['id'];
 	                    $group_user->username = $user['username'];
 	                    $group_user->phone = $user['phoneNo'];
 	                    $group_user->profile_img = isset($user['user_profile_img']) ? json_encode($user['user_profile_img']) : null;

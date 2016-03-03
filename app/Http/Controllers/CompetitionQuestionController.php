@@ -12,6 +12,7 @@ use App\Http\Controllers\Controller;
 
 use App\CompetitionQuestion;
 use App\CompetitionGroupUser;
+use App\Models\User;
 
 
 class CompetitionQuestionController extends Controller
@@ -88,35 +89,22 @@ class CompetitionQuestionController extends Controller
             $question->end_date         = date('Y-m-d H:i:s',strtotime($request->end_date));
             $groupuserscount            =$request->groupusers;
             $question->save();
-            $header = array(
-              'http'=>array(
-                'method'=>  "GET",
-                'header'=>  array(
-                                'X-Parse-Application-Id: WyU802fB70eNhyF9uSoj1SgKVKGLYYAZ0kX96xhr',
-                                'X-Parse-REST-API-Key: 02De951aEWCJ367IhEwqhFJ1tVjQZ3y6RoQ8c2Xi'
-                            )
-              )
-            );
 
-            $context = stream_context_create($header);
+            $users = User::all();
 
-            $response = file_get_contents('https://api.parse.com/1/classes/_User?where={"isTestAcc":true}&limit=300&skip=0', false, $context);
-
-            if($response){
-
-                $competition_users = json_decode($response,true);
-
-                shuffle ( $competition_users['results'] );           
+            if($users){     
 
                 $group_users = array();
 
-                foreach ($competition_users['results'] as $i => $user) {
+                foreach ($users as $i => $user) {
 
                     //Grouping
-                    $group_users[$user['tlg_city_address']][] = $user;
+                    if(isset($user['tlg_city_address']) && $user['tlg_city_address'])
+                       $group_users[$user['tlg_city_address']][] = $user;
                     
                    
                 }
+
                 $group_index = 1;
                 $i = 0;
                 foreach ($group_users as $key => $city) {
@@ -128,7 +116,7 @@ class CompetitionQuestionController extends Controller
 
                         $group_user = new CompetitionGroupUser();
                         $group_user->group_name = $group_name;
-                        $group_user->user_id = $user['objectId'];
+                        $group_user->user_id = $user['id'];
                         $group_user->username = $user['username'];
                         $group_user->phone = $user['phoneNo'];
                         $group_user->profile_img = isset($user['user_profile_img']) ? json_encode($user['user_profile_img']) : null;
@@ -237,35 +225,21 @@ class CompetitionQuestionController extends Controller
             $groupuserscount          =$request->groupusers;
             $question->update();
 
-            $header = array(
-              'http'=>array(
-                'method'=>  "GET",
-                'header'=>  array(
-                                'X-Parse-Application-Id: WyU802fB70eNhyF9uSoj1SgKVKGLYYAZ0kX96xhr',
-                                'X-Parse-REST-API-Key: 02De951aEWCJ367IhEwqhFJ1tVjQZ3y6RoQ8c2Xi'
-                            )
-              )
-            );
+            $users = User::all();
 
-            $context = stream_context_create($header);
-
-            $response = file_get_contents('https://api.parse.com/1/classes/_User?where={"isTestAcc":true}&limit=300&skip=0', false, $context);
-
-            if($response){
-
-                $competition_users = json_decode($response,true);
-
-                shuffle ( $competition_users['results'] );           
+            if($users){     
 
                 $group_users = array();
 
-                foreach ($competition_users['results'] as $i => $user) {
+                foreach ($users as $i => $user) {
 
                     //Grouping
-                    $group_users[$user['tlg_city_address']][] = $user;
+                    if(isset($user['tlg_city_address']) && $user['tlg_city_address'])
+                       $group_users[$user['tlg_city_address']][] = $user;
                     
                    
                 }
+
                 $group_index = 1;
                 $i = 0;
 
@@ -280,7 +254,7 @@ class CompetitionQuestionController extends Controller
 
                         $group_user = new CompetitionGroupUser();
                         $group_user->group_name = $group_name;
-                        $group_user->user_id = $user['objectId'];
+                        $group_user->user_id = $user['id'];
                         $group_user->username = $user['username'];
                         $group_user->phone = $user['phoneNo'];
                         $group_user->profile_img = isset($user['user_profile_img']) ? json_encode($user['user_profile_img']) : null;
