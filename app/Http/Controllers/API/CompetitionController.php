@@ -15,6 +15,8 @@ use App\CompetitionGroupUser;
 use App\CompetitionQuestion;
 use App\CompetitionAnswer;
 use App\Models\User;
+use App\Models\MutipleQuestion;
+use App\Models\MutipleOption;
 
 
 class CompetitionController extends Controller
@@ -38,7 +40,7 @@ class CompetitionController extends Controller
 
         $competition_question = CompetitionQuestion::where('start_date','<=',$today)->where('end_date','>=',$today)->orderBy('id','desc')->first();
 
-        // Changes for multi question
+        /*// Changes for multi question
         $multiple_question = [];
 
         // For Textbox
@@ -66,8 +68,11 @@ class CompetitionController extends Controller
         $multiple_question[] = $radio_question;
 
         // For Image
-        $image_question = ['id'=>7, 'type' => 'image','question'=>'Which is your photo?','option'=>['http://api.iwomenapp.org//users_photo/x400/photo_20160303085631_1637244829png_01.png','http://api.iwomenapp.org//users_photo/x400/photo_20160303085725_908458365png_02.png','http://api.iwomenapp.org//users_photo/x400/photo_20160303085800_905029675png_03.png'], 'answer'=>''];
-        $multiple_question[] = $image_question;
+        $image_question = ['id'=>7, 'type' => 'image','question'=>'Which is your photo?','option'=>['http://api.iwomenapp.org//users_photo/x400/photo_20160303085631_1637244829png_01.png','http://api.iwomenapp.org//users_photo/x400/photo_20160303085725_908458365png_02.png','http://api.iwomenapp.org//users_photo/x400/photo_20160303085800_905029675png_03.png'], 'answer'=>''];*/
+        $multiple_question = MutipleQuestion::where('question_id', $competition_question->id)->get();
+        foreach ($multiple_question as $key => $value) {
+            $multiple_question[$key]['option'] = MutipleOption::where('mutiple_question_id', $value->id)->get();
+        }
 
         $competition_question['multiple_question'] = $multiple_question;
         if($competition_question){

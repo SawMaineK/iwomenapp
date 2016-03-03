@@ -201,5 +201,23 @@ Route::group(['middleware' => ['web']], function () {
                 'as' => 'subResourceDetails.delete',
                 'uses' => 'SubResourceDetailController@destroy',
             ]);
+
+            Route::resource('mutipleQuestions', 'MutipleQuestionController');
+
+            Route::get('mutipleQuestions/{id}/delete', [
+                'as' => 'mutipleQuestions.delete',
+                'uses' => 'MutipleQuestionController@destroy',
+            ]);
+
+
+            Route::resource('mutipleOptions', 'MutipleOptionController');
+
+            Route::get('mutipleOptions/{id}/delete', [
+                'as' => 'mutipleOptions.delete',
+                'uses' => 'MutipleOptionController@destroy',
+            ]);
         });
+
     });
+
+

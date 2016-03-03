@@ -58,3 +58,7 @@ Route::resource("gcms", "GcmAPIController");
 Route::resource("gcmMessages", "GcmMessageAPIController");
 
 Route::resource("subResourceDetails", "SubResourceDetailAPIController");
+
+Route::resource("mutipleQuestions", "MutipleQuestionAPIController");
+
+Route::resource("mutipleOptions", "MutipleOptionAPIController");

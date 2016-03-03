@@ -1,0 +1,17 @@
+[
+	{
+        "field":"mutiple_question_id:integer",
+        "type":"select:Q1,Q2,Q3",
+        "validations": "required"
+    },
+	{
+        "field":"option:text",
+        "type":"text",
+        "validations": "required"
+    },
+    {
+        "field":"option_mm:text",
+        "type":"text",
+        "validations": "required"
+    }
+]

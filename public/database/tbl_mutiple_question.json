@@ -1,0 +1,22 @@
+[
+	{
+        "field":"question_id:integer",
+        "type":"select:Q1,Q2,Q3",
+        "validations": "required"
+    },
+	{
+        "field":"type:string",
+        "type":"select:text,checkbox,radio,image",
+        "validations": "required"
+    },
+    {
+        "field":"question:text",
+        "type":"text",
+        "validations": "required"
+    },
+    {
+        "field":"question_mm:text",
+        "type":"text",
+        "validations": "required"
+    }
+]
