@@ -105,7 +105,13 @@ class MutipleQuestionController extends AppBaseController
 			return redirect(route('mutipleQuestions.index'));
 		}
 
-		return view('mutipleQuestions.edit')->with('mutipleQuestion', $mutipleQuestion);
+		$question = CompetitionQuestion::orderBy('id','desc')->get();
+		$questions = [];
+		foreach ($question as $key => $value) {
+			$questions[$value->id] = $value->question;
+		}
+
+		return view('mutipleQuestions.edit')->with(['mutipleQuestion' => $mutipleQuestion, 'questions' => $questions]);
 	}
 
 	/**

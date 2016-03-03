@@ -40,35 +40,6 @@ class CompetitionController extends Controller
 
         $competition_question = CompetitionQuestion::where('start_date','<=',$today)->where('end_date','>=',$today)->orderBy('id','desc')->first();
 
-        /*// Changes for multi question
-        $multiple_question = [];
-
-        // For Textbox
-        $textbox_question = ['id'=>1, 'type' => 'text','question'=>'What is your name?','option'=>[], 'answer'=>'Saw'];
-        $multiple_question[] = $textbox_question;
-
-        // For Textbox
-        $textbox_question = ['id'=>2, 'type' => 'text','question'=>'How old are you?','option'=>[], 'answer'=>'25'];
-        $multiple_question[] = $textbox_question;
-
-        // For Checkbox
-        $checkbox_question = ['id'=>3, 'type' => 'checkbox','question'=>'What is your favourite food?','option'=>['Cakes','Cookies','Crackers','Beverages'], 'answer'=>''];
-        $multiple_question[] = $checkbox_question;
-
-        // For Checkbox
-        $checkbox_question = ['id'=>4, 'type' => 'checkbox','question'=>'What is your favourite programme?','option'=>['Java','PHP','ASP.NET','C#'], 'answer'=>''];
-        $multiple_question[] = $checkbox_question;
-
-        // For Radio
-        $radio_question = ['id'=>5, 'type' => 'radio','question'=>'What is your Gender?','option'=>['Male','Female'], 'answer'=>''];
-        $multiple_question[] = $radio_question;
-
-        // For Radio
-        $radio_question = ['id'=>6, 'type' => 'radio','question'=>'Are you programmer?','option'=>['Yes','No'], 'answer'=>''];
-        $multiple_question[] = $radio_question;
-
-        // For Image
-        $image_question = ['id'=>7, 'type' => 'image','question'=>'Which is your photo?','option'=>['http://api.iwomenapp.org//users_photo/x400/photo_20160303085631_1637244829png_01.png','http://api.iwomenapp.org//users_photo/x400/photo_20160303085725_908458365png_02.png','http://api.iwomenapp.org//users_photo/x400/photo_20160303085800_905029675png_03.png'], 'answer'=>''];*/
         $multiple_question = MutipleQuestion::where('question_id', $competition_question->id)->get();
         foreach ($multiple_question as $key => $value) {
             $multiple_question[$key]['option'] = MutipleOption::where('mutiple_question_id', $value->id)->get();

@@ -1,0 +1,17 @@
+[
+	{
+        "field":"mutiple_question_id:integer",
+        "type":"select:Q1,Q2,Q3",
+        "validations": "required"
+    },
+	{
+        "field":"answer:text",
+        "type":"text",
+        "validations": "required"
+    },
+    {
+        "field":"user_id:integer",
+        "type":"select:user1,user2,user3",
+        "validations": "required"
+    }
+]
