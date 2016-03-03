@@ -42,19 +42,19 @@ class CompetitionController extends Controller
         $multiple_question = [];
 
         // For Textbox
-        $textbox_question = ['type' => 'text','question'=>'What is your name?','option'=>[]];
+        $textbox_question = ['id'=>1, 'type' => 'text','question'=>'What is your name?','option'=>[], 'answer'=>'Saw'];
         $multiple_question[] = $textbox_question;
 
         // For Textbox
-        $textbox_question = ['type' => 'text','question'=>'How old are you?','option'=>[]];
+        $textbox_question = ['id'=>2, 'type' => 'text','question'=>'How old are you?','option'=>[], 'answer'=>'25'];
         $multiple_question[] = $textbox_question;
 
         // For Checkbox
-        $checkbox_question = ['type' => 'checkbox','question'=>'What is your favourite food?','option'=>['Cakes','Cookies','Crackers','Beverages']];
+        $checkbox_question = ['id'=>3, 'type' => 'checkbox','question'=>'What is your favourite food?','option'=>['Cakes','Cookies','Crackers','Beverages'], 'answer'=>''];
         $multiple_question[] = $checkbox_question;
 
         // For Radio
-        $radio_question = ['type' => 'radio','question'=>'Gender?','option'=>['Male','Female']];
+        $radio_question = ['id'=>4, 'type' => 'radio','question'=>'Gender?','option'=>['Male','Female'], 'answer'=>''];
         $multiple_question[] = $radio_question;
 
         $competition_question['multiple_question'] = $multiple_question;
