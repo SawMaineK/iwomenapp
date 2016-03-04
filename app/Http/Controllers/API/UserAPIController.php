@@ -66,7 +66,7 @@ class UserAPIController extends AppBaseController
                 return response()->json($user);
             }
         }else{
-        	return response()->json("Invalid username and password.", 400);
+        	return response()->json(['error'=>'Invalid username and password.','error_mm' => 'သင္၏ အမည္ ႏွင့္ လွ်ိဳ႕ဝွက္ စာလံုး မွားေနပါသည္။'], 400);
         }
 	}
 

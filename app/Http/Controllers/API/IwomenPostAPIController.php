@@ -28,12 +28,20 @@ class IwomenPostAPIController extends AppBaseController
 		$offset  = $request->page ? $request->page : 1;
 		$limit   = $request->limit ? $request->limit : 12;
 		$sorting = $request->sorting;
+		$isAllow = $request->isAllow ? $request->isAllow : '';
 		
 		$offset  = ($offset - 1) * $limit;
 		if($sorting == 'Most Like'){
-			$posts = IwomenPost::orderBy('likes','desc')->offset($offset)->limit($limit)->get();
+			if($isAllow && $isAllow != '')
+				$posts = IwomenPost::where('isAllow',$isAllow)->orderBy('likes','desc')->offset($offset)->limit($limit)->get();
+			else
+				$posts = IwomenPost::orderBy('likes','desc')->offset($offset)->limit($limit)->get();
+
 		}else{
-			$posts = IwomenPost::orderBy('id','desc')->offset($offset)->limit($limit)->get();
+			if($isAllow && $isAllow != '')
+				$posts = IwomenPost::where('isAllow',$isAllow)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
+			else
+				$posts = IwomenPost::orderBy('id','desc')->offset($offset)->limit($limit)->get();
 		}
 		
 		return response()->json($posts);

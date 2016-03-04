@@ -81,7 +81,7 @@ class AuthorAPIController extends AppBaseController
 	 */
 	public function show($id)
 	{
-		$author = $this->authorRepository->apiFindOrFail($id);
+		$author = Author::where('objectId', $id)->first();
 
 		return $this->sendResponse($author->toArray(), "Author retrieved successfully");
 	}

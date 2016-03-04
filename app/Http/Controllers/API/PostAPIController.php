@@ -34,12 +34,21 @@ class PostAPIController extends AppBaseController
 		$offset  = $request->page ? $request->page : 1;
 		$limit   = $request->limit ? $request->limit : 12;
 		$category = $request->category;
+		$isAllow = $request->isAllow ? $request->isAllow : '';
 		
 		$offset  = ($offset - 1) * $limit;
 		if($category){
-			$posts = Post::where('category_id', $category)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
+			if($isAllow && $isAllow != ''){
+				$posts = Post::where('isAllow',$isAllow)->where('category_id', $category)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
+			}else{
+				$posts = Post::where('category_id', $category)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
+			}
 		}else{
-			$posts = Post::orderBy('id','desc')->offset($offset)->limit($limit)->get();
+			if($isAllow && $isAllow != ''){
+				$posts = Post::where('isAllow',$isAllow)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
+			}else{
+				$posts = Post::orderBy('id','desc')->offset($offset)->limit($limit)->get();
+			}
 		}
 		
 		return response()->json($posts);

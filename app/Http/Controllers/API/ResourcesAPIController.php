@@ -27,12 +27,16 @@ class ResourcesAPIController extends AppBaseController
 	{
 		$offset  = $request->page ? $request->page : 1;
 		$limit   = $request->limit ? $request->limit : 12;
+		$isAllow = $request->isAllow ? $request->isAllow : '';
 
 		$offset  = ($offset - 1) * $limit;
 		
-		$posts = Resources::orderBy('id','desc')->offset($offset)->limit($limit)->get();
+		if($isAllow && $isAllow != '')
+			$resources = Resources::where('isAllow',$isAllow)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
+		else
+			$resources = Resources::orderBy('id','desc')->offset($offset)->limit($limit)->get();
 				
-		return response()->json($posts);
+		return response()->json($resources);
 	}
 
 	/**
