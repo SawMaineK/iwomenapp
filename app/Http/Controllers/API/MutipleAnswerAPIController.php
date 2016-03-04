@@ -56,10 +56,11 @@ class MutipleAnswerAPIController extends AppBaseController
 		$input = $request->all();
 
 		$answers = json_encode($input->answers);
+		return response()->json($answers);
 		DB::beginTransaction();
 		foreach ($answers as $key => $value) {
 			try {
-				$data['mutiple_question_id'] = $request->mutiple_question_id;
+				$data['mutiple_question_id'] = $value->id;
 				$data['answer'] = $value->answer;
 				$data['user_id'] = $request->user_id;
 				$mutipleAnswers = $this->mutipleAnswerRepository->create($data);

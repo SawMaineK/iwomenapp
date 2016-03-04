@@ -30,7 +30,6 @@ class MutipleAnswer extends Model
     ];
 
 	public static $rules = [
-	    "mutiple_question_id" => "required",
 		"answer" => "required",
 		"user_id" => "required"
 	];
