@@ -5,7 +5,9 @@ use App\Libraries\Repositories\MutipleAnswerRepository;
 use App\Models\MutipleAnswer;
 use Illuminate\Http\Request;
 use App\Http\Controllers\AppBaseController as AppBaseController;
+use App\Http\Controllers\MCrypt as MCrypt;
 use Response;
+use DB;
 
 class MutipleAnswerAPIController extends AppBaseController
 {
@@ -55,7 +57,8 @@ class MutipleAnswerAPIController extends AppBaseController
 
 		$input = $request->all();
 
-		$answers = json_decode($input['answers']);
+		$decrypt = MCrypt::decrypt($input['answers']);
+		$answers = json_decode($decrypt);
 		return response()->json($answers);
 		DB::beginTransaction();
 		foreach ($answers as $key => $value) {
