@@ -7,7 +7,7 @@
 <!-- Type Field -->
 <div class="form-group col-sm-6 col-lg-4">
     {!! Form::label('type', 'Type:') !!}
-	{!! Form::select('type', [ 'text' => 'text', 'checkbox' => 'checkbox', 'radio' => 'radio', 'image' => 'image' ], null, ['class' => 'form-control']) !!}
+	{!! Form::select('type', [ 'text' => 'text', 'checkbox' => 'checkbox', 'radio' => 'radio', 'image' => 'image', 'upload_photo' => 'upload_photo','upload_audio' => 'upload_audio' ], null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Question Field -->

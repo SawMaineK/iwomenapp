@@ -55,7 +55,20 @@ class MutipleAnswerAPIController extends AppBaseController
 
 		$input = $request->all();
 
-		$mutipleAnswers = $this->mutipleAnswerRepository->create($input);
+		$answers = json_encode($input->answers);
+		DB::beginTransaction();
+		foreach ($answers as $key => $value) {
+			try {
+				$data['mutiple_question_id'] = $request->mutiple_question_id;
+				$data['answer'] = $value->answer;
+				$data['user_id'] = $request->user_id;
+				$mutipleAnswers = $this->mutipleAnswerRepository->create($data);
+			} catch (Exception $e) {
+				DB::rollBack();
+                return response()->json('Something went wrong on server.', 500);
+			}			
+		}
+		DB::commit();
 
 		return $this->sendResponse($mutipleAnswers->toArray(), "MutipleAnswer saved successfully");
 	}
