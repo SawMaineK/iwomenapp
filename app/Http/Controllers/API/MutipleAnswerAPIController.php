@@ -55,7 +55,7 @@ class MutipleAnswerAPIController extends AppBaseController
 
 		$input = $request->all();
 
-		$answers = json_encode($input->answers);
+		$answers = json_decode($input['answers']);
 		return response()->json($answers);
 		DB::beginTransaction();
 		foreach ($answers as $key => $value) {
