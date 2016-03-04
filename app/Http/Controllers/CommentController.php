@@ -53,6 +53,8 @@ class CommentController extends AppBaseController
 	{
 		$input = $request->all();
 
+		$input['objectId'] = str_random(10);
+
 		$comment = $this->commentRepository->create($input);
 
 		Flash::success('Comment saved successfully.');

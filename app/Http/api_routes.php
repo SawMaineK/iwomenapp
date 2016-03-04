@@ -64,3 +64,5 @@ Route::resource("mutipleQuestions", "MutipleQuestionAPIController");
 Route::resource("mutipleOptions", "MutipleOptionAPIController");
 
 Route::resource("mutipleAnswers", "MutipleAnswerAPIController");
+
+Route::resource("avators", "AvatorAPIController");

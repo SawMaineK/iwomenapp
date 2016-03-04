@@ -53,6 +53,8 @@ class AuthorController extends AppBaseController
 	{
 		$input = $request->all();
 
+		$input['objectId'] = str_random(10);
+
 		if($request->file('authorImg')){
 			$uploadImage = $this->uploadImage($request->file('authorImg'),'/authors_photo/');
 			$input['authorImg'] = $uploadImage['resize_url'][0];

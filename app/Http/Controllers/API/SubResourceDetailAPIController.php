@@ -66,6 +66,8 @@ class SubResourceDetailAPIController extends AppBaseController
 
 		$input = $request->all();
 
+		$input['objectId'] = str_random(10);
+
 		$subResourceDetails = $this->subResourceDetailRepository->create($input);
 
 		return $this->sendResponse($subResourceDetails->toArray(), "SubResourceDetail saved successfully");

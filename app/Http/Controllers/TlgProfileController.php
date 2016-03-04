@@ -53,6 +53,8 @@ class TlgProfileController extends AppBaseController
 	{
 		$input = $request->all();
 
+		$input['objectId'] = str_random(10);
+
 		$tlgProfile = $this->tlgProfileRepository->create($input);
 
 		Flash::success('TlgProfile saved successfully.');

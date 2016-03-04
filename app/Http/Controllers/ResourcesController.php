@@ -53,6 +53,8 @@ class ResourcesController extends AppBaseController
 	{
 		$input = $request->all();
 
+		$input['objectId'] = str_random(10);
+
 		$resources = $this->resourcesRepository->create($input);
 
 		Flash::success('Resources saved successfully.');

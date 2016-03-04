@@ -76,6 +76,8 @@ class CalendarAPIController extends AppBaseController
 
 		$input = $request->all();
 
+		$input['objectId'] = str_random(10);
+
 		$calendars = $this->calendarRepository->create($input);
 
 		return $this->sendResponse($calendars->toArray(), "Calendar saved successfully");

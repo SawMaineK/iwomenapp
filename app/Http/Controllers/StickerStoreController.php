@@ -53,6 +53,8 @@ class StickerStoreController extends AppBaseController
 	{
 		$input = $request->all();
 
+		$input['objectId'] = str_random(10);
+
 		if($request->file('stickerImg')){
 			$uploadImage = $this->uploadImage($request->file('stickerImg'),'/stickers_photo/');
 			$input['stickerImg'] = $uploadImage['resize_url'][0];

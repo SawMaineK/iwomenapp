@@ -53,6 +53,8 @@ class SisterDownloadAppController extends AppBaseController
 	{
 		$input = $request->all();
 
+		$input['objectId'] = str_random(10);
+
 		$sisterDownloadApp = $this->sisterDownloadAppRepository->create($input);
 
 		Flash::success('SisterDownloadApp saved successfully.');

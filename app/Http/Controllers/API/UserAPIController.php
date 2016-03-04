@@ -108,6 +108,7 @@ class UserAPIController extends AppBaseController
 		$input = $request->all();
 
 		$input['objectId'] = str_random(10);
+		
 		$input['password'] = bcrypt($input['password']);
 
 		$users = $this->userRepository->create($input);

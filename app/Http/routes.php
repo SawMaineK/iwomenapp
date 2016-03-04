@@ -216,13 +216,23 @@ Route::group(['middleware' => ['web']], function () {
                 'as' => 'mutipleOptions.delete',
                 'uses' => 'MutipleOptionController@destroy',
             ]);
+
+            
+            Route::resource('mutipleAnswers', 'MutipleAnswerController');
+
+            Route::get('mutipleAnswers/{id}/delete', [
+                'as' => 'mutipleAnswers.delete',
+                'uses' => 'MutipleAnswerController@destroy',
+            ]);
+
+
+            Route::resource('avators', 'AvatorController');
+
+            Route::get('avators/{id}/delete', [
+                'as' => 'avators.delete',
+                'uses' => 'AvatorController@destroy',
+            ]);
         });
 
     });
 
-Route::resource('mutipleAnswers', 'MutipleAnswerController');
-
-Route::get('mutipleAnswers/{id}/delete', [
-    'as' => 'mutipleAnswers.delete',
-    'uses' => 'MutipleAnswerController@destroy',
-]);

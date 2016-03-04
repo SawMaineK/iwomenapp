@@ -106,6 +106,15 @@
                         </li>
 
                         <li class="sub-menu">
+                            <a href="#"><i class="zmdi zmdi-view-list"></i> Avators</a>
+
+                            <ul>
+                                <li><a href="/avators"> List</a></li>
+                                <li><a href="/avators/create">Create New Avators</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="sub-menu">
                             <a href="#"><i class="zmdi zmdi-view-list"></i> Resources</a>
 
                             <ul>

@@ -1,0 +1,22 @@
+[
+	{
+        "field":"objectId:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"avatorImg:string",
+        "type":"file",
+        "validations": ""
+    },
+    {
+        "field":"avatorImgPath:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"avatorName:string",
+        "type":"text",
+        "validations": ""
+    }
+]
