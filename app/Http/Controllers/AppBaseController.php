@@ -83,7 +83,7 @@ class AppBaseController extends Controller
         $file_path = public_path().$path;
         $file->move($file_path, $filename);
 
-        return $_SERVER['HTTP_ORIGIN'].$path.$filename;
+        return 'http://api.iwomenapp.org'.$path.$filename;
     }
 
     public function uploadVideo($file, $path){
@@ -91,7 +91,7 @@ class AppBaseController extends Controller
         $file_path = public_path().$path;
         $file->move($file_path, $filename);
 
-        return $_SERVER['HTTP_ORIGIN'].$path.$filename;
+        return 'http://api.iwomenapp.org'.$path.$filename;
     }
 
     public function uploadAPK($file, $path){
@@ -99,6 +99,6 @@ class AppBaseController extends Controller
         $file_path = public_path().$path;
         $file->move($file_path, $filename);
 
-        return $_SERVER['HTTP_ORIGIN'].$path.$filename;
+        return 'http://api.iwomenapp.org'.$path.$filename;
     }
 }
