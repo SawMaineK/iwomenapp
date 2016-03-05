@@ -10,6 +10,6 @@ class CompetitionGroupUser extends Model
 
     public function answer()
     {
-        return $this->hasMany('App\CompetitionAnswer', 'competition_group_user_id');
+        return $this->hasMany('App\Models\MutipleAnswer', 'user_id');
     }
 }

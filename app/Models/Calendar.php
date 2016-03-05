@@ -14,6 +14,7 @@ class Calendar extends Model
 
 	public $fillable = [
 	    "objectId",
+	    "userId",
 		"title",
 		"title_mm",
 		"description",
@@ -33,6 +34,7 @@ class Calendar extends Model
      */
     protected $casts = [
         "objectId" => "string",
+        "userId" => "integer",
 		"title" => "string",
 		"title_mm" => "string",
 		"description" => "string",
@@ -44,6 +46,7 @@ class Calendar extends Model
     ];
 
 	public static $rules = [
+	    "userId" => "required"
 	    "description_mm" => "required"
 	];
 

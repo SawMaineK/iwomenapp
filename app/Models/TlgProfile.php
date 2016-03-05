@@ -14,6 +14,7 @@ class TlgProfile extends Model
 
 	public $fillable = [
 	    "objectId",
+	    "is_leader",
 		"tlg_group_address",
 		"tlg_group_address_mm",
 		"tlg_group_key_activity",
@@ -44,6 +45,7 @@ class TlgProfile extends Model
      */
     protected $casts = [
         "objectId" => "string",
+        "is_leader" => "boolean",
 		"tlg_group_address" => "string",
 		"tlg_group_address_mm" => "string",
 		"tlg_group_key_activity" => "string",

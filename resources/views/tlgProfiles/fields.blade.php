@@ -6,6 +6,21 @@
     </div>
 </div>
 
+<!-- Isleader Field -->
+    <div class="form-group col-sm-4 col-lg-4">
+      <div class="fg-line"> 
+          <div class="checkbox">
+                    <label>
+                        {!! Form::checkbox('is_leader', 1, true) !!}
+                        <i class="input-helper"></i>
+                        Is Leader
+                    </label>
+                </div>
+
+          
+      </div>
+    </div>
+
 <!-- Tlg Group Address Field -->
 <div class="form-group col-sm-6 col-lg-4">
     <div class="fg-line"> 

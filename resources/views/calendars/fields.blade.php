@@ -4,6 +4,12 @@
 	{!! Form::text('objectId', null, ['class' => 'form-control']) !!}
 </div>
 
+<!-- UserId Field -->
+<div class="form-group col-sm-6 col-lg-4">
+    {!! Form::label('userId', 'UserId:') !!}
+    {!! Form::text('userId', null, ['class' => 'form-control']) !!}
+</div>
+
 <!-- Title Field -->
 <div class="form-group col-sm-6 col-lg-4">
     {!! Form::label('title', 'Title:') !!}

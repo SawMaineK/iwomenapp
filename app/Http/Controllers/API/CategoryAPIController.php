@@ -30,7 +30,7 @@ class CategoryAPIController extends AppBaseController
 
 		$offset  = ($offset - 1) * $limit;
 		
-		$posts = Category::orderBy('id','desc')->offset($offset)->limit($limit)->get();
+		$posts = Category::offset($offset)->limit($limit)->get();
 				
 		return response()->json($posts);
 	}

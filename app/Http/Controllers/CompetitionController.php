@@ -160,14 +160,15 @@ class CompetitionController extends Controller
         $group_user_ids = CompetitionGroupUser::where('group_name', $group_name)->where('competition_question_id',$request->question_id)->lists('id');
         $group_list = CompetitionGroupUser::with('answer')->where('competition_question_id', $request->question_id)->where('group_name', $group_name)->get();
 
+        $user_count = CompetitionQuestion::where('id', $request->question_id)->pluck('user_count');
         foreach ($group_list as $key => $value) {
             $profile_img = json_decode($value->profile_img, true);
             if($profile_img){
                 $group_list[$key]['image_url'] = $profile_img['url'];
             }else
                 $group_list[$key]['image_url'] = "http://url";
-            $group_list[$key]['total_has_answer'] = count($group_list) * 3;
-            $group_list[$key]['current_has_answer'] = CompetitionAnswer::wherein('competition_group_user_id', $group_user_ids)->count();
+            $group_list[$key]['total_has_answer'] = count($group_list) * $user_count;
+            $group_list[$key]['current_has_answer'] = MutipleAnswer::wherein('user_id', $group_user_ids)->count();
             $group_list[$key]['init_answer'] = null;
             foreach ($group_list[$key]['answer'] as $i => $value) {
                 if($i == 0){

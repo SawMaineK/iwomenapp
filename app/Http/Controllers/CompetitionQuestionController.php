@@ -87,7 +87,8 @@ class CompetitionQuestionController extends Controller
             $question->answer_submit_description_mm = $request->answer_submit_description_mm;
             $question->start_date       = date('Y-m-d H:i:s',strtotime($request->start_date));
             $question->end_date         = date('Y-m-d H:i:s',strtotime($request->end_date));
-            $groupuserscount            =$request->groupusers;
+            $question->user_count       = $request->groupusers;
+            $groupuserscount            = $request->groupusers;
             $question->save();
 
             $users = User::all();

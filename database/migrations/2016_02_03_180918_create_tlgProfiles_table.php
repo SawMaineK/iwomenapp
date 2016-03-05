@@ -17,6 +17,7 @@ class CreateTlgProfilesTable extends Migration
 		{
 			$table->increments('id');
 			$table->string('objectId');
+			$table->boolean('is_leader');
 			$table->string('tlg_group_address');
 			$table->string('tlg_group_address_mm');
 			$table->string('tlg_group_key_activity');

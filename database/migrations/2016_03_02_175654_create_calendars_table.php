@@ -17,6 +17,7 @@ class CreateCalendarsTable extends Migration
 		{
 			$table->increments('id');
 			$table->string('objectId');
+			$table->integer('userId');
 			$table->string('title');
 			$table->string('title_mm');
 			$table->text('description');
