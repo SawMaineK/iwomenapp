@@ -177,7 +177,7 @@ class CompetitionController extends Controller
             }else
                 $group_list[$key]['image_url'] = "http://url";
             $group_list[$key]['total_has_answer'] = count($group_list) * 3;
-            $group_list[$key]['current_has_answer'] = MutipleAnswer::wherein('use_id', $group_user_ids)->count();
+            $group_list[$key]['current_has_answer'] = MutipleAnswer::wherein('user_id', $group_user_ids)->count();
             $group_list[$key]['init_answer'] = null;
             foreach ($group_list[$key]['answer'] as $i => $value) {
                 if($i == 0){
