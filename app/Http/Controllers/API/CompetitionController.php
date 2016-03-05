@@ -17,6 +17,7 @@ use App\CompetitionAnswer;
 use App\Models\User;
 use App\Models\MutipleQuestion;
 use App\Models\MutipleOption;
+use App\Models\MutipleAnswer;
 
 
 class CompetitionController extends Controller
@@ -176,7 +177,7 @@ class CompetitionController extends Controller
             }else
                 $group_list[$key]['image_url'] = "http://url";
             $group_list[$key]['total_has_answer'] = count($group_list) * 3;
-            $group_list[$key]['current_has_answer'] = CompetitionAnswer::wherein('competition_group_user_id', $group_user_ids)->count();
+            $group_list[$key]['current_has_answer'] = MutipleAnswer::wherein('use_id', $group_user_ids)->count();
             $group_list[$key]['init_answer'] = null;
             foreach ($group_list[$key]['answer'] as $i => $value) {
                 if($i == 0){
@@ -188,7 +189,7 @@ class CompetitionController extends Controller
     }
 
     public function getUserAnswer($id){
-    	$answer = CompetitionAnswer::where('competition_group_user_id', $id)->get();
+    	$answer = MutipleAnswer::where('user_id', $id)->get();
     	return response()->json($answer);
 
     }
