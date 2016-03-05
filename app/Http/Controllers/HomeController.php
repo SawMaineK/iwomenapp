@@ -51,7 +51,7 @@ class HomeController extends Controller
             $data['postUploadedDate'] = isset($data['postUploadedDate']) ? $data['postUploadedDate']['iso'] : '';
             $data['userId'] = isset($data['userId']) ? $data['userId']['objectId'] : '';
             Post::create($data);
-        }*/
+        }
         $dataJson = $this->readJson('IwomenPost.json');
         foreach ($dataJson['results'] as $key => $data) {
             $data['image'] = isset($data['image']) ? $data['image']['url'] : '';
@@ -66,26 +66,26 @@ class HomeController extends Controller
         foreach ($dataJson['results'] as $key => $data) {
             $data['resource_icon_img'] = isset($data['resource_icon_img']) ? $data['resource_icon_img']['url'] : '';
             Resources::create($data);
-        }/*
+        }*/
         $dataJson = $this->readJson('Author.json');
         foreach ($dataJson['results'] as $key => $data) {
             $data['authorImg'] = isset($data['authorImg']) ? $data['authorImg']['url'] : '';
             Author::create($data);
-        }
+        }/*
         $dataJson = $this->readJson('Comment.json');
         foreach ($dataJson['results'] as $key => $data) {
             $data['comment_created_time'] = isset($data['comment_created_time']) ? $data['comment_created_time']['iso'] : '';
             $data['postId'] = isset($data['postId']) ? $data['postId']['objectId'] : '';
             $data['userId'] = isset($data['userId']) ? $data['userId']['objectId'] : '';
             Comment::create($data);
-        }*/
+        }
         $dataJson = $this->readJson('SubResourceDetail.json');
         foreach ($dataJson['results'] as $key => $data) {
             $data['author_id'] = isset($data['author_id']) ? $data['author_id']['objectId'] : '';
             $data['posted_date'] = isset($data['posted_date']) ? $data['posted_date']['iso'] : '';
             $data['resource_id'] = isset($data['resource_id']) ? $data['resource_id']['objectId'] : '';
             SubResourceDetail::create($data);
-        }/*
+        }
         $dataJson = $this->readJson('SisterDownloadApp.json');
         foreach ($dataJson['results'] as $key => $data) {
             $data['app_img'] = isset($data['app_img']) ? $data['app_img']['url'] : '';

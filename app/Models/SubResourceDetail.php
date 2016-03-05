@@ -50,4 +50,9 @@ class SubResourceDetail extends Model
 	    
 	];
 
+	public function author()
+	{
+	    return $this->belongsTo('App\Models\Author', 'author_id', 'objectId');
+	}
+
 }
