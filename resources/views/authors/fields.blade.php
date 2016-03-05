@@ -4,6 +4,18 @@
 	{!! Form::text('objectId', null, ['class' => 'form-control']) !!}
 </div>
 
+<!-- Objectid Field -->
+<div class="form-group col-sm-6 col-lg-4">
+    {!! Form::label('organization_name', 'Organization Name:') !!}
+    {!! Form::text('organization_name', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Objectid Field -->
+<div class="form-group col-sm-6 col-lg-4">
+    {!! Form::label('organization_name_mm', 'Organization Name MM:') !!}
+    {!! Form::text('organization_name_mm', null, ['class' => 'form-control']) !!}
+</div>
+
 <!-- Authorimg Field -->
 <div class="form-group col-sm-6 col-lg-4">
     {!! Form::label('authorImg', 'Authorimg:') !!}

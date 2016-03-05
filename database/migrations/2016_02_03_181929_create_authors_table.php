@@ -17,6 +17,8 @@ class CreateAuthorsTable extends Migration
 		{
 			$table->increments('id');
 			$table->string('objectId');
+			$table->string('organization_name');
+			$table->string('organization_name_mm');
 			$table->string('authorImg');
 			$table->string('authorInfoEng');
 			$table->string('authorInfoMM');

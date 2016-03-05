@@ -131,7 +131,17 @@
 <!-- Postuploaduserimgpath Field -->
 <div class="form-group col-sm-6 col-lg-4">
     {!! Form::label('postUploadUserImgPath', 'Postuploaduserimgpath:') !!}
-	{!! Form::text('postUploadUserImgPath', null, ['class' => 'form-control']) !!}
+    <div class="fileinput fileinput-new" data-provides="fileinput">
+        <div class="fileinput-preview thumbnail" data-trigger="fileinput"></div>
+        <div>
+            <span class="btn btn-info btn-file">
+                <span class="fileinput-new">Select image</span>
+                <span class="fileinput-exists">Change</span>
+                <input type="file" name="postUploadUserImgPath">
+            </span>
+            <a href="#" class="btn btn-danger fileinput-exists" data-dismiss="fileinput">Remove</a>
+        </div>
+    </div>
 </div>
 
 <!-- Postuploadeddate Field -->

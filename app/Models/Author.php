@@ -14,6 +14,9 @@ class Author extends Model
 
 	public $fillable = [
 	    "objectId",
+	    "organization_name",
+	    "organization_name_mm",
+	    "objectId",
 		"authorImg",
 		"authorInfoEng",
 		"authorInfoMM",
@@ -29,6 +32,8 @@ class Author extends Model
      */
     protected $casts = [
         "objectId" => "string",
+		"organization_name" => "string",
+		"organization_name_mm" => "string",
 		"authorImg" => "string",
 		"authorInfoEng" => "string",
 		"authorInfoMM" => "string",

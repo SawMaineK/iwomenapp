@@ -59,6 +59,14 @@ class IwomenPostController extends AppBaseController
 			$image = $this->uploadImage($request->file('image'),'/posts_photo/');
 			$input['image'] = $image['resize_url'][0];
 		}
+		if($request->file('postUploadPersonImg')){
+			$image = $this->uploadImage($request->file('postUploadPersonImg'),'/posts_photo/');
+			$input['postUploadPersonImg'] = $image['resize_url'][0];
+		}
+		if($request->file('postUploadUserImgPath')){
+			$image = $this->uploadImage($request->file('postUploadUserImgPath'),'/posts_photo/');
+			$input['postUploadUserImgPath'] = $image['resize_url'][0];
+		}
 
 		$iwomenPost = $this->iwomenPostRepository->create($input);
 
@@ -133,6 +141,14 @@ class IwomenPostController extends AppBaseController
 		if($request->file('image')){
 			$image = $this->uploadImage($request->file('image'),'/posts_photo/');
 			$input['image'] = $image['resize_url'][0];
+		}
+		if($request->file('postUploadPersonImg')){
+			$image = $this->uploadImage($request->file('postUploadPersonImg'),'/posts_photo/');
+			$input['postUploadPersonImg'] = $image['resize_url'][0];
+		}
+		if($request->file('postUploadUserImgPath')){
+			$image = $this->uploadImage($request->file('postUploadUserImgPath'),'/posts_photo/');
+			$input['postUploadUserImgPath'] = $image['resize_url'][0];
 		}
 
 		$this->iwomenPostRepository->updateRich($input, $id);
