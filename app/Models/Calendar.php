@@ -46,7 +46,7 @@ class Calendar extends Model
     ];
 
 	public static $rules = [
-	    "userId" => "required"
+	    "userId" => "required",
 	    "description_mm" => "required"
 	];
 
