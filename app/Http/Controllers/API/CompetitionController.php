@@ -176,6 +176,7 @@ class CompetitionController extends Controller
                 $group_list[$key]['image_url'] = isset($profile_img['url']) ? $profile_img['url'] : '';
             }else
                 $group_list[$key]['image_url'] = "http://url";
+            $group_list[$key]['limited_answer'] = $muti_question_count;
             $group_list[$key]['total_has_answer'] = count($group_list) * $muti_question_count;
             $group_list[$key]['current_has_answer'] = MutipleAnswer::wherein('user_id', $group_user_ids)->count();
             $group_list[$key]['init_answer'] = null;
