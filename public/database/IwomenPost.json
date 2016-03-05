@@ -484,7 +484,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-a5b715b7-20a6-404a-9f55-39942badeaae-Janine%20Shepherd.jpg"
         },
         "isAllow": true,
-        "likes": 25,
+        "likes": 27,
         "objectId": "BHVpx9qEpu",
         "postUploadName": "Janine Shepherd",
         "postUploadPersonImg": {
@@ -498,10 +498,10 @@
         },
         "post_author_role": "Pilot",
         "post_author_role_mm": "ေလယာဥ္မွုုး ",
-        "share_count": 2,
+        "share_count": 3,
         "title": "A Broken Body isn't a Broken Person",
         "titleMm": "ခႏၵာကိုယ္ ပ်က္ဆီးသြားတာနဲ႔ လူတစ္ေယာက္ဘဝပ်က္ၿပီလို႔ ဆိုလို႔မရဘူး",
-        "updatedAt": "2016-02-01T08:13:27.633Z",
+        "updatedAt": "2016-03-03T02:13:57.090Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -805,7 +805,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-284affbd-ed0d-4ee9-8073-027075f11f35-AnnMorgan.jpg"
         },
         "isAllow": true,
-        "likes": 3,
+        "likes": 8,
         "objectId": "GoxrZj5qzw",
         "postUploadName": "Ann Morgan",
         "postUploadPersonImg": {
@@ -823,7 +823,7 @@
         "share_count": 3,
         "title": "My year reading a book from every country in the world",
         "titleMm": "ကမၻာ့ နိုင္ငံတိုင္းက စာအုပ္တစ္အုပ္စီကို ဖတ္ခဲ့တဲ့ ကၽြန္မရဲ့ ႏွစ္",
-        "updatedAt": "2016-01-17T10:02:32.354Z",
+        "updatedAt": "2016-03-02T09:07:54.770Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -973,7 +973,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-b874388b-4129-450f-a86b-6abd232113f3-ma_wai_wai.png"
         },
         "isAllow": true,
-        "likes": 40,
+        "likes": 46,
         "objectId": "Mds0ORGkDr",
         "postUploadName": "Wai Wai",
         "postUploadPersonImg": {
@@ -985,12 +985,12 @@
             "__type": "Date",
             "iso": "2015-08-25T15:33:00.000Z"
         },
-        "post_author_role": "Entreprenure",
+        "post_author_role": "Entrepreneur",
         "post_author_role_mm": "",
         "share_count": 0,
         "title": "From the Mountain of Shan State to Trip Advisor Star!",
         "titleMm": "ရွမ္းေတာင္တန္းမွသည္ ခရီးသြားအႀကံေပးသူ အျဖစ္သိုု႕",
-        "updatedAt": "2016-01-19T09:55:41.653Z",
+        "updatedAt": "2016-03-05T09:09:23.696Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -1117,7 +1117,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-fb61644e-9f4e-4813-96c5-5340249127a3-olgapost.jpg"
         },
         "isAllow": true,
-        "likes": 66,
+        "likes": 70,
         "objectId": "QrxqB5PS8g",
         "postUploadName": "Olga Speranskaya",
         "postUploadPersonImg": {
@@ -1134,7 +1134,7 @@
         "share_count": 2,
         "title": "I badly wanted to be a tiger trainer!",
         "titleMm": "က်ားေတြကိုုထိန္းေၾကာင္းဖိုု ့စိတ္ကူးထက္သန္ခဲ့ တဲ့က်မ",
-        "updatedAt": "2016-01-30T14:32:13.864Z",
+        "updatedAt": "2016-03-02T08:50:35.411Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -1160,7 +1160,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-26166604-ba48-4ac5-949c-2317f0267519-Bashia.jpg"
         },
         "isAllow": true,
-        "likes": 51,
+        "likes": 59,
         "objectId": "R86ii1XcKk",
         "postUploadName": "Bahia Shehab",
         "postUploadPersonImg": {
@@ -1177,7 +1177,7 @@
         "share_count": 3,
         "title": "Letter to my Sister",
         "titleMm": "ညီမေလးထံသိုု ့ေပးစာ\n",
-        "updatedAt": "2016-02-01T10:34:59.331Z",
+        "updatedAt": "2016-03-02T08:47:23.640Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -1214,6 +1214,47 @@
             "__type": "Pointer",
             "className": "_User",
             "objectId": "0bkkEPTrwm"
+        }
+    },
+	{
+        "authorId": {
+            "__type": "Pointer",
+            "className": "Author",
+            "objectId": "s7BwJHojk5"
+        },
+        "comment_count": 0,
+        "content": "I am Daw Nu Nu Yee, Chairwoman of May Ar Mun Women Township Leading Group in Sin Baung Wae Township, Thayet District, Magway Region. \n\nMy native village, Nyan Taw Inn, is situated four miles away from Sin Baung Wae which is a poorly-developed small town with poor transportation connections and limited economic activities. I am just a rural woman who could not finish the middle school. I would like to share my achievements during the period I have been participating as a member of the women saving groups and then later as the Chair of Women Township Leading Group part of the newly established May Doe Kabar National Network of Rural Women. \n\nAll over the world, only the educated women in high positions can enjoy equal rights as men. But it is impossible for uneducated rural women. Women are rarely given the opportunity to participate in social, health and development activities in the community side by side with men. Women mainly take the responsibility to do the cooking in social and religious occasions. All the important decisions are made by men. \n\nWhen I became a member of the Women Township Leading Group in my village, I had the opportunity to receive several capacity building trainings provided by the United Nations Development Programme (UNDP). Consequently, I could take part in local development activities implemented by different NGOs, INGOs and government departments in my village. By applying the knowledge and skills gained from the capacity building programs and trainings on management and bookkeeping conducted by UNDP, I could make a significant contribution to the rural development of my village. People accepted me as a leader and I gradually found my place in my community – I can work for the community, they receive my advice and I can take part in decision making process – of course, alongside the men. Not only me, but other  members of the Women Township Leading Groups are also accepted by the community. People in the village, government organizations, INGOs and NGOs recognize the role of TLGs members in the village development activities and appreciate our work. As for a rural woman, it is a big achievement for us to enjoy the equal status as men in the society. \n\nWe have Women Township Leading Groups (TLGs) in 31 townships across 8 states and regions in Myanmar – Shan, Kayah, Mon, Kachin, Chin, Rakhine States and Magway and Ayeyarwaddy Regions with a membership of 22,500 women. In 2015 TLGs offices have been opened in the 31 townships to implement several capacity development programs and to foster May Doe Kabar National Network of Rural Women. Our May Ar Mun TLG is composed of 230 members, 32 self-reliant groups from 15 villages in Sin Baung Wae Township, Thayet District, Magway Region. The committee meeting is regularly conducted every month and the township TLG meeting is held on the 15th every three months. To raise funds for the TLG, we save money and also trade rice and cooking oil. Every member saves 500 kyats a month and from the rice and cooking oil trade, we made profit of 310,000 kyats in three months. The total fund of our TLG is now over 5,000,000 kyats and we also have 600,000 kyats in our saving bank account to buy a plot of land for TLG office. \n\nOn 30th May, 2015, our TLG group provided assistance to fire-affected population in Innma Village in Sin Baung Wae Township. We provide them with five sacks of rice and clothes and other worth over 200,000 kyats. In addition, we conducted a survey and also provide psychosocial support. Similarly, in 2015 floods, we managed and facilitated the provision of assistance to the TLG members along the Ayeyarwaddy River from other TLG members from states and regions, friends and members of May Ar Mun. \n\nI also would like to share the story of other sister Women Township Leading Groups. All the TLGs in 31 townships have been registered as Civil Society Organizations. We provide multiplier trainings for our members (Self Reliant Groups) on organizational management, financial management, domestic violence and gender equality for women, child health care and human trafficking. We also provide vocational skill trainings to our members. We work together with other Civil Society Organizations, the Myanmar Government, Women Affair Federation and Myanmar Maternal and Child Welfare Associations to improve health and education of the communities in townships. May Toe Ar Mun TLG in Kyaik Latt Township in Ayeyarwaddy Region has received a recognition from Ayeyarwaddy Region Government as the Best Civil Society Organization Serving the Community. \n\nI would like to conclude by saying that myself and all the members of the Women Township Leading Groups are proud to be part of the May Doe Kabar National Network of Rural Women. May Doe Kabar Network was established with the meaningful goal to share knowledge and work together to overcome challenges and to promote the leadership of rural women.     \nDaw Nu Nu Yi\n",
+        "contentType": "Letter",
+        "content_mm": "ေလးစားရပါေသာ မိတ္ေဆြမ်ားရွင္ ..\n\nကြၽန္မသည္ မေကြးတိုင္းေဒသႀကီး၊ သရက္ခ႐ိုင္၊ ဆင္ေပါင္ဝဲၿမိဳ႕နယ္ရွိ ေမ့အားမာန္ ၿမိဳ႕နယ္ ဦးေဆာင္အဖြဲ႔မွ ဥကၠ႒အျဖစ္ တာဝန္ယူေဆာင္ရြက္ေနေသာ ေဒၚႏုႏုရီျဖစ္ပါသည္။ \nကြၽန္မ၏ ဇာတိခ်က္ေႂကြေမြးရပ္ေျမ ဥာဏ္ေတာအင္းဆိုသည့္ ေက်းရြာေလးသည္ လမ္းပန္းဆက္သြယ္ေရးခက္ခဲၿပီး ေဒသဖြံ႕ၿဖိဳးမႈအားနည္း၍ စီးပြားေရးအခ်က္အခ်ာမက်ေသာ ဆင္ေပါင္ဝဲဟူသည့္ေတာၿမိဳ႕ေလးႏွင့္ ေလးမိုင္အကြာတြင္တည္႐ွိေသာ ရြာေလးတစ္ရြာျဖစ္ပါတယ္။ ကြၽန္မသည္ အလယ္တန္းပညာကို ဆံုးခန္းတိုင္ေအာင္ မသင္ယူႏိုင္ခဲ့သည့္ ေက်းလက္ေတာရြာေန အမ်ိဳးသမီးတစ္ဦးသာျဖစ္ပါသည္။\n\nကြၽန္မသည္ အမ်ိဳးသမီးေငြစုေငြေခ်းအသင္းႏွင့္ ထိုမွတစ္ဆင့္ အသစ္ဖဲြ႕စည္းလိုက္ေသာ ေမတို႔ကမၻာ ႏိုင္ငံလံုးဆိုင္ရာ ေက်းလက္အမ်ိဳးသမီးမ်ားကြန္ယက္၏ အဖဲြ႕၀င္ ေမ့အားမာန္ ၿမိဳ႕နယ္ဦးအဖဲြ႕၏ ဥကၠ႒အျဖစ္ တာဝန္ယူေဆာင္ရြက္စဥ္ကာလအတြင္း ကၽြန္မ၏ စြမ္းေဆာင္ေအာင္ျမင္ႏိုင္မႈမ်ားအေၾကာင္းကို ေျပာျပလိုပါသည္။ ကမာၻေပၚတြင္ ပညာတတ္ၿပီး ရာထူးဂုဏ္အ႐ွိန္အဝါ ႀကီးမားေသာ အမ်ိဳးသမီးမ်ားသာလ်ွင္ အမ်ိဳးသားမ်ားႏွင့္ တန္းတူအခြင့္အေရးမ်ားက္ို ရ႐ွိေကာင္း ရ႐ွိပါလိမ့္မည္။ သို႔ေသာ္ ကၽြန္မတို႔ ေက်းလက္ေန ပညာေရးအားနည္းေသာ အမ်ိဳးသမီးမ်ားသည္ ရပ္ရြာရွိ လူမႈေရး၊ က်န္းမာေရး ဖြံၿဖိဳးေရးကိစၥရပ္မ်ားတြင္ အမ်ိဳးသားမ်ားႏွင့္ အတူတကြပူးေပါင္း ပါဝင္ေဆာင္ရြက္ရန္ အခြင့္အေရးေပးမႈဆိုသည္မွာ အလြန္ပင္ ႐ွားပါးလွပါသည္။ ေက်းရြာရွိ အလွဴ မဂၤလာပြဲမ်ားႏွင့္ ဘာသာေရးပြဲမ်ား က်င္းပခ်ိန္တြင္ ခ်က္ျပဳတ္ေရးကိစၥမ်ားတြင္သာ အမ်ိဳးသမီးမ်ား ပါဝင္ခြင့့္ရ႐ွိခဲ့ပါသည္။ ေက်းရြာ၏ အျခားေသာ အေရးႀကီးဆံုးျဖတ္ခ်က္ခ်မည့္ ကိစၥမ်ားတြင္အမ်ိဳးသားမ်ားသာလ်ွင္ ေဆာင္ရြက္ၾကပါသည္။\n\nကြၽန္မသည္ ကၽြန္မ၏ ရြာတြင္ ၿမိဳ႕နယ္ဦးေဆာင္အဖဲြ႕၀င္ ျဖစ္လာေသာအခါ ကုလသမဂၢဖံြ႕ၿဖိဳးမႈ ရန္ပံုေငြအဖဲြ႕မွ ပံ့ပိုးမႈျဖင့္ က်င္းပေပးေသာ စြမ္းရည္ျမႇင့္တင္မႈသင္တန္းအခ်ိဳ႕ကို တက္ေရာက္ခြင့္ ရခဲ့ပါသည္။ ထိုသင္တန္းမ်ားေၾကာင့္ ရပ္ရြာရွိ အျခားေသာ အင္ဂ်ီအိုမ်ား၊ အိုင္အင္ဂ်ီအုိအမ်ိဳးမ်ိဳး၊ ေက်းရြာႏွင့္သက္ဆိုင္ေသာ အစိုးရဌာနဆိုင္ရာမ်ားမွ ေက်းရြာ၏ ဖြံ႔ၿဖိဳးေရးကိစၥရပ္မ်ား လာေရာက္ေဆာင္ရြက္သည့္အခ်ိန္တြင္ ကြၽန္မသည္ တတ္ႏိုင္သမွ် ပူးေပါင္းပါဝင္ကူညီေပးႏိုင္ခဲ့ပါသည္။ စြမ္းေဆာင္ရည္ျမႇင့္သင္တန္းမ်ား၊ စီမံခန္႔ခြဲမႈသင္တန္းမ်ား၊ စာရင္းကိုင္သင္တန္းမ်ားမွ ရ႐ွိထားေသာ နည္းပညာမ်ားျဖင့္ ေက်းရြာဖြံ႕ၿဖိဳးေရးလုပ္ငန္းမ်ားအား နည္းစနစ္က်က် မွန္မွန္ကန္ကန္ႏွင့္ အခ်ိန္မီၿပီးစီးေအာင္ ေဆာင္႐ြက္ႏုိင္ခဲ့ျခင္းေၾကာင့္ အဖြဲ႔အစည္းအသီးသီးမွ ကၽြန္မအား အသိအမွတ္ ျပဳလာၿပီး ေက်း႐ြာရွိ အမ်ိဴးသားမ်ားႏွင့္တန္းတူ လုပ္ပိုင္ခြင့္၊ အၾကံဥာဏ္ေပးခြင့္၊ ဆံုးျဖတ္ပိုင္ခြင့္မ်ား လည္း ရရွိလာပါသည္။ ေက်း႐ြာတြင္ ဖြံ႕ၿဖိဳးေရးလုပ္ငန္းေကာ္မတီဖြဲ႕ရာတြင္လည္း အဓိကေနရာမွ တာဝန္ယူေဆာင္႐ြက္ခဲ့ၿပီး ယခုအခ်ိန္တြင္ ေက်း႐ြာ၏မိခင္တစ္ဦးအျဖစ္ တန္ဖိုးထားေလးစား ျခင္းမ်ား ခံယူရရွိကာ ရပ္တည္လာႏုိင္ၿပီျဖစ္ၿပီး ေက်း႐ြာ႐ွိ အျခားေသာ အမ်ိဴးသမီးမ်ားမွာလည္း တန္းတူတန္ဖိုးထားဆံုးျဖတ္ပိုင္ခြင့္မ်ား အသီးသီးရ႐ွိလာၿပီျဖစ္ပါသည္။ မိမိတို႔ ေမအားမာန္အဖြဲ႕ အား ရပ္႐ြာႏွင့္ အစိုးရ၊ အိုင္အင္ဂ်ီအို၊ အင္ဂ်ီအုိမ်ားမွ အသိအမွတ္ျပဳလာကာ ေမအားမာန္ အဖြဲ႕ ဝင္မ်ားအားလံုးနီးပါးသည္ ေက်း႐ြာဖြံ႕ျဖိဳးေရးမ်ားတြင္ ပူးေပါင္းပါဝင္လာႏိုင္ၾကပါသည္။ ေက်းလက္ အမိ်ဴးသမီးတစ္ဦးအေနျဖင့္ အမ်ိဴးသားမ်ားႏွင့္ တန္းတူေနရာေပးခံရျခင္းသည္ ကၽြန္မအတြက္၊ ကၽြန္မတို႔အမ်ိဴးသမီးမ်ားအတြက္ ေက်နပ္ဂုဏ္ယူဖြယ္ေကာင္းသည့္ ေအာင္ျမင္မႈႀကီးတစ္ခုအျဖစ္ ခံယူမိပါသည္။ ကၽြန္မတို႔၏ ၿမိဳ႕နယ္ဦးေဆာင္အဖဲြ႕မ်ားသည္ တုိင္းႏွင့္ျပည္နယ္ (၈)ခုျဖစ္ေသာ ႐ွမ္း၊ ကယား၊ မြန္၊ ကခ်င္၊ ခ်င္း၊ ရခိုင္ျပည္နယ္ႏွင့္ မေကြးတုိင္း၊ ဧရာဝတီတုိင္းတို႔တြင္ ၿမိဳ႕နယ္ (၃၁) ၿမိဳ႕နယ္၊ အဖြဲ႕ (၃၁)ဖြဲ႕၊ အဖြဲ႔ဝင္ေပါင္း (၂၂၅၀၀) ျဖင့္ ဖဲြ႔စည္းထားျခင္းျဖစ္ပါသည္။ ၂၀၁၅ခုႏွစ္တြင္ ၿမိဳ႕နယ္အဆင့္ စိတ္တူကိုယ္တူဦးေဆာင္အဖြဲ႔၏ အဖြဲ႕အစည္းဆုိင္ရာ အရည္အေသြးျမွင့္တင္မႈ စီမံကိန္းကို အေကာင္အထည္ေဖာ္ေဆာင္႐ြက္ရန္အတြက္ သက္ဆုိင္ရာ ျမိဳ႕နယ္အသီးသီးတြင္ ၿမိဳ႕နယ္ဦးေဆာင္အဖဲြ႕မ်ား၏ ၿမိဳ႕နယ္ရံုးမ်ားကို  ဖြင့္လွစ္ထားၿပီးျဖစ္ပါသည္။ ကၽြန္မတို႔၏ ေမအားမာန္ ၿမိဳ႕နယ္ဦးေဆာင္အဖဲြ႕သည္ မေကြးတုိင္းေဒသႀကီး၊ သရက္ခ႐ိုင္၊ ဆင္ေပါင္ဝဲ ၿမိဳ႕နယ္တြင္ ေက်း႐ြာေပါင္း (၁၅) ႐ြာ၊ အဖြဲ႕ေပါင္း (၃၂)ဖြဲ႕၊ အဖြဲ႕ဝင္ေပါင္း (၂၃၀) ျဖင့္ ဖြဲ႔စည္း ထားပါသည္။ ေကာ္မတီအစည္းအေဝးကို တစ္လတစ္ၾကိမ္ ပံုမွန္ျပဳလုုပ္ၿပီး ေမအားမာန္အဖြဲ႕၏ အစည္းအေဝးကို သံုးလတစ္ၾကိမ္၏ (၁၅)ရက္ေန႔တြင္ ျပဳလုပ္ပါသည္။ အဖြဲ႕ရန္ပံုေငြတိုးပြားရန္ အတြက္ ေငြစုျခင္းအျပင္ ဆန္၊ ဆီ၊ အေရာင္းအဝယ္ျပဳလုပ္ပါသည္။ အဖြဲ႕စုေငြမွာ တစ္လ ငါးရာက်ပ္ျဖစ္ျပီး ဆန္၊ ဆီ အျမတ္အျဖစ္ သံုးလအတြင္းတြင္ သံုးသိန္းတစ္ေသာင္းခန္႔ အျမတ္ေငြ ရ႐ွိပါသည္။ အဖြဲ႕ပိုင္ရန္ပံုေငြ စုစုေပါင္းမွာ က်ပ္ သိန္း ၅၀ ေက်ာ္ ရ႐ွိၿပီးျဖစ္ပါသည္။ ေမအားမာန္ အဖြဲ႕ပိုင္ ႐ုံးေျမေနရာဝယ္ယူရန္ က်ပ္ေျခာက္သိန္းခန္႔ကိုလည္း စုေဆာင္း၍ ေမအားမာန္၏ ဘဏ္စုေငြစာရင္းတြင္ ထည့္သြင္းထားပါသည္။ ေမအားမာန္အဖြဲ႕အေနျဖင့္ ဆင္ေပါင္ဝဲၿမိဳ ့နယ္တြင္ ႐ွိေသာ အင္းမေက်း႐ြာ မီးေဘးအႏၱရာယ္က်ေရာက္ေသာအခါ မီးေဘးသင့္သူမ်ားအား (၃၀.၅.၂၀၁၅) ေန႕တြင္ ေငြႏွစ္သိန္းေက်ာ္ခန္ ့ တန္ဖိုး႐ွိေသာ ဆန္ငါးအိတ္ႏွင့္ အသံုးအေဆာင္ ပစၥည္းမ်ား၊ အဝတ္အထည္မ်ားကို သြားေရာက္လွဴဒါန္းျခင္း၊ စစ္တမ္းေကာက္ခံျခင္းႏွင့္ အားေပး ႏွစ္သိမ့္မႈမ်ား ျပဳလုပ္ေပးခဲ့ပါတယ္။ ထို ့နည္းတူစြာ ၂၀၁၅ခုႏွစ္တြင္ ေရေဘးအႏၱရာယ္ က်ေရာက္ ခဲ့ေသာ ဧရာဝတီျမစ္႐ိုးတစ္ေလွ်ာက္႐ွိ ေမ့အားမာန္အဖြဲ ့ဝင္မ်ားထံသို ့လည္း အျခားေသာ ျပည္နယ္ ႏွင့္ တိုင္းမ်ားမွ ၿမိဳ႕နယ္ဦးေဆာင္အဖြဲ ့ဝင္မ်ား၊ ေမ့အားမာန္၏ မိတ္ေဆြ ဆရာ၊ ဆရာမ်ားႏွင့္ ေမ့အားမာန္အဖြဲ ့ဝင္မ်ားမွ ကူညီလွဴဒါန္းမႈမ်ားကိုလဲ စနစ္တက် စီမံခန္ ့ခြဲေပးႏိုင္ခဲ့ပါသည္။ \nက်မတို ့၏ ေမအားမာန္ႏွင့္တကြ အျခားေသာ ၿမိဳ႕နယ္ဦးေဆာင္အဖဲြ႕၀င္ ညီအစ္မမ်ား အေႀကာင္း ကိုလည္း မွ်ေ၀ေပးလိုပါသည္။ တစ္ႏိုင္ငံလံုးတြင္ ၿမိဳ႕နယ္(၃၁) ၿမိဳ႕နယ္ရွိ ၿမိဳ႕နယ္ဦးေဆာင္အဖြဲ ့မ်ား သည္ အရပ္ဘက္လူမႈအဖဲြ႕အစည္းမ်ားအျဖစ္ မွတ္ပံုတင္ထားၿပီး မိမိတို႔၏ အဖြဲ႕ဝင္ ကိုယ့္အား ကိုယ္ကိုးအုပ္စုမ်ားအား အဖြဲ ့အစည္းဆိုင္ရာ စီမံခန္ ့ခြဲမႈ၊ ေငြေၾကးဆိုင္ရာစီမံခန္ ့ခြဲမႈ၊ အမ်ိဳးသမီး မ်ားႏွင့္ ပတ္သက္ေသာ အိမ္တြင္းအၾကမ္းဖက္မႈ၊ ကေလးသူငယ္မ်ားအား ျပဳစုေစာင့္ေ႐ွာက္ျခင္း၊ က်ား မ တန္းတူအခြင့္အေရးရ႐ွိမႈႏွင့္ ပတ္သက္ေသာ သင္တန္းမ်ား၊ လူကုန္ကူးျခင္းႏွင့္ ပတ္သက္ ေသာ သင္တန္းမ်ား၊ အသိပညာေပးအစီအစဥ္ႏွင့္ ဆင့္ပြားသင္တန္းမ်ားေပးျခင္း၊ အသက္ေမြး ဝမ္းေက်ာင္းႏွင့္ ပတ္သတ္ေသာ လက္မႈအတတ္ပညာမ်ား သင္ၾကားေပးျခင္း၊ ၿမိဳ႕နယ္႐ွိ ရပ္ရြာလူထု မ်ားအတြက္ ပညာေရးႏွင့္ က်န္းမာေရးတိုးတက္ေစေသာ လုပ္ေဆာင္ခ်က္မ်ားေဆာင္ရြက္ရန္ အရပ္ဘက္လူမႈအဖဲြ႕အစည္းမ်ားႏွင့္ အစိုးရအဖြဲ႕အစည္းမ်ား၊ အမ်ိဳးသမီးေရးရာအဖြဲ ့ခ်ဳပ္၊ ျမန္မာ ႏိုင္ငံ မိခင္ႏွင့္ ကေလးေစာင့္ေ႐ွာက္ေရးအဖြဲ ့ စသည္တို ့ႏွင့္ ခ်ိတ္ဆက္ေဆာင္ရြက္လ်က္႐ွိၿပီး ဧရာဝတီတိုင္းေဒသႀကီး က်ိဳက္လတ္ၿမိဳ ့နယ္ရွိ ေမတို ့အားမာန္ ၿမိဳ႕နယ္ဦးေဆာင္အဖြဲ ့သည္ လူမႈေရးလုပ္ငန္းမ်ားကို အေကာင္းဆံုးေဆာင္ရြက္ႏိုင္သည့္ အရပ္ဘက္လူမႈအဖြဲ႕အစည္းအျဖစ္ တိုင္းေဒသႀကီးအစိုးရအဖြဲ႕မွ အသိအမွတ္ျပဳ ဂုဏ္ျပဳလက္မွတ္ရ႐ွိထားပါသည္။ \nနိဂံုးခ်ဳပ္အေနျဖင့္ ၿမိဳ႕နယ္ဦးေဆာင္အဖဲြ႕မ်ားအခ်င္းခ်င္း ရင္ဆိုင္ႀကံဳေတြ ့ေနရေသာ အခက္အခဲႏွင့္ စိန္ေခၚမႈမ်ားအား ေျဖ႐ွင္းႏိုင္သည့္ စြမ္းရည္မ်ားရ႐ွိရန္၊ ေက်းလက္ေန အမ်ိဳးသမီးမ်ား၏ ေခါင္းေဆာင္ႏိုင္မႈကို အားေပးျမႇင့္တင္ရန္ႏွင့္ အျခားေသာရည္ရြယ္ခ်က္ေကာင္းမ်ားျဖင့္ ဖြဲ ့စည္း ထားသည့္ ေမတို ့ကမၻာ ႏိုင္ငံလံုးဆိုင္ရာ အမ်ိဳးသားကြန္ယက္တြင္ ေက်းလက္ေန အမ်ိဳးသမီး အဖဲြ႕မ်ားမွ အစိတ္အပိုင္းတစ္ခုအေနျဖင့္ ပူးေပါင္းပါဝင္ခြင့္ရသည့္အတြက္ ေက်းလက္ေန အမ်ိဳး သမီးမ်ားျဖစ္သည့္ ကၽြန္မတို ့သည္ ဝမ္းသာဂုဏ္ယူေက်နပ္မိပါေၾကာင္း ေျပာၾကားလိုပါသည္။ \n\nေဒၚႏုႏုရီ\n",
+        "createdAt": "2016-02-27T08:56:02.812Z",
+        "credit_link": "https://www.facebook.com/May-Doe-Kabar-1639831926295425/?fref=ts",
+        "credit_link_mm": "https://www.facebook.com/May-Doe-Kabar-1639831926295425/?fref=ts",
+        "credit_logo_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-c7dc7b54-84a0-4683-a81e-5cb5c9660578-MDKB.png",
+        "credit_name": "Credit to May Doe Kabar\n",
+        "image": {
+            "__type": "File",
+            "name": "tfss-fa394f15-ffc9-4b5f-8355-0e706b125eae-Daw Nu Nu Yi.jpg",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-fa394f15-ffc9-4b5f-8355-0e706b125eae-Daw%20Nu%20Nu%20Yi.jpg"
+        },
+        "isAllow": true,
+        "likes": 2,
+        "objectId": "RgabnHAppa",
+        "postUploadName": "ေဒၚႏုႏုရီ",
+        "postUploadUserImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-1c4337fc-8682-4b7a-a9c5-0090712a8707-Daw%20Nu%20Nu%20Yi.jpg",
+        "postUploadedDate": {
+            "__type": "Date",
+            "iso": "2015-10-15T09:12:00.000Z"
+        },
+        "post_author_role": "May Doe Kabar Board Member",
+        "post_author_role_mm": "ေမတိုု႕ကမာၻ ဦးေဆာင္ေကာ္မတီ",
+        "share_count": 0,
+        "title": "I Am Very Proud To Be Part Of May Doe Kabar National Network Of Rural Myanmar Women",
+        "titleMm": "ေမတို႔ကမၻာ ႏို္င္ငံလံုးဆိုင္ရာ ေက်းလက္အမ်ိဳးသမီးကြန္ယက္၏ အဖဲြ႕၀င္ျဖစ္ရျခင္းအတြက္ အလြန္ဂုဏ္ယူမိပါသည္",
+        "updatedAt": "2016-03-03T06:05:00.064Z",
+        "userId": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "s7BwJHojk5"
         }
     },
 	{
@@ -1295,7 +1336,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-145a9cce-2de8-44d2-b148-9f54e3104f5c-Ann-Daniels-Main.jpg"
         },
         "isAllow": true,
-        "likes": 4,
+        "likes": 17,
         "objectId": "S8eA0FNbdZ",
         "postUploadName": "Ann Daniels",
         "postUploadUserImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-ef6044cf-08c5-49bd-b74c-04975382f7c1-ann.png",
@@ -1305,10 +1346,10 @@
         },
         "post_author_role": "Explorer and International Speaker",
         "post_author_role_mm": "စူးစမ္းေလ့လာသူႏွင့္ စိတ္ဓာတ္ျမႇင့္တင္ေရး ေဟာေျပာသူ",
-        "share_count": 1,
+        "share_count": 3,
         "title": "Have the Courage to Follow Your Own Path in Life",
         "titleMm": "မိမိကိုယ္တိုင္ ေရြးခ်ယ္ထားေသာ ဘ၀လမ္းကို ရဲရဲေလွ်ာက္လွမ္းပါ",
-        "updatedAt": "2016-02-01T09:27:08.694Z",
+        "updatedAt": "2016-03-03T14:55:55.745Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -1336,7 +1377,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-a62420ec-5c03-4d24-968c-c1e401c66f4e-Carol%20Dweck.jpg"
         },
         "isAllow": true,
-        "likes": 30,
+        "likes": 35,
         "objectId": "Sozeo3tK3M",
         "postUploadName": "Carol Dweck",
         "postUploadPersonImg": {
@@ -1353,11 +1394,50 @@
         "share_count": 0,
         "title": "The Power of Believing that you can Improve ",
         "titleMm": "ကိုယ့္ကိုယ္ကို ျမႇင့္တင္နိုင္တယ္ဆိုတဲ့ ယုံၾကည္မွုရဲ့ စြမ္းအား။",
-        "updatedAt": "2016-01-30T16:04:11.391Z",
+        "updatedAt": "2016-03-02T09:02:18.577Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
             "objectId": "P8Q6mhIfOG"
+        }
+    },
+	{
+        "authorId": {
+            "__type": "Pointer",
+            "className": "Author",
+            "objectId": "UPQcb43dxx"
+        },
+        "comment_count": 0,
+        "content": "Becoming a fashion designer, and then becoming the founder of a global movement for a better fashion industry, were both something of an accident. Neither of these were planned out in advance, and neither of them have any links with my previous studies or skills. \n\nBut when I think more closely about my motivations for starting both of these organisations, I can see that they both stem very clearly from two things. Firstly, a deep feeling of outrage at the poverty and injustice I have seen before me. Secondly, the belief that we all have the potential, indeed an obligation, to do something to tackle injustice.  \n\nIf I hadn't picked up Anita Roddick's autobiography, the founder of the Body Shop, my life would have been very different. After reading the book, I decided that if one woman could make such a difference in the beauty industry, with no experience, there was nothing to stop me from doing the same in the fashion industry, at least in my summer holidays. Anita Roddick, once said ‘If you think you’re too small to make a difference, try going to bed with a mosquito’. I had visited Ecuador on a research trip the previous year, where I met co-operatives who had experienced arson attacks due to the threat they posed to the middlemen controlling the garment industry. Seeing the weighing scales, an international symbol of justice, being loaded with wool on one side and then seeing the producers being charged a price which bore no resemblance to the supposed cost per kilo, I had felt a sense of outrage at the clear discrimination being practised before me.   With no experience in design or fashion, I produced a series of knitwear patterns and returned to the co-operatives in Ecuador to put them into production. \n\nI hadn't envisaged the success of my first collection, nor realised the positive impact it would have on my producers' livelihoods, so at the end of the summer I decided to turn down my fully funded PhD. I named my new business Pachacuti, meaning world upside-down in the Quechua language of the Andes, as it signified my desire to redress the inequalities in the fashion industry through demonstrating that it was possible to run a successful clothing and accessories business which benefitted marginalised producers and was environmentally sustainable.  It wasn’t easy – in the early years I had thefts and death threats, but this only made me more determined to succeed. Eventually, my clothing and accessories were exhibited at London, Paris and Milan Fashion Week and sold around the world.\n\nThen, in 2013, the Rana Plaza garment factory complex collapsed in Bangladesh, killing 1134 and injuring over 2500, mostly women. A couple of later, on Sunday evening, I ran myself a hot bath and the idea to start a Fashion Revolution just popped into my head in the bathtub.  I really feel that it wasn’t my idea – it was given to me. But I had to act on it. I had to get straight out of my bath and do something about it. I’m sure that, had I stayed to enjoy my bath, I would have rationalised the idea out of my head and it would have gone nowhere.\n\nI have never been a confident, outgoing person, but I believe that learning confidence is a journey. In my case it was a long journey.  I feel as if I have always been confident in myself, in my own voice, in my thoughts and beliefs, but I was reticent to express them to other people.  At school and University I rarely put my hand up in class and would never have imagined I would one day feel at ease speaking in front of a full auditorium. Fear is a necessary stage you have to pass through in order to stretch yourself and grow. And sometimes, as happened to me with Fashion Revolution, you just get pitched straight into the spotlight and have to deal with it.\n\n\nI phoned a few friends in the fashion industry and we started to put together an amazing team of people in the UK. Gradually, more and more people around the world heard what was happening and wanted to be part of it. We are people from all around the world who make the fashion industry work. We are the people who wear clothes. And we are the people who make them.  And we want to see fashion become a force for good.\n\n\nFashion Revolution is a global movement, operating year-round in over 80 countries. We have named the anniversary of the Rana Plaza disaster Fashion Revolution Day. We use this day to encourage millions of people to show their labels and ask brands ‘Who made my clothes’? We want to see the faces and hear the stories from thousands of makers, farmers and producers. We want to see an increasing number of brands make their supply chains more transparent, because we can’t start to tackle exploitation until we can see it.  We believe that rebuilding the broken links across the whole supply chain, from farmer to consumer, is the only way to transform the entire industry. Fashion Revolution brings everyone together to make that happen.\n\nIf you make clothing or accessories, I would love you to post your photo on social media during Fashion Revolution Week, from 18th to 24th April, with the hashtag #imadeyourclothes\n\nBest wishes\n\nCarry Somers\n\n3 tips for women’s leadership:\n1. You need persistence, bravery and a sense of purpose.\n2. Show your passion. Passion is contagious and engaging.\n3. You can fake confidence. Be well prepared and wear clothes which make you feel good. Practice and good preparation are essential.\n",
+        "contentType": "Letter",
+        "content_mm": "ကၽြန္မအတြက္ ဖက္ရွင္ဒီဇိုင္နာတစ္ေယာက္ျဖစ္လာတာ၊ ေနာက္ပိုင္းမွာ ဖက္ရွင္လုပ္ငန္း ဖံြ႕ၿဖိဳးတုိးတက္္ေရးအတြက္ ကမၻာလံုးဆိုင္ရာလႈပ္ရွားမႈကို ဦးေဆာင္သူတစ္ဦး ျဖစ္လာတာဟာ မရည္ရြယ္ဘဲ ျဖစ္လာခဲ့တာ ျဖစ္ပါတယ္။ ႀကိဳတင္စီစဥ္ထားတာ မဟုတ္သလို ကၽြန္မ မူလသင္ယူခဲ့တဲ့ ပညာရပ္ေတြ၊ ကၽြမ္းက်င္မႈေတြနဲ႕လည္း ဆက္စပ္မႈ မရွိပါဘူး။  \n\nဒါေပမယ့္ ဒီအဖဲြ႕အစည္းႏွစ္ခုစလံုးကို စတင္ဖို႔ ကၽြန္မကို တြန္းအားေပးႏိုးေဆာ္ခဲ့တဲ့ အရာေတြကို ေသေသခ်ာခ်ာ စဥ္းစားၾကည့္မိတဲ့အခါ အခ်က္ႏွစ္ခ်က္ကို ရွင္းရွင္းလင္းလင္း ေတြ႕ရွိရပါတယ္။ ပထမတစ္ခ်က္က ကၽြန္မရဲ႕ မ်က္စိေရွ႕မွာ ျမင္ေတြ႕ေနရတဲ့ ဆင္းရဲႏြမ္းပါးမႈေတြနဲ႕ မတရားမႈေတြအေပၚ စက္ဆုပ္လွတာေၾကာင့္ ျဖစ္ပါသည္။ ဒုတိယအခ်က္ကေတာ့ ကၽြန္မတို႔အားလံုးမွာ မတရားမႈေတြကို ရင္ဆိုင္ေျဖရွင္းႏိုင္စြမ္းေတြ ရွိတယ္၊ အမွန္တကယ္ေတာ့ တာ၀န္ရွိတယ္လို႔ ယံုၾကည္လို႔ပဲ ျဖစ္ပါတယ္။   \n\nကၽြန္မဟာ Body Shop ကို တည္ေထာင္သူ အန္နီတာေရာ့ဒ္ဒစ္ရဲ႕ ကိုယ္တိုင္ေရးအတၳဳပတၱိကို မဖတ္ျဖစ္ခဲ့ရင္ ကၽြန္မရဲ႕ ဘ၀လည္း တစ္မ်ိဳးတစ္ဖံု ျဖစ္ေနလိမ့္မယ္လို႔ ထင္ပါတယ္။ အဲဒီစာအုပ္ကို ဖတ္ၿပီးတဲ့ေနာက္မွာ အမ်ိဳးသမီးတစ္ဦးဟာ အေတြ႕အၾကံဳမရွိဘဲနဲ႕ အလွအပေရးရာ လုပ္ငန္းမွာ အဲဒီေလာက္ႀကီးမားေသာ ေအာင္ျမင္မႈကို ရေအာင္လုပ္ႏိုင္တယ္ဆိုရင္ ကၽြန္မလည္း အနည္းဆံုး ေက်ာင္းပိတ္တဲ့ ေႏြရာသီအားလပ္ရက္အတြင္းမွာေတာ့ ဖက္ရွင္လုပ္ငန္းမွာ အဲဒီလို ေအာင္ျမင္မႈမ်ိဳးကို ရေအာင္ မလုပ္ႏိုင္စရာ မရွိဘူးလုိ႔ ဆံုးျဖတ္မိပါတယ္။  အန္နီတာေရာ့ဒ္ဒစ္က တစ္ခါက ေျပာခဲ့ဖူး ပါတယ္။ `သင္ဟာ ေသးငယ္လြန္းလို႔ ထူးထူးျခားျခား စြမ္းေဆာင္ဖို႔ မျဖစ္ႏိုင္ဘူးလို႔ သင့္ကိုယ္သင္ ထင္ေနတယ္ဆိုရင္ ျခင္တစ္ေကာင္ကို အိပ္ရာထဲထည့္ၿပီး အတူ အိပ္ၾကည့္လိုက္ပါ´ တဲ့။ မႏွစ္က ကၽြန္မဟာ အီေကြေဒါကို သုေတသနခရီးစဥ္တစ္ခု သြားေရာက္ခဲ့ပါတယ္။ အီေကြေဒါမွာ အထည္ခ်ဳပ္လုပ္ငန္းကို ထိန္းခ်ဳပ္ထားေသာ တစ္ဆင့္ခံအျမတ္တင္ေရာင္းသူေတြဟာ သမ၀ါယမလုပ္ငန္းေတြကို အႏၱရာယ္လို႔ ယူဆတဲ့အတြက္ အဲဒီလုပ္ငန္းေတြကို မီးရိႈ႕ဖ်က္ဆီးၿပီး တိုက္ခိုက္ၾကပါတယ္။ တရားမွ်တမႈအတြက္ ႏိုင္ငံတကာ သေကၤတတစ္ခုျဖစ္တဲ့ ခ်ိန္ခြင္မွာ သိုးေမြးေတြကို တစ္ဖက္မွာ တင္ခ်ိန္ၿပီးေတာ့ အထည္ထုတ္လုပ္သူေတြဆီက အဆမတန္ ေတာင္းတာေတြကို ျမင္ေတြ႕ခဲ့ရပါတယ္။ ကၽြန္မေရွ႕မွာ ကြက္ကြက္ကြင္းကြင္း ျမင္ေတြ႕ေနရတဲ့ ခဲြျခားဆက္ဆံမႈတြအတြက္ ခံျပင္းေဒါသေတြ တလိပ္လိပ္တက္ခဲ့ရပါတယ္။ ဒီဇိုင္း ဒါမွမဟုတ္ ဖက္ရွင္နဲ႕ပတ္သက္လို႔ အေတြ႕အၾကံဳလံုး၀ မရွိေပမယ့္ ကၽြန္မဟာ သိုးေမြးထည္ဒီဇိုင္း ေတြကို တစ္ခုၿပီးတစ္ခု ေရးဆဲြၿပီး အထည္ေတြ ထုတ္လုပ္ဖို႔အတြက္ အီေကြေဒါက သမ၀ါယမ လုပ္ငန္းေတြဆီကို ကၽြန္မ ျပန္သြားခဲ့ပါတယ္။  \n\nကၽြန္မ ပထမဆံုးထုတ္လုပ္လိုက္တဲ့ ဒီဇိုင္းေတြဟာ မထင္မွတ္ဘဲ ေအာင္ျမင္မႈရခဲ့ၿပီး ကၽြန္မ ဒီဇိုင္းေတြကို ထုတ္လုပ္တဲ့သူေတြရဲ႕ အသက္ေမြးေက်ာင္းမႈလုပ္ငန္းေတြမွာလည္း ေကာင္းက်ိဳးေတြ ရရွိခဲ့ပါတယ္။ အဲဒါေၾကာင့္ အဲဒီေႏြရာသီ ကုန္ဆံုးခ်ိန္မွာ ကၽြန္မဟာ ေဒါက္တာဘဲြ႕ရေအာင္ သင္ယူဖို႔ ပညာသင္စရိတ္အျပည့္ ေပးတာကို ျငင္းဆိုလိုက္ၿပီး ဖက္ရွင္လုပ္ငန္းတစ္ခုကို စတင္ထူေထာင္ခဲ့ပါတယ္။ ကၽြန္မရဲ႕ လုပ္ငန္းသစ္ကို ပါခ်ာကူတီ (Parchacuti) လို႔ နာမည္ေပးခဲ့ပါတယ္။ အင္ဒီးစ္ေတြရဲ႕ ကက္ခ်ဴ၀ါဘာသာစကားနဲ႕ ကမၻာႀကီးကို ေျပာင္းျပန္လွန္မယ္လို႔ အဓိပၸါယ္ရပါတယ္။  ဖယ္က်ဥ္ခံထားရတဲ့ ထုတ္လုပ္သူေတြကို အက်ိဳးျပဳႏိုင္ၿပီး သဘာ၀ပတ္၀န္းက်င္ကိုလည္း ထိန္းသိမ္းေစာင့္ေရွာက္ႏိုင္တဲ့ အ၀တ္အထည္ႏွင့္ တဲြဖက္အလွဆင္ပစၥည္း လုပ္ငန္းတစ္ခုကို ေအာင္ျမင္ေအာင္ လက္ေတြ႕လုပ္ေဆာင္ၿပီး ဖက္ရွင္လုပ္ငန္းမွာ တန္းတူညီမွ် မရွိမႈေတြကို ေျဖရွင္းေပးလိုတာဟာ ကၽြန္မ၏ ျပင္းျပတဲ့ စိတ္ဆႏၵျဖစ္ပါတယ္။ အဲဒီစိတ္ဆႏၵကို ေဖာ္ၾကဴးႏိုင္ဖို႔အတြက္ အဲဒီအမည္ကို ေပးခဲ့တာ ျဖစ္ပါတယ္။ လြယ္ေတာ့မလြယ္ပါဘူး။ ေရွ႕ပိုင္းႏွစ္ေတြမွာ ခိုးယူဖ်က္ဆီးမႈေတြနဲ႕ အသက္အႏၱရာယ္ၿခိမ္းေျခာက္မႈေတြကို ခံခဲ့ရပါတယ္။ ဒါေပမယ့္ အဲဒီအရာေတြက ကၽြန္မကို မတားဆီးႏိုင္ခဲ့ပါဘူး။ ေအာင္ျမင္ေအာင္လုပ္မွ ျဖစ္မယ္လို႔ ပိုၿပီးေတာ့ေတာင္ ခိုင္ခိုင္မာမာ စိတ္ပိုင္းျဖတ္ခဲ့ပါတယ္။ ေနာက္ဆံုးမွာ ကၽြန္မရဲ႕ အ၀တ္အထည္ေတြနဲ႕ တဲြဖက္အလွဆင္ပစၥည္းေတြဟာ လန္ဒန္၊ ပဲရစ္နဲ႕ မီလန္ ဖက္ရွင္ရက္သတၱပတ္ေတြမွာ ခင္းက်င္းျပသခံရၿပီး ကမၻာနဲ႕အ၀ွမ္းမွာ ေရာင္းခ်ႏိုင္ခဲ့ပါတယ္။ \n\nအဲဒီေနာက္ ၂၀၁၃ခုႏွစ္မွာ ဘဂၤလားေဒ့ရွ္က ရာနာပလာဇာအထည္စက္ရံုႀကီး ၿပိဳက်ခဲ့တာ လူေပါင္း ၁၁၃၄ဦး ေသဆံုးၿပီး ၂၅၀၀ ေက်ာ္ ဒဏ္ရာရခဲ့ပါတယ္။ အမ်ားစုက အမ်ိဳးသမီးေတြပါ။ ႏွစ္ႏွစ္ခန္႕ ၾကာၿပီးတဲ့ေနာက္ တနဂၤေႏြညေနခင္းတစ္ခုမွာ ကၽြန္မဟာ ေရေႏြးနဲ႕ ေရစိမ္ခ်ိဳးေနတုန္း ေရခ်ိဳးကန္ထဲမွာပဲ ဖက္ရွင္ေတာ္လွန္ေရးတစ္ခုကို စတင္ဖုိ႔ ရုတ္တရက္ အၾကံရလိုက္ပါတယ္။ အဲဒီအၾကံဟာ ကၽြန္မရဲ႕ အၾကံမဟုတ္ဘဲ ဘုရားသခင္က ကၽြန္မကို ေပးအပ္လာတဲ့ အၾကံတစ္ခု ျဖစ္ပါတယ္။ ဒါေပမယ့္ အဲဒီအၾကံကို လက္ေတြ႕အေကာင္အထည္ေဖာ္ဖို႔ ကၽြန္မက လုပ္ရမယ္။ ကၽြန္မဟာ ေရခ်ိဳးကန္ထဲက ခ်က္ခ်င္းထြက္ၿပီး တစ္ခုခု လုပ္ရမယ္လို႔ ေတြးခဲ့တယ္။ ေတြးတဲ့အတိုင္း လုပ္ခဲ့တယ္။ အဲဒီတုန္း ကၽြန္မသာ ေရဆက္ခ်ိဳးေနမိမယ္ဆိုရင္ အဲဒီ အေတြးက ေခါင္းထဲက ထြက္သြားၿပီး လြင့္ျပယ္သြားမွာ ေသခ်ာပါတယ္။\n\nကၽြန္မဟာ ဘယ္တုန္းကမွ ယံုၾကည္ခ်က္ရွိၿပီး ပြင့္လင္းေဖာ္ေရြတဲ့သူတစ္ဦး မဟုတ္ခဲ့ပါဘူး။ ဒါေပမယ့္ ယံုၾကည္မႈကို တည္ေဆာက္တာဟာ ခရီးတစ္ခုလုိ႔ ကၽြန္မ ယံုၾကည္ပါတယ္။ ကၽြန္မအတြက္ေတာ့ အဲဒီခရီးက ရွည္လ်ားလွပါတယ္။ ကၽြန္မဟာ ကၽြန္မကိုယ္ကၽြန္မ၊ ကၽြန္မရဲ႕ အသံ၊ ကၽြန္မရဲ႕အေတြးေတြနဲ႕ ယံုၾကည္ခ်က္ေတြကို အၿမဲတမ္း ယံုၾကည္ခဲ့တယ္လို႔ ခံစားရပါတယ္။ ဒါေပမယ့္ အဲဒါေတြကို တျခားလူေတြကို ေျပာျပဖို႔ ကၽြန္မ တြန္႕ဆုတ္ခဲ့တာပါ။ ေက်ာင္းတုန္းက၊ တကၠသိုလ္တုန္းက အတန္းထဲမွ ကၽြန္မ လက္ေထာင္ခဲပါတယ္။ တစ္ေန႕မွာ ကၽြန္မဟာ ရံုအျပည့္အလွ်ံ ပရိတ္သတ္ေတြရဲ႕ ေရွ႕မွာ ေအးေဆးသက္သာ စကားေျပာႏိုင္ဖို႔ဆိုတာ စိတ္ကူးထဲမွာေတာင္ တစ္ခါမွ ေတြးမၾကည့္ခဲ့ဖူးတဲ့ အရာပါ။ မိမိရဲ႕ ျမဳပ္ေနတဲ့ အစြမ္းအစေတြကို ထြက္လာေအာင္လုပ္ၿပီး ဖံြ႕ၿဖိဳးတိုးတက္ႏိုင္ဆိုရင္ ေၾကာက္ရႊံ႕မႈဟာ မျဖစ္မေနျဖတ္သန္းဖို႔လိုအပ္တဲ့ အဆင့္တစ္ဆင့္ ျဖစ္ပါတယ္။ တစ္ခါတစ္ရံမွာ ဖက္ရွင္ေတာ္လွန္ေရးကို ကၽြန္မ လုပ္ခဲ့သလိုမ်ိဳး သင္ဟာ တည့္တည့္ခုန္၀င္ၿပီး ထပ္တိုက္ရင္ဆိုင္ပစ္လိုက္ရမွာပါ။   \n\n\nဖက္ရွင္လုပ္ငန္းမွာ လုပ္ေနတဲ့ သူငယ္ခ်င္းတစ္ခ်ိဳ႕ကို ကၽြန္မ ဖုန္းဆက္တယ္။ ယူေကမွာ ရွိတဲ့ လူေတြကို စတင္စုစည္းၿပီး အရမ္းေကာင္းတဲ့ အသင္းတစ္သင္းကို ဖဲြ႕စည္းခဲ့ၾကပါတယ္။ တျဖည္းျဖည္းနဲ႕ ကမၻာအရပ္ရပ္က လူေတြဟာ ဘာေတြျဖစ္ေနတယ္ဆိုတာ ပိုပို သိလာၾကၿပီး ပါ၀င္ခ်င္လာၾကပါတယ္။ ကၽြန္မတို႔ဟာ ဖက္ရွင္လုပ္ငန္းႀကီး လည္ပတ္ဖို႔ လုပ္ေဆာင္ေနတဲ့ ကမၻာအရပ္ရပ္က လူေတြျဖစ္ပါတယ္။ ကၽြန္မတို႔ဟာ အ၀တ္အစားေတြ ၀တ္ၾကတယ္။ ကၽြန္မတို႔ဟာ အ၀တ္အစားေတြ ခ်ဳပ္ၾကတယ္။ ၿပီးေတာ့ ကၽြန္မတို႔ဟာ ဖက္ရွင္ကို လူေတြေကာင္းဖို႔အတြက္ အားတစ္ခုအျဖစ္ ျမင္ေတြ႕ခ်င္ပါတယ္။\n\n\nဖက္ရွင္ေတာ္လွန္ေရးဟာ ႏိုင္ငံေပါင္း ၈၀ ေက်ာ္မွာ တစ္ႏွစ္ပတ္လံုး ေဆာင္ရြက္ေနတဲ့ ကမၻာလံုးဆိုင္ရာ လႈပ္ရွားမႈတစ္ခု ျဖစ္ပါတယ္။ ကၽြန္မတို႔ဟာ ရာနာပလာဇာ ကပ္ေဘးႀကီးရဲ႕ ႏွစ္ပတ္လည္ေန႕ကို ဖက္ရွင္ေတာ္လွန္ေရးေန႕လို႔ အမည္ေပးခဲ့ပါတယ္။ ကၽြန္မတို႔ဟာ ဒီေန႕ကို အသံုးျပဳၿပီး သန္းနဲ႕ခ်ီတဲ့ လူေတြကို သူတို႔ရဲ႕ အမွတ္တံဆိပ္ေတြကို ျပသၿပီး `ကၽြန္ေတာ္/ ကၽြန္မတို႔ရဲ႕ အ၀တ္အစားေတြကို ဘယ္သူခ်ဳပ္တာလဲ´ ဆိုတာ ေျပာျပဖို႔ အားေပးပါတယ္။ ကၽြန္မတို႔ဟာ ခ်ဳပ္လုပ္သူေတြ၊ စို္က္ပ်ိဳးေမြးျမဴသူေတြနဲ႕ ထုတ္လုပ္သူေတြ ေထာင္ေပါင္းမ်ားစြာရဲ႕ မ်က္ႏွာေတြကို ျမင္ေတြ႕ခ်င္ၿပီး သူတို႔ ေျပာျပတဲ့ ဇာတ္လမ္းေတြကို နားေထာင္ခ်င္ပါတယ္။ ထုတ္လုပ္ျဖန္႕ခ်ိမႈကြင္းဆက္ကို ပိုၿပီး ပြင့္လင္းျမင္သာရွိစြာ လုပ္ေဆာင္လာတဲ့  အမွတ္တံဆိပ္ေတြ ပိုမ်ားလာတာကို ကၽြန္မတို႔ ျမင္ခ်င္ပါတယ္။ ဘာေၾကာင့္လဲဆိုေတာ့ ေခါင္းပံုျဖတ္အျမတ္ထုတ္ေနတာကို မ်က္ျမင္မေတြ႕ရဘဲနဲ႕ ကၽြန္မတို႔ ဘယ္လိုလုပ္  ေျဖရွင္းေပးႏိုင္မွာလဲ။ စိုက္ပ်ိဳးေမြးျမဴတဲ့သူေတြကေန သံုးစဲြသူေတြအထိ ထုတ္လုပ္ျဖန္႕ခ်ိမႈကြင္းဆက္ႀကီးတစ္ခုလံုးမွာ က်ိဳးပ်က္ေနတဲ့ ကြင္းဆက္ေတြကို ျပန္ၿပီး တည္ေဆာက္ခ်ိတ္ဆက္ေပးတာဟာ လုပ္ငန္းႀကီးတစ္ခုလံုးကို အသြင္ကူးေျပာင္းေပးႏိုင္မယ့္ တစ္ခုတည္းေသာ နည္းလမ္းလုိ႔ ယံုၾကည္ပါတယ္။ ဖက္ရွင္ေတာ္လွန္ေရးဟာ ဒီလိုျဖစ္ဖို႔အတြက္ လူေတြကို ေပါင္းစည္းေဆာင္ရြက္ေစပါတယ္။ \n\nသင္ဟာ အ၀တ္အစား ဒါမွမဟုတ္ တဲြဖက္အလွဆင္ပစၥည္းေတြကို ဖန္တီးထားတယ္ဆိုရင္ ဧၿပီလ ၁၈ ရက္ကေန ၂၄ရက္အထိ က်င္းပတဲ့ ဖက္ရွင္ေတာ္လွန္ေရးရက္သတၱပတ္မွာ သင့္ရဲ႕ ဓာတ္ပံုကို လူမႈမီဒီယာမွာ #imadeyourclothes ဆိုတဲ့ # ဟက္ရွ္တက္ဂ္သေကၤတနဲ႕အတူ တင္ေပးထားခ်င္ပါတယ္။  \n\nဆုမြန္ေကာင္းမ်ားေတာင္းလ်က္\n\nကယ္ရီဆန္းမား\n\nအမ်ိဳးသမီးမ်ား၏ ေခါင္းေဆာင္မႈအတြက္ အၾကံျပဳခ်က္ ၃ ခ်က္ \n၁။ သင့္မွာ မေလွ်ာ့ေသာ ဇဲြ၊ သတၱိနဲ႕ ဘ၀မွာ တိက်တဲ့ ရည္မွန္းခ်က္ ရွိဖို႔လိုပါတယ္။ \n၂။ သင့္ရဲ႕ ထက္သန္ျပင္းျပမႈကို ျပသလိုက္ပါ။ ထက္သန္မႈဟာ ကူးစက္တတ္ၿပီး လူေတြကို ဆဲြေဆာင္သိမ္းသြင္းႏိုင္ပါတယ္။\n၃။ သင့္မွာ ယံုၾကည္ခ်က္ရွိတယ္လို႔ ဟန္ေဆာင္ႏိုင္ပါတယ္။ ေကာင္းစြာျပင္ဆင္ပါ။ သင့္ကိုယ္သင္ ယံုၾကည္မႈ တိုးေစမယ့္ အ၀တ္အစားေတြကို ၀တ္ဆင္ပါ။ ေလ့က်င့္မႈနဲ႕ ေကာင္းစြာ ျပင္ဆင္မႈေတြဟာ အလြန္အေရးႀကီးပါတယ္။ \n",
+        "createdAt": "2016-02-27T07:25:14.440Z",
+        "credit_logo_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-b7c6c894-8714-4354-8eef-3e3c2a045a1f-gwso.png",
+        "credit_name": "Great Women Speak Out! Charity",
+        "image": {
+            "__type": "File",
+            "name": "tfss-9c82c2a1-91ee-407a-9a2d-b0106abc9ecc-Carry Photo.jpg",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-9c82c2a1-91ee-407a-9a2d-b0106abc9ecc-Carry%20Photo.jpg"
+        },
+        "isAllow": true,
+        "likes": 4,
+        "objectId": "TkbXL9dDI9",
+        "postUploadName": "Carry Somers",
+        "postUploadUserImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-f465ec87-87c5-490f-bc39-ca97c8cf1f92-Carry%20Photo.jpg",
+        "postUploadedDate": {
+            "__type": "Date",
+            "iso": "2016-02-10T08:02:00.000Z"
+        },
+        "post_author_role": "Founder Fashion Revolution",
+        "post_author_role_mm": "ဖက္ရွင္ေတာ္လွန္ေရး (Fashion Revolution) တည္ေထာင္သူ",
+        "share_count": 0,
+        "title": "Learning confidence is a journey.",
+        "titleMm": "ယံုၾကည္မႈတည္ေဆာက္ျခင္း သည္ ခရီးတစ္ခု ျဖစ္ပါသည္။",
+        "updatedAt": "2016-03-02T09:10:37.748Z",
+        "userId": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "UPQcb43dxx"
         }
     },
 	{
@@ -1413,7 +1493,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-b24e6ed7-7d3c-4368-a14e-ae156cfee3d2-chimamanda.jpg"
         },
         "isAllow": true,
-        "likes": 23,
+        "likes": 25,
         "objectId": "V0w37hZ7Aw",
         "postUploadName": "Chimamanda Ngozi Adichie",
         "postUploadPersonImg": {
@@ -1430,7 +1510,7 @@
         "share_count": 5,
         "title": "The Danger of a single story",
         "titleMm": "တစ္ပုဒ္တည္းေသာ ပံုျပင္၏ အနၱရာယ္",
-        "updatedAt": "2016-01-10T00:11:17.006Z",
+        "updatedAt": "2016-03-02T08:55:51.749Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -1549,7 +1629,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-32540502-016a-4e2b-88bf-bb13a6c328d1-Jedidah%20Isler.jpg"
         },
         "isAllow": true,
-        "likes": 14,
+        "likes": 22,
         "objectId": "Vwot6LutyY",
         "postUploadName": "Jedidah Isler",
         "postUploadPersonImg": {
@@ -1566,7 +1646,7 @@
         "share_count": 4,
         "title": "How I Fell in Love with Quasars, Blazars and our Incredible Universe ",
         "titleMm": "ကၽြန္မ quasarမ်ား၊ blazar မ်ား နဲ႔ ကၽြန္မတို႔ရဲ့ အံ့အားသင့္စရာ စၾကာဝဠာကို ခ်စ္မိပုံ",
-        "updatedAt": "2016-01-30T06:20:07.711Z",
+        "updatedAt": "2016-03-02T09:00:07.154Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -1592,7 +1672,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-72c46836-bf8c-4732-97f2-05408cd7e097-bg_sample.png"
         },
         "isAllow": true,
-        "likes": 46,
+        "likes": 51,
         "objectId": "XclsIdC4XA",
         "postUploadName": "Dr Astrid Tuminez",
         "postUploadPersonImg": {
@@ -1606,10 +1686,10 @@
         },
         "post_author_role": "Regional Director, Legal and Corporate Affairs, Southeast Asia, Microsoft Corporation",
         "post_author_role_mm": "ဥပေဒေရးရာႏွင့္ ေကာ္ပိုေရးရွင္းဆိုင္ရာ အေရွ႕ေတာင္အာရွ ေဒသ ညႊန္ၾကားေရးမွဴး၊ ၊ မိုက္ခရိုေဆာ့ဖ္ေကာ္ပိုေရးရွင္း",
-        "share_count": 2,
+        "share_count": 3,
         "title": "My Story of unbelievable",
         "titleMm": "က်မဘ၀၏မယံုုႏိုုင္ဖြယ္ရာေၿပာင္းလဲမွုု",
-        "updatedAt": "2016-02-01T07:52:36.873Z",
+        "updatedAt": "2016-02-17T05:37:20.167Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -1646,6 +1726,175 @@
             "__type": "Pointer",
             "className": "_User",
             "objectId": "VLTa8ty2sY"
+        }
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "comment_count": 0,
+        "contentType": "Story",
+        "content_mm": "ေအာင္ျမင္မႈရသည့္တိုင္လုပ္ေဆာင္မည္",
+        "createdAt": "2016-02-04T08:26:12.334Z",
+        "isAllow": false,
+        "likes": 0,
+        "objectId": "Zl9PRORkg2",
+        "postUploadName": "စြမ္းေဆာင္ရွင္",
+        "postUploadedDate": {
+            "__type": "Date",
+            "iso": "2016-02-04T08:26:06.616Z"
+        },
+        "share_count": 0,
+        "updatedAt": "2016-02-04T08:26:12.334Z",
+        "userId": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "wTPRWoA4be"
+        }
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "comment_count": 0,
+        "content": "light",
+        "contentType": "Story",
+        "createdAt": "2016-02-03T15:23:24.149Z",
+        "image": {
+            "__type": "File",
+            "name": "tfss-b815e2a4-6df2-4b0c-a62e-583cf557bfd7-photo.jpg",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-b815e2a4-6df2-4b0c-a62e-583cf557bfd7-photo.jpg"
+        },
+        "isAllow": false,
+        "likes": 0,
+        "objectId": "aeYk90EPvE",
+        "postUploadName": "Thura",
+        "postUploadedDate": {
+            "__type": "Date",
+            "iso": "2016-02-03T15:23:17.220Z"
+        },
+        "share_count": 0,
+        "updatedAt": "2016-02-03T15:23:24.149Z",
+        "userId": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "On2wrHYluu"
+        }
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "comment_count": 0,
+        "contentType": "Story",
+        "content_mm": "၃၁  ၁  ၂၀၁၆  ရက္​​ေန႔ပခုကၠဴၿမိဳ႕ ျပည္​့အိုင္​​ေက်း႐ြာပညာ​ေရးအဆင္​့ျမင္​့ ပညာပါတမီ  အသင္​းအဖြဲ႕အားအင္​သစ္​စိတ္​တူကိုယ္​တူအဖြဲ႕ဝင္​မ်ားအပါအဝင္​​​ေက်း႐ြာသူ​ေက်း႐ြာသားမ်ာနွင္​့စု​ေပါင္​း​ေကာ္​မတီ ၃၁ ဦးတို႔မွတစ္​လတစ္​ခါအလွဴခံလ်ွက္​ရွိပါသည္​",
+        "createdAt": "2016-02-02T03:42:29.137Z",
+        "image": {
+            "__type": "File",
+            "name": "tfss-984958b2-57cb-4d63-acd7-50ac5e367f0b-photo.jpg",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-984958b2-57cb-4d63-acd7-50ac5e367f0b-photo.jpg"
+        },
+        "isAllow": false,
+        "likes": 0,
+        "objectId": "an4ij2zvZX",
+        "postUploadName": "Ma San Htay",
+        "postUploadUserImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-22b8d9a5-f5e8-42f8-a135-07fc265b1f28-sticker_pony.png",
+        "postUploadedDate": {
+            "__type": "Date",
+            "iso": "2016-02-02T03:39:24.844Z"
+        },
+        "share_count": 0,
+        "updatedAt": "2016-02-02T03:42:29.137Z",
+        "userId": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "LuL0gJ7JSH"
+        }
+    },
+	{
+        "authorId": {
+            "__type": "Pointer",
+            "className": "Author",
+            "objectId": "qJ1sePAwT2"
+        },
+        "comment_count": 0,
+        "content": "My dear Sisters:  The most important thing I have to say to is know what you want to do with your life.  Starting at a young age you must decide on a goal in life and decide that one way or another you are going to achieve it.  It doesn’t matter what it is as long as you are clear in your mind what it is you want and focus on it, and make that your goal.  It doesn’t even really matter if the focus is not on the thing you eventually end up doing – because as different events move and shape your life you might find other things come into your life that will change your path – but as long as you stay focussed – you will eventually end up in the place you are meant to be.\n\n Always keep an open mind – do not be judgemental  of yourself or others – remember we are all human beings and all struggling together.  Keep your individuality and your own ideas but do not detract from other people’s viewpoints.  Keep a strong and supple mind – allow it to bend and absorb new ideas, but once you have listened and thought  things through, make up your own mind.\n\nRemember you are  beautiful – we are all beautiful in youth  – youth is beautiful but we are  beautiful in old age in a different way.   Then we have the face we have earnt.  Embrace the difference and diversity of life and the richness and the joy.   \nRemember CHARACTER is more important than talent.  With a strong character and a little talent you can go a long, long way -  but it doesn’t matter how much talent you have unless you have the application and the character to develop it – it is easy to fritter away.  When I was at Drama School there would always be one or two students that did not, on the surface appear to be very talented – it was very tempting to think “I doubt if they will do very well” – but now years later you will see them on Television in leading roles – having honed and developed their talent probably more than someone who found it easy.  We all develop at different rates and we are all good at different things.  We all have our talent – it is up to us find and to develop it.\n\nThe great French artist Cezanne was,  while he was at Art School – seemingly  not very talented at all, and working as he was, amongst all the brilliant young Impressionists of that era,  he seemed slow and banal – but he painted and painted,  kept himself to himself and now he is considered one of the greatest Artists of that period.\nLook after yourself – love yourself – if you do not love yourself how can you love other people? Because love is the most important thing in our lives – we must always keep ourselves and our hearts open to love – to love of our family – love of  a partner and to love of humankind – because all humans are worthy of love as are animals and birds and trees and flowers and music and art and laughter.\n\nLook after your health – this is most important – without good health life is much harder  - so nurture and respect your health as much as you can.   Allow yourself to dream, but not to the exclusion of action – your dreams should lead to action.  \nLove and treat your parents and siblings with respect – they are part of you after all – and their experiences will colour and inform your upbringing,  as your experiences will do the same for your children.  Respect their views and ideas – remember they are influenced by their times and heritage as well.  Know your roots but do not allow them to prevent you spreading your own branches.\n\nAnd finally look after your soul and spiritual health.  Check in with it every day, whether by meditation or chanting, praying or just walking in the woods always allow yourself time to breathe and appreciate the simple and good things of life.\nAnd remember to dance and sing – dancing and singing are some of the most spiritual pursuits you can do.  They lift the heart and spirit – they enable us to hear “the music of the spheres” as that great philosopher and writer William Shakespeare said and they open our energy out to others in a most wonderful way – so dance when you are happy and dance when in you sad, dance in gratitude and love.\n\nKeep loving and supporting all your female friends – male friends as well – but remember your sisters  are your kin – by this I mean that we as women have very different experiences from men -  we are responsible for nurturing and bringing up the next generation (men do as well) but the main effort usually comes from women and this is one of the most noble and worthwhile things you will ever do in your life – bringing up and shaping the next generation.  So be proud to be a woman – it is a wonderful thing to be – be proud, hold your head up and your back straight and love one another, laugh with one another and cherish and help each other.\n",
+        "contentType": "Letter",
+        "content_mm": "ခ်စ္ခင္ရတဲ့ ညီအစ္မမ်ားရွင္ - ကၽြန္မေျပာခ်င္တဲ့ အေရးအႀကီးဆံုးအခ်က္ကေတာ့ ကိုယ့္ဘ၀မွာ ကိုယ္ဘာလုပ္ခ်င္တယ္ဆိုတာ သိဖို႔လိုတယ္ ဆိုတာပါပဲ။ ငယ္စဥ္ကစၿပီး ဘ၀ပန္းတိုင္တစ္ခုကို ခ်မွတ္ထားရပါမယ္။ အဲဒီပန္းတိုင္ကို ေရာက္ဖို႔အတြက္ နည္းလမ္းတစ္ခုမဟုတ္တစ္ခုကိုလည္း စဥ္းစားထားရပါမယ္။ ကိုယ့္စိတ္ထဲမွာ ဒါဟာ ကုိယ္တကယ္ လိုခ်င္တဲ့အရာဆိုတာ သိၿပီး ကိုယ့္ရဲ႕ ပန္းတိုင္အျဖစ္ ရွင္းရွင္းလင္းလင္း သတ္မွတ္ထားသေရြ႕ ဒီပန္းတိုင္ကို ေရာက္ဖို႔ ဘယ္ေလာက္ပဲၾကာၾကာ အေရးမႀကီးပါဘူး။ ကိုယ္ ဦးတည္တဲ့အရာဟာ ကိုယ္ လုပ္ေနရတဲ့အရာမဟုတ္ရင္ေတာင္ ကိစၥမရွိေသးပါဘူး။ ဘာေၾကာင့္လဲဆုိေတာ့ အျဖစ္အပ်က္မ်ိဳးစံုဟာ ကိုယ့္ဘ၀ကို ပံုေဖာ္ေပးမွာမို႔ ကိုယ့္ဘ၀ထဲ ၀င္ေရာက္လာတဲ့ ကိုယ္ေလွ်ာက္ေနတဲ့လမ္းကို ေျပာင္းလဲေစမယ့္ တျခားအရာေတြကိုလည္း ေတြ႕ေကာင္းေတြ႕ႀကံဳရႏိုင္ပါတယ္။ ဒါေပမယ့္ ကိုယ္က ပန္းတိုင္ကို အၿမဲ ေရွးရႈေနမယ္ဆိုရင္ ေနာက္ဆံုးမွာေတာ့ ကိုယ္ရည္ရြယ္တဲ့ ေနရာကို ေရာက္မွာပါပဲ။   \n\nစိတ္ကို အၿမဲ ဖြင့္ထားပါ။ ကိုယ့္ကိုယ္ကိုေရာ သူမ်ားေတြကိုပါ ဆံုးျဖတ္သတ္မွတ္တာမ်ိဳး မလုပ္ပါနဲ႕။ ကၽြန္မတို႔ အားလံုးဟာ လူသားေတြျဖစ္ၿပီး အတူတူ ရုန္းကန္လႈပ္ရွားေနၾကတယ္ဆိုတာ မေမ့ပါနဲ႕။ ဒါေပမယ့္ ကိုယ့္ရဲ႕ ပင္ကိုလကၡဏာနဲ႕ ကိုယ္ပိုင္အေတြးအေခၚေတြကို ထိန္းသိမ္းထားပါ။ တျခားလူေတြရဲ႕ အျမင္ေတြေၾကာင့္ ယိမ္းယိုင္ေလ်ာ့ပါးမသြားပါေစနဲ႕။ ၾကံ႕ခိုင္ေပ်ာ့ေပ်ာင္းတဲ့ စိတ္မ်ိဳး ေမြးျမဴပါ - အေတြးအေခၚသစ္ေတြကို လက္ခံ ရယူပါ။ ဒါေပမယ့္ ဒီအေတြးအေခၚေတြကို လက္ခံနားေထာင္ၿပီး ေသေသခ်ာခ်ာ ေတြးေခၚစဥ္းစားၿပီးၿပီ ဆိုတာနဲ႕ ကိုယ့္စိတ္ကို ကုိယ္ ပိုင္းျဖတ္လိုက္ပါ။   \n\nသင္ဟာ လွပသူတစ္ဦးဆိုတာ မေမ့ပါနဲ႕ - ကၽြန္မတို႔အားလံုး ငယ္ရြယ္ႏုပ်ိဳစဥ္မွာ လွၾကပါတယ္။ ငယ္ရြယ္မႈဟာ လွပတယ္။ ဒါေပမယ့္ အသက္အရြယ္ရလာတဲ့အခါမွာလည္း လွပေနပါတယ္။ လွပံုလွနည္းသာ မတူတာပါ။ ကၽြန္မတို႔မွာ ကၽြန္မတို႔ ပိုင္ဆိုင္ထားတဲ့ ကိုယ္ပိုင္မ်က္ႏွာေတြ ရွိပါတယ္။ ဘ၀ရဲ႕ မတူညီမႈေတြနဲ႕ အမ်ိဳးမ်ိဳး ကဲြျပားမႈေတြ၊ ျပည့္စံုၾကြယ္၀မႈနဲ႕ ေပ်ာ္ရႊင္မႈေတြကို လက္ခံေထြးေပြ႕လိုက္ပါ။\n   \nစိတ္ဓာတ္ဟာ ပင္ကိုအရည္အေသြးထက္ ပိုအေရးႀကီးတယ္ဆိုတာ မေမ့ပါနဲ႕။ အရည္အေသြးနည္းပါးေပမယ့္ ခိုင္မာတဲ့စိတ္ဓာတ္ရွိရင္ လုပ္ႏိုင္တာေတြ အမ်ားႀကီးပါ။ ဘယ္ေလာက္ပဲ အရည္အေသြးရွိပါေစ အသံုးမျပဳရင္၊ ဖံြ႕ၿဖိဳးလာေအာင္ ပ်ိဳးေထာင္ယူႏိုင္မယ့္ စိတ္ဓာတ္သာမရွိဘူးဆိုရင္ ျပဳန္းတီးေပ်ာက္ျပယ္သြားမွာပဲ။ ကၽြန္မ ဒရာမာေက်ာင္းမွာတုန္းက အေပၚယံၾကည့္ရင္ အရည္အေသြးသိပ္မရွိဘူးလို႔ ထင္ရတဲ့ ေက်ာင္း တစ္ေယာက္၊ ႏွစ္ေယာက္ကို အၿမဲေတြ႕ရတတ္ပါတယ္။ “သူတို႔ လုပ္မွ လုပ္ႏိုင္ပါ့မလား” လို႔ မေတြးဘဲ မေနႏိုင္ေအာင္ပါပဲ။ ဒါေပမယ့္ ႏွစ္ေတြၾကာလာၿပီးတဲ့ေနာက္ အဲဒီေက်ာင္းသားေတြဟာ တီဗီမွာ အဓိကဇာတ္ေဆာင္ေနရာေတြကေန ပါ၀င္သရုပ္ေဆာင္ေနၾကတာ ေတြ႕ျမင္ရပါတယ္။ သူတုိ႔ေတြဟာ သူတို႔ရဲ႕ အရည္အေသြးေတြကို ထက္ျမက္ လာေအာင္ ေသြးႏိုင္ခဲ့ၾကၿပီး သူတုိ႔ထက္ ပင္ကိုအရည္ေသြးရွိတဲ့သူေတြထက္ေတာင္ ပိုေတာ္လာၾကပါတယ္။ ကၽြန္မတို႔အားလံုးဟာ ဖံြ႕ၿဖိဳးတိုးတက္တဲ့ႏႈန္းေတြ မတူၾကပါဘူး။ ကၽြန္မတို႔အားလံုးမွာ ကိုယ့္အားသာခ်က္နဲ႕ ကိုယ္ ရွိၾကပါတယ္။ ပင္ကိုအရည္အေသြးေတြ ရွိၾကပါတယ္။ ဘယ္လိုအရည္အေသြးရွိတယ္ဆိုတာ သိေအာင္ လုပ္ၿပီး ပ်ိဳးေထာင္ေပးဖို႔ကေတာ့ ကၽြန္မတို႔ တာ၀န္ေပါ့။   \n\nေက်ာ္ၾကားတဲ့ ျပင္သစ္ပန္းခ်ီဆရာႀကီး ဆီဇန္းဟာ ပန္ခ်ီေက်ာင္းတက္စဥ္က သူ႕မွာ ပန္းခ်ီပါရမီပါမလာဘူးလို႔ အထင္ခံခဲ့ရပါတယ္။ အဲဒီေခတ္အခါက အလြန္ေတာ္တဲ့ လူငယ္မ်ိဳးဆက္သစ္ ပန္းခ်ီဆရာေတြၾကားတြင္ သူဟာ ေႏွးေကြးၿပီး ဆန္းသစ္ႏိုင္မႈမရွိတဲ့ သူတစ္ဦး ျဖစ္ခဲ့ပါတယ္။ ဒါေပမဲ့ သူဟာ တစ္ေယာက္တည္း ပန္းခ်ီေတြကို ဆဲြၿပီးရင္း ဆဲြေနခဲ့ပါတယ္။ အခုအခါမွာ သူဟာ အဲဒီေခတ္အခါက အေတာ္ဆံုး ပန္းခ်ီဆရာေတြထဲက တစ္ေယာက္ပါ။ \n\nသင့္ကိုယ္သင္ ေစာင့္ေရွာက္ပါ။ သင့္ကိုယ္သင္ ခ်စ္ပါ။ သင့္ကိုယ္သင္မွ မခ်စ္ႏိုင္ရင္ တျခားသူေတြကို ဘယ္လို ခ်စ္ႏိုင္မွာလဲ။ ဘာေၾကာင့္ဆိုလဲဆိုေတာ့ ခ်စ္ျခင္းေမတၱာဟာ ကၽြန္မတို႔ဘ၀မွာ အေရးအႀကီးဆံုးပါ။ ကၽြန္မတို႔ ကိုယ္တိုင္နဲ႕ ကၽြန္မတို႔ရဲ႕ ႏွလံုးသားေတြကို ခ်စ္ျခင္းေမတၱာအတြက္ အၿမဲ ဖြင့္လွစ္ေပးထားရပါမယ္။ မိသားစုကို ခ်စ္တဲ့ ခ်စ္ျခင္းေမတၱာ၊ အေဖာ္တစ္ေယာက္ကို ခ်စ္တဲ့ ခ်စ္ျခင္းေမတၱာ၊ လူသားေတြကို ခ်စ္တဲ့ ခ်စ္ျခင္းေမတၱာ ေတြပါ။ ဘာေၾကာင့္လဲဆိုေတာ့ ေက်းငွက္တိရစၧာန္ေလးတြ၊ သစ္ပင္နဲ႕ ပန္းပြင့္ေတြ၊ ဂီတနဲ႕ အႏုပညာ၊ ရယ္ေမာသံေတြလိုပဲ လူသားေတြအားလံုးဟာလည္း အခ်စ္ခံရဖို႔ ထိုက္တန္လို႔ပါပဲ။  \n\nသင့္ရဲ႕ က်န္းမာေရးကို သင္ ေစာင့္ေရွာက္ပါ။ ဒါဟာ အေရးအႀကီးဆံုးပါပဲ။ မက်န္းမာရင္ ဘ၀ဟာ ပိုၿပီး ခက္ခဲၾကမ္းတမ္းပါလိမ့္မယ္။ ဒါေၾကာင့္ သင့္က်န္းမာေရးကို သင္ တတ္ႏိုင္သမွ် ေစာင့္ေရွာက္ပါ။ အေလးထားပါ။ သင့္ ကိုယ္ သင္ စိတ္ကူးယဥ္ဖို႔ ခြင့္ျပဳပါ။ ဒါေပမယ့္ လက္ေတြ႕မလုပ္ဘဲ ေနလို႔ေတာ့ မရပါ။ သင့္ရဲ႕ အိပ္မက္ေတြဟာ လက္ေတြ႕လုပ္ေဆာင္မႈေတြ ျဖစ္လာသင့္ပါတယ္။\n  \nသင့္ရဲ႕ မိဘေတြနဲ႕ ညီအစ္ကိုေမာင္ႏွမေတြကို ခ်စ္ခင္ပါ။ ေလးစားပါ။ သူတို႔ဟာ သင့္ရဲ႕ အစိတ္အပိုင္းေတြပါ။ သူတို႔ရဲ႕ အေတြ႕အၾကံဳေတြဟာ သင့္ကို ျပဳစုပ်ိဳးေထာင္ရာမွာ အေရးႀကီးပါတယ္။ သင့္ရဲ႕ အေတြ႕အၾကံဳေတြက သင့္ကေလးေတြအတြက္ အေရးႀကီးသလိုမ်ိဳးပါပဲ။ သူတုိ႔ရဲ႕ အျမင္ေတြ၊ အေတြးေတြကို ေလးစားပါ။ သူတို႔ရဲ႕ ေခတ္အခါနဲ႕ ရထားတဲ့ အေမြအႏွစ္ေတြက ဒီအျမင္ေတြ၊ အေတြးေတြကို လႊမ္းမိုးေနတယ္ဆိုတာ အမွတ္ရပါ။ သင့္ရဲ႕ အျမစ္ေတြကို သိရမယ္။ ဒါေပမယ့္ အဲဒီအျမစ္ေတြက သင့္ရဲ႕ ကိုယ္ပိုင္ အကိုင္းအခက္ေတြ ျဖန္႕က်က္တဲ့ေနရာမွ အဟန္႕အတားမျဖစ္ပါေစနဲ႕။ \n\nေနာက္ဆံုးအေနနဲ႕ သင့္ရဲ႕ စိတ္၀ိညာဥ္နဲ႕ စိတ္ဓာတ္ကို ေစာင့္ေရွာက္ဖို႔ လိုပါတယ္။ ေန႕စဥ္ေန႕တိုင္း ကိုယ့္စိတ္ကို ကိုယ္ စစ္ေဆးဆန္းစစ္ပါ။ တရားထိုင္ၿပီးေတာ့ျဖစ္ျဖစ္၊ ဘုရားစာရြတ္တာ၊ ဘုရား၀တ္ျပဳတာ ဒါမွမဟုတ္ ေတာအုပ္ထဲမွာ လမ္းေလွ်ာက္ၿပီးေတာ့ပဲျဖစ္ျဖစ္ အသက္ရႈဖို႔နဲ႕ ဘ၀ရဲ႕ ရိုးရွင္းေကာင္းမြန္တဲ့ အရာေတြကို တန္ဖိုးထားခံစားဖို႔ သင့္ကိုယ္သင္ အခ်ိန္ေပးပါ။ \n\nၿပီးေတာ့ သီဆိုကခုန္ဖို႔လည္း မေမ့ပါနဲ႕ - ကခုန္တာနဲ႕ သီခ်င္းဆိုတာဟာ စိတ္ဓာတ္ေရးရာအတြက္ သင္ လုိက္စားႏိုင္တဲ့ ၀ါသနာေကာင္းတခ်ိဳ႕ ျဖစ္ပါတယ္။ စိတ္ႏွလံုး လန္းဆန္းၾကည္လင္ တက္ၾကြေစႏိုင္ပါတယ္။ ေတြးေခၚပညာရွင္နဲ႕ စာေရးဆရာႀကီး ၀ီလ်ံရွိတ္စပီးယား ေျပာခဲ့သလိုပဲ “ေန၊ လ၊ ၿဂိဳလ္၊ နကၡတ္ေတြရဲ႕ ဂီတသံ” ကို ၾကားႏိုင္ေစပါတယ္။ ကၽြန္မတို႔ရဲ႕ စြမ္းအင္ေတြကို တျခားသူေတြဆီကို ဖြင့္ထုတ္ႏိုင္တဲ့ ႏွစ္သက္စရာအေကာင္းဆံုးနည္းလမ္း ျဖစ္ပါတယ္။ ဒါေၾကာင့္ သင္ ေပ်ာ္တယ္ဆိုရင္ ကပါ။ ၀မ္းနည္းရင္လည္း ကပါ။ ေက်းဇူးတင္ရင္၊ ခ်စ္မိရင္ ကပါ။  \n\nသင္ရဲ႕ အမ်ိဳးသမီးမိတ္ေဆြေတြကို ခ်စ္ပါ။ အားေပးကူညီပါ။ အမ်ိဳးသားမိတ္ေဆြေတြကိုပါေပါ့။ ဒါေပမယ့္ ညီအစ္မေတြကမွ အရင္းအခ်ာေတြဆိုတာ မေမ့ပါနဲ႕။ ကၽြန္မဆိုလိုခ်င္တာက အမ်ိဳသမီးေတြဟာ အမ်ိဳးသား ေတြနဲ႕ အရမ္းကြာျခားတဲ့ အေတြ႕အၾကံဳေတြ ရွိေနတယ္ဆိုတာကိုပါ။ ကၽြန္မတို႔ဟာ ေနာင္လာမယ့္ မ်ိဳးဆက္သစ္ကို ျပဳစုပ်ိဳးေထာင္ေပးဖို႔ တာ၀န္ရွိသူေတြ ျဖစ္ပါတယ္ (အမ်ိဳးသားေတြမွာလည္း တာ၀န္ရွိတာပါပဲ)။ ဒါေပမယ့္ အဓိကအားထုတ္ရတာက အမ်ိဳးသမီးေတြပါ။ ေနာက္မ်ိဳးဆက္ကို ျပဳစုပ်ိဳးေထာင္ပံုေဖာ္ရတာဟာ သင့္ဘ၀မွာ သင္ လုပ္ဖူးသမွ်ေတြထဲက အျမင့္ျမတ္ဆံုးနဲ႕ အထိုက္တန္ဆံုး အရာတစ္ခုပါပဲ။ ဒါေၾကာင့္ အမ်ိဳးသမီးတစ္ေယာက္ ျဖစ္ရတာ ဂုဏ္ယူလိုက္ပါ။ ေခါင္းကိုေမာ့၊ ရင္ကို ေကာ့ထားပါ။ တစ္ေယာက္ကို တစ္ေယာက္ ခ်စ္ခင္ပါ။ ရယ္ေမာေပ်ာ္ရႊင္ပါ။ အခ်င္းခ်င္း တန္ဖိုးထားၿပီး ကူညီေစာင့္ေရွာက္ၾကပါ။ \n",
+        "createdAt": "2016-02-27T09:29:17.606Z",
+        "credit_logo_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-b7c6c894-8714-4354-8eef-3e3c2a045a1f-gwso.png",
+        "credit_name": "Great Women Speak Out! Charity",
+        "image": {
+            "__type": "File",
+            "name": "tfss-ee716f59-8be0-42dd-be69-abcecc721917-Jenny Runacre photo.jpg",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-ee716f59-8be0-42dd-be69-abcecc721917-Jenny%20Runacre%20photo.jpg"
+        },
+        "isAllow": true,
+        "likes": 6,
+        "objectId": "bSqWk7lJQM",
+        "postUploadName": "Jenny Runacre",
+        "postUploadUserImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-c392591c-4101-4021-aa75-7d4bd6165f97-Jenny%20Runacre%20photo.jpg",
+        "postUploadedDate": {
+            "__type": "Date",
+            "iso": "2016-02-08T09:31:00.000Z"
+        },
+        "post_author_role": "Actress, Artist and Lecturer. ",
+        "post_author_role_mm": "သရုပ္ေဆာင္၊ ပန္းခ်ီဆရာႏွင့္ ကထိက",
+        "share_count": 0,
+        "title": "Look after yourself – love yourself – if you do not love yourself how can you love other people?",
+        "titleMm": "သင့္ကိုယ္သင္ ေစာင့္ေရွာက္ပါ။ သင့္ကိုယ္သင္ ခ်စ္ပါ။ သင့္ကိုယ္သင္မွ မခ်စ္ႏိုင္လွ်င္ အျခားသူမ်ားကို မည္သို႔ ခ်စ္ႏိုင္မည္နည္း",
+        "updatedAt": "2016-03-03T01:31:04.500Z",
+        "userId": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "qJ1sePAwT2"
+        }
+    },
+	{
+        "authorId": {
+            "__type": "Pointer",
+            "className": "Author",
+            "objectId": "pvGnlrzzdL"
+        },
+        "comment_count": 0,
+        "content": "I am Daw Cho Aye, Chair of Su Zee Ar Mun Women Township Leading Group in Kyaik Hto Township, Mon State. I have also been recently elected as the Chairwoman of the newly formed May Doe Kabar National Network of Rural Women. \n\nI would like to share the vision and objectives of the May Doe Kabar National Network of Rural Women, but before I do that I would like to share some of the achievements I am most proud of. In the past, I did not dare to attend any village meetings, let alone speak in front of many people in a village meeting. In 2005, the United Nations Development Programme (CDRT) started a project in Kyaik Hto and I was invited to attend a meeting. At that meeting, UNDP formed a Women Self-reliant Group with the purpose to empower women by providing microfinance services. I became a group member and regularly attended meetings and eventually, many years later, thanks to UNDP, I now dare to go to the government departments and get necessary things done for the development of my village. This is a big achievement for me. Our Women Township Leading Group was also invited to provide trainings to other Women’s groups in Myanmar. This represents a big achievement for our Women’s group. \nOur May Doe Kabar National Network has been established with several objectives, specifically  to respond to the current needs and long-term aspirations of rural women, to promote the role and leadership skills of rural women in public sectors, to contribute more effectively to the local development as a Civil Society Organization with a commitment to gender equality and to build linkages with national and international organizations to mobilize resources necessary for the sustainable development of the Network. Our vision is to build a National Network that receives the recognition of the whole country and that can be relied upon by the community.\n\nWe have already started our work to achieve these objectives. During the 2015 floods, the Women Township Leading Groups member of May Doe Kabar linked to one another to share useful information (such as how to purify water) and provide moral and financial assistance by donating money to the flood affected members. We also share information on how to register Women’s groups as Civil Society Organizations, exchange knowledge, experiences and skills related to livelihood activities for income generation. \n\nFurthermore, we have developed iWomen mobile application with the support from UNDP since July 2015. This initiative aims to promote the leadership of rural women and provide a way to make linkages among women members to provide inspiration, information, suggestions and support to one another to overcome challenges faced by women in rural areas.\n\nWe are proud of our May Doe Kabar National Network because we get a chance to take part in the development process of our country. Everybody who takes great interest in development and is actually taking part in development activities knows how great the feeling is when we can do something good for others. This cannot be bought no matter how much you can pay.    \n\nI would like to invite you all who are reading this letter to join hands with us to achieve May Doe Kabar objectives to fulfill the needs of rural women, to empower them and to bring about inclusive development by promoting gender equality. Thank you.\nDaw Cho Aye\n",
+        "contentType": "Letter",
+        "content_mm": "ကၽြန္မသည္ မြန္ျပည္နယ္၊ က်ိဳက္ထိုၿမိဳ႕နယ္၊ စုစည္းအားမာန္ၿမိဳ႕နယ္ဦးေဆာင္အဖြဲ႔ဥကၠဌ ေဒၚခ်ိဳေအး ျဖစ္ပါသည္။ အသစ္ဖဲြ႕စည္းလိုက္ေသာ ေမတို႔ကမၻာ ႏိုင္ငံလံုးဆိုင္ရာ ေက်းလက္အမ်ိဳးသမီးမ်ားကြန္ယက္၏ ဥကၠ႒အျဖစ္လည္း မၾကာေသးမီက ေရြးေကာက္တင္ေျမႇာက္ျခင္းခံခဲ့ရပါသည္။\n ေမတို ့ကမၻာ နုိင္ငံလုံးဆိုင္ရာ ေက်းလက္အမ်ိဳးသမီးမ်ားကြန္ယက္၏ အနာဂတ္ေမွ်ာ္မွန္းခ်က္ႏွင့္ ရည္ရြယ္ခ်က္ မ်ားကို မွ်ေ၀တင္ျပလိုပါသည္။ ထိုသို႔ မတင္ျပမီ ကၽြန္မ ဂုဏ္အယူမိဆံုး စြမ္းေဆာင္ေအာငျ္မင္မႈအခ်ိဳ႕အား ဦးစြာ မွ်ေ၀ေပးလိုပါသည္။ ယခင္ကဆိုလွ်င္ ကၽြန္မသည္ လူအမ်ားေရွ႕တြင္ စကားေျပာဖုိ ့မဆိုထားႏွင့္ ေက်းရြာ အစည္းေဝးကိုပင္ မတက္ရဲခဲ့ပါ။ ၂၀၁၅ခုႏွစ္မွ စတင္၍ ကုလသမဂၢဖံြ႕ၿဖိဳးမႈအစီအစဥ္ (UNDP) မွ က်ိဳက္ထိုတြင္ စီမံကိန္းတစ္ခု (CDRT) စတင္ခဲ့ပါသည္။ အစည္းေဝးေခၚသျဖင့္ သြားတက္ေသာအခါ UNDPမွ အမ်ိဳးသမီးမ်ား စြမ္းရည္ျမွင့္တင္ေပးရန္အတြက္ ကုိယ့္အားကိုယ္ကိုးအုပ္စု ေငြစုေငြေခ်းအဖြဲ႕ဖဲြ႕ေပးသျဖင့္ အဖဲြ႕ဝင္အျဖစ္ ပါဝင္ခဲ႔ပါသည္။ ယခင္က အစည္းအေ၀းတက္သည့္ အေလ့အထလည္းမရွိသလို လူၾကားထဲလည္း စကားမေျပာရဲပါ။ ယခုအခါ UNDP ၏ ေက်းဇူးေၾကာင့္ ဌာနဆိုင္ရာသို႔ သြားရဲေျပာရဲကာ လိုခ်င္တာရွိလွ်င္ ရေအာင္ယူဖို ့ဝန္မေလးေတာ့ပါ။ ဤသည္မွာ ကၽြန္မ၏ ေအာင္ျမင္မႈပင္ျဖစ္ပါသည္။ အဖဲြ႕၏ ေအာင္ျမင္မႈလည္း ရွိပါသည္။ အျခားအဖြဲ႕မ်ားက ကၽြန္မတို ့အဖဲြ႕အား သင္တန္းေပးရန္ သင္တန္းဆရာအျဖစ္ ငွားရမ္းျခင္း ခံရပါသည္။ ဤသည္မွာ ကၽြန္မတို ့အဖြဲ႕၏ ေအာင္ျမင္မႈပင္ ျဖစ္ပါသည္။\nကၽြန္မတို ့၏ ေမတို ့ကမၻာနိုင္ငံလုံးဆိုင္ရာကြန္ယက္ ေရရွည္တည္တံ႔ခိုင္ၿမဲေစဖို ့အတြက္ ရည္ရြယ္ခ်က္၊ ရည္မွန္းခ်က္မ်ား ထားရွိပါသည္။ ကၽြန္မတို ့အဖြဲ႕၏ ရည္ရြယ္ခ်က္မွာ ေက်းလက္ေဒသတြင္ ေနထိုင္ေသာ အမ်ိဳးသမီးမ်ား၏ လက္တေလာလိုအပ္ခ်က္ႏွင့္ ေရရွည္လိုအပ္ခ်က္မ်ားကို ေျဖရွင္းေဖာ္ထုတ္တံု႔ျပန္ လုပ္ ေဆာင္ေပးႏိုင္ရန္၊ အမ်ိဳးသမီးမ်ားအား စြမ္းေဆာင္ရည္ျမွင့္တင္ေပးၿပီး အမ်ားျပည္သူဆိုင္ရာက႑တြင္ ကိုယ္စားျပဳပါဝင္မႈအား ျမႇင့္တင္ေပးရန္၊ က်ား/မတန္းတူညီမွ်ေရးကို ဦးတည္ေသာ အရပ္ဖက္အဖဲြ႕အစည္း အျဖစ္ ရပ္ရြာဖြံ႕ၿဖိဳးေရးလုပ္ငန္းမ်ားတြင္ ပိုမိုထိေရာက္စြာ ပါ၀င္ေဆာင္ရြက္ရန္၊ ေမတို ့ကမၻာနိုင္ငံလုံးဆိုင္ရာ ကြန္ယက္ေရရွည္တ့ံရန္အတြက္ လိုအပ္ေသာ အရင္းအျမစ္မ်ား ရယူနုိင္ရန္ ျပည္တြင္းျပည္ပမိတ္ဖက္အဖြဲ႕ အစည္းမ်ားနွင့္ ခ်ိတ္ဆက္ေဆာင္ရြက္ရန္ ဟူသည့္ ရည္ရြယ္ခ်က္မ်ား ခ်မွတ္ထားပါသည္။ ေမတို ့ကမၻာ အဖြဲ႕ႀကီအား ျမန္မာတစ္နိုင္ငံလုံးမွ အသိမွတ္ျပဳလာၿပီး လူမႈအသုိက္အဝန္းမွ အားကိုးယုံၾကည္သည့္ အဖဲြ႕ အစည္းတစ္ခုအျဖစ္ တည္ေဆာက္သြားရန္ ရည္မွန္းခ်က္ထားရွိပါသည္။ \nယခုဆိုလွ်င္ ရည္ရြယ္ခ်က္မ်ား ျပည့္ေျမာက္ေအာင္ျမင္ေရး စတင္အေကာင္ထည္ေဖၚ ေဆာင္ရြက္လ်က္ ရွိပါသည္။ ၂၀၁၅ခုႏွစ္ ေရႀကီးေရလွ်ံ ျဖစ္တုန္းကဆိုလွ်င္ ေမတို႔ကမၻာကြန္ယက္၏ အဖဲြ႕၀င္ ၿမိဳ႕နယ္ဦးေဆာင္ အဖဲြ႕မ်ားသည္ တစ္ဖြဲ႕နွင့္တစ္ဖဲြ႕ ခ်ိတ္ဆက္ကာ အသံုး၀င္သည့္ သတင္းအခ်က္အလက္မ်ား (ဥပမာ ေရကို မည္သို႔ သန္႕စင္ရမည္) မွ်ေ၀ေပးၿပီး ေရေဘးႀကံဳေတြ႕ေနေသာ အဖြဲ႕မ်ားအား အလွဴေငြမ်ား ေပးအပ္လွဴဒါန္း ကာ ေငြေၾကးႏွင့္ စိတ္ဓာတ္ပိုင္းဆိုင္ရာ အားေပးကူညီမႈမ်ား ျပဳလုပ္ခဲ့ပါသည္။ ကၽြန္မတို႔သည္ အမ်ိဳးသမီး အဖဲြ႕မ်ားအား အရပ္ဖက္လူမႈအဖဲြ႕အစည္းတစ္ခုအျဖစ္ မည္သို႔ မွတ္ပုံတင္ရမည္ဆိုသည့္ သတင္းအခ်က္ အလက္မ်ားကိုလည္း မွ်ေ၀ေပးၿပီး အသက္ေမြးေက်ာင္းမႈဝင္ေငြရလုပ္ငန္းနွင့္ ပတ္သက္၍ အသိပညာမ်ား၊ အေတြ႕အၾကံဳမ်ားႏွင့္ ကၽြမ္းက်င္မႈမ်ားကိုလည္း အျပန္အလွန္ မွ်ေ၀ဖလွယ္ၾကပါသည္။ \nထိုမွ်သာမက ကၽြန္မတို႔သည္ ၂၀၁၅ခုႏွစ္ ဇူလိုင္လမွစတင္၍ i-women ဖုန္းေဆာ့စ္ဝဲလ္အား UNDP ၏ ပံ႔ပိုးကူညီးမႈျဖင့္ အတူေရးဆဲြအေကာင္အထည္ေဖၚခဲ႔ပါသည္။ ရည္ရြယ္ခ်က္မွာ နိုင္ငံအဝွမ္းမွ ေက်းလက္အမ်ိဳး သမီးေခါင္ေဆာင္မ်ား ေပၚထြက္လာေစရန္ႏွင့္ အခ်င္းခ်င္း အျပန္အလွန္ခ်ိတ္ဆက္ကာ မိမိတို ့ ရင္ဆိုင္ၾကံဳေတြ႕ ေနရသည့္ အခက္အခဲမ်ားကို ေက်ာ္လႊားႏိုင္ရန္အတြက္ တစ္ဦးႏွင့္ တစ္ဦး အားေပးကူညီရန္၊ သတင္းအခ်က္ အလက္မ်ား၊ အၾကံဥာဏ္မ်ား ေပးနိုင္ရန္ ရည္ရြယ္ကာ ေရးဆဲြခဲ့ျခင္း ျဖစ္ပါသည္။\nကၽြန္မတို႔သည္ ေမတို ့ကမၻာ နိုင္ငံလံုးဆိုင္ရာ ကြန္ယက္ၾကီး ျဖစ္လာသည္ကို ဂုဏ္ယူမိပါသည္။ အဘယ္ေၾကာင့္ဆိုေသာ္ မိမိနိုင္ငံဖံြၿဖိဳးတိုးတက္ေရးအတြက္ တစ္ေထာင့္တစ္ေနရာမွ ပါဝင္ခြင့္ရေသာေၾကာင့္ ျဖစ္ပါသည္။ ဖံြ႕ၿဖိဳးေရးတြင္ အမွန္တကယ္စိတ္ပါ၀င္စားၿပီး လက္ေတြ႕လုပ္ေဆာင္ေနသူတိုင္း သိၾကပါသည္။ မိမိေၾကာင့္ မိမိကူညီေပးလိုက္သူမ်ား အဆင္ေျပသြားသည္ကို သိရွိရလွ်င္ ပီတိျဖစ္ရပါသည္။ ထိုပီတိသည္ အဖိုးမျဖစ္ႏိုင္ပါ။ စိန္တံုးႏွင့္ပင္ မလဲႏိုင္ပါ။ အရသာရွိလွပါသည္။ \nထို႔ေၾကာင့္ေက်းလက္ေနအမ်ိဳးသမီမ်ား၏ လိုအပ္ခ်က္မ်ားကို ျဖည့္ဆည္းေပးရန္၊ စြမ္းရည္ျမႇင့္တင္ေပးရန္ႏွင့္ က်ား/မ တန္းတူညီမွ်ေရး အားေပးျမႇင့္တင္ျခင္းျဖင့္ လူအားလံုး ရရွိခံစားႏိုင္သည့္ ဖြ႔ံျဖိဳးတိုးတက္မႈကို ရရွိေစရန္ဟူသည့္ ေမတို႔ကမၻာ၏ ရည္ရြယ္ခ်က္မ်ား အေကာင္အေထည္ေဖာ္ႏိုင္ေရးတြင္ ကၽြန္မတို႔ႏွင့္ လက္တဲြပါ၀င္ၾကပါရန္ ဤစာကို ဖတ္ရႈေနသူ မိတ္ေဆြမ်ားအားလံုးကို ဖိတ္ေခၚခ်င္ပါသည္။                  \nေဒၚခ်ိဳေအး\n",
+        "createdAt": "2016-02-27T08:40:52.685Z",
+        "credit_link": "https://www.facebook.com/May-Doe-Kabar-1639831926295425/?fref=ts",
+        "credit_link_mm": "https://www.facebook.com/May-Doe-Kabar-1639831926295425/?fref=ts",
+        "credit_logo_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-c7dc7b54-84a0-4683-a81e-5cb5c9660578-MDKB.png",
+        "credit_name": "Credit to May Doe Kabar\n",
+        "image": {
+            "__type": "File",
+            "name": "tfss-aa1c6d24-754b-4309-a47d-a56145efd8f9-3. May Doe Kabar Chair Woman Daw Cho Aye.jpg",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-aa1c6d24-754b-4309-a47d-a56145efd8f9-3.%20May%20Doe%20Kabar%20Chair%20Woman%20Daw%20Cho%20Aye.jpg"
+        },
+        "isAllow": true,
+        "likes": 4,
+        "objectId": "bWXewAeYbM",
+        "postUploadName": "ေဒၚခ်ိဳေအး",
+        "postUploadUserImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-08368573-bd3c-4f5b-a3c5-94d78725f976-3.%20May%20Doe%20Kabar%20Chair%20Woman%20Daw%20Cho%20Aye.jpg",
+        "postUploadedDate": {
+            "__type": "Date",
+            "iso": "2015-10-15T08:44:00.000Z"
+        },
+        "post_author_role": "May Doe Kabar Chairwoman",
+        "post_author_role_mm": "ေမတိုု႕ကမာၻ ဥကၠဌ",
+        "share_count": 0,
+        "title": "The Great Feeling Of Doing Something Good For Others Cannot Be Bought By Money",
+        "titleMm": "တျခားသူမ်ားအား ကူညီေပးႏိုင္ေသာေၾကာင့္ ရရွိလာေသာ ပီတိအား ေငြျဖင့္ ၀ယ္၍မရႏိုင္ပါ",
+        "updatedAt": "2016-03-03T06:05:55.606Z",
+        "userId": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "pvGnlrzzdL"
         }
     },
 	{
@@ -1733,7 +1982,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-4b44ef0c-9c75-4a45-bdae-fe4b24e3a8e8-Coworking-Gowork-BelPesce.jpg"
         },
         "isAllow": true,
-        "likes": 17,
+        "likes": 21,
         "objectId": "eA7Dl76Ewt",
         "postUploadName": "Bel Pesce",
         "postUploadPersonImg": {
@@ -1750,7 +1999,7 @@
         "share_count": 0,
         "title": "5 Ways to Kill your Dreams",
         "titleMm": "ကိုယ့္စိတ္ကူးေတြကို သတ္ပစ္ေရး နည္းလမ္း ၅ ခု",
-        "updatedAt": "2016-01-13T12:10:20.610Z",
+        "updatedAt": "2016-03-02T09:03:37.375Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -1810,7 +2059,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-950bff1b-f45b-4a87-a166-7d7d1f5a63f8-Rose%20Goslinga.jpg"
         },
         "isAllow": true,
-        "likes": 17,
+        "likes": 18,
         "objectId": "grFDVq1j0M",
         "postUploadName": "Rose Goslinga",
         "postUploadPersonImg": {
@@ -1823,10 +2072,10 @@
             "iso": "2014-06-01T09:14:00.000Z"
         },
         "post_author_role": "Micro-Insurer",
-        "share_count": 6,
+        "share_count": 7,
         "title": "Crop insurance, an idea worth seeding",
         "titleMm": "သီးႏွံ အာမခံ၊ မ်ိဳးေစ့ခ်ေပးသင့္တဲ့ အေတြးအေခၚ",
-        "updatedAt": "2015-12-12T04:42:53.198Z",
+        "updatedAt": "2016-03-02T08:58:38.483Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -2156,7 +2405,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-017c1f14-5aee-466a-88c4-ba20239124ac-Mairead%20Maguire.jpg"
         },
         "isAllow": true,
-        "likes": 22,
+        "likes": 27,
         "objectId": "n2k5OKMNYc",
         "postUploadName": "Mairead Maguire",
         "postUploadPersonImg": {
@@ -2172,7 +2421,7 @@
         "post_author_role_mm": "ၿငိမ္းခ်မ္းေရးႏိုဘယ္ဆုရွင္",
         "share_count": 5,
         "title": "One Thing I Could Make Happen it Would Be",
-        "updatedAt": "2016-01-30T05:12:12.377Z",
+        "updatedAt": "2016-03-02T09:05:08.827Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -2198,7 +2447,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-724ffa8b-cb35-4d71-b277-6603879e5d44-KKM.jpg"
         },
         "isAllow": true,
-        "likes": 13,
+        "likes": 15,
         "objectId": "n7c78Y6ktR",
         "postUploadName": "Khine Khine Maw",
         "postUploadPersonImg": {
@@ -2215,11 +2464,37 @@
         "share_count": 5,
         "title": "As long as I do my best, I will be sparkling like a star!",
         "titleMm": "ႀကိဳးစားေနတဲ့ အခ်ိန္မွာ တဖ်တ္ဖ်တ္ လက္ေနရမည္",
-        "updatedAt": "2016-01-03T01:40:16.698Z",
+        "updatedAt": "2016-03-02T09:04:18.624Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
             "objectId": "P8Q6mhIfOG"
+        }
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "comment_count": 0,
+        "contentType": "Story",
+        "content_mm": "I miss You.\nI wanna forget u seriously.\nHate U bae",
+        "createdAt": "2016-02-10T06:22:39.230Z",
+        "isAllow": false,
+        "likes": 0,
+        "objectId": "nCR3EUo8HL",
+        "postUploadName": "Kadipar Amh",
+        "postUploadedDate": {
+            "__type": "Date",
+            "iso": "2016-02-10T06:22:33.140Z"
+        },
+        "share_count": 0,
+        "updatedAt": "2016-02-10T06:22:39.230Z",
+        "userId": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "AiVyvw9G16"
         }
     },
 	{
@@ -2321,6 +2596,38 @@
         },
         "comment_count": 0,
         "contentType": "Story",
+        "content_mm": "၃၁  ၁  ၂၀၁၆  ရက္​​ေန႔ပခုကၠဴၿမိဳ႕ ျပည္​့အိုင္​​ေက်း႐ြာပညာ​ေရးအဆင္​့ျမင္​့ ပညာပါတမီ  အသင္​းအဖြဲ႕အားအင္​သစ္​စိတ္​တူကိုယ္​တူအဖြဲ႕ဝင္​မ်ားအပါအဝင္​​​ေက်း႐ြာသူ​ေက်း႐ြာသားမ်ာနွင္​့စု​ေပါင္​း​ေကာ္​မတီ ၃၁ ဦးတို႔မွတစ္​လတစ္​ခါအလွဴခံလ်ွက္​ရွိပါသည္​",
+        "createdAt": "2016-02-02T03:42:28.064Z",
+        "image": {
+            "__type": "File",
+            "name": "tfss-cbdbd25a-e209-4918-a872-7c12c0f4beab-photo.jpg",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-cbdbd25a-e209-4918-a872-7c12c0f4beab-photo.jpg"
+        },
+        "isAllow": false,
+        "likes": 0,
+        "objectId": "prnhmyYHV4",
+        "postUploadName": "Ma San Htay",
+        "postUploadUserImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-22b8d9a5-f5e8-42f8-a135-07fc265b1f28-sticker_pony.png",
+        "postUploadedDate": {
+            "__type": "Date",
+            "iso": "2016-02-02T03:40:44.770Z"
+        },
+        "share_count": 0,
+        "updatedAt": "2016-02-02T03:42:28.064Z",
+        "userId": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "LuL0gJ7JSH"
+        }
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "comment_count": 0,
+        "contentType": "Story",
         "content_mm": "သရက္ၿမိဳ႕မေဟသီTLGအဖဲြ႔ရဲ႕စိတ္တူကိုယ္တူအမ်ဳိးသမီးအဖဲြ႔မ်ားႏွီးေႏွာဖလွယ္ပဲြျပဳလုပ္ေနပုံမ်ား",
         "createdAt": "2015-11-11T14:22:08.473Z",
         "image": {
@@ -2363,7 +2670,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-385b4a31-f352-4c0a-a01e-7208bfcc0499-Video.png"
         },
         "isAllow": true,
-        "likes": 40,
+        "likes": 42,
         "objectId": "svgqv834qi",
         "postUploadName": "Action AID",
         "postUploadPersonImg": {
@@ -2380,7 +2687,7 @@
         "suggest_section_eng": "Questions for Discussions:\n- Olga got an international award for her work as a leader in protecting people against damaging chemicals. When Olga became a leader she chose the ‘’Environment’’ as what she wanted to improve. You are a leader in your community, what would you like to improve for your community? \n- Olga is part of a network of 700 Civil Society Organization who believe that if they work together they can make huge changes for the better in their society. How do you think that expending the TLG Network would help you and your fellow women improve achieve your goals?\n",
         "title": "Inspiring Women\n",
         "titleMm": "အမိ်ဳးသမီးေရးရာစိတ္ဓာတ္ခြန္အားၿမွင့္တင္ ဗီဒီယိုု\n",
-        "updatedAt": "2016-01-30T16:06:26.341Z",
+        "updatedAt": "2016-03-02T08:50:53.004Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -2434,7 +2741,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-12b8ad64-925f-462a-a267-adbc2d5c7408-HtarHtar.jpg"
         },
         "isAllow": true,
-        "likes": 39,
+        "likes": 45,
         "objectId": "tdNUBu44ir",
         "postUploadName": "Htar Htar",
         "postUploadPersonImg": {
@@ -2451,7 +2758,7 @@
         "share_count": 24,
         "title": "Let’s Honestly Help Each Other!",
         "titleMm": "တစ္ေယာက္ကိုု တစ္ေယာက္ရိုုးသားစြာကူညီၾကပါစိုု ့",
-        "updatedAt": "2016-01-29T15:13:21.598Z",
+        "updatedAt": "2016-03-03T11:01:05.227Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -2584,6 +2891,47 @@
             "__type": "Pointer",
             "className": "_User",
             "objectId": "LuL0gJ7JSH"
+        }
+    },
+	{
+        "authorId": {
+            "__type": "Pointer",
+            "className": "Author",
+            "objectId": "2MbK9BzUOH"
+        },
+        "comment_count": 0,
+        "content": "Let me introduce myself first. I am Daw Myint Myint Aye, one of the members of Thu Kha San Women Self-Reliant Group from Thae Phyu Chaung Village, in Kyaik Hto Township, Mon State, Myanmar and I am also an accountant of Su Zee Ar Mun Women Township Leading Group.\n\nIn 1988 uprising, I was a Grade 7 student and because of the closure of the schools after the uprising, I had to waste one year without being able to go to school like all the other students across Myanmar. At that time, there were 11 of us in our family – Father, Mother, my eight siblings and myself and we were having a very difficult time. I finished high school in 1994 and finished a distance learning course at university in 2001 and finally graduated in 2002. Although I did not fail in any Grades, I had to spend many years to finish university. I share about this to highlight the point that the young people from rural areas like me who had to live under the unstable political situation and dictatorship of the country had little chance to learn any vocational skills and as a result, we grew up into middle-aged people with no proper vocational skills and so we have to struggle very hard to support our families now. \n\nI would like to request the government, the most responsible body, NGOs, INGs, CSOs, the media and all the other stakeholders to make concerted effort to prevent the same thing from happening to our new generations and help them to build the brightest possible future.\n\nI would like to share one of the achievements I am most proud of: our Women Township Leading Group has donated 80,000 kyats to a fatherless girl from Thae Phyu Chaung Village for her to attend a basic tailoring course at Mu Don Vocational Training School, Mon State. At the end of the course, she won the award as the most outstanding trainee and the school gave her a sewing machine as a prize. Our Women Township Leading Group continued to support her to do an advanced course in tailoring and again she won another sewing machine as the most outstanding student. Once she completed these courses, she became a tailor and now she can make about 200,000 kyats a month and she has apprentices who are learning tailoring skills from her. It is her own business and she can earn a living without any pressure. Our Women Township Leading Group supported a girl who is ambitious and hardworking like her and this is one of the achievements I am most proud of.\n\nOur Women Township Leading Groups member of May Doe Kabar National Network of Rural Women are creating a Skill Bank. We are taking a look at all the skills possessed by the 31 Women Township Leading Group. We are planning to share these skills within May Doe Kabar and therefore strengthen rural women’s skills across Myanmar. We are also discussing how to find new ways to access markets nationally and internationally where we could sell our products.  As rural women, we must focus our efforts in producing high quality products so we can easily access and maintain our position in the market; to do so we should aim to benefit our customers rather than focusing on profit. My hope is the being a member of May Doe Kabar National Network of Rural Women will help foster better linkages between us, the producers, and the customers. \n\nWe also need to link to and coordinate with other development organizations offering vocational skills in rural areas. We have heard that in Mawlamyine, Mon State, the International Organization for Migration is providing vocational trainings every three months for women such as hairdressing and tailoring and for men to become mechanics and electricians. Now we have their contact phone numbers. Also BAJ is providing training on welding, mechanics and connecting and repairing electrical equipment at the Technical School for Ethnic Youth in Border Areas (Pha-an). It was learnt that during the six month training course, they provide accommodation and food. I want to share this information to the members of our Women Township Leading Groups and Self-reliant Groups so that we can help our members and children of the members to join these vocational training programs. I would also like to request the organizations to support our May Doe Kabar Network. \n\nAs I recall the day when May Doe Kabar National Network of Rural Women was launched, October 15th 2015, I feel very proud of all what has been achieved so far. I invite all of you to connect with our May Doe Kabar Network. \nDaw Myint Myint Aye\n",
+        "contentType": "Letter",
+        "content_mm": "ဦးစြာပထမ ကၽြန္မကိုယ္ကၽြန္မ မိတ္ဆက္လိုပါသည္။ ကၽြန္မသည္  မြန္ျပည္နယ္ က်ိဳက္ထို ၿမိဳ႕နယ္ သဲျဖဴေခ်ာင္းေက်းရြာ သုခုစံ ကိုယ့္အားကိုယ္ကိုး အဖြဲ႕မွ ကိုယ္စားလွယ္ (၁) ဦးျဖစ္ၿပီး စုစည္းအားမာန္ ကိုယ့္အားကိုယ္ကိုး ၿမိဳ႕နယ္ဦးေဆာင္အဖြဲ႕မွ စာရင္းကိုင္ ေဒၚျမင့္ျမင့္ေအး ျဖစ္ပါသည္။\n\n(၁၉၈၈)ခုႏွစ္တြင္ ကၽြန္မသည္ ဆဌမတန္းေက်ာင္းသူ တစ္ဦးျဖစ္ၿပီး တိုင္းျပည္မၿငိမ္သက္မႈ ေၾကာင့္ ေက်ာင္းမ်ား ပိတ္ခဲ့သျဖင့္ နိုင္ငံတစ္ဝွမ္းလုံးရွိ ေက်ာင္းသူ၊ သားမ်ားအားလုံးနည္းတူ ပညာသင္ၾကားခြင့္ တစ္ႏွစ္တာ ဆုံး႐ုံးခဲ့ရပါသည္။ ထိုအခ်ိန္က ကၽြန္မတို႔ မိသားစုတို႔တြင္ အေဖ၊ အေမႏွင့္ ေမာင္ႏွမ (၉) ဦး စုစုေပါင္း (၁၁) ဦး ရွိၿပီး မိသားစု စားဝတ္ေနေရး အလြန္ပင္ ၾကပ္တည္းခဲ့ပါသည္။ ၁၉၉၄ခုႏွစ္တြင္ ဆယ္တန္းစာေမးပြဲေအာင္ျမင္ခဲ့ၿပီး (၂၀၀၁) ခုႏွစ္တြင္ ေက်ာင္းၿပီးကာ ၂၀၀၂ခုႏွစ္တြင္ အေဝးသင္တကၠသိုလ္မွ ဘြဲ႕ရခဲ့ပါသည္။ ဘယ္အတန္းတြင္မွ် စာေမးပြဲမက်ခဲ့ေသာ္လည္း ေက်ာင္းၿပီးရန္ ႏွစ္မ်ားစြာ ၾကာခဲ့ပါသည္။ ဤအၾကာင္းအရာမ်ားကို တင္ျပရျခင္းမွာ ကၽြန္မတို႔ တိုင္းျပည္၏ နိုင္ငံေရး မတည္ၿငိမ္မႈႏွင့္  အားဏာရွင္စနစ္မ်ား၏ အုပ္ခ်ဴပ္မႈေအာက္မွာ ေနထိုင္ခဲ့ရေသာ ကၽြန္မတို႔ ေတာသူေတာင္သား လူငယ္လူရြယ္မ်ား၏ ဘဝမ်ားသည္ အသက္ေမြးမႈ အတတ္ပညာ ေရေရရာရာ ဘာမၽွေလ့လာသင္ၾကားခြင့္ မရွိ ေသာေၾကာင့္ အနာဂတ္ဘဝမ်ားမွာ မေရရာမေသခ်ာျဖင့္ ႀကီးျပင္းခဲ့ရၿပီး ယခု ကၽြန္မတို႔ အရြယ္ သက္လတ္ပိုင္း လူတန္းစားမ်ားသည္ မိသားစုဘဝမ်ားကို ခက္ခဲပင္ပန္းစြာ ႐ုန္းကန္ လွုပ္ရွား ရွာေဖြစားေသာက္ေနရပါသည္။ \n\nေနာင္္အနာဂတ္တြင္ ကၽြန္မတို႔၏ မ်ိဳးဆက္သစ္ အဖိုးတန္ရတနာမ်ားျဖစ္ေသာ ေနာင္တစ္ခ်ိန္ ေခါင္းေဆာင္ေကာင္းမ်ားျဖစ္လာမည့္ သားငယ္၊ သမီးငယ္ေလးမ်ားအား ကၽြန္မတို႔ကဲ့သို႔ ဘဝမ်ိဳး မျဖစ္ရေလေအာင္ တိုင္းျပည္၏ တာဝန္အရွိဆုံး အစိုးရ၊ INGO, NGO, CSO မီဒီယာအသီးသီး၊ ပညာေရးႏွင့္ အစိုးရဌာနအသီးသီးရွိ တာဝန္ရွိပုဂၢဳိလ္မ်ားႏွင့္ ကၽြန္မတို႔ အားလုံး ပူးေပါင္းေဆာင္ရြက္ၿပီး အနာဂတ္မ်ိဳးဆက္သစ္ကေလးမ်ား၏ အနာဂတ္ ဘဝကေလး မ်ား ေနလိုလလို ထြန္းလင္းေတာက္ပေနေစရန္ ဝိုင္းဝန္းေဆာင္ရြက္ေပးၾကပါရန္ ေမတၱရပ္ခံ တင္ျပျခင္း ျဖစ္ပါသည္။\n\nကၽြန္မအေနျဖင့္ ဂုဏ္အယူမိဆံုး စြမ္းေဆာင္ႏိုင္မႈတစ္ခုကို မွ်ေ၀တင္ျပလိုပါသည္။ ကၽြန္မတို႔ အမ်ိဳးသမီး ၿမိဳနယ္ဦးေဆာင္အဖဲြ႕သည္ သဲျဖဴေခ်ာင္းေက်းရြာမွ ဆင္းရဲေသာ ဖတဆိုးသမီး ေလးတစ္ဦးအား မြန္ျပည္နယ္၊ မုဒုံၿမိဳ႕ အိမ္တြင္းမႈ အသက္ေမြးပညာ သင္တန္းေက်ာင္းသို႔ အေျခခံစက္ခ်ဴပ္သင္တန္း တက္ေရာက္ႏိုင္ရန္အတြက္ ေငြက်ပ္ (၈၀,၀၀၀) ေထာက္ပံ့လႈဒါန္း ခဲ့ပါသည္။ ပထမအႀကိမ္အေျခခံစက္ခ်ဴပ္သင္တန္းဆင္းခ်ိန္တြင္ သူမသည္ သင္တန္းထူးခြ်န္ ဆုအျဖစ္ အပ္ခ်ဳပ္စက္တစ္လုံး သင္တန္းေက်ာင္းမွ ခ်ီးျမႇင့္ျခင္းခံခဲ့ရပါသည္။ ဒုတိအႀကိမ္ အဆင့္ျမင့္စက္ခ်ဳပ္သင္တန္းသို႔ အဖြဲ႕မွ ထပ္မံ၍ ေငြ (၈၀,၀၀၀)က်ပ္ ေထာက္ပံ့၍ ပို႔ေပးခဲ့ ပါသည္။ ဒုတိယအႀကိမ္ သင္တန္းဆင္းခ်ိန္တြင္လည္း သူမသည္ သင္တန္းသားထူးခၽြန္ဆု အပ္ခ်ဴပ္စက္တစ္လုံး ရရွိခဲ့ျပန္ပါသည္။ သူမသည္ သင္တန္းၿပီးသည္ႏွင့္ တစ္ၿပိဳင္နက္ စက္ခ်ဳပ္ လုပ္ငန္းကို တစ္စိုက္မတ္မတ္လုပ္ခဲ့ပါသည္။ ယခုဆိုလၽွင္ သူမ၏ တစ္လဝင္ေငြမွာ က်ပ္(၂) သိန္းအထက္တြင္ရွိၿပီး တပည့္မ်ားလက္ခံ၍ သင္ၾကားေပးေနၿပီ ျဖစ္ပါသည္။ သူမ၏ ကိုယ္ပိုင္ လုပ္ငန္းျဖစ္ၿပီး မည္သူတစ္ဦးတစ္ေယာက္၏ ဖိအားမွ်မပါဘဲ ဝင္ေငြရလုပ္ငန္းတစ္ခုကို ပိုင္ ဆိုင္ထားျခင္း ျဖစ္ပါသည္။ ရည္မွန္းခ်က္ႀကီးၿပီး အလုပ္ႀကိဳးစားသူ မိန္းကေလးတစ္ဦးအား ကၽြန္မတို႔ ပ်ိဳးေထာင္နိုင္ခဲ့ျခင္း ျဖစ္ပါသည္။ ကၽြန္မ၏ ဂုဏ္ယူမဆုံးေသာ စြမ္းေဆာင္ေအာင္ ျမင္မႈပင္ ျဖစ္ပါသည္။\n\nကၽြန္မတို႔၏ ေမတို႔ကမၻာ ႏိုင္ငံလံုးဆိုင္ရာ ေက်းလက္အမ်ိဳးသမီးမ်ားကြန္ယက္မွ အဖဲြ႕၀င္မ်ား ျဖစ္ေသာ အမ်ိဳးသမီးၿမိဳ႕နယ္ဦးေဆာင္အဖဲြ႕မ်ားသည္ သက္ေမြးမႈဘဏ္တစ္ခုကို တည္ေထာင္ ထားပါသည္။ ကၽြန္မတို႔၏ ေမတို႔ကမၻာကြန္ယက္တြင္ ၿမိဳ႕နယ္ဦးေဆာင္အဖဲြ႕ ၃၁ဖဲြ႕ရွိသည့္ အနက္ အဖဲြ႕အသီးသီး၏ တတ္ေျမာက္ထားေသာ အသက္ေမြးမႈဆိုင္ရာလုပ္ငန္းမ်ားကို ေလ့လာ၍ မိမိတို႔၏အဖြဲ႕ႏွင့္ သင့္ေတာ္ေသာ အသက္ေမြးမႈဆိုင္ရာလုပ္ငန္းမ်ားကို အခ်င္းခ်င္း ဖိတ္ေခၚကာ ဖလွယ္သင္ယူၾကမည္ျဖစ္ၿပီး ေစ်းကြက္ကို က်ယ္က်ယ္ျပန္႔ျပန္႔ လုပ္ကိုင္နိုင္ရန္ အတြက္ ျပည္တြင္းတြင္သာမက ျပည္ပသို႔တင္ပို႔သည္အထိ လုပ္ကိုင္နိုင္ရန္ ၿမိဳ႕နယ္ဦးေဆာင္ အဖဲြ႕မ်ား အျပန္အလွန္ ေဆြးေႏြးအေျဖရွာၾကမည္ ျဖစ္ပါသည္။ အဖြဲ႕၏ ထုတ္ကုန္မ်ား (သို႔) တစ္ဦးခ်င္းစီ၏ ထုတ္ကုန္မ်ားသည္ အရည္အေသြးေကာင္းမြန္ရန္ အဓိကထား လုပ္ေဆာင္ရ မည္ျဖစ္ပါသည္။ မိမိတို႔ အျမတ္အစြန္းမ်ားမ်ားရရွိေစေရးထက္ စားသုံးသူ (သို႔) အသုံးျပဳသူ မ်ားအတြက္ ေစတနာအျပည့္ျဖင့္ ထုတ္လုပ္ေရာင္းခ်နိုင္ပါက ရရွိထားေသာ ေစ်းကြက္အား ေရရွည္ထိန္းသိမ္းထားနိုင္ၾကမည္ ျဖစ္ပါသည္။ ေမတို႔ကမၻာ ႏိုင္ငံလံုးဆိုင္ရာ ေက်းလက္အမ်ိဳး သမီးမ်ားကြန္ယက္၏ အဖဲြ႕၀င္ျဖစ္လာသည့္အတြက္ ကၽြန္မတို႔အခ်င္းခ်င္း၊ ထုတ္လုပ္သူမ်ား ႏွင့္ စားသံုးသူမ်ားၾကား ခ်ိတ္ဆက္မႈမ်ား ပိုမိုအားေကာင္းလာေအာင္ အေထာက္အကူျဖစ္လိမ့္ မည္ဟု ေမွ်ာ္လင့္မိပါသည္။\n\nေက်းလက္ေဒသအတြက္ အသက္ေမြးဝမ္းေက်ာင္းဆိုင္ရာ အတတ္ပညာမ်ား ပံ့ပိုးေပးေနေသာ အျခားဖံြ႕ၿဖိဳးေရးအဖြဲ႕အစည္းမ်ားႏွင့္လည္း ခ်ိတ္ဆက္၍  ေဆာင္ရြက္ရမည္ျဖစ္ပါသည္။  ယခု ဆိုလွ်င္ မြန္ျပည္နယ္ ေမာ္လၿမိဳင္ၿမိဳ႕ရွိ ေရႊ႕ေျပာင္းသြားလာေနထိုင္ျခင္းဆိုင္ရာ ႏိုင္ငံတကာ အဖဲြ႕အစည္း (IOM) မွလည္း အမ်ိဳးသမီးမ်ားအတြက္ ဆံပင္ညႇပ္အလွျပင္သင္တန္းႏွင့္ စက္ခ်ဳပ္သင္တန္း၊ အမ်ိဳးသားမ်ားအတြက္ ေက်းရြာသုံး အင္ဂ်င္စက္ျပင္သင္တန္း အိမ္တြင္း လွ်ပ္စစ္သြယ္တန္းသင္တန္းမ်ားအား (၃)လတစ္ႀကိမ္ ေပးေနေၾကာင္း ၾကားသိေနရပါသည္။ ဖုန္းနံပါတ္မ်ားလည္း ရရွိထားပါသည္။ အာရွဂ်ပန္ေပါင္းကူး (BAJ) အဖြဲ႕မွလည္း နယ္စပ္ ေဒသတိုင္းရင္းသားလူငယ္မ်ား စက္မႈလက္မႈပညာသင္ေက်ာင္း  (ဘားအံ) တြင္ ဂေဟပိုင္း ဆိုင္ရာ သင္တန္း၊ ေမာ္ေတာ္ယာဥ္စက္မ်ား ျပဳျပင္ျခင္းဆိုင္ရာသင္တန္းႏွင့္ လၽွပ္စစ္ပိုင္းဆိုင္ရာ သင္တန္းမ်ား ဖြင့္လွစ္သင္ၾကားေပးေနေၾကာင္း သိရွိရၿပီး သင္တန္းကာလ (၆)လ အတြင္း သင္တန္းသားမ်ားအတြက္ ေနစရိတ္၊ စားစရိတ္ အခမဲ့ ျဖစ္ေၾကာင္း စုံစမ္းသိရွိရပါသည္။ သို႔ျဖစ္ပါ၍ ကၽြန္မတို႔၏ ၿမိဳ႕နယ္ဦးေဆာင္အဖဲြ႕မ်ားႏွင့္ ကိုယ့္အားကိုယ္ကိုးအဖြဲ႕မ်ားမွ လူငယ္ လူရြယ္မ်ားႏွင့္  အဖဲြ႕၀င္မ်ား၏ သားသမီးမ်ားအတြက္ ခ်ိတ္ဆက္ေဆာင္ရြက္ေပးနိုင္ေၾကာင္း ျပန္လည္ေဝမွ်ေပးပါသည္။ အဖြဲ႕အစည္းအသီးသီးမွလည္း ကၽြန္မတို႔ ေမတို႔ကမၻာအဖြဲ႕အား လက္တြဲ ေခၚေဆာင္ေပးၾကပါရန္ ေမတၱာရပ္ခံအပ္ပါသည္။ \n\nေမတို႔ကမၻာ ႏိုင္ငံလံုးဆိုင္ရာ ေက်းလက္အမ်ိဳးသမီးမ်ားကြန္ယက္အား စတင္မိတ္ဆက္ဖြင့္လွစ္ ခဲ့သည့္ ၂၀၁၅ခုႏွစ္ ေအာက္တိုဘာလ ၁၅ရက္အား ကၽြန္မအမွတ္ရမိရင္း ယေန႕အခ်ိန္အထိ စြမ္းေဆာင္ေအာင္ျမင္ခဲ့သည္မ်ားအားလံုးအတြက္ ကၽြန္မ ဂုဏ္ယူ၀မ္းေျမာက္မိပါသည္။ ကၽြန္မ တို႔၏ ေမတို႔ကမၻာကြန္ယက္သို႔ ခ်ိတ္ဆက္၀င္ေရာက္ၾကရန္ အားလံုးကို ဖိတ္ေခၚအပ္ပါသည္။ \n\nေဒၚ ျမင့္ျမင့္ေအး\n",
+        "createdAt": "2016-02-27T09:28:20.181Z",
+        "credit_link": "https://www.facebook.com/May-Doe-Kabar-1639831926295425/?fref=ts",
+        "credit_link_mm": "https://www.facebook.com/May-Doe-Kabar-1639831926295425/?fref=ts",
+        "credit_logo_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-c7dc7b54-84a0-4683-a81e-5cb5c9660578-MDKB.png",
+        "credit_name": "Credit to May Doe Kabar\n",
+        "image": {
+            "__type": "File",
+            "name": "tfss-6388f92b-226b-4834-8b6e-9d439ae705c1-Daw Myint Myint Aye.jpg",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-6388f92b-226b-4834-8b6e-9d439ae705c1-Daw%20Myint%20Myint%20Aye.jpg"
+        },
+        "isAllow": true,
+        "likes": 14,
+        "objectId": "z6xs16rEOv",
+        "postUploadName": "ေဒၚ ျမင့္ျမင့္ေအး",
+        "postUploadUserImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-6388f92b-226b-4834-8b6e-9d439ae705c1-Daw%20Myint%20Myint%20Aye.jpg",
+        "postUploadedDate": {
+            "__type": "Date",
+            "iso": "2015-10-15T09:58:00.000Z"
+        },
+        "post_author_role": "May Doe Kabar Member",
+        "post_author_role_mm": " ေမတိုု ့ကမၻာ အဖြဲ ့၀င္",
+        "share_count": 0,
+        "title": "I invite all of you to connect with our May Doe Kabar Network.",
+        "titleMm": "ကၽြန္မ တို႔၏ ေမတို႔ကမၻာကြန္ယက္သို႔ ခ်ိတ္ဆက္၀င္ေရာက္ၾကရန္ အားလံုးကို ဖိတ္ေခၚအပ္ပါသည္။",
+        "updatedAt": "2016-03-04T08:06:21.775Z",
+        "userId": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "2MbK9BzUOH"
         }
     }
 ] }

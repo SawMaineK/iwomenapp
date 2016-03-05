@@ -51,7 +51,7 @@ class HomeController extends Controller
             $data['postUploadedDate'] = isset($data['postUploadedDate']) ? $data['postUploadedDate']['iso'] : '';
             $data['userId'] = isset($data['userId']) ? $data['userId']['objectId'] : '';
             Post::create($data);
-        }
+        }*/
         $dataJson = $this->readJson('IwomenPost.json');
         foreach ($dataJson['results'] as $key => $data) {
             $data['image'] = isset($data['image']) ? $data['image']['url'] : '';
@@ -66,7 +66,7 @@ class HomeController extends Controller
         foreach ($dataJson['results'] as $key => $data) {
             $data['resource_icon_img'] = isset($data['resource_icon_img']) ? $data['resource_icon_img']['url'] : '';
             Resources::create($data);
-        }
+        }/*
         $dataJson = $this->readJson('Author.json');
         foreach ($dataJson['results'] as $key => $data) {
             $data['authorImg'] = isset($data['authorImg']) ? $data['authorImg']['url'] : '';
