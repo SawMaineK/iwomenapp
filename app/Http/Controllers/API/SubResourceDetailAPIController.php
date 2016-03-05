@@ -29,13 +29,22 @@ class SubResourceDetailAPIController extends AppBaseController
 
 		$offset  = $request->page ? $request->page : 1;
 		$limit   = $request->limit ? $request->limit : 12;
+		$isAllow = $request->isAllow ? $request->isAllow : '';
 
 		$offset  = ($offset - 1) * $limit;
 		
 		if($request->resource_id){
-			$subResourceDetails = SubResourceDetail::where('resource_id', $request->resource_id)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
+			if($isAllow && $isAllow != ''){
+				$subResourceDetails = SubResourceDetail::where('isAllow',$isAllow)->where('resource_id', $request->resource_id)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
+			}else{
+				$subResourceDetails = SubResourceDetail::where('resource_id', $request->resource_id)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
+			}
 		}else{
-			$subResourceDetails = SubResourceDetail::orderBy('id','desc')->offset($offset)->limit($limit)->get();;
+			if($isAllow && $isAllow != ''){
+				$subResourceDetails = SubResourceDetail::where('isAllow',$isAllow)->orderBy('id','desc')->offset($offset)->limit($limit)->get();;
+			}else{
+				$subResourceDetails = SubResourceDetail::orderBy('id','desc')->offset($offset)->limit($limit)->get();;
+			}
 		}
 				
 		return response()->json($subResourceDetails);

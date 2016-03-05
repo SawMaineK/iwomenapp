@@ -55,8 +55,13 @@ class GcmAPIController extends AppBaseController
 
 		$input = $request->all();
 
-		$gcms = $this->gcmRepository->create($input);
-
+		$gcms = Gcm::where('device_id', $input['device_id'])->first();
+		if($gcms){
+			$gcms->device_id = $input['device_id'];
+			$gcms->update();
+		}else{
+			$gcms = $this->gcmRepository->create($input);
+		}
 		return $this->sendResponse($gcms->toArray(), "Gcm saved successfully");
 	}
 
