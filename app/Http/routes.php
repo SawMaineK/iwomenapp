@@ -236,3 +236,19 @@ Route::group(['middleware' => ['web']], function () {
 
     });
 
+
+
+Route::resource('postLikes', 'PostLikeController');
+
+Route::get('postLikes/{id}/delete', [
+    'as' => 'postLikes.delete',
+    'uses' => 'PostLikeController@destroy',
+]);
+
+
+Route::resource('iwomenPostLikes', 'IwomenPostLikeController');
+
+Route::get('iwomenPostLikes/{id}/delete', [
+    'as' => 'iwomenPostLikes.delete',
+    'uses' => 'IwomenPostLikeController@destroy',
+]);

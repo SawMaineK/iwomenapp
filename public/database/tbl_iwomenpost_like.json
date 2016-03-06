@@ -1,0 +1,18 @@
+[
+	{
+        "field":"objectId:string",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"postId:integer",
+        "type":"text",
+        "validations":""
+    },
+    {
+        "field":"userId:integer",
+        "type":"text",
+        "validations": ""
+    }
+
+]

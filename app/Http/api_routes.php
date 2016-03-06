@@ -66,3 +66,7 @@ Route::resource("mutipleOptions", "MutipleOptionAPIController");
 Route::resource("mutipleAnswers", "MutipleAnswerAPIController");
 
 Route::resource("avators", "AvatorAPIController");
+
+Route::resource("postLikes", "PostLikeAPIController");
+
+Route::resource("iwomenPostLikes", "IwomenPostLikeAPIController");
