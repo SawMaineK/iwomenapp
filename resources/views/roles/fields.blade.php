@@ -7,7 +7,7 @@
 <!-- Name Field -->
 <div class="form-group col-sm-6 col-lg-4">
     {!! Form::label('name', 'Name:') !!}
-	{!! Form::select('name', [ 'Admin' => 'Admin', 'BOD' => 'BOD', 'User' => 'User' ], null, ['class' => 'form-control']) !!}
+	{!! Form::select('name', [ 'Admin' => 'Admin', 'BOD' => 'BOD', 'TLG' => 'TLG', 'TLGUSER' => 'TLGUSER', 'User' => 'User' ], null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Userid Field -->
