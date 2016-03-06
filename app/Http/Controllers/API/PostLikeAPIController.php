@@ -6,6 +6,7 @@ use App\Models\PostLike;
 use Illuminate\Http\Request;
 use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
+use App\Models\Post;
 
 class PostLikeAPIController extends AppBaseController
 {
@@ -57,7 +58,22 @@ class PostLikeAPIController extends AppBaseController
 
 		$postLikes = $this->postLikeRepository->create($input);
 
+		$post = Post::find($input['postId']);
+		if($post){
+			$post->likes = $post->likes + 1;
+			$post->update();
+		}
+
 		return $this->sendResponse($postLikes->toArray(), "PostLike saved successfully");
+	}
+
+	public function chkUserLike(Request $request)
+	{
+		$like = PostLike::where('postId', $request->postId)->where('userId', $request->userId)->first();
+		if($like){
+			return response()->json(true);
+		}
+		return response()->json(false);
 	}
 
 	/**

@@ -70,3 +70,7 @@ Route::resource("avators", "AvatorAPIController");
 Route::resource("postLikes", "PostLikeAPIController");
 
 Route::resource("iwomenPostLikes", "IwomenPostLikeAPIController");
+
+Route::post("post/like/check", "PostLikeAPIController@chkUserLike");
+
+Route::post("iwomenPost/like/check", "IwomenPostLikeAPIController@chkUserLike");

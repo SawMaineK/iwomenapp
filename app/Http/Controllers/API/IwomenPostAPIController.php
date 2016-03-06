@@ -47,11 +47,6 @@ class IwomenPostAPIController extends AppBaseController
 		return response()->json($posts);
 	}
 
-	public function like($request)
-	{
-	
-	}
-
 	/**
 	 * Show the form for creating a new IwomenPost.
 	 * GET|HEAD /iwomenPosts/create
