@@ -113,8 +113,15 @@ class UserAPIController extends AppBaseController
 
 		$users = $this->userRepository->create($input);
 
-		$users['role'] = 'User';
-
+		if(isset($input['tlg_city_address']) && $input['tlg_city_address'] && isset($input['isTlgTownshipExit']) && $input['isTlgTownshipExit']){
+			$role = new Role();
+			$role->name = 'TLGUSER';
+			$role->userId = $users->objectId;
+			$role->save();
+			$users['role'] = $role->name;
+		}else{
+			$users['role'] = 'User';
+		}
 		return $this->sendResponse($users->toArray(), "User saved successfully");
 	}
 
