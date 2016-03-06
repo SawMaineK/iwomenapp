@@ -47,7 +47,7 @@ class CalendarAPIController extends AppBaseController
 	}
 
 	public function getEvent(Request $request){
-		$calendars = Calendar::where('start_date','<=', $request->date)->where('end_date','>=', $request->date)->get();
+		$calendars = Calendar::where('start_date','<=', date('Y-m-d',strtotime($request->date)))->where('end_date','>=', date('Y-m-d',strtotime($request->date)))->get();
 		return response()->json($calendars);
 	}
 
