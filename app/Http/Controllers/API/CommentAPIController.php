@@ -94,6 +94,7 @@ class CommentAPIController extends AppBaseController
 			}
 		}
 		
+		$comments['comment_count'] = $post->comment_count;
 
 		return $this->sendResponse($comments->toArray(), "Comment saved successfully");
 	}
