@@ -9,7 +9,8 @@ use Illuminate\Http\Response;
 use App\Http\Controllers\AppBaseController as AppBaseController;
 use Validator;
 
-use App\Apk;
+//use App\Apk;
+use App\Models\Apk;
 
 class APKController extends AppBaseController
 {
