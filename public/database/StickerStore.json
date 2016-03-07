@@ -1,189 +1,182 @@
 { "results": [
 	{
-        "createdAt": "2015-10-02T15:18:13.428Z",
-        "objectId": "0RMTC41NLp",
+        "createdAt": "2016-03-07T07:25:13.051Z",
+        "objectId": "1YYi5RPZgA",
         "stickerImg": {
             "__type": "File",
-            "name": "tfss-ca6ccda8-ea20-4e10-9637-39c0dac95c97-sticker_bird.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-ca6ccda8-ea20-4e10-9637-39c0dac95c97-sticker_bird.png"
+            "name": "tfss-736ebd11-c8d8-4733-855a-59e12a12ecea-stk_6.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-736ebd11-c8d8-4733-855a-59e12a12ecea-stk_6.png"
         },
-        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-ca6ccda8-ea20-4e10-9637-39c0dac95c97-sticker_bird.png",
-        "stickerName": "sticker_bird",
-        "updatedAt": "2015-10-02T15:31:04.746Z"
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-736ebd11-c8d8-4733-855a-59e12a12ecea-stk_6.png",
+        "stickerName": "stk_6",
+        "updatedAt": "2016-03-07T07:46:42.548Z"
     },
 	{
-        "createdAt": "2015-10-02T15:19:57.497Z",
-        "objectId": "0jOdxBxlbB",
+        "createdAt": "2016-03-07T07:45:46.539Z",
+        "objectId": "8OJGgBUfoz",
         "stickerImg": {
             "__type": "File",
-            "name": "tfss-22b8d9a5-f5e8-42f8-a135-07fc265b1f28-sticker_pony.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-22b8d9a5-f5e8-42f8-a135-07fc265b1f28-sticker_pony.png"
+            "name": "tfss-cca060b3-b993-487e-ade3-16d8c73ff246-stk_13.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-cca060b3-b993-487e-ade3-16d8c73ff246-stk_13.png"
         },
-        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-22b8d9a5-f5e8-42f8-a135-07fc265b1f28-sticker_pony.png",
-        "stickerName": "sticker_pony",
-        "updatedAt": "2015-10-02T15:27:26.944Z"
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-cca060b3-b993-487e-ade3-16d8c73ff246-stk_13.png",
+        "stickerName": "stk_13",
+        "updatedAt": "2016-03-07T07:47:03.943Z"
     },
 	{
-        "createdAt": "2015-10-02T15:19:29.806Z",
-        "objectId": "2f4epioTTg",
+        "createdAt": "2016-03-07T07:01:20.058Z",
+        "objectId": "8ZvR0k64UI",
         "stickerImg": {
             "__type": "File",
-            "name": "tfss-d2341df9-f203-470a-8498-3f7236343dee-sticker_hamster.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-d2341df9-f203-470a-8498-3f7236343dee-sticker_hamster.png"
+            "name": "tfss-bf503946-14ca-42c4-a8c8-ba6ce5d195f4-stk_1.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-bf503946-14ca-42c4-a8c8-ba6ce5d195f4-stk_1.png"
         },
-        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-d2341df9-f203-470a-8498-3f7236343dee-sticker_hamster.png",
-        "stickerName": "sticker_hamster",
-        "updatedAt": "2015-10-02T15:28:40.186Z"
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-bf503946-14ca-42c4-a8c8-ba6ce5d195f4-stk_1.png",
+        "stickerName": "stk_1",
+        "updatedAt": "2016-03-07T07:46:25.565Z"
     },
 	{
-        "createdAt": "2015-10-02T15:20:04.716Z",
-        "objectId": "7lJ1nk6cgU",
+        "createdAt": "2016-03-07T07:26:03.796Z",
+        "objectId": "CFP6NOAopd",
         "stickerImg": {
             "__type": "File",
-            "name": "tfss-7f3b7114-6a01-4da3-ae62-73cbb19c3864-sticker_puppy.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-7f3b7114-6a01-4da3-ae62-73cbb19c3864-sticker_puppy.png"
+            "name": "tfss-c96fe1e0-8959-44e4-89f5-5d7bccf0858d-stk_12.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-c96fe1e0-8959-44e4-89f5-5d7bccf0858d-stk_12.png"
         },
-        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-7f3b7114-6a01-4da3-ae62-73cbb19c3864-sticker_puppy.png",
-        "stickerName": "sticker_puppy",
-        "updatedAt": "2015-10-02T15:26:47.102Z"
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-c96fe1e0-8959-44e4-89f5-5d7bccf0858d-stk_12.png",
+        "stickerName": "stk_12",
+        "updatedAt": "2016-03-07T07:46:59.942Z"
     },
 	{
-        "createdAt": "2015-10-02T15:19:14.455Z",
-        "objectId": "AkP4h4EdqK",
+        "createdAt": "2016-03-07T07:25:56.736Z",
+        "objectId": "Gz96ttbJri",
         "stickerImg": {
             "__type": "File",
-            "name": "tfss-49fc82c9-0c8c-4c01-914a-3a7b1f4fe4f8-sticker_frog.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-49fc82c9-0c8c-4c01-914a-3a7b1f4fe4f8-sticker_frog.png"
+            "name": "tfss-2b77a0f0-4d77-424d-ad85-d285bc428f36-stk_11.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-2b77a0f0-4d77-424d-ad85-d285bc428f36-stk_11.png"
         },
-        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-49fc82c9-0c8c-4c01-914a-3a7b1f4fe4f8-sticker_frog.png",
-        "stickerName": "sticker_frog",
-        "updatedAt": "2015-10-02T15:30:47.816Z"
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-2b77a0f0-4d77-424d-ad85-d285bc428f36-stk_11.png",
+        "stickerName": "stk_11",
+        "updatedAt": "2016-03-07T07:46:57.355Z"
     },
 	{
-        "createdAt": "2015-10-02T15:18:54.438Z",
-        "objectId": "BWdO7Q8Lh4",
+        "createdAt": "2016-03-07T07:03:28.772Z",
+        "objectId": "ID8ZLysyWd",
         "stickerImg": {
             "__type": "File",
-            "name": "tfss-dcb119c4-480e-4cef-9f55-7aa685fef4dd-sticker_chihuahua.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-dcb119c4-480e-4cef-9f55-7aa685fef4dd-sticker_chihuahua.png"
+            "name": "tfss-e7d6afd0-05cf-482b-bfd3-ad44840a530a-stk_2.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-e7d6afd0-05cf-482b-bfd3-ad44840a530a-stk_2.png"
         },
-        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-dcb119c4-480e-4cef-9f55-7aa685fef4dd-sticker_chihuahua.png",
-        "stickerName": "sticker_chihuahua",
-        "updatedAt": "2015-10-02T15:29:42.685Z"
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-e7d6afd0-05cf-482b-bfd3-ad44840a530a-stk_2.png",
+        "stickerName": "stk_2",
+        "updatedAt": "2016-03-07T07:46:29.241Z"
     },
 	{
-        "createdAt": "2015-10-02T15:18:41.817Z",
-        "objectId": "CqYIEYcZFi",
+        "createdAt": "2016-03-07T07:25:49.623Z",
+        "objectId": "LFrjFWI15Y",
         "stickerImg": {
             "__type": "File",
-            "name": "tfss-9739b91f-e78c-411a-af7b-68348544c29f-sticker_chicken.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-9739b91f-e78c-411a-af7b-68348544c29f-sticker_chicken.png"
+            "name": "tfss-6ed8a488-b760-45f1-8623-58f738f9b599-stk_10.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-6ed8a488-b760-45f1-8623-58f738f9b599-stk_10.png"
         },
-        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-9739b91f-e78c-411a-af7b-68348544c29f-sticker_chicken.png",
-        "stickerName": "sticker_chicken",
-        "updatedAt": "2015-10-02T15:29:58.002Z"
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-6ed8a488-b760-45f1-8623-58f738f9b599-stk_10.png",
+        "stickerName": "stk_10",
+        "updatedAt": "2016-03-07T07:46:53.897Z"
     },
 	{
-        "createdAt": "2015-10-02T15:19:36.693Z",
-        "objectId": "IhhFx9Qrwf",
+        "createdAt": "2016-03-07T07:25:43.668Z",
+        "objectId": "PmOe1ISURd",
         "stickerImg": {
             "__type": "File",
-            "name": "tfss-19bd63d1-3da1-46d1-a681-0f8dbbe4d16d-sticker_horse.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-19bd63d1-3da1-46d1-a681-0f8dbbe4d16d-sticker_horse.png"
+            "name": "tfss-42ffb069-b0ba-441a-88d4-167fa3dbcb43-stk_9.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-42ffb069-b0ba-441a-88d4-167fa3dbcb43-stk_9.png"
         },
-        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-19bd63d1-3da1-46d1-a681-0f8dbbe4d16d-sticker_horse.png",
-        "stickerName": "sticker_horse",
-        "updatedAt": "2015-10-02T15:30:38.089Z"
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-42ffb069-b0ba-441a-88d4-167fa3dbcb43-stk_9.png",
+        "stickerName": "stk_9",
+        "updatedAt": "2016-03-07T07:48:06.730Z"
     },
 	{
-        "createdAt": "2015-10-02T15:19:43.823Z",
-        "objectId": "Lfrzq3QZha",
+        "createdAt": "2016-03-07T07:04:28.954Z",
+        "objectId": "PortZrY0Yw",
         "stickerImg": {
             "__type": "File",
-            "name": "tfss-a2ac6a93-c792-4a29-9d6b-6150fffd9dfc-sticker_mouse.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-a2ac6a93-c792-4a29-9d6b-6150fffd9dfc-sticker_mouse.png"
+            "name": "tfss-690806ae-b215-4dcc-894d-185be313c409-stk_4.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-690806ae-b215-4dcc-894d-185be313c409-stk_4.png"
         },
-        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-a2ac6a93-c792-4a29-9d6b-6150fffd9dfc-sticker_mouse.png",
-        "stickerName": "sticker_mouse",
-        "updatedAt": "2015-10-02T15:28:26.899Z"
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-690806ae-b215-4dcc-894d-185be313c409-stk_4.png",
+        "stickerName": "stk_4",
+        "updatedAt": "2016-03-07T07:46:36.293Z"
     },
 	{
-        "createdAt": "2016-01-05T10:21:41.056Z",
-        "objectId": "TWm7SGwgoa",
+        "createdAt": "2016-03-07T07:26:25.120Z",
+        "objectId": "ZyfDDPm3z7",
         "stickerImg": {
             "__type": "File",
-            "name": "tfss-06f18fed-199e-4aa8-8e56-74475674cf84-applause-to-the-woman.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-06f18fed-199e-4aa8-8e56-74475674cf84-applause-to-the-woman.png"
+            "name": "tfss-28546af1-21b6-49a6-81f4-1212abcf9d3a-stk_15.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-28546af1-21b6-49a6-81f4-1212abcf9d3a-stk_15.png"
         },
-        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-06f18fed-199e-4aa8-8e56-74475674cf84-applause-to-the-woman.png",
-        "stickerName": "applause-to-the-woman",
-        "updatedAt": "2016-01-05T10:23:53.349Z"
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-28546af1-21b6-49a6-81f4-1212abcf9d3a-stk_15.png",
+        "stickerName": "stk_15",
+        "updatedAt": "2016-03-07T07:47:07.842Z"
     },
 	{
-        "createdAt": "2016-01-05T10:23:01.085Z",
-        "objectId": "bIPPsssIbj",
-        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-b06f0901-87c3-4f89-b52e-39eecf7f4fa5-unity-is-strength.png",
-        "stickerName": "unity-is-strength",
-        "updatedAt": "2016-01-05T10:24:36.283Z"
-    },
-	{
-        "createdAt": "2015-10-02T15:18:28.286Z",
-        "objectId": "g5gy4ahPpo",
+        "createdAt": "2016-03-07T07:25:27.381Z",
+        "objectId": "iJWQUPlI0v",
         "stickerImg": {
             "__type": "File",
-            "name": "tfss-8e71d7e2-3e77-4ba3-b0e6-9b5b27c1fb7c-sticker_black_cat.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-8e71d7e2-3e77-4ba3-b0e6-9b5b27c1fb7c-sticker_black_cat.png"
+            "name": "tfss-e68a7308-eba2-4260-a465-a4f03aa3795b-stk_7.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-e68a7308-eba2-4260-a465-a4f03aa3795b-stk_7.png"
         },
-        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-8e71d7e2-3e77-4ba3-b0e6-9b5b27c1fb7c-sticker_black_cat.png",
-        "stickerName": "sticker_black_cat",
-        "updatedAt": "2015-10-02T15:30:56.245Z"
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-e68a7308-eba2-4260-a465-a4f03aa3795b-stk_7.png",
+        "stickerName": "stk_7",
+        "updatedAt": "2016-03-07T07:46:44.903Z"
     },
 	{
-        "createdAt": "2016-01-05T10:22:41.614Z",
-        "objectId": "jgEgka1vy1",
+        "createdAt": "2016-03-07T07:05:03.621Z",
+        "objectId": "o3ouCwQNDb",
         "stickerImg": {
             "__type": "File",
-            "name": "tfss-b0069850-941d-460c-85f6-5c8631abca4f-lets-go.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-b0069850-941d-460c-85f6-5c8631abca4f-lets-go.png"
+            "name": "tfss-80e00430-298a-4cb2-9cfb-130820647494-stk_5.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-80e00430-298a-4cb2-9cfb-130820647494-stk_5.png"
         },
-        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-b0069850-941d-460c-85f6-5c8631abca4f-lets-go.png",
-        "stickerName": "lets-go",
-        "updatedAt": "2016-01-05T10:24:18.815Z"
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-80e00430-298a-4cb2-9cfb-130820647494-stk_5.png",
+        "stickerName": "stk_5",
+        "updatedAt": "2016-03-07T07:46:39.115Z"
     },
 	{
-        "createdAt": "2015-10-02T15:19:50.796Z",
-        "objectId": "myaOLI42vJ",
+        "createdAt": "2016-03-07T07:25:35.455Z",
+        "objectId": "pSVsTxN8Ns",
         "stickerImg": {
             "__type": "File",
-            "name": "tfss-d746c153-1722-4c94-9770-69475ea7e0cd-sticker_pig.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-d746c153-1722-4c94-9770-69475ea7e0cd-sticker_pig.png"
+            "name": "tfss-c6a2faa7-11bd-4449-bbb5-a0be2c6259b7-stk_8.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-c6a2faa7-11bd-4449-bbb5-a0be2c6259b7-stk_8.png"
         },
-        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-d746c153-1722-4c94-9770-69475ea7e0cd-sticker_pig.png",
-        "stickerName": "sticker_pig",
-        "updatedAt": "2015-10-02T15:27:35.834Z"
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-c6a2faa7-11bd-4449-bbb5-a0be2c6259b7-stk_8.png",
+        "stickerName": "stk_8",
+        "updatedAt": "2016-03-07T07:46:47.801Z"
     },
 	{
-        "createdAt": "2016-01-05T10:22:14.953Z",
-        "objectId": "v5C7OyJRf4",
+        "createdAt": "2016-03-07T07:03:46.328Z",
+        "objectId": "y4lVEeTg6a",
         "stickerImg": {
             "__type": "File",
-            "name": "tfss-760c37e9-f739-4222-992c-d0f2232a61fa-dun-believe-the-rumour.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-760c37e9-f739-4222-992c-d0f2232a61fa-dun-believe-the-rumour.png"
+            "name": "tfss-076dcac8-c0a0-4668-a7f9-4e7e7635ac34-stk_3.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-076dcac8-c0a0-4668-a7f9-4e7e7635ac34-stk_3.png"
         },
-        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-760c37e9-f739-4222-992c-d0f2232a61fa-dun-believe-the-rumour.png",
-        "stickerName": "dun-believe-the-rumour",
-        "updatedAt": "2016-01-05T10:24:03.197Z"
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-076dcac8-c0a0-4668-a7f9-4e7e7635ac34-stk_3.png",
+        "stickerName": "stk_3",
+        "updatedAt": "2016-03-07T07:46:33.119Z"
     },
 	{
-        "createdAt": "2015-10-02T15:19:04.531Z",
-        "objectId": "yNBrZQpzDM",
+        "createdAt": "2016-03-07T07:26:19.238Z",
+        "objectId": "z9rkBV3cK2",
         "stickerImg": {
             "__type": "File",
-            "name": "tfss-609ef165-aee8-4c4f-9bed-0bb78c60ae05-sticker_cow.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-609ef165-aee8-4c4f-9bed-0bb78c60ae05-sticker_cow.png"
+            "name": "tfss-85d905eb-1252-418e-a4a1-16abddf56ceb-stk_14.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-85d905eb-1252-418e-a4a1-16abddf56ceb-stk_14.png"
         },
-        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-609ef165-aee8-4c4f-9bed-0bb78c60ae05-sticker_cow.png",
-        "stickerName": "sticker_cow",
-        "updatedAt": "2015-10-02T15:29:31.626Z"
+        "stickerImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-85d905eb-1252-418e-a4a1-16abddf56ceb-stk_14.png",
+        "stickerName": "stk_14",
+        "updatedAt": "2016-03-07T07:47:04.544Z"
     }
 ] }
