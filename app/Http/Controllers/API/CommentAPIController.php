@@ -3,6 +3,8 @@
 use App\Http\Requests;
 use App\Libraries\Repositories\CommentRepository;
 use App\Models\Comment;
+use App\Models\Post;
+use App\Models\IwomenPost;
 use Illuminate\Http\Request;
 use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
@@ -76,6 +78,22 @@ class CommentAPIController extends AppBaseController
 		$input['objectId'] = str_random(10);
 
 		$comments = $this->commentRepository->create($input);
+
+
+		if(isset($input['postType']) && $input['postType'] == 'iWomenPost'){
+			$post = IwomenPost::where('objectId',$input['postId'])->first();
+			if($post){
+				$post->comment_count = $post->comment_count + 1;
+				$post->update();
+			}
+		}else{
+			$post = Post::where('objectId',$input['postId'])->first();
+			if($post){
+				$post->comment_count = $post->comment_count + 1;
+				$post->update();
+			}
+		}
+		
 
 		return $this->sendResponse($comments->toArray(), "Comment saved successfully");
 	}

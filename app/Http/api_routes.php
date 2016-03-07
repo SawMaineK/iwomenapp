@@ -76,3 +76,5 @@ Route::post("post/like/check", "PostLikeAPIController@chkUserLike");
 Route::post("iwomenPost/like/check", "IwomenPostLikeAPIController@chkUserLike");
 
 Route::resource("apks", "ApkAPIController");
+
+Route::resource("emails", "EmailAPIController");

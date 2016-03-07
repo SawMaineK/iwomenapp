@@ -260,3 +260,11 @@ Route::get('apks/{id}/delete', [
     'as' => 'apks.delete',
     'uses' => 'ApkController@destroy',
 ]);
+
+
+Route::resource('emails', 'EmailController');
+
+Route::get('emails/{id}/delete', [
+    'as' => 'emails.delete',
+    'uses' => 'EmailController@destroy',
+]);

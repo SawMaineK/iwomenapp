@@ -1,0 +1,17 @@
+[
+    {
+        "field":"name:string",
+        "type":"text",
+        "validations": "required"
+    },
+    {
+        "field":"email:text",
+        "type":"text",
+        "validations": "required"
+    },
+    {
+        "field":"message:text",
+        "type":"text",
+        "validations": "required"
+    }
+]

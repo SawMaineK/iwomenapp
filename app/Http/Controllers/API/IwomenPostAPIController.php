@@ -76,7 +76,7 @@ class IwomenPostAPIController extends AppBaseController
 
 		$input = $request->all();
 
-		$input['objectId'] = str_random(10);
+		$input['objectId'] = 'iPost'.str_random(10);
 
 		$iwomenPosts = $this->iwomenPostRepository->create($input);
 

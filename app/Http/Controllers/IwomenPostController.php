@@ -53,7 +53,7 @@ class IwomenPostController extends AppBaseController
 	{
 		$input = $request->all();
 
-		$input['objectId'] = str_random(10);
+		$input['objectId'] = 'iPost'.str_random(10);
 
 		if($request->file('image')){
 			$image = $this->uploadImage($request->file('image'),'/posts_photo/');
