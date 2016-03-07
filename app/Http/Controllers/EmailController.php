@@ -55,6 +55,11 @@ class EmailController extends AppBaseController
 
 		$email = $this->emailRepository->create($input);
 
+        Mail::send('emails.feedback', $input, function ($m) use ($user) {
+            $m->to('iwomenapp@gmail.com', 'iWomen Team');
+            $m->subject('There is a new message from your user.');
+        });
+
 		Flash::success('Email saved successfully.');
 
 		return redirect(route('emails.index'));
