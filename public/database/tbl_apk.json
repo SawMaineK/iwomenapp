@@ -1,0 +1,17 @@
+[
+    {
+        "field":"name:string",
+        "type":"file",
+        "validations": ""
+    },
+    {
+        "field":"version_id:integer",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"version_name:string",
+        "type":"text",
+        "validations": ""
+    }
+]

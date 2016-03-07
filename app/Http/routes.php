@@ -252,3 +252,11 @@ Route::get('iwomenPostLikes/{id}/delete', [
     'as' => 'iwomenPostLikes.delete',
     'uses' => 'IwomenPostLikeController@destroy',
 ]);
+
+
+Route::resource('apks', 'ApkController');
+
+Route::get('apks/{id}/delete', [
+    'as' => 'apks.delete',
+    'uses' => 'ApkController@destroy',
+]);
