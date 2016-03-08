@@ -56,7 +56,7 @@ class EmailController extends AppBaseController
 
 		$email = $this->emailRepository->create($input);
 
-        Mail::send('emails.feedback', $input, function ($m) use ($user) {
+        Mail::send('emails.feedback', $input, function ($m){
             $m->to('iwomenapp@gmail.com', 'iWomen Team');
             $m->subject('There is a new message from your user.');
         });
