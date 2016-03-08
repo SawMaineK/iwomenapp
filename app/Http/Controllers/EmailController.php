@@ -7,6 +7,7 @@ use App\Libraries\Repositories\EmailRepository;
 use Flash;
 use Mitul\Controller\AppBaseController as AppBaseController;
 use Response;
+use Mail;
 
 class EmailController extends AppBaseController
 {
