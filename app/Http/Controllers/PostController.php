@@ -5,6 +5,7 @@ use App\Http\Requests\CreatePostRequest;
 use App\Http\Requests\UpdatePostRequest;
 use App\Libraries\Repositories\PostRepository;
 use Flash;
+use App\Models\Category;
 use Mitul\Controller\AppBaseController as AppBaseController;
 use Response;
 
@@ -39,7 +40,12 @@ class PostController extends AppBaseController
 	 */
 	public function create()
 	{
-		return view('posts.create');
+		$cate_list = array();
+		$categories = Category::all();
+		foreach ($categories as $key => $value) {
+			$cate_list[$value->id] = $value->name;
+		}
+		return view('posts.create')->with(['categories'=>$cate_list]);
 	}
 
 	/**

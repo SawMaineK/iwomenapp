@@ -227,7 +227,7 @@
 		<div class="form-group col-sm-4 col-lg-4">
 			<div class="fg-line"> 
 		    	{!! Form::label('category_id', 'Category Id:') !!}
-				{!! Form::select('category_id', [ 'Calendar' => 'Calendar', 'Livelihood' => 'Livelihood', 'Q & A' => 'Q & A', ' Activities' => ' Activities', ' Poem' => ' Poem' ], null, ['class' => 'selectpicker', 'data-live-search'=>"true"]) !!}
+				{!! Form::select('category_id', $categories, null, ['class' => 'selectpicker', 'data-live-search'=>"true"]) !!}
 			</div>
 		</div>
 
