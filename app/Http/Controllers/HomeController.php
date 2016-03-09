@@ -90,12 +90,12 @@ class HomeController extends Controller
         foreach ($dataJson['results'] as $key => $data) {
             $data['app_img'] = isset($data['app_img']) ? $data['app_img']['url'] : '';
             SisterDownloadApp::create($data);
-        }*/
+        }
         $dataJson = $this->readJson('StickerStore.json');
         foreach ($dataJson['results'] as $key => $data) {
             $data['stickerImg'] = isset($data['stickerImg']) ? $data['stickerImg']['url'] : '';
             StickerStore::create($data);
-        }/*
+        }
         $dataJson = $this->readJson('User.json');
         foreach ($dataJson['results'] as $key => $data) {
             $data['password'] = isset($data['bcryptPassword']) ? $data['bcryptPassword'] : '';

@@ -829,6 +829,7 @@
         "createdAt": "2016-03-06T16:48:32.909Z",
         "credit_link": "https://www.facebook.com/NOW-Weekly-Magazine-123392774354793/?fref=ts",
         "credit_link_mm": "https://www.facebook.com/NOW-Weekly-Magazine-123392774354793/?fref=ts",
+        "credit_logo_url": "",
         "credit_name": "Now! Magazine",
         "image": {
             "__type": "File",
@@ -836,7 +837,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-7b15b9d5-89ef-4137-b74a-665505b8381e-PoPoKyi.png"
         },
         "isAllow": true,
-        "likes": 0,
+        "likes": 1,
         "objectId": "FessanBmj9",
         "postUploadName": "Now! Magazine",
         "postUploadUserImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-81c3bbbf-2088-4dba-9cbc-a8dc3d0416b1-NOW.png",
@@ -848,7 +849,7 @@
         "post_author_role_mm": "Now! အပတ္စဥ္ထုတ္ မဂၹဇင္းကို  ၂၀ဝ၇  ခုႏွစ္၊ စက္တင္ဘာမွာ Myanmar Consolidated Media Ltd.,က စတင္ ထုတ္ေဝခဲ့ၿပီး ျမန္မာႏိုင္ငံရဲ႕ ပထမဆံုး အပတ္စဥ္ထုတ္ မဂၹဇင္းျဖစ္ပါတယ္။\n\nအသက္ ၁၈ ႏွစ္ကေန ၃၅ ႏွစ္ ၾကား ဖက္ရွင္၊ အလွအပနဲ႔ ကိုယ္ရည္ကိုယ္ေသြး တိုးတက္မႈကို လိုလားသူ အမ်ိဳးသမီးေတြ  အတြက္ ရည္ရြယ္တာျဖစ္ပါတယ္။ ဒီ မဂၹဇင္းမွာ ေခတ္နဲ႔ အညီ မိမိရဲ႕သြင္ျပင္ ကို ျပင္ဆင္ဖန္တီးႏိုင္ဖို႔ အလွအပ၊ ဖက္ ရွင္ဆိုင္ရာ အႀကံျပဳခ်က္ေတြအျပင္ မိမိ ရဲ႕ လုပ္ငန္းခြင္ဘဝ၊ ခ်စ္မႈေရးရာဘဝေတြ အတြက္ ေကာင္းမြန္သင့္ေလ်ာ္မွန္ကန္တဲ့   အႀကံျပဳခ်က္ေတြ ထည့္သြင္းတင္ဆက္ ေပးထားပါတယ္။ ဒါ့အျပင္ ဒီကေန႔ေခတ္ အမ်ိဳးသမီးေတြရဲ႕ ရွင္သန္ရပ္တည္မႈမွာ အေရးပါတဲ့ အသိပညာ၊ စိတ္ဓာတ္ခြန္ အားနဲ႔ မိမိကိုယ္ကို ယံုၾကည္မႈျမင့္မားတဲ့  သူေတြ ျဖစ္လာဖို႔ နယ္ပယ္အသီးသီးက အတုယူေလးစားစရာ အမ်ိဳးသမီးေတြနဲ႔ ေတြ႕ဆံုေမးျမန္းတင္ဆက္ေပးထားပါတယ္။  \n\nNow! မဂၹဇင္းကို အိမ္အေရာက္ပို႔စနစ္ နဲ႔ မွာယူလိုသူေတြအတြက္\n",
         "share_count": 0,
         "titleMm": "အရြယ္အမ်ိဳးမ်ိဳးမွာ ေအာင္ျမင္ေနတဲ့ အမ်ိဳးသမီးေတြရဲ႕ ကြာျခားေျပာင္းလဲလာတဲ့ ဘဝရည္မွန္းခ်က္ေတြ",
-        "updatedAt": "2016-03-07T15:38:40.979Z",
+        "updatedAt": "2016-03-09T16:30:50.917Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -1354,7 +1355,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-fa394f15-ffc9-4b5f-8355-0e706b125eae-Daw%20Nu%20Nu%20Yi.jpg"
         },
         "isAllow": true,
-        "likes": 2,
+        "likes": 3,
         "objectId": "RgabnHAppa",
         "postUploadName": "ေဒၚႏုႏုရီ",
         "postUploadUserImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-1c4337fc-8682-4b7a-a9c5-0090712a8707-Daw%20Nu%20Nu%20Yi.jpg",
@@ -1367,7 +1368,7 @@
         "share_count": 0,
         "title": "I Am Very Proud To Be Part Of May Doe Kabar National Network Of Rural Myanmar Women",
         "titleMm": "ေမတို႔ကမၻာ ႏို္င္ငံလံုးဆိုင္ရာ ေက်းလက္အမ်ိဳးသမီးကြန္ယက္၏ အဖဲြ႕၀င္ျဖစ္ရျခင္းအတြက္ အလြန္ဂုဏ္ယူမိပါသည္",
-        "updatedAt": "2016-03-07T15:17:26.523Z",
+        "updatedAt": "2016-03-09T11:59:49.489Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -1486,6 +1487,7 @@
         "createdAt": "2016-03-06T16:52:26.800Z",
         "credit_link": "https://www.facebook.com/NOW-Weekly-Magazine-123392774354793/?fref=ts",
         "credit_link_mm": "https://www.facebook.com/NOW-Weekly-Magazine-123392774354793/?fref=ts",
+        "credit_logo_url": "",
         "credit_name": "Now! Magazine",
         "image": {
             "__type": "File",
@@ -1505,7 +1507,7 @@
         "post_author_role_mm": "Now! အပတ္စဥ္ထုတ္ မဂၹဇင္းကို  ၂၀ဝ၇  ခုႏွစ္၊ စက္တင္ဘာမွာ Myanmar Consolidated Media Ltd.,က စတင္ ထုတ္ေဝခဲ့ၿပီး ျမန္မာႏိုင္ငံရဲ႕ ပထမဆံုး အပတ္စဥ္ထုတ္ မဂၹဇင္းျဖစ္ပါတယ္။\n\nအသက္ ၁၈ ႏွစ္ကေန ၃၅ ႏွစ္ ၾကား ဖက္ရွင္၊ အလွအပနဲ႔ ကိုယ္ရည္ကိုယ္ေသြး တိုးတက္မႈကို လိုလားသူ အမ်ိဳးသမီးေတြ  အတြက္ ရည္ရြယ္တာျဖစ္ပါတယ္။ ဒီ မဂၹဇင္းမွာ ေခတ္နဲ႔ အညီ မိမိရဲ႕သြင္ျပင္ ကို ျပင္ဆင္ဖန္တီးႏိုင္ဖို႔ အလွအပ၊ ဖက္ ရွင္ဆိုင္ရာ အႀကံျပဳခ်က္ေတြအျပင္ မိမိ ရဲ႕ လုပ္ငန္းခြင္ဘဝ၊ ခ်စ္မႈေရးရာဘဝေတြ အတြက္ ေကာင္းမြန္သင့္ေလ်ာ္မွန္ကန္တဲ့   အႀကံျပဳခ်က္ေတြ ထည့္သြင္းတင္ဆက္ ေပးထားပါတယ္။ ဒါ့အျပင္ ဒီကေန႔ေခတ္ အမ်ိဳးသမီးေတြရဲ႕ ရွင္သန္ရပ္တည္မႈမွာ အေရးပါတဲ့ အသိပညာ၊ စိတ္ဓာတ္ခြန္ အားနဲ႔ မိမိကိုယ္ကို ယံုၾကည္မႈျမင့္မားတဲ့  သူေတြ ျဖစ္လာဖို႔ နယ္ပယ္အသီးသီးက အတုယူေလးစားစရာ အမ်ိဳးသမီးေတြနဲ႔ ေတြ႕ဆံုေမးျမန္းတင္ဆက္ေပးထားပါတယ္။  \n\nNow! မဂၹဇင္းကို အိမ္အေရာက္ပို႔စနစ္ နဲ႔ မွာယူလိုသူေတြအတြက္\n",
         "share_count": 0,
         "titleMm": "အရြယ္အမ်ိဳးမ်ိဳးမွာ ေအာင္ျမင္ေနတဲ့ အမ်ိဳးသမီးေတြရဲ႕ ကြာျခားေျပာင္းလဲလာတဲ့ ဘဝရည္မွန္းခ်က္ေတြ",
-        "updatedAt": "2016-03-07T15:38:40.181Z",
+        "updatedAt": "2016-03-09T16:30:49.252Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -1635,6 +1637,38 @@
             "__type": "Pointer",
             "className": "_User",
             "objectId": "UPQcb43dxx"
+        }
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "comment_count": 0,
+        "contentType": "Story",
+        "content_mm": "​ေရႊညာသူ၏​ေ႐ွ့လုပ္​ငန္​းမ်ားအတြက္​​ေဆြး​ေႏြးခဲ့ၾကသည္​့ပံုရိပ္​မ်ား",
+        "createdAt": "2016-03-08T02:55:40.977Z",
+        "image": {
+            "__type": "File",
+            "name": "tfss-ec0c941c-fabb-4f55-8937-f52f64edf037-photo.jpg",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-ec0c941c-fabb-4f55-8937-f52f64edf037-photo.jpg"
+        },
+        "isAllow": false,
+        "likes": 0,
+        "objectId": "TrtnxLPi3w",
+        "postUploadName": "​Aye Aye Moe",
+        "postUploadUserImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-e9d9c361-56d0-416c-a780-d8abcc5738b2-photo.jpg",
+        "postUploadedDate": {
+            "__type": "Date",
+            "iso": "2016-03-08T02:55:39.676Z"
+        },
+        "share_count": 0,
+        "updatedAt": "2016-03-08T02:55:40.977Z",
+        "userId": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "l6XlLR0xPM"
         }
     },
 	{
@@ -1869,7 +1903,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-72c46836-bf8c-4732-97f2-05408cd7e097-bg_sample.png"
         },
         "isAllow": false,
-        "likes": 51,
+        "likes": 53,
         "objectId": "XclsIdC4XA",
         "postUploadName": "Dr Astrid Tuminez",
         "postUploadPersonImg": {
@@ -1886,7 +1920,7 @@
         "share_count": 3,
         "title": "My Story of unbelievable",
         "titleMm": "က်မဘ၀၏မယံုုႏိုုင္ဖြယ္ရာေၿပာင္းလဲမွုု",
-        "updatedAt": "2016-03-07T15:39:35.668Z",
+        "updatedAt": "2016-03-09T05:22:35.247Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -1992,6 +2026,47 @@
         }
     },
 	{
+        "authorId": {
+            "__type": "Pointer",
+            "className": "Author",
+            "objectId": "GS5t62cvfe"
+        },
+        "comment_count": 0,
+        "content": "nfidence.\n\nDuring this I had the chance to meet my own MP, also a woman, who inspired me and has remained a mentor and role model for me throughout my career.  She encouraged me in doing something for my community, and stepping up to lead something.  I saw in her that it is worth aiming to represent people in Parliament, and you can achieve things for your community in politics.\n\nI see my job today as an MP in three ways:  being a local champion, being a national lawmaker, and being an ambassador for politics.\n\nSo my message to you is:  it can be you too!  You can get things done for your village.  You have something important to say to your country.  And you too can believe in the power of democracy.\nGood luck.\nChloe Smith\n",
+        "contentType": "Letter",
+        "content_mm": "ခ်စ္ခင္ရပါေသာ ျမန္မာႏိုင္ငံမွ အမ်ိဳးသမီးမ်ားရွင္ \n\nသင္တို႔ကို စကားေျပာခြင့္ေပးတဲ့အတြက္ေရာ သင္တို႔ရဲ႕ ဒီမိုကေရစီႏိုင္ငံသစ္ထူေထာင္တဲ့ေနရာမွာ ပါ၀င္ခြင့္ ေပးတဲ့အတြက္ပါ ေက်းဇူးတင္ေၾကာင္း ေျပာလိုပါတယ္။ ကၽြန္မဟာ ေနျပည္ေတာ္မွာ တစ္ပတ္ၾကာခဲ့ပါတယ္။ လႊတ္ေတာ္မွာ ေရြးေကာက္တင္ေျမႇာက္ခံရတဲ့ လႊတ္ေတာ္ကိုယ္စားလွယ္သစ္ေတြကို ထိေရာက္တဲ့ လႊတ္ေတာ္ ကိုယ္စားလွယ္တစ္ေယာက္ျဖစ္ေအာင္ သင္တန္းေပးတဲ့ေနရာမွာ ပါ၀င္ကူညီခဲ့ပါတယ္။ ျပည္သူေတြအေပၚ တာ၀န္ခံမႈရွိဖို႔၊ ျပည္သူေတြရဲ႕ လိုအပ္ခ်က္ေတြနဲ႕ ျပႆနာေတြကို ကိုယ္စားျပဳေပးဖို႔၊ အစိုးရကို ေစာင့္ၾကည့္ ေလ့လာဖို႔ေတြ ကၽြန္မတို႔ ေျပာခဲ့ပါတယ္။  \n\nကၽြန္မဟာ ဒီလိုလုပ္ခြင့္ရလို႔ အလြန္ပဲ ဂုဏ္ယူခဲ့ရပါတယ္။ ယူေကလို ခိုင္မာအားေကာင္းတဲ့ ဒီမိုကေရစီႏိုင္ငံမွာ တာ၀န္ခံမႈ၊ ကိုယ္စားျပဳမႈနဲ႕ ေစာင့္ၾကည့္ေလ့လာမႈေတြဟာ အေလ့အက်င့္လို ျဖစ္ေနၿပီး ခိုင္လံုေကာင္းမြန္တဲ့ လုပ္ငန္းစဥ္ေတြနဲ႕ ျပည္သူေတြက အားေပးေထာက္ကူထားပါတယ္။ ဒီလိုႏိုင္ငံမ်ိဳးမွာ ေနထိုင္ခြင့္ရတာ ကၽြန္မတို႔ ကံေကာင္းပါတယ္။ အဲဒီလုိအရာေတြကို စတင္တည္ေဆာက္ဖို႔အသင့္ျဖစ္ေနတဲ့ လႊတ္ေတာ္ကိုယ္စားလွယ္ေတြ ကို ကၽြန္မ သိထားတာေတြ မွ်ေ၀ေပးရတာ ကၽြန္မ ေပ်ာ္ရႊင္မိပါတယ္။ အျပန္အလွန္အားျဖင့္ သူတို႔ေတြရဲ႕ ႏွစ္ေပါင္းမ်ားစြာ ခက္ခက္ခဲခဲ ျဖတ္သန္းလာခဲ့တဲ့ အေတြ႕အၾကံဳေတြေၾကာင့္လည္း ကၽြန္မမွာ စိတ္ဓာတ္ခြန္အား ေတြ ရခဲ့ပါသည္။ သူတို႔ေတြဟာ သူတို႔ရဲ႕ အနာဂတ္အတြက္ အေကာင္းျမင္ၿပီး ႀကိဳးစားလုပ္ေဆာင္ဖို႔ အဆင္ သင့္ျဖစ္ေနပါတယ္။ လူေတြနဲ႕ ရင္းႏွီးလာတဲ့အခါ သူတို႔ေတြဟာ ေႏြးေထြးႀကိဳဆိုမႈရွိၿပီး သူတို႔နဲ႕ေနရတာ ေပ်ာ္စရာေကာင္းတယ္ဆိုတာ ေတြ႕ခဲ့ရပါတယ္။      \n\nအဲဒီတစ္ပတ္အတြင္းမွာ သိကၽြမ္းခဲ့ရတဲ့ ကို္ယ္စားလွယ္ေတြနဲ႕ အဆက္အသြယ္မျပတ္ဘဲ ယူေကမွာ ကၽြန္မ အဓိက စူးစိုက္လုပ္လာခဲ့တဲ့ လူငယ္မ်ားအေရးနဲ႕ အလုပ္လက္မဲ့ျပႆနာေတြလို ကိစၥေတြနဲ႕ပတ္သက္တဲ့ အခ်က္အလက္ေတြကို ထပ္ၿပီး မွ်ေ၀ေပးႏို္င္မယ္လို႔ ေမွ်ာ္လင့္မိပါတယ္။  \n\nကၽြန္မဟာ အသက္ ၂၇ ႏွစ္အရြယ္မွာ ေရြးေကာက္တင္ေျမႇာက္ခံရၿပီး ကၽြန္မတို႔ႏိုင္ငံရဲ႕ အသက္အငယ္ဆံုး လႊတ္ေတာ္ကိုယ္စားလွယ္ေတြထဲက တစ္ေယာက္ ျဖစ္ခဲ့ပါတယ္။ လႊတ္ေတာ္မွာ အသက္အရြယ္စံု ရွိေနဖို႔ အေရးႀကီးတယ္လို႔ ကၽြန္မထင္ပါတယ္။ သင္တို႔ရြာမွာ ရွိတဲ့ အမ်ိဳးသမီးငယ္ေတြကို ကၽြန္မေျပာခ်င္တာက `သင္တို႔လည္း ထူးထူးျခားျခား စြမ္းေဆာင္ႏိုင္တယ္´ ဆိုတဲ့ စကားပါပဲ။ \n\nတကယ္ေတာ့ ကၽြန္မဟာ ကၽြန္မရဲ႕ ႏိုင္ငံေရးအလုပ္ေတြကို အမ်ိဳးသမီးငယ္တစ္ေယာက္အေနနဲ႕ ေက်းလက္ ေတာရြာေလးတစ္ရြာမွာ စတင္ခဲ့တာပါ။ ကၽြန္မဟာ အဂၤလန္အေရွ႕ပိုင္းက ေက်းလက္ေဒသတစ္ခုျဖစ္တဲ့ ေနာ္ေဖာ့ခ္မွာ ႀကီးျပင္းလာခဲ့တာပါ။ အဂၤလန္က ၿမိဳ႕ေလးတစ္ၿမိဳ႕ျဖစ္ၿပီး ကၽြန္မဟာ ေက်ာင္းေကာင္းေကာင္း တက္ခဲ့ရသလို ကၽြန္မကိုခ်စ္တဲ့ မိဘေတြ ရွိေပမယ့္လည္း အဂၤလန္မွာရွိတဲ့ တျခားေနရာေတြနဲ႕ ႏိႈင္းယွဥ္ရင္ အဲဒီမွာ အခြင့္အလမ္းေတြ အမ်ားႀကီး မရွိပါဘူး။ အထူးသျဖင့္ လမ္းပမ္းဆက္သြယ္ေရးက အေတာ္ေလး ညံ့ပါတယ္။ ဆယ္ေက်ာ္သက္တစ္ေယာက္အေနနဲ႕ ကၽြန္မဟာ ကၽြန္မသူငယ္ခ်င္းေတြဆီ သြားမေတြ႕ႏိုင္တာ ဒါမွမဟုတ္ အေျပာင္းအလဲအေနနဲ႕ ဘာမွမလုပ္ႏိုင္တာေတြဟာ စိတ္ပ်က္စရာေကာင္းလြန္းပါတယ္။ ကၽြန္မ ေရြးခ်ယ္ရေတာ့မယ္ဆိုတာ သိလိုက္ပါတယ္။ အေျခအေနကိုလက္ခံၿပီး ဘာမွ မလုပ္ဘဲ ေနမလား ဒါမွမဟုတ္ အေျခအေနေတြကို ေျပာင္းလဲပစ္ႏိုင္တယ္လို႔ေတြးၿပီး တစ္ခုခု လုပ္မလား ဆိုတာပါပဲ။     \n\nအဲဒါေၾကာင့္ ကၽြန္မဟာ ဒီျပႆနာကို ေဆြးေႏြးဖို႔ အဲဒီေဒသမွာရွိတဲ့ တျခားလူငယ္ေတြအားလံုးကို စုစည္းခဲ့ ပါတယ္။ ကၽြန္မတို႔ရဲ႕ ေနာက္မွာ `လူထုရဲ႕ စြမ္းအား´ သာ အလံုအေလာက္ရွိမယ္ဆိုရင္ အဲဒီအေျခအေနကို ေျပာင္းလဲပစ္ႏိုင္မယ္လို႔ ကၽြန္မတို႔ ထင္ပါတယ္။ ကၽြန္မတို႔ဟာ တစ္တိုင္းျပည္လံုးအတြက္ လူငယ္ဖိုရမ္တစ္ခုကို ဖဲြ႕စည္းခဲ့ၿပီး ကၽြန္မတို႔ရဲ႕ ကြန္ယက္နဲ႕ အသိပညာဗဟုသုတေတြ၊ ကၽြမ္းက်င္မႈေတြ၊ ယံုၾကည္မႈေတြကို ခ်ဲ႕ထြင္ခဲ့ၾကပါတယ္။  \n\nအဲဒီလို လုပ္ေဆာင္ေနတဲ့အေတာအတြင္းမွာ ကၽြန္မတို႔ ေဒသရဲ႕ လႊတ္ေတာ္ကိုယ္စားလွယ္နဲ႕ ေတြ႕ခြင့္ရခဲ့ ပါတယ္။ သူလည္း အမ်ိဳးသမီးတစ္ေယာက္ပါပဲ။ သူဟာ ကၽြန္မကို စိတ္ခြန္အားေတြ ေပးခဲ့ၿပီး ကၽြန္မ လႊတ္ေတာ္ ကိုယ္စားလွယ္အျဖစ္ လုပ္ကိုင္ခဲ့တဲ့ တစ္ေလွ်ာက္လံုးမွာ သူဟာ ကၽြန္မရဲ႕ အနီးကပ္ညႊန္ၾကားျပသေပးတဲ့သူ၊ ကၽြန္မရဲ႕ စံနမူနာျပပုဂၢိဳလ္တစ္ေယာက္ ျဖစ္ခဲ့ပါတယ္။ ကိုယ့္ရပ္ရြာအတြက္ တစ္ခုခု လုပ္ေပးဖို႔၊ ေရွ႕ထြက္ၿပီး တစ္ခုခုကို ဦးေဆာင္ဖို႔ သူက ကၽြန္မကို အားေပးခဲ့ပါတယ္။ လႊတ္ေတာ္မွာ ျပည္သူေတြကို ကိုယ္စားျပဳၿပီး ႏိုင္ငံေရးနည္းလမ္းနဲ႕ ကိုယ့္ရပ္ရြာအတြက္ စြမ္းေဆာင္ေပးႏိုင္မယ္ဆိုရင္ အရမ္းေကာင္းမွာပဲလို႔ သူ႕ကိုၾကည့္ၿပီး ကၽြန္မ ေတြးခဲ့ပါတယ္။\n\nလႊတ္ေတာ္ကိုယ္စားလွယ္ဆိုတဲ့ ကေန႕ ကၽြန္မရဲ႕အလုပ္အေပၚမွာ ကၽြန္မရဲ႕ အျမင္ သံုးမ်ိဳး ရွိပါတယ္။ ကိုယ့္ေဒသရဲ႕ ခ်န္ပီယန္၊ ကိုယ့္ႏိုင္ငံရဲ႕ ဥပေဒျပဳသူနဲ႕ ႏိုင္ငံေရးမွာ သံတမန္တစ္ေယာက္ ျဖစ္ပါတယ္။ \n\nအဲဒါေၾကာင့္ ကၽြန္မရဲ႕ စကားလက္ေဆာင္ကေတာ့ `သင္လည္းပဲ ျဖစ္ႏိုင္တယ္။ သင့္ရြာအတြက္ သင္ လုပ္ေပးႏိုင္တာေတြ ရွိတယ္။ သင့္မွာ သင့္ႏိုင္ငံကို ေျပာဖို႔ အေရးႀကီးတဲ့ စကားေတြ ရွိပါတယ္။ ၿပီးေတာ့ သင္လည္း ဒီမိုကေရစီရဲ႕ စြမ္းပကားကို ယံုၾကည္ႏိုင္ပါတယ္။´  \nကံေကာင္းၾကပါေစ။\nကလိုရီစမစ္\n",
+        "createdAt": "2016-03-09T16:25:24.700Z",
+        "credit_link": "http://www.mm.undp.org/",
+        "credit_link_mm": "http://www.mm.undp.org/",
+        "credit_logo_url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-52a12337-4e01-4a77-8afa-1cd373ec8c17-UNDP.png",
+        "credit_name": "UNDP Myanmar",
+        "image": {
+            "__type": "File",
+            "name": "tfss-68e22ab4-e13f-45b7-a87b-3a779f400d7a-chloe-smith-51489173.jpg",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-68e22ab4-e13f-45b7-a87b-3a779f400d7a-chloe-smith-51489173.jpg"
+        },
+        "isAllow": true,
+        "likes": 1,
+        "objectId": "aLBQ9085a8",
+        "postUploadName": "Chloe Smith",
+        "postUploadUserImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-03eae93f-91e0-439c-9c5b-eb882972932a-chloe-smith-51489173.jpg",
+        "postUploadedDate": {
+            "__type": "Date",
+            "iso": "2016-02-16T16:28:00.000Z"
+        },
+        "post_author_role": "Member of Parliament, United Kingdom",
+        "post_author_role_mm": "လႊတ္ေတာ္ကိုယ္စားလွယ္၊ ယူႏိႈက္တက္ကင္းဒမ္း",
+        "share_count": 0,
+        "title": "I want to say to any young woman in your village:  you can make a difference too.",
+        "titleMm": "သင္တို႔ ေက်းရြာက အမ်ိဳးသမီးငယ္တိုင္း ကို ကၽြန္မေျပာခ်င္တဲ့ စကားက သင္တို႔ လည္း ထူးထူး ျခားျခား စြမ္းေဆာင္ႏိုင္ ပါတယ္လို႔။",
+        "updatedAt": "2016-03-09T17:08:10.057Z",
+        "userId": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "GS5t62cvfe"
+        }
+    },
+	{
         "ACL": {
             "*": {
                 "read": true
@@ -2073,7 +2148,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-ee716f59-8be0-42dd-be69-abcecc721917-Jenny%20Runacre%20photo.jpg"
         },
         "isAllow": true,
-        "likes": 7,
+        "likes": 8,
         "objectId": "bSqWk7lJQM",
         "postUploadName": "Jenny Runacre",
         "postUploadUserImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-c392591c-4101-4021-aa75-7d4bd6165f97-Jenny%20Runacre%20photo.jpg",
@@ -2086,7 +2161,7 @@
         "share_count": 0,
         "title": "Look after yourself – love yourself – if you do not love yourself how can you love other people?",
         "titleMm": "သင့္ကိုယ္သင္ ေစာင့္ေရွာက္ပါ။ သင့္ကိုယ္သင္ ခ်စ္ပါ။ သင့္ကိုယ္သင္မွ မခ်စ္ႏိုင္လွ်င္ အျခားသူမ်ားကို မည္သို႔ ခ်စ္ႏိုင္မည္နည္း",
-        "updatedAt": "2016-03-05T23:04:22.433Z",
+        "updatedAt": "2016-03-09T01:12:33.651Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -2114,7 +2189,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-aa1c6d24-754b-4309-a47d-a56145efd8f9-3.%20May%20Doe%20Kabar%20Chair%20Woman%20Daw%20Cho%20Aye.jpg"
         },
         "isAllow": true,
-        "likes": 5,
+        "likes": 6,
         "objectId": "bWXewAeYbM",
         "postUploadName": "ေဒၚခ်ိဳေအး",
         "postUploadUserImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-08368573-bd3c-4f5b-a3c5-94d78725f976-3.%20May%20Doe%20Kabar%20Chair%20Woman%20Daw%20Cho%20Aye.jpg",
@@ -2127,7 +2202,7 @@
         "share_count": 0,
         "title": "The Great Feeling Of Doing Something Good For Others Cannot Be Bought By Money",
         "titleMm": "တျခားသူမ်ားအား ကူညီေပးႏိုင္ေသာေၾကာင့္ ရရွိလာေသာ ပီတိအား ေငြျဖင့္ ၀ယ္၍မရႏိုင္ပါ",
-        "updatedAt": "2016-03-07T15:17:34.797Z",
+        "updatedAt": "2016-03-09T01:06:47.647Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -2219,7 +2294,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-4b44ef0c-9c75-4a45-bdae-fe4b24e3a8e8-Coworking-Gowork-BelPesce.jpg"
         },
         "isAllow": true,
-        "likes": 21,
+        "likes": 28,
         "objectId": "eA7Dl76Ewt",
         "postUploadName": "Bel Pesce",
         "postUploadPersonImg": {
@@ -2236,7 +2311,7 @@
         "share_count": 0,
         "title": "5 Ways to Kill your Dreams",
         "titleMm": "ကိုယ့္စိတ္ကူးေတြကို သတ္ပစ္ေရး နည္းလမ္း ၅ ခု",
-        "updatedAt": "2016-03-02T09:03:37.375Z",
+        "updatedAt": "2016-03-08T06:24:11.850Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -2636,6 +2711,7 @@
         "createdAt": "2016-03-06T17:56:24.559Z",
         "credit_link": "https://www.facebook.com/NOW-Weekly-Magazine-123392774354793/?fref=ts",
         "credit_link_mm": "https://www.facebook.com/NOW-Weekly-Magazine-123392774354793/?fref=ts",
+        "credit_logo_url": "",
         "credit_name": "Now! Magazine",
         "image": {
             "__type": "File",
@@ -2655,7 +2731,7 @@
         "post_author_role_mm": "Now! အပတ္စဥ္ထုတ္ မဂၹဇင္းကို  ၂၀ဝ၇  ခုႏွစ္၊ စက္တင္ဘာမွာ Myanmar Consolidated Media Ltd.,က စတင္ ထုတ္ေဝခဲ့ၿပီး ျမန္မာႏိုင္ငံရဲ႕ ပထမဆံုး အပတ္စဥ္ထုတ္ မဂၹဇင္းျဖစ္ပါတယ္။\n\nအသက္ ၁၈ ႏွစ္ကေန ၃၅ ႏွစ္ ၾကား ဖက္ရွင္၊ အလွအပနဲ႔ ကိုယ္ရည္ကိုယ္ေသြး တိုးတက္မႈကို လိုလားသူ အမ်ိဳးသမီးေတြ  အတြက္ ရည္ရြယ္တာျဖစ္ပါတယ္။ ဒီ မဂၹဇင္းမွာ ေခတ္နဲ႔ အညီ မိမိရဲ႕သြင္ျပင္ ကို ျပင္ဆင္ဖန္တီးႏိုင္ဖို႔ အလွအပ၊ ဖက္ ရွင္ဆိုင္ရာ အႀကံျပဳခ်က္ေတြအျပင္ မိမိ ရဲ႕ လုပ္ငန္းခြင္ဘဝ၊ ခ်စ္မႈေရးရာဘဝေတြ အတြက္ ေကာင္းမြန္သင့္ေလ်ာ္မွန္ကန္တဲ့   အႀကံျပဳခ်က္ေတြ ထည့္သြင္းတင္ဆက္ ေပးထားပါတယ္။ ဒါ့အျပင္ ဒီကေန႔ေခတ္ အမ်ိဳးသမီးေတြရဲ႕ ရွင္သန္ရပ္တည္မႈမွာ အေရးပါတဲ့ အသိပညာ၊ စိတ္ဓာတ္ခြန္ အားနဲ႔ မိမိကိုယ္ကို ယံုၾကည္မႈျမင့္မားတဲ့  သူေတြ ျဖစ္လာဖို႔ နယ္ပယ္အသီးသီးက အတုယူေလးစားစရာ အမ်ိဳးသမီးေတြနဲ႔ ေတြ႕ဆံုေမးျမန္းတင္ဆက္ေပးထားပါတယ္။  \n\nNow! မဂၹဇင္းကို အိမ္အေရာက္ပို႔စနစ္ နဲ႔ မွာယူလိုသူေတြအတြက္\n",
         "share_count": 0,
         "titleMm": "ႀကိဳးစားတက္ခဲ့ရတဲ့ ဘဝေလွခါးထစ္ေတြအတြက္ အၿမဲတမ္း ေက်နပ္ေနတယ္",
-        "updatedAt": "2016-03-07T15:38:39.407Z",
+        "updatedAt": "2016-03-09T16:30:46.586Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -2723,7 +2799,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-724ffa8b-cb35-4d71-b277-6603879e5d44-KKM.jpg"
         },
         "isAllow": true,
-        "likes": 15,
+        "likes": 16,
         "objectId": "n7c78Y6ktR",
         "postUploadName": "Khine Khine Maw",
         "postUploadPersonImg": {
@@ -2740,7 +2816,7 @@
         "share_count": 5,
         "title": "As long as I do my best, I will be sparkling like a star!",
         "titleMm": "ႀကိဳးစားေနတဲ့ အခ်ိန္မွာ တဖ်တ္ဖ်တ္ လက္ေနရမည္",
-        "updatedAt": "2016-03-02T09:04:18.624Z",
+        "updatedAt": "2016-03-08T06:25:23.509Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -2941,6 +3017,7 @@
         "createdAt": "2016-03-06T16:43:05.435Z",
         "credit_link": "https://www.facebook.com/NOW-Weekly-Magazine-123392774354793/?fref=ts",
         "credit_link_mm": "https://www.facebook.com/NOW-Weekly-Magazine-123392774354793/?fref=ts",
+        "credit_logo_url": "",
         "credit_name": "Now! Magazine",
         "image": {
             "__type": "File",
@@ -2960,7 +3037,7 @@
         "post_author_role_mm": "Now! အပတ္စဥ္ထုတ္ မဂၹဇင္းကို  ၂၀ဝ၇  ခုႏွစ္၊ စက္တင္ဘာမွာ Myanmar Consolidated Media Ltd.,က စတင္ ထုတ္ေဝခဲ့ၿပီး ျမန္မာႏိုင္ငံရဲ႕ ပထမဆံုး အပတ္စဥ္ထုတ္ မဂၹဇင္းျဖစ္ပါတယ္။\n\nအသက္ ၁၈ ႏွစ္ကေန ၃၅ ႏွစ္ ၾကား ဖက္ရွင္၊ အလွအပနဲ႔ ကိုယ္ရည္ကိုယ္ေသြး တိုးတက္မႈကို လိုလားသူ အမ်ိဳးသမီးေတြ  အတြက္ ရည္ရြယ္တာျဖစ္ပါတယ္။ ဒီ မဂၹဇင္းမွာ ေခတ္နဲ႔ အညီ မိမိရဲ႕သြင္ျပင္ ကို ျပင္ဆင္ဖန္တီးႏိုင္ဖို႔ အလွအပ၊ ဖက္ ရွင္ဆိုင္ရာ အႀကံျပဳခ်က္ေတြအျပင္ မိမိ ရဲ႕ လုပ္ငန္းခြင္ဘဝ၊ ခ်စ္မႈေရးရာဘဝေတြ အတြက္ ေကာင္းမြန္သင့္ေလ်ာ္မွန္ကန္တဲ့   အႀကံျပဳခ်က္ေတြ ထည့္သြင္းတင္ဆက္ ေပးထားပါတယ္။ ဒါ့အျပင္ ဒီကေန႔ေခတ္ အမ်ိဳးသမီးေတြရဲ႕ ရွင္သန္ရပ္တည္မႈမွာ အေရးပါတဲ့ အသိပညာ၊ စိတ္ဓာတ္ခြန္ အားနဲ႔ မိမိကိုယ္ကို ယံုၾကည္မႈျမင့္မားတဲ့  သူေတြ ျဖစ္လာဖို႔ နယ္ပယ္အသီးသီးက အတုယူေလးစားစရာ အမ်ိဳးသမီးေတြနဲ႔ ေတြ႕ဆံုေမးျမန္းတင္ဆက္ေပးထားပါတယ္။  \n\nNow! မဂၹဇင္းကို အိမ္အေရာက္ပို႔စနစ္ နဲ႔ မွာယူလိုသူေတြအတြက္\n",
         "share_count": 0,
         "titleMm": "အရြယ္အမ်ိဳးမ်ိဳးမွာ ေအာင္ျမင္ေနတဲ့ အမ်ိဳးသမီးေတြရဲ႕ ကြာျခားေျပာင္းလဲလာတဲ့ ဘဝရည္မွန္းခ်က္ေတြ",
-        "updatedAt": "2016-03-07T15:38:41.838Z",
+        "updatedAt": "2016-03-09T16:30:56.129Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
