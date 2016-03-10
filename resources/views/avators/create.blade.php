@@ -5,7 +5,7 @@
 
     @include('common.errors')
 
-    {!! Form::open(['route' => 'avators.store']) !!}
+    {!! Form::open(['route' => 'avators.store','enctype'=>'multipart/form-data']) !!}
 
         @include('avators.fields')
 
