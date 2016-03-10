@@ -39,9 +39,9 @@ class IwomenPostAPIController extends AppBaseController
 
 		}else{
 			if($isAllow && $isAllow != '')
-				$posts = IwomenPost::where('isAllow',$isAllow)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
+				$posts = IwomenPost::where('isAllow',$isAllow)->orderBy('created_at','desc')->offset($offset)->limit($limit)->get();
 			else
-				$posts = IwomenPost::orderBy('id','desc')->offset($offset)->limit($limit)->get();
+				$posts = IwomenPost::orderBy('created_at','desc')->offset($offset)->limit($limit)->get();
 		}
 		
 		return response()->json($posts);

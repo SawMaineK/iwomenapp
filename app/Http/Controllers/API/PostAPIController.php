@@ -45,9 +45,9 @@ class PostAPIController extends AppBaseController
 			}
 		}else{
 			if($isAllow && $isAllow != ''){
-				$posts = Post::where('isAllow',$isAllow)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
+				$posts = Post::where('isAllow',$isAllow)->orderBy('created_at','desc')->offset($offset)->limit($limit)->get();
 			}else{
-				$posts = Post::orderBy('id','desc')->offset($offset)->limit($limit)->get();
+				$posts = Post::orderBy('created_at','desc')->offset($offset)->limit($limit)->get();
 			}
 		}
 		
