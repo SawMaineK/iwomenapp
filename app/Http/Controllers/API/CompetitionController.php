@@ -50,7 +50,7 @@ class CompetitionController extends Controller
             }
 
             $competition_question['multiple_question'] = $multiple_question;
-            
+
         	$datetime1 = new DateTime($today);
 			$datetime2 = new DateTime($competition_question->end_date);
 			$interval = $datetime1->diff($datetime2);
@@ -62,6 +62,8 @@ class CompetitionController extends Controller
         	if($competition_answer){
                 $answer_list = array();
                 foreach ($competition_answer as $i => $answer) {
+                    $answer['status'] = $answer['status'] == 1 ? true : false;
+                    $answer['correct'] = $answer['correct'] == 1 ? true : false;
                     $answer_list[] = $answer;
                 }
 
