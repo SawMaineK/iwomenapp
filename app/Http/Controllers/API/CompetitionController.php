@@ -41,13 +41,16 @@ class CompetitionController extends Controller
 
         $competition_question = CompetitionQuestion::where('start_date','<=',$today)->where('end_date','>=',$today)->orderBy('id','desc')->first();
 
-        $multiple_question = MutipleQuestion::where('question_id', $competition_question->id)->get();
-        foreach ($multiple_question as $key => $value) {
-            $multiple_question[$key]['option'] = MutipleOption::where('mutiple_question_id', $value->id)->get();
-        }
-
-        $competition_question['multiple_question'] = $multiple_question;
+        
         if($competition_question){
+
+            $multiple_question = MutipleQuestion::where('question_id', $competition_question->id)->get();
+            foreach ($multiple_question as $key => $value) {
+                $multiple_question[$key]['option'] = MutipleOption::where('mutiple_question_id', $value->id)->get();
+            }
+
+            $competition_question['multiple_question'] = $multiple_question;
+            
         	$datetime1 = new DateTime($today);
 			$datetime2 = new DateTime($competition_question->end_date);
 			$interval = $datetime1->diff($datetime2);
