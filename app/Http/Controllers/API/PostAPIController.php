@@ -59,6 +59,7 @@ class PostAPIController extends AppBaseController
 		$offset  = $request->page ? $request->page : 1;
 		$limit   = $request->limit ? $request->limit : 12;
 		$isAllow = $request->isAllow ? $request->isAllow : 1;
+		$category = $request->category;
 		
 		$offset  = ($offset - 1) * $limit;
 
@@ -68,6 +69,7 @@ class PostAPIController extends AppBaseController
 								->orwhere('content_mm','like', '%'.$search.'%')
 								->orwhere('postUploadName','like', '%'.$search.'%')
 								->where('isAllow',$isAllow)
+								->where('category_id', $category)
 								->orderBy('postUploadedDate','desc')
 								->offset($offset)->limit($limit)->get();
 		return response()->json($posts);
