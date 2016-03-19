@@ -25,6 +25,8 @@ Route::get("checkRole/{id}", "UserAPIController@checkRole");
 
 Route::resource("posts", "PostAPIController");
 
+Route::get("searchPosts", "PostAPIController@search");
+
 Route::resource("tlgProfiles", "TlgProfileAPIController");
 
 Route::resource("authors", "AuthorAPIController");
@@ -34,6 +36,8 @@ Route::post("authorUpload", "AuthorAPIController@authorUploadImage");
 Route::resource("resources", "ResourcesAPIController");
 
 Route::resource("iwomenPosts", "IwomenPostAPIController");
+
+Route::get("searchIwomenPost", "IwomenPostAPIController@search");
 
 Route::resource("iwomenPosts", "IwomenPostAPIController");
 

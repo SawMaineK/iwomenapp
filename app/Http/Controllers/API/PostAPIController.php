@@ -54,6 +54,25 @@ class PostAPIController extends AppBaseController
 		return response()->json($posts);
 	}
 
+	public function search(Request $request){
+		$search  = $request->keywords ? $request->keywords : '';
+		$offset  = $request->page ? $request->page : 1;
+		$limit   = $request->limit ? $request->limit : 12;
+		$isAllow = $request->isAllow ? $request->isAllow : 1;
+		
+		$offset  = ($offset - 1) * $limit;
+
+		$posts = Post::where('title','like', '%'.$search.'%')
+								->orwhere('titleMm','like', '%'.$search.'%')
+								->orwhere('content','like', '%'.$search.'%')
+								->orwhere('content_mm','like', '%'.$search.'%')
+								->orwhere('postUploadName','like', '%'.$search.'%')
+								->where('isAllow',$isAllow)
+								->orderBy('postUploadedDate','desc')
+								->offset($offset)->limit($limit)->get();
+		return response()->json($posts);
+	}
+
 	/**
 	 * Show the form for creating a new Post.
 	 * GET|HEAD /posts/create
