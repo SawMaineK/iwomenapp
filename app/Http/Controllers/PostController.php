@@ -66,6 +66,10 @@ class PostController extends AppBaseController
 			$input['image'] = $image['resize_url'][0];
 		}
 
+		if($request->file("audioFile")){
+			$input['audioFile'] = $this->uploadAudio($request->file('audioFile'),'/posts_audio/');
+		}
+
 		$post = $this->postRepository->create($input);
 
 		Flash::success('Post saved successfully.');
