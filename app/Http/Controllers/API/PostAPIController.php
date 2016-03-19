@@ -87,19 +87,14 @@ class PostAPIController extends AppBaseController
 	}
 
 	public function postUploadImage(Request $request){
-        $validator = Validator::make($request->all(), [
-            'image'     => 'required',
-        ]);
-
-        if ($validator->fails()) {
-            if($validator->errors()->has('image')){
-                return response()->json($validator->errors()->first('image'), 400);
-            }
-        }
-
-        $photoname = $this->uploadImage($request->image, '/posts_photo/');
+        if($request->image){
+        	
+        	$photoname = $this->uploadImage($request->image, '/posts_photo/');
         
-        return response()->json($photoname);
+        	return response()->json($photoname);
+        }
+        return response()->json('Image Field is Required!');
+       
     }
 
     public function postUploadAudio(Request $request){
