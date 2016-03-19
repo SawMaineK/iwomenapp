@@ -29,6 +29,8 @@ Route::resource("tlgProfiles", "TlgProfileAPIController");
 
 Route::resource("authors", "AuthorAPIController");
 
+Route::post("authorUpload", "AuthorAPIController@authorUploadImage");
+
 Route::resource("resources", "ResourcesAPIController");
 
 Route::resource("iwomenPosts", "IwomenPostAPIController");

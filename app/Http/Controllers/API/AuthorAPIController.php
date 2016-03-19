@@ -123,6 +123,22 @@ class AuthorAPIController extends AppBaseController
 		return $this->sendResponse($author->toArray(), "Author updated successfully");
 	}
 
+	public function authorUploadImage(Request $request){
+        $validator = Validator::make($request->all(), [
+            'image'     => 'required',
+        ]);
+
+        if ($validator->fails()) {
+            if($validator->errors()->has('image')){
+                return response()->json($validator->errors()->first('image'), 400);
+            }
+        }
+
+        $photoname = $this->uploadImage($request->image, '/authors_photo/');
+        
+        return response()->json($photoname);
+    }
+
 	/**
 	 * Remove the specified Author from storage.
 	 * DELETE /authors/{id}

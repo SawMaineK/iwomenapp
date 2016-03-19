@@ -67,6 +67,9 @@ class IwomenPostController extends AppBaseController
 			$image = $this->uploadImage($request->file('postUploadUserImgPath'),'/posts_photo/');
 			$input['postUploadUserImgPath'] = $image['resize_url'][0];
 		}
+		if($request->file("audioFile")){
+			$input['audioFile'] = $this->uploadAudio($request->file('audioFile'),'/posts_audio/');
+		}
 
 		$iwomenPost = $this->iwomenPostRepository->create($input);
 
