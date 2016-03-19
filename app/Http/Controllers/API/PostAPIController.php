@@ -87,9 +87,9 @@ class PostAPIController extends AppBaseController
 	}
 
 	public function postUploadImage(Request $request){
-        if($request->image){
+        if($request->file('image')){
         	
-        	$photoname = $this->uploadImage($request->image, '/posts_photo/');
+        	$photoname = $this->uploadImage($request->file('image'), '/posts_photo/');
         
         	return response()->json($photoname);
         }

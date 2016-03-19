@@ -125,8 +125,8 @@ class AuthorAPIController extends AppBaseController
 	}
 
 	public function authorUploadImage(Request $request){
-		if($request->image){
-        	$photoname = $this->uploadImage($request->image, '/authors_photo/');
+		if($request->file('image')){
+        	$photoname = $this->uploadImage($request->file('image'), '/authors_photo/');
         	return response()->json($photoname);
 		}
 		return response()->json('Image Field is Required!');
