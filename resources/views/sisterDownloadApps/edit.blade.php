@@ -20,7 +20,7 @@
     	<div class="row">
 		    @include('common.errors')
 
-		    {!! Form::model($sisterDownloadApp, ['route' => ['sisterDownloadApps.update', $sisterDownloadApp->id], 'method' => 'patch']) !!}
+		    {!! Form::model($sisterDownloadApp, ['route' => ['sisterDownloadApps.update', $sisterDownloadApp->id], 'method' => 'patch','enctype'=>'multipart/form-data']) !!}
 
 		        @include('sisterDownloadApps.fields')
 
