@@ -66,12 +66,12 @@ class HomeController extends Controller
         foreach ($dataJson['results'] as $key => $data) {
             $data['resource_icon_img'] = isset($data['resource_icon_img']) ? $data['resource_icon_img']['url'] : '';
             Resources::create($data);
-        }
+        }*/
         $dataJson = $this->readJson('Author.json');
         foreach ($dataJson['results'] as $key => $data) {
             $data['authorImg'] = isset($data['authorImg']) ? $data['authorImg']['url'] : '';
             Author::create($data);
-        }
+        }/*
         $dataJson = $this->readJson('Comment.json');
         foreach ($dataJson['results'] as $key => $data) {
             $data['comment_created_time'] = isset($data['comment_created_time']) ? $data['comment_created_time']['iso'] : '';

@@ -52,8 +52,8 @@ class IwomenPostAPIController extends AppBaseController
 		$search  = $request->keywords ? $request->keywords : '';
 		$offset  = $request->page ? $request->page : 1;
 		$limit   = $request->limit ? $request->limit : 12;
-		$isAllow = $request->isAllow ? $request->isAllow : 1;
-		
+		$isAllow = $request->isAllow ? $request->isAllow : 0;
+
 		$offset  = ($offset - 1) * $limit;
 
 		$posts = IwomenPost::where('title','like', '%'.$search.'%')

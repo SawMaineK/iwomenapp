@@ -834,8 +834,8 @@
         "credit_name": "Now! Magazine",
         "image": {
             "__type": "File",
-            "name": "tfss-7b15b9d5-89ef-4137-b74a-665505b8381e-PoPoKyi.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-7b15b9d5-89ef-4137-b74a-665505b8381e-PoPoKyi.png"
+            "name": "tfss-c86a5092-8947-46a1-a39f-dc0beceb390a-PoPoKyi.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-c86a5092-8947-46a1-a39f-dc0beceb390a-PoPoKyi.png"
         },
         "isAllow": true,
         "likes": 3,
@@ -850,7 +850,7 @@
         "post_author_role_mm": "Now! အပတ္စဥ္ထုတ္ မဂၹဇင္းကို  ၂၀ဝ၇  ခုႏွစ္၊ စက္တင္ဘာမွာ Myanmar Consolidated Media Ltd.,က စတင္ ထုတ္ေဝခဲ့ၿပီး ျမန္မာႏိုင္ငံရဲ႕ ပထမဆံုး အပတ္စဥ္ထုတ္ မဂၹဇင္းျဖစ္ပါတယ္။\n\nအသက္ ၁၈ ႏွစ္ကေန ၃၅ ႏွစ္ ၾကား ဖက္ရွင္၊ အလွအပနဲ႔ ကိုယ္ရည္ကိုယ္ေသြး တိုးတက္မႈကို လိုလားသူ အမ်ိဳးသမီးေတြ  အတြက္ ရည္ရြယ္တာျဖစ္ပါတယ္။ ဒီ မဂၹဇင္းမွာ ေခတ္နဲ႔ အညီ မိမိရဲ႕သြင္ျပင္ ကို ျပင္ဆင္ဖန္တီးႏိုင္ဖို႔ အလွအပ၊ ဖက္ ရွင္ဆိုင္ရာ အႀကံျပဳခ်က္ေတြအျပင္ မိမိ ရဲ႕ လုပ္ငန္းခြင္ဘဝ၊ ခ်စ္မႈေရးရာဘဝေတြ အတြက္ ေကာင္းမြန္သင့္ေလ်ာ္မွန္ကန္တဲ့   အႀကံျပဳခ်က္ေတြ ထည့္သြင္းတင္ဆက္ ေပးထားပါတယ္။ ဒါ့အျပင္ ဒီကေန႔ေခတ္ အမ်ိဳးသမီးေတြရဲ႕ ရွင္သန္ရပ္တည္မႈမွာ အေရးပါတဲ့ အသိပညာ၊ စိတ္ဓာတ္ခြန္ အားနဲ႔ မိမိကိုယ္ကို ယံုၾကည္မႈျမင့္မားတဲ့  သူေတြ ျဖစ္လာဖို႔ နယ္ပယ္အသီးသီးက အတုယူေလးစားစရာ အမ်ိဳးသမီးေတြနဲ႔ ေတြ႕ဆံုေမးျမန္းတင္ဆက္ေပးထားပါတယ္။  \n\nNow! မဂၹဇင္းကို အိမ္အေရာက္ပို႔စနစ္ နဲ႔ မွာယူလိုသူေတြအတြက္\n",
         "share_count": 0,
         "titleMm": "အရြယ္အမ်ိဳးမ်ိဳးမွာ ေအာင္ျမင္ေနတဲ့ အမ်ိဳးသမီးေတြရဲ႕ ကြာျခားေျပာင္းလဲလာတဲ့ ဘဝရည္မွန္းခ်က္ေတြ",
-        "updatedAt": "2016-03-17T17:08:07.562Z",
+        "updatedAt": "2016-03-18T03:37:42.744Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -1024,6 +1024,38 @@
             "__type": "Pointer",
             "className": "_User",
             "objectId": "LuL0gJ7JSH"
+        }
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "comment_count": 0,
+        "contentType": "Story",
+        "content_mm": "ေမအားမာန္TLGသုံးလပတ္အစည္းအေဝးတြင္i women soft ware အသုံးျပဳပုံအားျပန္လည္ေဝမ်ွေနပါတယ္ရွင္",
+        "createdAt": "2016-03-19T09:36:54.178Z",
+        "image": {
+            "__type": "File",
+            "name": "tfss-8cebfc48-5ace-4e49-8fbf-32b68061c027-photo.jpg",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-8cebfc48-5ace-4e49-8fbf-32b68061c027-photo.jpg"
+        },
+        "isAllow": false,
+        "likes": 0,
+        "objectId": "MRXEC24bJq",
+        "postUploadName": "mayarmanTLG",
+        "postUploadUserImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-66194abb-96c9-4685-a141-53f179bc1aa4-photo.jpg",
+        "postUploadedDate": {
+            "__type": "Date",
+            "iso": "2016-03-19T09:35:25.881Z"
+        },
+        "share_count": 0,
+        "updatedAt": "2016-03-19T09:36:54.178Z",
+        "userId": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "JTZjX5ifvr"
         }
     },
 	{
@@ -1495,8 +1527,8 @@
         "credit_name": "Now! Magazine",
         "image": {
             "__type": "File",
-            "name": "tfss-5509d54e-7104-4596-8012-75d7bbff24bf-ShweYeeWinLae.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-5509d54e-7104-4596-8012-75d7bbff24bf-ShweYeeWinLae.png"
+            "name": "tfss-edb8dafc-b5cc-4250-ba32-dba53bb4aa69-ShweYeeWinLae.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-edb8dafc-b5cc-4250-ba32-dba53bb4aa69-ShweYeeWinLae.png"
         },
         "isAllow": true,
         "likes": 3,
@@ -1511,7 +1543,7 @@
         "post_author_role_mm": "Now! အပတ္စဥ္ထုတ္ မဂၹဇင္းကို  ၂၀ဝ၇  ခုႏွစ္၊ စက္တင္ဘာမွာ Myanmar Consolidated Media Ltd.,က စတင္ ထုတ္ေဝခဲ့ၿပီး ျမန္မာႏိုင္ငံရဲ႕ ပထမဆံုး အပတ္စဥ္ထုတ္ မဂၹဇင္းျဖစ္ပါတယ္။\n\nအသက္ ၁၈ ႏွစ္ကေန ၃၅ ႏွစ္ ၾကား ဖက္ရွင္၊ အလွအပနဲ႔ ကိုယ္ရည္ကိုယ္ေသြး တိုးတက္မႈကို လိုလားသူ အမ်ိဳးသမီးေတြ  အတြက္ ရည္ရြယ္တာျဖစ္ပါတယ္။ ဒီ မဂၹဇင္းမွာ ေခတ္နဲ႔ အညီ မိမိရဲ႕သြင္ျပင္ ကို ျပင္ဆင္ဖန္တီးႏိုင္ဖို႔ အလွအပ၊ ဖက္ ရွင္ဆိုင္ရာ အႀကံျပဳခ်က္ေတြအျပင္ မိမိ ရဲ႕ လုပ္ငန္းခြင္ဘဝ၊ ခ်စ္မႈေရးရာဘဝေတြ အတြက္ ေကာင္းမြန္သင့္ေလ်ာ္မွန္ကန္တဲ့   အႀကံျပဳခ်က္ေတြ ထည့္သြင္းတင္ဆက္ ေပးထားပါတယ္။ ဒါ့အျပင္ ဒီကေန႔ေခတ္ အမ်ိဳးသမီးေတြရဲ႕ ရွင္သန္ရပ္တည္မႈမွာ အေရးပါတဲ့ အသိပညာ၊ စိတ္ဓာတ္ခြန္ အားနဲ႔ မိမိကိုယ္ကို ယံုၾကည္မႈျမင့္မားတဲ့  သူေတြ ျဖစ္လာဖို႔ နယ္ပယ္အသီးသီးက အတုယူေလးစားစရာ အမ်ိဳးသမီးေတြနဲ႔ ေတြ႕ဆံုေမးျမန္းတင္ဆက္ေပးထားပါတယ္။  \n\nNow! မဂၹဇင္းကို အိမ္အေရာက္ပို႔စနစ္ နဲ႔ မွာယူလိုသူေတြအတြက္\n",
         "share_count": 0,
         "titleMm": "အရြယ္အမ်ိဳးမ်ိဳးမွာ ေအာင္ျမင္ေနတဲ့ အမ်ိဳးသမီးေတြရဲ႕ ကြာျခားေျပာင္းလဲလာတဲ့ ဘဝရည္မွန္းခ်က္ေတြ",
-        "updatedAt": "2016-03-17T17:08:32.177Z",
+        "updatedAt": "2016-03-18T03:37:27.008Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -2071,7 +2103,7 @@
             "objectId": "GS5t62cvfe"
         },
         "comment_count": 0,
-        "content": "nfidence.\n\nDuring this I had the chance to meet my own MP, also a woman, who inspired me and has remained a mentor and role model for me throughout my career.  She encouraged me in doing something for my community, and stepping up to lead something.  I saw in her that it is worth aiming to represent people in Parliament, and you can achieve things for your community in politics.\n\nI see my job today as an MP in three ways:  being a local champion, being a national lawmaker, and being an ambassador for politics.\n\nSo my message to you is:  it can be you too!  You can get things done for your village.  You have something important to say to your country.  And you too can believe in the power of democracy.\nGood luck.\nChloe Smith\n",
+        "content": "Thanks for letting me have the chance to speak to you and be part of the new democracy in your country.  I’ve just spent a week with newly elected MPs in the Hluttaw in Nay Pyi Daw, helping to train them in what it’s like to be an effective MP.  We spoke about accountability to the people, representation of people’s needs and issues, and scrutiny of the government.\n\nI was hugely proud to do this.  We are very lucky in the UK to be able to serve in an established democracy where accountability, representation and scrutiny come as second nature, supported by robust processes and a thriving public atmosphere.  Personally I enjoyed sharing my knowledge with MPs who are ready to build such things from scratch;  I was also inspired by them in turn as many of them hold years of tough experience.  I understood them to be optimistic about their future and ready to work hard.  I found people warm, welcoming and funny as we got to know each other.  \nI hope to keep in touch with some contacts from the week, and to be able to provide some further information on the topics which I focus on in my work back in the UK, such as youth affairs and employment.\n\nI’ve been one of my country’s youngest MPs, elected at the age of 27.  I think it is crucial to have people of all ages in Parliament and I want to say to any young woman in your village:  you can make a difference too.\n\nIn fact, I started my political work as a young woman in a village!  I grew up in Norfolk, in eastern England, which is a rural county.  Although it is England and I had good schooling and loving parents, there weren’t very many opportunities compared to other parts of the country.  In particular, the transport was bad locally.  I found it very frustrating that as a teenager I couldn’t get around to see my friends or do anything to break out and live my own life.  It struck me there was a choice:  either accept it and do nothing, or think that things can be different and do something.  \n\nSo I starting getting other young people together in the area to talk about the problem.  We thought we could change it with enough “people power” behind us.  We formed a youth forum for the whole county and expanded our knowledge and our network and our skills and our confidence.\n\nDuring this I had the chance to meet my own MP, also a woman, who inspired me and has remained a mentor and role model for me throughout my career.  She encouraged me in doing something for my community, and stepping up to lead something.  I saw in her that it is worth aiming to represent people in Parliament, and you can achieve things for your community in politics.\n\nI see my job today as an MP in three ways:  being a local champion, being a national lawmaker, and being an ambassador for politics.\n\nSo my message to you is:  it can be you too!  You can get things done for your village.  You have something important to say to your country.  And you too can believe in the power of democracy.\nGood luck.\nChloe Smith\n",
         "contentType": "Letter",
         "content_mm": "ခ်စ္ခင္ရပါေသာ ျမန္မာႏိုင္ငံမွ အမ်ိဳးသမီးမ်ားရွင္ \n\nသင္တို႔ကို စကားေျပာခြင့္ေပးတဲ့အတြက္ေရာ သင္တို႔ရဲ႕ ဒီမိုကေရစီႏိုင္ငံသစ္ထူေထာင္တဲ့ေနရာမွာ ပါ၀င္ခြင့္ ေပးတဲ့အတြက္ပါ ေက်းဇူးတင္ေၾကာင္း ေျပာလိုပါတယ္။ ကၽြန္မဟာ ေနျပည္ေတာ္မွာ တစ္ပတ္ၾကာခဲ့ပါတယ္။ လႊတ္ေတာ္မွာ ေရြးေကာက္တင္ေျမႇာက္ခံရတဲ့ လႊတ္ေတာ္ကိုယ္စားလွယ္သစ္ေတြကို ထိေရာက္တဲ့ လႊတ္ေတာ္ ကိုယ္စားလွယ္တစ္ေယာက္ျဖစ္ေအာင္ သင္တန္းေပးတဲ့ေနရာမွာ ပါ၀င္ကူညီခဲ့ပါတယ္။ ျပည္သူေတြအေပၚ တာ၀န္ခံမႈရွိဖို႔၊ ျပည္သူေတြရဲ႕ လိုအပ္ခ်က္ေတြနဲ႕ ျပႆနာေတြကို ကိုယ္စားျပဳေပးဖို႔၊ အစိုးရကို ေစာင့္ၾကည့္ ေလ့လာဖို႔ေတြ ကၽြန္မတို႔ ေျပာခဲ့ပါတယ္။  \n\nကၽြန္မဟာ ဒီလိုလုပ္ခြင့္ရလို႔ အလြန္ပဲ ဂုဏ္ယူခဲ့ရပါတယ္။ ယူေကလို ခိုင္မာအားေကာင္းတဲ့ ဒီမိုကေရစီႏိုင္ငံမွာ တာ၀န္ခံမႈ၊ ကိုယ္စားျပဳမႈနဲ႕ ေစာင့္ၾကည့္ေလ့လာမႈေတြဟာ အေလ့အက်င့္လို ျဖစ္ေနၿပီး ခိုင္လံုေကာင္းမြန္တဲ့ လုပ္ငန္းစဥ္ေတြနဲ႕ ျပည္သူေတြက အားေပးေထာက္ကူထားပါတယ္။ ဒီလိုႏိုင္ငံမ်ိဳးမွာ ေနထိုင္ခြင့္ရတာ ကၽြန္မတို႔ ကံေကာင္းပါတယ္။ အဲဒီလုိအရာေတြကို စတင္တည္ေဆာက္ဖို႔အသင့္ျဖစ္ေနတဲ့ လႊတ္ေတာ္ကိုယ္စားလွယ္ေတြ ကို ကၽြန္မ သိထားတာေတြ မွ်ေ၀ေပးရတာ ကၽြန္မ ေပ်ာ္ရႊင္မိပါတယ္။ အျပန္အလွန္အားျဖင့္ သူတို႔ေတြရဲ႕ ႏွစ္ေပါင္းမ်ားစြာ ခက္ခက္ခဲခဲ ျဖတ္သန္းလာခဲ့တဲ့ အေတြ႕အၾကံဳေတြေၾကာင့္လည္း ကၽြန္မမွာ စိတ္ဓာတ္ခြန္အား ေတြ ရခဲ့ပါသည္။ သူတို႔ေတြဟာ သူတို႔ရဲ႕ အနာဂတ္အတြက္ အေကာင္းျမင္ၿပီး ႀကိဳးစားလုပ္ေဆာင္ဖို႔ အဆင္ သင့္ျဖစ္ေနပါတယ္။ လူေတြနဲ႕ ရင္းႏွီးလာတဲ့အခါ သူတို႔ေတြဟာ ေႏြးေထြးႀကိဳဆိုမႈရွိၿပီး သူတို႔နဲ႕ေနရတာ ေပ်ာ္စရာေကာင္းတယ္ဆိုတာ ေတြ႕ခဲ့ရပါတယ္။      \n\nအဲဒီတစ္ပတ္အတြင္းမွာ သိကၽြမ္းခဲ့ရတဲ့ ကို္ယ္စားလွယ္ေတြနဲ႕ အဆက္အသြယ္မျပတ္ဘဲ ယူေကမွာ ကၽြန္မ အဓိက စူးစိုက္လုပ္လာခဲ့တဲ့ လူငယ္မ်ားအေရးနဲ႕ အလုပ္လက္မဲ့ျပႆနာေတြလို ကိစၥေတြနဲ႕ပတ္သက္တဲ့ အခ်က္အလက္ေတြကို ထပ္ၿပီး မွ်ေ၀ေပးႏို္င္မယ္လို႔ ေမွ်ာ္လင့္မိပါတယ္။  \n\nကၽြန္မဟာ အသက္ ၂၇ ႏွစ္အရြယ္မွာ ေရြးေကာက္တင္ေျမႇာက္ခံရၿပီး ကၽြန္မတို႔ႏိုင္ငံရဲ႕ အသက္အငယ္ဆံုး လႊတ္ေတာ္ကိုယ္စားလွယ္ေတြထဲက တစ္ေယာက္ ျဖစ္ခဲ့ပါတယ္။ လႊတ္ေတာ္မွာ အသက္အရြယ္စံု ရွိေနဖို႔ အေရးႀကီးတယ္လို႔ ကၽြန္မထင္ပါတယ္။ သင္တို႔ရြာမွာ ရွိတဲ့ အမ်ိဳးသမီးငယ္ေတြကို ကၽြန္မေျပာခ်င္တာက `သင္တို႔လည္း ထူးထူးျခားျခား စြမ္းေဆာင္ႏိုင္တယ္´ ဆိုတဲ့ စကားပါပဲ။ \n\nတကယ္ေတာ့ ကၽြန္မဟာ ကၽြန္မရဲ႕ ႏိုင္ငံေရးအလုပ္ေတြကို အမ်ိဳးသမီးငယ္တစ္ေယာက္အေနနဲ႕ ေက်းလက္ ေတာရြာေလးတစ္ရြာမွာ စတင္ခဲ့တာပါ။ ကၽြန္မဟာ အဂၤလန္အေရွ႕ပိုင္းက ေက်းလက္ေဒသတစ္ခုျဖစ္တဲ့ ေနာ္ေဖာ့ခ္မွာ ႀကီးျပင္းလာခဲ့တာပါ။ အဂၤလန္က ၿမိဳ႕ေလးတစ္ၿမိဳ႕ျဖစ္ၿပီး ကၽြန္မဟာ ေက်ာင္းေကာင္းေကာင္း တက္ခဲ့ရသလို ကၽြန္မကိုခ်စ္တဲ့ မိဘေတြ ရွိေပမယ့္လည္း အဂၤလန္မွာရွိတဲ့ တျခားေနရာေတြနဲ႕ ႏိႈင္းယွဥ္ရင္ အဲဒီမွာ အခြင့္အလမ္းေတြ အမ်ားႀကီး မရွိပါဘူး။ အထူးသျဖင့္ လမ္းပမ္းဆက္သြယ္ေရးက အေတာ္ေလး ညံ့ပါတယ္။ ဆယ္ေက်ာ္သက္တစ္ေယာက္အေနနဲ႕ ကၽြန္မဟာ ကၽြန္မသူငယ္ခ်င္းေတြဆီ သြားမေတြ႕ႏိုင္တာ ဒါမွမဟုတ္ အေျပာင္းအလဲအေနနဲ႕ ဘာမွမလုပ္ႏိုင္တာေတြဟာ စိတ္ပ်က္စရာေကာင္းလြန္းပါတယ္။ ကၽြန္မ ေရြးခ်ယ္ရေတာ့မယ္ဆိုတာ သိလိုက္ပါတယ္။ အေျခအေနကိုလက္ခံၿပီး ဘာမွ မလုပ္ဘဲ ေနမလား ဒါမွမဟုတ္ အေျခအေနေတြကို ေျပာင္းလဲပစ္ႏိုင္တယ္လို႔ေတြးၿပီး တစ္ခုခု လုပ္မလား ဆိုတာပါပဲ။     \n\nအဲဒါေၾကာင့္ ကၽြန္မဟာ ဒီျပႆနာကို ေဆြးေႏြးဖို႔ အဲဒီေဒသမွာရွိတဲ့ တျခားလူငယ္ေတြအားလံုးကို စုစည္းခဲ့ ပါတယ္။ ကၽြန္မတို႔ရဲ႕ ေနာက္မွာ `လူထုရဲ႕ စြမ္းအား´ သာ အလံုအေလာက္ရွိမယ္ဆိုရင္ အဲဒီအေျခအေနကို ေျပာင္းလဲပစ္ႏိုင္မယ္လို႔ ကၽြန္မတို႔ ထင္ပါတယ္။ ကၽြန္မတို႔ဟာ တစ္တိုင္းျပည္လံုးအတြက္ လူငယ္ဖိုရမ္တစ္ခုကို ဖဲြ႕စည္းခဲ့ၿပီး ကၽြန္မတို႔ရဲ႕ ကြန္ယက္နဲ႕ အသိပညာဗဟုသုတေတြ၊ ကၽြမ္းက်င္မႈေတြ၊ ယံုၾကည္မႈေတြကို ခ်ဲ႕ထြင္ခဲ့ၾကပါတယ္။  \n\nအဲဒီလို လုပ္ေဆာင္ေနတဲ့အေတာအတြင္းမွာ ကၽြန္မတို႔ ေဒသရဲ႕ လႊတ္ေတာ္ကိုယ္စားလွယ္နဲ႕ ေတြ႕ခြင့္ရခဲ့ ပါတယ္။ သူလည္း အမ်ိဳးသမီးတစ္ေယာက္ပါပဲ။ သူဟာ ကၽြန္မကို စိတ္ခြန္အားေတြ ေပးခဲ့ၿပီး ကၽြန္မ လႊတ္ေတာ္ ကိုယ္စားလွယ္အျဖစ္ လုပ္ကိုင္ခဲ့တဲ့ တစ္ေလွ်ာက္လံုးမွာ သူဟာ ကၽြန္မရဲ႕ အနီးကပ္ညႊန္ၾကားျပသေပးတဲ့သူ၊ ကၽြန္မရဲ႕ စံနမူနာျပပုဂၢိဳလ္တစ္ေယာက္ ျဖစ္ခဲ့ပါတယ္။ ကိုယ့္ရပ္ရြာအတြက္ တစ္ခုခု လုပ္ေပးဖို႔၊ ေရွ႕ထြက္ၿပီး တစ္ခုခုကို ဦးေဆာင္ဖို႔ သူက ကၽြန္မကို အားေပးခဲ့ပါတယ္။ လႊတ္ေတာ္မွာ ျပည္သူေတြကို ကိုယ္စားျပဳၿပီး ႏိုင္ငံေရးနည္းလမ္းနဲ႕ ကိုယ့္ရပ္ရြာအတြက္ စြမ္းေဆာင္ေပးႏိုင္မယ္ဆိုရင္ အရမ္းေကာင္းမွာပဲလို႔ သူ႕ကိုၾကည့္ၿပီး ကၽြန္မ ေတြးခဲ့ပါတယ္။\n\nလႊတ္ေတာ္ကိုယ္စားလွယ္ဆိုတဲ့ ကေန႕ ကၽြန္မရဲ႕အလုပ္အေပၚမွာ ကၽြန္မရဲ႕ အျမင္ သံုးမ်ိဳး ရွိပါတယ္။ ကိုယ့္ေဒသရဲ႕ ခ်န္ပီယန္၊ ကိုယ့္ႏိုင္ငံရဲ႕ ဥပေဒျပဳသူနဲ႕ ႏိုင္ငံေရးမွာ သံတမန္တစ္ေယာက္ ျဖစ္ပါတယ္။ \n\nအဲဒါေၾကာင့္ ကၽြန္မရဲ႕ စကားလက္ေဆာင္ကေတာ့ `သင္လည္းပဲ ျဖစ္ႏိုင္တယ္။ သင့္ရြာအတြက္ သင္ လုပ္ေပးႏိုင္တာေတြ ရွိတယ္။ သင့္မွာ သင့္ႏိုင္ငံကို ေျပာဖို႔ အေရးႀကီးတဲ့ စကားေတြ ရွိပါတယ္။ ၿပီးေတာ့ သင္လည္း ဒီမိုကေရစီရဲ႕ စြမ္းပကားကို ယံုၾကည္ႏိုင္ပါတယ္။´  \nကံေကာင္းၾကပါေစ။\nကလိုရီစမစ္\n",
         "createdAt": "2016-03-09T16:25:24.700Z",
@@ -2098,7 +2130,7 @@
         "share_count": 0,
         "title": "I want to say to any young woman in your village:  you can make a difference too.",
         "titleMm": "သင္တို႔ ေက်းရြာက အမ်ိဳးသမီးငယ္တိုင္း ကို ကၽြန္မေျပာခ်င္တဲ့ စကားက သင္တို႔ လည္း ထူးထူး ျခားျခား စြမ္းေဆာင္ႏိုင္ ပါတယ္လို႔။",
-        "updatedAt": "2016-03-17T13:49:52.973Z",
+        "updatedAt": "2016-03-17T18:24:24.102Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -2356,6 +2388,38 @@
             "__type": "Pointer",
             "className": "_User",
             "objectId": "P8Q6mhIfOG"
+        }
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "comment_count": 0,
+        "contentType": "Story",
+        "content_mm": "ေမအားမာန္TLGသုံးလပတ္အစည္းအေဝးတြင္i women soft ware အသုံးျပဳပုံအားျပန္လည္ေဝမ်ွေနပါတယ္ရွင္",
+        "createdAt": "2016-03-19T09:38:00.351Z",
+        "image": {
+            "__type": "File",
+            "name": "tfss-128e48ac-09c7-4188-ac9c-7d76d94f5018-photo.jpg",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-128e48ac-09c7-4188-ac9c-7d76d94f5018-photo.jpg"
+        },
+        "isAllow": false,
+        "likes": 0,
+        "objectId": "fKb9sEvuoP",
+        "postUploadName": "mayarmanTLG",
+        "postUploadUserImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-66194abb-96c9-4685-a141-53f179bc1aa4-photo.jpg",
+        "postUploadedDate": {
+            "__type": "Date",
+            "iso": "2016-03-19T09:36:33.813Z"
+        },
+        "share_count": 0,
+        "updatedAt": "2016-03-19T09:38:00.351Z",
+        "userId": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "JTZjX5ifvr"
         }
     },
 	{
@@ -2756,8 +2820,8 @@
         "credit_name": "Now! Magazine",
         "image": {
             "__type": "File",
-            "name": "tfss-02def2ee-5f61-4c40-b40f-6cb1df9b1f8a-ChitThuWai.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-02def2ee-5f61-4c40-b40f-6cb1df9b1f8a-ChitThuWai.png"
+            "name": "tfss-aebd6425-8ffe-4803-80a8-52ec18b66794-ChitThuWai.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-aebd6425-8ffe-4803-80a8-52ec18b66794-ChitThuWai.png"
         },
         "isAllow": true,
         "likes": 0,
@@ -2772,7 +2836,7 @@
         "post_author_role_mm": "Now! အပတ္စဥ္ထုတ္ မဂၹဇင္းကို  ၂၀ဝ၇  ခုႏွစ္၊ စက္တင္ဘာမွာ Myanmar Consolidated Media Ltd.,က စတင္ ထုတ္ေဝခဲ့ၿပီး ျမန္မာႏိုင္ငံရဲ႕ ပထမဆံုး အပတ္စဥ္ထုတ္ မဂၹဇင္းျဖစ္ပါတယ္။\n\nအသက္ ၁၈ ႏွစ္ကေန ၃၅ ႏွစ္ ၾကား ဖက္ရွင္၊ အလွအပနဲ႔ ကိုယ္ရည္ကိုယ္ေသြး တိုးတက္မႈကို လိုလားသူ အမ်ိဳးသမီးေတြ  အတြက္ ရည္ရြယ္တာျဖစ္ပါတယ္။ ဒီ မဂၹဇင္းမွာ ေခတ္နဲ႔ အညီ မိမိရဲ႕သြင္ျပင္ ကို ျပင္ဆင္ဖန္တီးႏိုင္ဖို႔ အလွအပ၊ ဖက္ ရွင္ဆိုင္ရာ အႀကံျပဳခ်က္ေတြအျပင္ မိမိ ရဲ႕ လုပ္ငန္းခြင္ဘဝ၊ ခ်စ္မႈေရးရာဘဝေတြ အတြက္ ေကာင္းမြန္သင့္ေလ်ာ္မွန္ကန္တဲ့   အႀကံျပဳခ်က္ေတြ ထည့္သြင္းတင္ဆက္ ေပးထားပါတယ္။ ဒါ့အျပင္ ဒီကေန႔ေခတ္ အမ်ိဳးသမီးေတြရဲ႕ ရွင္သန္ရပ္တည္မႈမွာ အေရးပါတဲ့ အသိပညာ၊ စိတ္ဓာတ္ခြန္ အားနဲ႔ မိမိကိုယ္ကို ယံုၾကည္မႈျမင့္မားတဲ့  သူေတြ ျဖစ္လာဖို႔ နယ္ပယ္အသီးသီးက အတုယူေလးစားစရာ အမ်ိဳးသမီးေတြနဲ႔ ေတြ႕ဆံုေမးျမန္းတင္ဆက္ေပးထားပါတယ္။  \n\nNow! မဂၹဇင္းကို အိမ္အေရာက္ပို႔စနစ္ နဲ႔ မွာယူလိုသူေတြအတြက္\n",
         "share_count": 0,
         "titleMm": "ႀကိဳးစားတက္ခဲ့ရတဲ့ ဘဝေလွခါးထစ္ေတြအတြက္ အၿမဲတမ္း ေက်နပ္ေနတယ္",
-        "updatedAt": "2016-03-17T17:09:28.385Z",
+        "updatedAt": "2016-03-18T03:37:19.129Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -3035,7 +3099,7 @@
             "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-82a52a1d-4c7a-4447-bc12-fb80b0eefff7-MaMiSan.png"
         },
         "isAllow": true,
-        "likes": 0,
+        "likes": 1,
         "objectId": "pv5Zgfzx9S",
         "postUploadName": "Now! Magazine",
         "postUploadUserImgPath": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-81c3bbbf-2088-4dba-9cbc-a8dc3d0416b1-NOW.png",
@@ -3048,7 +3112,7 @@
         "share_count": 0,
         "title": "One Billion Rising Myanmar Campaign",
         "titleMm": "အမ်ိဳးသမီးေတြရဲ႕အၾကမ္းဖက္ခံရမႈေတြ ေလ်ာ့က်လာဖို႔ ႀကိဳးစားေနတဲ့ One Billion Rising Myanmar Campaign",
-        "updatedAt": "2016-03-17T17:19:05.943Z",
+        "updatedAt": "2016-03-21T01:01:57.673Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
@@ -3104,8 +3168,8 @@
         "credit_name": "Now! Magazine",
         "image": {
             "__type": "File",
-            "name": "tfss-99d71005-61bb-4e45-9728-69425dd60c46-MoeSatWin.png",
-            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-99d71005-61bb-4e45-9728-69425dd60c46-MoeSatWin.png"
+            "name": "tfss-a83c602d-054c-4bb7-8e1a-9d175e38490e-MoeSatWine.png",
+            "url": "http://files.parsetfss.com/a7e7daa5-3bd6-46a6-b715-5c9ac02237ee/tfss-a83c602d-054c-4bb7-8e1a-9d175e38490e-MoeSatWine.png"
         },
         "isAllow": true,
         "likes": 0,
@@ -3120,7 +3184,7 @@
         "post_author_role_mm": "Now! အပတ္စဥ္ထုတ္ မဂၹဇင္းကို  ၂၀ဝ၇  ခုႏွစ္၊ စက္တင္ဘာမွာ Myanmar Consolidated Media Ltd.,က စတင္ ထုတ္ေဝခဲ့ၿပီး ျမန္မာႏိုင္ငံရဲ႕ ပထမဆံုး အပတ္စဥ္ထုတ္ မဂၹဇင္းျဖစ္ပါတယ္။\n\nအသက္ ၁၈ ႏွစ္ကေန ၃၅ ႏွစ္ ၾကား ဖက္ရွင္၊ အလွအပနဲ႔ ကိုယ္ရည္ကိုယ္ေသြး တိုးတက္မႈကို လိုလားသူ အမ်ိဳးသမီးေတြ  အတြက္ ရည္ရြယ္တာျဖစ္ပါတယ္။ ဒီ မဂၹဇင္းမွာ ေခတ္နဲ႔ အညီ မိမိရဲ႕သြင္ျပင္ ကို ျပင္ဆင္ဖန္တီးႏိုင္ဖို႔ အလွအပ၊ ဖက္ ရွင္ဆိုင္ရာ အႀကံျပဳခ်က္ေတြအျပင္ မိမိ ရဲ႕ လုပ္ငန္းခြင္ဘဝ၊ ခ်စ္မႈေရးရာဘဝေတြ အတြက္ ေကာင္းမြန္သင့္ေလ်ာ္မွန္ကန္တဲ့   အႀကံျပဳခ်က္ေတြ ထည့္သြင္းတင္ဆက္ ေပးထားပါတယ္။ ဒါ့အျပင္ ဒီကေန႔ေခတ္ အမ်ိဳးသမီးေတြရဲ႕ ရွင္သန္ရပ္တည္မႈမွာ အေရးပါတဲ့ အသိပညာ၊ စိတ္ဓာတ္ခြန္ အားနဲ႔ မိမိကိုယ္ကို ယံုၾကည္မႈျမင့္မားတဲ့  သူေတြ ျဖစ္လာဖို႔ နယ္ပယ္အသီးသီးက အတုယူေလးစားစရာ အမ်ိဳးသမီးေတြနဲ႔ ေတြ႕ဆံုေမးျမန္းတင္ဆက္ေပးထားပါတယ္။  \n\nNow! မဂၹဇင္းကို အိမ္အေရာက္ပို႔စနစ္ နဲ႔ မွာယူလိုသူေတြအတြက္\n",
         "share_count": 0,
         "titleMm": "အရြယ္အမ်ိဳးမ်ိဳးမွာ ေအာင္ျမင္ေနတဲ့ အမ်ိဳးသမီးေတြရဲ႕ ကြာျခားေျပာင္းလဲလာတဲ့ ဘဝရည္မွန္းခ်က္ေတြ",
-        "updatedAt": "2016-03-17T17:07:44.189Z",
+        "updatedAt": "2016-03-18T03:37:44.517Z",
         "userId": {
             "__type": "Pointer",
             "className": "_User",
