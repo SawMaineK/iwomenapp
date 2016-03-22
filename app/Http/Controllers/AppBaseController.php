@@ -17,7 +17,6 @@ class AppBaseController extends Controller
     public function validateRequestOrFail($request, array $rules, $messages = [], $customAttributes = [])
     {
         $validator = $this->getValidationFactory()->make($request->all(), $rules, $messages, $customAttributes);
-
         if ($validator->fails()) {
             return $this->getFirstMessage($validator, $rules);
         }
