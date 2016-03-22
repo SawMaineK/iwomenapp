@@ -58,7 +58,7 @@ class User extends Model
     ];
 
 	public static $rules = [
-		"username"	=> "required",
+		"username"	=> "required|exists:users,username",
 	    "phoneNo" 	=> "required",
 	    "password" 	=> "required|min:6",
 	];
