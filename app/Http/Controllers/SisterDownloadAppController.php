@@ -55,6 +55,12 @@ class SisterDownloadAppController extends AppBaseController
 
 		$input['objectId'] = str_random(10);
 
+		if($request->file('app_img')){
+			$uploadImage = $this->uploadImage($request->file('app_img'),'/sister_app_photo/');
+			$input['app_img'] = $uploadImage['resize_url'][0];
+		}
+
+
 		$sisterDownloadApp = $this->sisterDownloadAppRepository->create($input);
 
 		Flash::success('SisterDownloadApp saved successfully.');
@@ -123,7 +129,13 @@ class SisterDownloadAppController extends AppBaseController
 			return redirect(route('sisterDownloadApps.index'));
 		}
 
-		$this->sisterDownloadAppRepository->updateRich($request->all(), $id);
+		$input = $request->all();
+		if($request->file('app_img')){
+			$uploadImage = $this->uploadImage($request->file('app_img'),'/sister_app_photo/');
+			$input['app_img'] = $uploadImage['resize_url'][0];
+		}
+
+		$this->sisterDownloadAppRepository->updateRich($input, $id);
 
 		Flash::success('SisterDownloadApp updated successfully.');
 
