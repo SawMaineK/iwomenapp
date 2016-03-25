@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Route::get('/apk/download', function(){
 
-    $apk = App\Models\APK::orderBy('version_id','desc')->first();
+    $apk = App\Models\Apk::orderBy('version_id','desc')->first();
     $file= public_path(). "/apk/".$apk->name;
     $apk->download_count += 1;
     $apk->update();
