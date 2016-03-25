@@ -15,9 +15,18 @@ Route::get('/', function () {
     return redirect('/administration');
 });
 
-Route::get('/th', function () {
-    return view('layouts.app1');
+Route::get('/apk/download', function(){
+
+    $apk = App\Models\APK::orderBy('version_id','desc')->first();
+    $file= public_path(). "/apk/".$apk->name;
+    $apk->download_count += 1;
+    $apk->update();
+    $headers = array(
+        'Content-Type: application/apk',
+    );
+    return Response::download($file, $apk->name, $headers);
 });
+
 
 /*
 |--------------------------------------------------------------------------
@@ -232,39 +241,41 @@ Route::group(['middleware' => ['web']], function () {
                 'as' => 'avators.delete',
                 'uses' => 'AvatorController@destroy',
             ]);
+
+            Route::resource('postLikes', 'PostLikeController');
+
+            Route::get('postLikes/{id}/delete', [
+                'as' => 'postLikes.delete',
+                'uses' => 'PostLikeController@destroy',
+            ]);
+
+
+            Route::resource('iwomenPostLikes', 'IwomenPostLikeController');
+
+            Route::get('iwomenPostLikes/{id}/delete', [
+                'as' => 'iwomenPostLikes.delete',
+                'uses' => 'IwomenPostLikeController@destroy',
+            ]);
+
+
+            Route::resource('apks', 'ApkController');
+
+            Route::get('apks/{id}/delete', [
+                'as' => 'apks.delete',
+                'uses' => 'ApkController@destroy',
+            ]);
+
+
+            Route::resource('emails', 'EmailController');
+
+            Route::get('emails/{id}/delete', [
+                'as' => 'emails.delete',
+                'uses' => 'EmailController@destroy',
+            ]);
+
+
         });
 
     });
 
 
-
-Route::resource('postLikes', 'PostLikeController');
-
-Route::get('postLikes/{id}/delete', [
-    'as' => 'postLikes.delete',
-    'uses' => 'PostLikeController@destroy',
-]);
-
-
-Route::resource('iwomenPostLikes', 'IwomenPostLikeController');
-
-Route::get('iwomenPostLikes/{id}/delete', [
-    'as' => 'iwomenPostLikes.delete',
-    'uses' => 'IwomenPostLikeController@destroy',
-]);
-
-
-Route::resource('apks', 'ApkController');
-
-Route::get('apks/{id}/delete', [
-    'as' => 'apks.delete',
-    'uses' => 'ApkController@destroy',
-]);
-
-
-Route::resource('emails', 'EmailController');
-
-Route::get('emails/{id}/delete', [
-    'as' => 'emails.delete',
-    'uses' => 'EmailController@destroy',
-]);

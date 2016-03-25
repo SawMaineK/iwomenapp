@@ -69,6 +69,6 @@ class Controller extends BaseController
         $file_path = public_path().$path;
         $file->move($file_path, $filename);
 
-        return 'http://api.iwomenapp.org'.$path.$filename;
+        return $filename;
     }
 }
