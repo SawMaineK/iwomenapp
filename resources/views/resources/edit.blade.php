@@ -20,7 +20,7 @@
     	<div class="row">
 		    @include('common.errors')
 
-		    {!! Form::model($resources, ['route' => ['resources.update', $resources->id], 'method' => 'patch']) !!}
+		    {!! Form::model($resources, ['route' => ['resources.update', $resources->id], 'method' => 'patch', 'enctype'=>'multipart/form-data']) !!}
 
 		        @include('resources.fields')
 

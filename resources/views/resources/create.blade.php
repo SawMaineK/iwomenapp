@@ -20,7 +20,7 @@
     	<div class="row">
 		    @include('common.errors')
 
-		    {!! Form::open(['route' => 'resources.store']) !!}
+		    {!! Form::open(['route' => 'resources.store','enctype'=>'multipart/form-data']) !!}
 
 		        @include('resources.fields')
 

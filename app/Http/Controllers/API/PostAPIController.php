@@ -3,6 +3,7 @@
 use App\Http\Requests;
 use App\Libraries\Repositories\PostRepository;
 use App\Models\Post;
+use App\Models\IwomenPost;
 use Illuminate\Http\Request;
 use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
@@ -20,7 +21,8 @@ class PostAPIController extends AppBaseController
 
 	public function getPostCount($user_id){
 		$count = Post::where('userId', $user_id)->count();
-		return response()->json($count);
+		$iwomenPostCount = IwomenPost::where('userId', $user_id)->count();
+		return response()->json($count+$iwomenPostCount);
 	}
 
 	/**

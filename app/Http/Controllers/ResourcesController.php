@@ -55,6 +55,15 @@ class ResourcesController extends AppBaseController
 
 		$input['objectId'] = str_random(10);
 
+		if($request->file('author_img_path')){
+			$image = $this->uploadImage($request->file('author_img_path'),'/authors_photo/');
+			$input['author_img_path'] = $image['resize_url'][0];
+		}
+		if($request->file('resource_icon_img')){
+			$image = $this->uploadImage($request->file('resource_icon_img'),'/resources_photo/');
+			$input['resource_icon_img'] = $image['resize_url'][0];
+		}
+
 		$resources = $this->resourcesRepository->create($input);
 
 		Flash::success('Resources saved successfully.');
@@ -123,7 +132,19 @@ class ResourcesController extends AppBaseController
 			return redirect(route('resources.index'));
 		}
 
-		$this->resourcesRepository->updateRich($request->all(), $id);
+		$input = $request->all();
+
+		if($request->file('author_img_path')){
+			$image = $this->uploadImage($request->file('author_img_path'),'/authors_photo/');
+			$input['author_img_path'] = $image['resize_url'][0];
+		}
+		
+		if($request->file('resource_icon_img')){
+			$image = $this->uploadImage($request->file('resource_icon_img'),'/resources_photo/');
+			$input['resource_icon_img'] = $image['resize_url'][0];
+		}
+
+		$this->resourcesRepository->updateRich($input, $id);
 
 		Flash::success('Resources updated successfully.');
 
