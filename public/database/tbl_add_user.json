@@ -1,0 +1,12 @@
+[
+    {
+        "field":"user_id:string",
+        "type":"text",
+        "validations": "required"
+    },
+    {
+        "field":"share_objectId:text",
+        "type":"text",
+        "validations": "required"
+    }
+]

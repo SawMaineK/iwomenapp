@@ -273,9 +273,14 @@ Route::group(['middleware' => ['web']], function () {
                 'uses' => 'EmailController@destroy',
             ]);
 
+            Route::resource('shareUsers', 'ShareUserController');
+
+            Route::get('shareUsers/{id}/delete', [
+                'as' => 'shareUsers.delete',
+                'uses' => 'ShareUserController@destroy',
+            ]);
+
 
         });
 
     });
-
-

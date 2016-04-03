@@ -84,3 +84,5 @@ Route::post("iwomenPost/like/check", "IwomenPostLikeAPIController@chkUserLike");
 Route::resource("apks", "ApkAPIController");
 
 Route::resource("emails", "EmailAPIController");
+
+Route::resource("shareUsers", "ShareUserAPIController");
