@@ -4,6 +4,7 @@ use App\Http\Requests;
 use App\Http\Requests\CreateShareUserRequest;
 use App\Http\Requests\UpdateShareUserRequest;
 use App\Libraries\Repositories\ShareUserRepository;
+use App\Models\User;
 use Flash;
 use Mitul\Controller\AppBaseController as AppBaseController;
 use Response;
@@ -54,6 +55,12 @@ class ShareUserController extends AppBaseController
 		$input = $request->all();
 
 		$shareUser = $this->shareUserRepository->create($input);
+
+		$user = User::where('objectId', $shareUser->share_objectId)->first();
+		if($user){
+			$user->points += 10;
+			$user->update();
+		}
 
 		Flash::success('ShareUser saved successfully.');
 

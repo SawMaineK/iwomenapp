@@ -3,6 +3,7 @@
 use App\Http\Requests;
 use App\Libraries\Repositories\ShareUserRepository;
 use App\Models\ShareUser;
+use App\Models\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
@@ -50,12 +51,22 @@ class ShareUserAPIController extends AppBaseController
 	 */
 	public function store(Request $request)
 	{
-		if(sizeof(ShareUser::$rules) > 0)
-			$this->validateRequestOrFail($request, ShareUser::$rules);
+		if(sizeof(ShareUser::$rules) > 0){
+			$validator = $this->validateRequestOrFail($request, ShareUser::$rules);
+			if($validator){
+				return $validator;
+			}
+		}
 
 		$input = $request->all();
 
 		$shareUsers = $this->shareUserRepository->create($input);
+
+		$user = User::where('objectId', $shareUsers->share_objectId)->first();
+		if($user){
+			$user->points += 10;
+			$user->update();
+		}
 
 		return $this->sendResponse($shareUsers->toArray(), "ShareUser saved successfully");
 	}
