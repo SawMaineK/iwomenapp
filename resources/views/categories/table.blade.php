@@ -4,7 +4,7 @@
             <th data-column-id="id" data-visible="false">Id</th>
             <th data-column-id="objectId">Objectid</th>
             <th data-column-id="name">Name</th>
-    		<th data-column-id="name">Name MM</th>
+    		<th data-column-id="name_mm">Name MM</th>
     		<th data-column-id="image"  data-formatter="image">Image</th>
             <th data-column-id="commands" data-formatter="commands" data-sortable="false">Action</th>
         </thead>
