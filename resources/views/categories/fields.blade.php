@@ -14,6 +14,14 @@
 	</div>
 </div>
 
+<!-- Name MM Field -->
+<div class="form-group col-sm-6 col-lg-4">
+	<div class="fg-line"> 
+	    {!! Form::label('name_mm', 'Name MM:') !!}
+		{!! Form::text('name_mm', null, ['class' => 'form-control']) !!}
+	</div>
+</div>
+
 <!-- Image Field -->
 <div class="form-group col-sm-6 col-lg-4">
 	<div class="fg-line"> 

@@ -15,6 +15,7 @@ class Category extends Model
 	public $fillable = [
 	    "objectId",
 		"name",
+		"name_mm",
 		"image"
 	];
 
@@ -26,6 +27,7 @@ class Category extends Model
     protected $casts = [
         "objectId" => "string",
 		"name" => "string",
+		"name_mm" => "string",
 		"image" => "string"
     ];
 
