@@ -53,8 +53,8 @@
                     },
                     formatters: {
                         "image": function(column, row) {
-                            // return '<img class="img-responsive" src="'+data-row-image+'">';
-                            return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
+                            return '<img class="img-responsive" src="'+row.image+'">';
+                            //return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
                         },
                         
                         "commands": function(column, row) {
