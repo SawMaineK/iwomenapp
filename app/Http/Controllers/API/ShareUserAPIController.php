@@ -60,15 +60,29 @@ class ShareUserAPIController extends AppBaseController
 
 		$input = $request->all();
 
-		$shareUsers = $this->shareUserRepository->create($input);
+		$user = User::where('id', $input['user_id'])->first();
 
-		$user = User::where('objectId', $shareUsers->share_objectId)->first();
 		if($user){
-			$user->points += 10;
-			$user->update();
-		}
+			$shared_with_other_account = User::where('phoneNo', $user->phoneNo)->lists('id');
+			if(count($shared_with_other_account) > 0){
+				$alreadyShared = ShareUser::where('share_objectId', $input['share_objectId'])->wherein('user_id', $shared_with_other_account)->get();
 
-		return $this->sendResponse($shareUsers->toArray(), "ShareUser saved successfully");
+				if(count($alreadyShared) > 0){
+					return response()->json("The share object id has already been taken.", 400);
+				}
+
+			}
+			
+			$shareUsers = $this->shareUserRepository->create($input);
+
+			if($user){
+				$user->points += 10;
+				$user->update();
+			}
+			$shareUsers['points'] = $user->points;
+			return $this->sendResponse($shareUsers->toArray(), "ShareUser saved successfully");
+		}
+		
 	}
 
 	/**
@@ -97,7 +111,7 @@ class ShareUserAPIController extends AppBaseController
 	public function edit($id)
 	{
 		// maybe, you can return a template for JS
-//		Errors::throwHttpExceptionWithCode(Errors::EDITION_FORM_NOT_EXISTS, ['id' => $id], static::getHATEOAS(['%id' => $id]));
+		// Errors::throwHttpExceptionWithCode(Errors::EDITION_FORM_NOT_EXISTS, ['id' => $id], static::getHATEOAS(['%id' => $id]));
 	}
 
 	/**

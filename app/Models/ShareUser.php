@@ -29,7 +29,7 @@ class ShareUser extends Model
 
 	public static $rules = [
 	    "user_id" => "required",
-		"share_objectId" => "required|exists:users,objectId|unique:shareUsers,share_objectId"
+		"share_objectId" => "required|exists:users,objectId"
 	];
 
 }
