@@ -74,12 +74,11 @@ class ShareUserAPIController extends AppBaseController
 			}
 			
 			$shareUsers = $this->shareUserRepository->create($input);
-
+			$user = User::where('objectId', $shareUser->share_objectId)->first();
 			if($user){
 				$user->points += 10;
 				$user->update();
 			}
-			$shareUsers['points'] = $user->points;
 			return $this->sendResponse($shareUsers->toArray(), "ShareUser saved successfully");
 		}
 		
