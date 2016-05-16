@@ -8,6 +8,8 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use App\CompetitionAnswer;
+use App\Models\MutipleAnswer;
+use App\Models\MutipleQuestion;
 use URL;
 
 class CompetitionAnswerController extends Controller
@@ -81,8 +83,6 @@ class CompetitionAnswerController extends Controller
      */
     public function edit($id)
     {
-        // dd($id);
-        // $anserid=$id;
         $objanswer=CompetitionAnswer::find($id);
         $objanswer->correct=1;
         $objanswer->update();
@@ -91,18 +91,32 @@ class CompetitionAnswerController extends Controller
 
 
     public function correct($id){
-        $objanswer=CompetitionAnswer::find($id);
-        $objanswer->correct=1;
-        $objanswer->update();
-        return redirect(URL::previous());
-        // return redirect(URL::previous());
+
+        $multipleAnswer = MutipleAnswer::find($id);
+        if($multipleAnswer){
+            $competitionAnswer = new CompetitionAnswer();
+            $multipleQuestion = MutipleQuestion::where('id', $multipleAnswer->mutiple_question_id)->first();
+            $competitionAnswer->question_id = $multipleQuestion->question_id;
+            $competitionAnswer->competition_group_user_id = $multipleAnswer->user_id;
+            $competitionAnswer->mutiple_answer_id = $multipleAnswer->id;
+            $competitionAnswer->answer = $multipleAnswer->answer;
+            $competitionAnswer->answer_mm = $multipleAnswer->answer;
+            $competitionAnswer->status = 1;
+            $competitionAnswer->correct = 1;
+            $competitionAnswer->save();
+
+            return redirect(URL::previous());
+        }
     }
 
     public function uncorrect($id){
-        $objanswer=CompetitionAnswer::find($id);
-        $objanswer->correct=0;
-        $objanswer->update();
-        return redirect(URL::previous());
+        $multipleAnswer = MutipleAnswer::find($id);
+        if($multipleAnswer){
+            $objanswer=CompetitionAnswer::where('mutiple_answer_id', $multipleAnswer->id)->first();
+            $objanswer->delete();
+            return redirect(URL::previous());
+        }
+        
         // return redirect(URL::previous());
     }
 

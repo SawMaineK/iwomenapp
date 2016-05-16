@@ -42,4 +42,9 @@ class MutipleAnswer extends Model
 	    return $this->belongsTo('App\CompetitionGroupUser','user_id');
 	}
 
+	public function competitionAnswers()
+	{
+	    return $this->hasMany('App\CompetitionAnswer','mutiple_answer_id');
+	}
+
 }

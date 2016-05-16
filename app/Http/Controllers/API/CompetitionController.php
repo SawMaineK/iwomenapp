@@ -59,7 +59,7 @@ class CompetitionController extends Controller
         	return response()->json($competition_question);
         }else{
         	$competition_answer = CompetitionAnswer::with('competitiongroupuser')->where('correct', true)->orderBy('id','desc')->get();
-        	if($competition_answer){
+        	if(count($competition_answer) > 0){
                 $answer_list = array();
                 foreach ($competition_answer as $i => $answer) {
                     $answer['status'] = $answer['status'] == 1 ? true : false;

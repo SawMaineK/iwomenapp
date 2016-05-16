@@ -27,7 +27,7 @@ class MutipleAnswerController extends AppBaseController
 	 */
 	public function index()
 	{
-		$mutipleAnswers = MutipleAnswer::with('user')->get();
+		$mutipleAnswers = MutipleAnswer::with(['user','competitionAnswers'])->get();
 
 		return view('mutipleAnswers.index')
 			->with('mutipleAnswers', $mutipleAnswers);
