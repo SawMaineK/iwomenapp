@@ -7,6 +7,7 @@ use App\Libraries\Repositories\MutipleAnswerRepository;
 use Flash;
 use Mitul\Controller\AppBaseController as AppBaseController;
 use Response;
+use App\Models\MutipleAnswer;
 
 class MutipleAnswerController extends AppBaseController
 {
