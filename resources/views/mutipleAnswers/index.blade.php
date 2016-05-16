@@ -19,8 +19,5 @@
             @endif
         </div>
 
-        @include('common.paginate', ['records' => $mutipleAnswers])
-
-
     </div>
 @endsection

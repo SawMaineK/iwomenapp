@@ -26,7 +26,7 @@ class MutipleAnswerController extends AppBaseController
 	 */
 	public function index()
 	{
-		$mutipleAnswers = $this->mutipleAnswerRepository->paginate(10);
+		$mutipleAnswers = MutipleAnswer::with('user')->all();
 
 		return view('mutipleAnswers.index')
 			->with('mutipleAnswers', $mutipleAnswers);
