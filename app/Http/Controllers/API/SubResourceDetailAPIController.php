@@ -35,15 +35,15 @@ class SubResourceDetailAPIController extends AppBaseController
 		
 		if($request->resource_id){
 			if($isAllow && $isAllow != ''){
-				$subResourceDetails = SubResourceDetail::with('author')->where('isAllow',$isAllow)->where('resource_id', $request->resource_id)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
+				$subResourceDetails = SubResourceDetail::with('author')->where('isAllow',$isAllow)->where('resource_id', $request->resource_id)->orderBy('posted_date','desc')->offset($offset)->limit($limit)->get();
 			}else{
-				$subResourceDetails = SubResourceDetail::with('author')->where('resource_id', $request->resource_id)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
+				$subResourceDetails = SubResourceDetail::with('author')->where('resource_id', $request->resource_id)->orderBy('posted_date','desc')->offset($offset)->limit($limit)->get();
 			}
 		}else{
 			if($isAllow && $isAllow != ''){
-				$subResourceDetails = SubResourceDetail::with('author')->where('isAllow',$isAllow)->orderBy('id','desc')->offset($offset)->limit($limit)->get();;
+				$subResourceDetails = SubResourceDetail::with('author')->where('isAllow',$isAllow)->orderBy('posted_date','desc')->offset($offset)->limit($limit)->get();;
 			}else{
-				$subResourceDetails = SubResourceDetail::with('author')->orderBy('id','desc')->offset($offset)->limit($limit)->get();;
+				$subResourceDetails = SubResourceDetail::with('author')->orderBy('posted_date','desc')->offset($offset)->limit($limit)->get();;
 			}
 		}
 				
