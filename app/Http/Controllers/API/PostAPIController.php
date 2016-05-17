@@ -21,7 +21,7 @@ class PostAPIController extends AppBaseController
 
 	public function getPostCount($user_id){
 		$count = Post::where('userId', $user_id)->count();
-		return response()->json($postCount);
+		return response()->json($count);
 	}
 
 	/**
