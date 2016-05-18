@@ -100,8 +100,10 @@ class CompetitionQuestionController extends Controller
                 foreach ($users as $i => $user) {
 
                     //Grouping
-                    if(isset($user['tlg_city_address']) && $user['tlg_city_address'])
-                       $group_users[$user['tlg_city_address']][] = $user;
+                    /*if(isset($user['tlg_city_address']) && $user['tlg_city_address'])
+                       $group_users[$user['tlg_city_address']][] = $user;*/
+                    if(isset($user['username']) && $user['username'])
+                       $group_users[$user['username']][] = $user;
                     
                    
                 }
@@ -121,7 +123,7 @@ class CompetitionQuestionController extends Controller
                         $group_user->username = $user['username'];
                         $group_user->phone = $user['phoneNo'];
                         $group_user->profile_img = isset($user['user_profile_img']) ? json_encode($user['user_profile_img']) : null;
-                        $group_user->group_city = $key;
+                        $group_user->group_city = $user['tlg_city_address'];
                         $group_user->competition_question_id = $question->id;
                         $group_user->save();
 
@@ -235,8 +237,10 @@ class CompetitionQuestionController extends Controller
                 foreach ($users as $i => $user) {
 
                     //Grouping
-                    if(isset($user['tlg_city_address']) && $user['tlg_city_address'])
-                       $group_users[$user['tlg_city_address']][] = $user;
+                    /*if(isset($user['tlg_city_address']) && $user['tlg_city_address'])
+                       $group_users[$user['tlg_city_address']][] = $user;*/
+                    if(isset($user['username']) && $user['username'])
+                       $group_users[$user['username']][] = $user;
                     
                    
                 }
@@ -259,7 +263,7 @@ class CompetitionQuestionController extends Controller
                         $group_user->username = $user['username'];
                         $group_user->phone = $user['phoneNo'];
                         $group_user->profile_img = isset($user['user_profile_img']) ? json_encode($user['user_profile_img']) : null;
-                        $group_user->group_city = $key;
+                        $group_user->group_city = $user['tlg_city_address'];
                         $group_user->competition_question_id = $question->id;
                         $group_user->save();
 
