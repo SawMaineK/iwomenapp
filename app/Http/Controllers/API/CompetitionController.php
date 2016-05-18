@@ -49,7 +49,7 @@ class CompetitionController extends Controller
 
             $multiple_question = MutipleQuestion::where('question_id', $competition_question->id)->get();
             foreach ($multiple_question as $key => $value) {
-                $multiple_question[$key]['option'] = MutipleOption::where('mutiple_question_id', $value->id)->get();
+                $multiple_question[$key]['option'] = MutipleOption::where('mutiple_question_id', $value->id)->orderBy('option','asc')->get();
             }
 
             $competition_question['multiple_question'] = $multiple_question;
