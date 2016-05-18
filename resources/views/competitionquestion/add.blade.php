@@ -47,7 +47,7 @@
                         <label for="inputEmail3" class="col-sm-2 control-label">Question</label>
                         <div class="col-sm-10">
                             <div class="fg-line">
-                            	<textarea class="col-sm-12"	rows="5" name="question">{{Input::old('question')}}</textarea>
+                            	<textarea class="col-sm-12"	rows="5" name="question">{{old('question')}}</textarea>
                                <!-- <div ="html-editor"></div>
 	                            <input type="hidden" id="question" value="">
 	                            <br/> -->
@@ -59,7 +59,7 @@
                         <label for="inputEmail3" class="col-sm-2 control-label">Question (Myanmar)</label>
                         <div class="col-sm-10">
                             <div class="fg-line">
-                            	<textarea class="col-sm-12"	rows="5" name="question_mm">{{Input::old('question_mm')}}</textarea>
+                            	<textarea class="col-sm-12"	rows="5" name="question_mm">{{old('question_mm')}}</textarea>
                                <!-- <div class="html-editor" name="question_mm"></div> -->
 	                            
 	                            <br/>
@@ -71,7 +71,7 @@
                         <label for="inputEmail3" class="col-sm-2 control-label">Description</label>
                         <div class="col-sm-10">
                             <div class="fg-line">
-                            	<textarea class="col-sm-12"	rows="5" name="description">{{Input::old('description')}}</textarea>
+                            	<textarea class="col-sm-12"	rows="5" name="description">{{old('description')}}</textarea>
                                <!-- <div class="html-editor" name="description"></div> -->
 	                            
 	                            <br/>
@@ -83,7 +83,7 @@
                         <label for="inputEmail3" class="col-sm-2 control-label">Description (Myanmar)</label>
                         <div class="col-sm-10">
                             <div class="fg-line">
-                            	<textarea class="col-sm-12"	rows="5" name="description_mm">{{Input::old('description_mm')}}</textarea>
+                            	<textarea class="col-sm-12"	rows="5" name="description_mm">{{old('description_mm')}}</textarea>
                                <!-- <div class="html-editor" name="description_mm"></div> -->
 	                            
 	                            <br/>
@@ -95,7 +95,7 @@
                         <label for="inputEmail3" class="col-sm-2 control-label">Instruction About Game</label>
                         <div class="col-sm-10">
                             <div class="fg-line">
-                            	<textarea class="col-sm-12"	rows="5" name="instruction">{{Input::old('instruction')}}</textarea>
+                            	<textarea class="col-sm-12"	rows="5" name="instruction">{{old('instruction')}}</textarea>
                                <!-- <div class="html-editor" name="instruction"></div> -->
 	                            
 	                            <br/>
@@ -107,7 +107,7 @@
                         <label for="inputEmail3" class="col-sm-2 control-label">Instruction About Game (Myanmar)</label>
                         <div class="col-sm-10">
                             <div class="fg-line">
-                            	<textarea class="col-sm-12"	rows="5" name="instruction_mm">{{Input::old('instruction_mm')}}</textarea>
+                            	<textarea class="col-sm-12"	rows="5" name="instruction_mm">{{old('instruction_mm')}}</textarea>
                                <!-- <div class="html-editor" name="instruction"></div> -->
 	                            
 	                            <br/>
@@ -119,7 +119,7 @@
                         <label for="inputEmail3" class="col-sm-2 control-label">Group Description</label>
                         <div class="col-sm-10">
                             <div class="fg-line">
-                                <textarea class="col-sm-12" rows="5" name="group_description">{{Input::old('group_description')}}</textarea>
+                                <textarea class="col-sm-12" rows="5" name="group_description">{{old('group_description')}}</textarea>
                                <!-- <div class="html-editor" name="instruction"></div> -->
                                 
                                 <br/>
@@ -131,7 +131,7 @@
                         <label for="inputEmail3" class="col-sm-2 control-label">Group Description (Myanmar)</label>
                         <div class="col-sm-10">
                             <div class="fg-line">
-                                <textarea class="col-sm-12" rows="5" name="group_description_mm">{{Input::old('group_description_mm')}}</textarea>
+                                <textarea class="col-sm-12" rows="5" name="group_description_mm">{{old('group_description_mm')}}</textarea>
                                <!-- <div class="html-editor" name="instruction"></div> -->
                                 
                                 <br/>
@@ -143,7 +143,7 @@
                         <label for="inputEmail3" class="col-sm-2 control-label">Answer Submit Description</label>
                         <div class="col-sm-10">
                             <div class="fg-line">
-                                <textarea class="col-sm-12" rows="5" name="answer_submit_description">{{Input::old('answer_submit_description')}}</textarea>
+                                <textarea class="col-sm-12" rows="5" name="answer_submit_description">{{old('answer_submit_description')}}</textarea>
                                 <br/>
                             </div>
                         </div>
@@ -153,7 +153,7 @@
                         <label for="inputEmail3" class="col-sm-2 control-label">Answer Submit Description (Myanmar)</label>
                         <div class="col-sm-10">
                             <div class="fg-line">
-                                <textarea class="col-sm-12" rows="5" name="answer_submit_description_mm">{{Input::old('answer_submit_description_mm')}}</textarea>
+                                <textarea class="col-sm-12" rows="5" name="answer_submit_description_mm">{{old('answer_submit_description_mm')}}</textarea>
                                <!-- <div class="html-editor" name="instruction"></div> -->
                                 
                                 <br/>
