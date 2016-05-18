@@ -41,7 +41,10 @@ class CompetitionController extends Controller
 
         $competition_question = CompetitionQuestion::where('start_date','<=',$today)->where('end_date','>=',$today)->orderBy('id','desc')->first();
 
-        
+        $check = CompetitionGroupUser::where('competition_question_id', $competition_question->id)->where('user_id', $request->input('user_id'))->first();
+        if(!$check){
+            return response()->json("You are not TLG member.", 400);
+        }
         if($competition_question){
 
             $multiple_question = MutipleQuestion::where('question_id', $competition_question->id)->get();
