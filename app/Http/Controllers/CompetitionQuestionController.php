@@ -100,10 +100,10 @@ class CompetitionQuestionController extends Controller
                 foreach ($users as $i => $user) {
 
                     //Grouping
-                    /*if(isset($user['tlg_city_address']) && $user['tlg_city_address'])
-                       $group_users[$user['tlg_city_address']][] = $user;*/
-                    if(isset($user['username']) && $user['username'])
-                       $group_users[$user['username']][] = $user;
+                    if(isset($user['tlg_city_address']) && $user['tlg_city_address'])
+                       $group_users[$user['tlg_city_address']][] = $user;
+                    // if(isset($user['username']) && $user['username'])
+                    //    $group_users[$user['username']][] = $user;
                     
                    
                 }
@@ -237,10 +237,10 @@ class CompetitionQuestionController extends Controller
                 foreach ($users as $i => $user) {
 
                     //Grouping
-                    /*if(isset($user['tlg_city_address']) && $user['tlg_city_address'])
-                       $group_users[$user['tlg_city_address']][] = $user;*/
-                    if(isset($user['username']) && $user['username'])
-                       $group_users[$user['username']][] = $user;
+                    if(isset($user['tlg_city_address']) && $user['tlg_city_address'])
+                       $group_users[$user['tlg_city_address']][] = $user;
+                    // if(isset($user['username']) && $user['username'])
+                    //    $group_users[$user['username']][] = $user;
                     
                    
                 }
