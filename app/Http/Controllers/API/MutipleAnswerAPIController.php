@@ -63,10 +63,14 @@ class MutipleAnswerAPIController extends AppBaseController
 		DB::beginTransaction();
 		foreach ($answers as $key => $value) {
 			try {
-				$data['mutiple_question_id'] = $value->id;
-				$data['answer'] = $value->answer;
-				$data['user_id'] = $request->user_id;
-				$mutipleAnswers = $this->mutipleAnswerRepository->create($data);
+				$check = MutipleAnswer::where('mutiple_question_id', $value->id)->where('user_id', $request->user_id)->count();
+				if($check == 0){
+					$data['mutiple_question_id'] = $value->id;
+					$data['answer'] = $value->answer;
+					$data['user_id'] = $request->user_id;
+					$mutipleAnswers = $this->mutipleAnswerRepository->create($data);
+				}
+				
 			} catch (Exception $e) {
 				DB::rollBack();
                 return response()->json('Something went wrong on server.', 500);
