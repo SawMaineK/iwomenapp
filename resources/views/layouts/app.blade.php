@@ -169,6 +169,16 @@
                         </li>
 
                         <li class="sub-menu">
+                            <a href="#"><i class="zmdi zmdi-view-list"></i> Point's Price</a>
+
+                            <ul>
+                                <li><a href="/pointPrices"> List</a></li>
+                                <li><a href="/pointPrices/create">Create New Point's Price</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="sub-menu">
                             <a href="#"><i class="zmdi zmdi-view-list"></i> Users</a>
 
                             <ul>
