@@ -74,7 +74,7 @@ class ShareUserAPIController extends AppBaseController
 			}
 			
 			$shareUsers = $this->shareUserRepository->create($input);
-			$shared_user = User::where('objectId', $shareUser->share_objectId)->first();
+			$shared_user = User::where('objectId', $shareUsers->share_objectId)->first();
 			if($shared_user){
 				$shared_user->points += 10;
 				$shared_user->update();
