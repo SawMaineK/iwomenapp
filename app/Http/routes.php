@@ -284,3 +284,11 @@ Route::group(['middleware' => ['web']], function () {
         });
 
     });
+
+
+Route::resource('pointPrices', 'PointPriceController');
+
+Route::get('pointPrices/{id}/delete', [
+    'as' => 'pointPrices.delete',
+    'uses' => 'PointPriceController@destroy',
+]);

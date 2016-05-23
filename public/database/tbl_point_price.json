@@ -1,0 +1,12 @@
+[
+    {
+        "field":"point:integer",
+        "type":"text",
+        "validations": "required"
+    },
+    {
+        "field":"price:text",
+        "type":"text",
+        "validations": "required"
+    }
+]

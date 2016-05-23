@@ -86,3 +86,5 @@ Route::resource("apks", "ApkAPIController");
 Route::resource("emails", "EmailAPIController");
 
 Route::resource("shareUsers", "ShareUserAPIController");
+
+Route::resource("pointPrices", "PointPriceAPIController");
