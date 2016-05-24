@@ -17,6 +17,7 @@ class User extends Model
 		"username",
 		"password",
 		"email",
+		"gender",
 		"facebookId",
 		"isTlgTownshipExit",
 		"isTestAcc",
@@ -42,6 +43,7 @@ class User extends Model
 		"username" => "string",
 		"password" => "string",
 		"email" => "string",
+		"gender" => "string",
 		"facebookId" => "string",
 		"isTlgTownshipExit" => "boolean",
 		"isTestAcc" => "boolean",
@@ -60,7 +62,7 @@ class User extends Model
 	public static $rules = [
 		"username"	=> "required|unique:users,username",
 	    "phoneNo" 	=> "required",
-	    "password" 	=> "required|min:6",
+	    "password" 	=> "required|min:6"
 	];
 
 	/**
@@ -69,7 +71,7 @@ class User extends Model
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token','facebookId','deleted_at','created_at','updated_at','updatedAt',
+        'password', 'remember_token','facebookId','deleted_at','created_at','updated_at'
     ];
 
 }
