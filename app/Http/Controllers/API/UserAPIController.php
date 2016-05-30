@@ -107,6 +107,11 @@ class UserAPIController extends AppBaseController
 
 		$input = $request->all();
 
+		$exist = User::where('username', $input['username'])->first();
+		if($exist){
+			return response()->json(['error'=>'This username is already exist.','error_mm' => 'သင့္၏ အမည္မွာ ရိွၿပီးသာ ျဖစ္ေသာေၾကာင့္ အသစ္ထပ္လုပ္လို႕မရပါ။'], 400);
+		}
+
 		$input['objectId'] = str_random(10);
 		
 		$input['password'] = bcrypt($input['password']);
