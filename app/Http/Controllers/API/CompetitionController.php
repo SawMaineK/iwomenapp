@@ -51,7 +51,12 @@ class CompetitionController extends Controller
             foreach ($multiple_question as $key => $value) {
                 $multiple_question[$key]['option'] = MutipleOption::where('mutiple_question_id', $value->id)->orderBy('option','asc')->get();
             }
-
+            $group_user = CompetitionGroupUser::where('competition_question_id', $competition_question->question_id)->where('user_id', $request->input('user_id'))->get();
+            if($group_user){
+                $competition_question['group_user_id'] = $group_user->id;
+            }else{
+                $competition_question['group_user_id'] = 0;
+            }
             $competition_question['multiple_question'] = $multiple_question;
 
         	$datetime1 = new DateTime($today);
