@@ -209,8 +209,7 @@
                             <a href="#"><i class="zmdi zmdi zmdi zmdi-layers"></i>Competition Answers</a>
 
                             <ul @if(isset($title)) style="display: block;" @endif>
-                                <li><a @if(isset($title) && $title=='Competition Answer List (Submitted)') class="active" @endif href="/admin/competition-answers">Submitted Answers</a></li>
-                                <li><a @if(isset($title) && $title=='Competition Answer List (Unsubmitted)') class="active" @endif href="/admin/competition-answers?q=unsubimt">Unsubmitted Answers</a></li>
+                                <li><a @if(isset($title) && $title=='Competition Answer List (Submitted)') class="active" @endif href="/mutipleAnswers">Submitted Answers</a></li>
                             </ul>
                         </li>
                         <li><a href="/admin/group-users"><i class="zmdi zmdi zmdi zmdi-accounts-add"></i>Competition Group Users</a></li>
