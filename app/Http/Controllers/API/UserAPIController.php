@@ -109,7 +109,7 @@ class UserAPIController extends AppBaseController
 
 		$exist = User::where('username', $input['username'])->first();
 		if($exist){
-			return response()->json(['error'=>'This username is already exist.','error_mm' => 'သင့္၏ အမည္မွာ ရိွၿပီးသာ ျဖစ္ေသာေၾကာင့္ အသစ္ထပ္လုပ္လို႕မရပါ။'], 400);
+			return response()->json(['error'=>'This username is already exist.','error_mm' => 'အမည္တူရိွေနပါသည္။ အေနာက္တြင္ ဂဏန္း တစ္ခုခုထည့္ပါ။ ဥပမာ။။ Nyo Nyo1'], 400);
 		}
 
 		$input['objectId'] = str_random(10);
