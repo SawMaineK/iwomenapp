@@ -25,6 +25,7 @@
                     @include('mutipleAnswers.table')
                 @endif
             </div>
+
         </div>
        
     </div>

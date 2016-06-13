@@ -38,6 +38,7 @@
                     @include('mutipleQuestions.table')
                 @endif
             </div>
+
         </div>
        
         <div class="row">  

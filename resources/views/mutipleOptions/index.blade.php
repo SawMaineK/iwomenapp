@@ -45,6 +45,7 @@
             <div class="col-sm-12">  
                 @include('common.paginate', ['records' => $mutipleOptions])
             </div>  
+
         </div>
     </div>
     
