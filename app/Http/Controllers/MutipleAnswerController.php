@@ -8,6 +8,7 @@ use Flash;
 use Mitul\Controller\AppBaseController as AppBaseController;
 use Response;
 use App\Models\MutipleAnswer;
+use App\CompetitionQuestion;
 
 class MutipleAnswerController extends AppBaseController
 {
@@ -27,10 +28,13 @@ class MutipleAnswerController extends AppBaseController
 	 */
 	public function index()
 	{
-		$mutipleAnswers = MutipleAnswer::with(['user','competitionAnswers'])->get();
+		$competition_question = CompetitionQuestion::orderBy('id','desc')->first();
+		if($competition_question){
+			$mutipleAnswers = MutipleAnswer::with(['user','competitionAnswers','multipleQuestion'])->get();
 
-		return view('mutipleAnswers.index')
-			->with('mutipleAnswers', $mutipleAnswers);
+			return view('mutipleAnswers.index')
+				->with('mutipleAnswers', $mutipleAnswers);
+		}
 	}
 
 	/**

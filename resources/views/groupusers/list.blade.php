@@ -1,12 +1,15 @@
 @extends('layouts.app')
 
 @section('title', 'Group List')
-
+@section('styles')
+    <link href="{{Request::root()}}/vendors/bootgrid/jquery.bootgrid.min.css" rel="stylesheet">
+    <style type="text/css">
+        .red-color{color:#4285F4;}
+        table tr td{font-family: 'roboto','Zawgyi-One' !important;}
+        table tr td b{font-family: 'roboto','Zawgyi-One' !important;}
+    </style>
+@endsection
 @section('content')
-<style type="text/css">
-    .red-color{color:#4285F4;}
-    table tr td{font-family: 'roboto','Zawgyi-One' !important;}
-</style>
     <section id="content">
             <div class="container">
                              
@@ -83,8 +86,8 @@
         </section>
 @endsection
 
-@section('script')
-    @parent
+@section('scripts')
+    <script src="{{Request::root()}}/vendors/bootgrid/jquery.bootgrid.min.js"></script>
     <script type="text/javascript" src="{{Request::root()}}/js/jquery.battatech.excelexport.min.js"></script>
     <script type="text/javascript">
             $(document).ready(function(){

@@ -47,4 +47,9 @@ class MutipleAnswer extends Model
 	    return $this->hasMany('App\CompetitionAnswer','mutiple_answer_id');
 	}
 
+	public function multipleQuestion()
+	{
+	    return $this->belongsTo('App\Models\MutipleQuestion','mutiple_question_id');
+	}
+
 }

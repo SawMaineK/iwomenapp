@@ -8,6 +8,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use App\CompetitionGroupUser;
+use App\CompetitionQuestion;
 
 class GroupUserController extends Controller
 {
@@ -18,7 +19,8 @@ class GroupUserController extends Controller
      */
     public function index()
     {
-        $groupuserlist=CompetitionGroupUser::get();
+        $competition_question = CompetitionQuestion::with('competitiongroupusers')->orderBy('id','desc')->first();
+        $groupuserlist= $competition_question->competitiongroupusers;
         $groupusers=array();
         $group=array();
         if($groupuserlist){
