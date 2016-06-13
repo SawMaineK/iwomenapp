@@ -188,6 +188,15 @@
                         </li>
 
                         <li class="sub-menu">
+                            <a href="#"><i class="zmdi zmdi-view-list"></i> User Roles</a>
+
+                            <ul>
+                                <li><a href="/roles"> User Role List</a></li>
+                                <li><a href="/roles/create">Create New User Role</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="sub-menu">
                             <a href="#"><i class="zmdi zmdi-view-list"></i> Categories</a>
 
                             <ul>

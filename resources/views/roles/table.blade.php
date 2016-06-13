@@ -1,6 +1,6 @@
 <table class="table">
     <thead>
-    <th>Objectid</th>
+    <!-- <th>Objectid</th> -->
 			<th>Name</th>
 			<th>Userid</th>
     <th width="50px">Action</th>
@@ -8,7 +8,7 @@
     <tbody>
     @foreach($roles as $role)
         <tr>
-            <td>{!! $role->objectId !!}</td>
+            <!-- <td>{!! $role->objectId !!}</td> -->
 			<td>{!! $role->name !!}</td>
 			<td>{!! $role->user['username'] !!}</td>
             <td>
