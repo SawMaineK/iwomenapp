@@ -22,7 +22,7 @@
 
         <div class="row">
             @if($mutipleAnswers->isEmpty())
-                <div class="well text-center">No MutipleAnswers found.</div>
+                <div class="well text-center">No MultipleAnswers found.</div>
             @else
                 @include('mutipleAnswers.table')
             @endif

@@ -200,6 +200,20 @@
 		                    </div>
                         </div>
                     </div>
+                    <!-- Isallow Field -->
+                    <div class="form-group">
+                        <div class="fg-line"> 
+                            <div class="checkbox  col-md-offset-2">
+                                <label>
+                                    {!! Form::checkbox('all_user', 1, false) !!}
+                                    <i class="input-helper"></i>
+                                    All User
+                                </label>
+                            </div>
+
+                            
+                        </div>
+                    </div>
                     <div class="form-group">
                         <label for="inputPassword3" class="col-sm-2 control-label">&nbsp;</label>
                         <div class="col-sm-offset-2 col-sm-10">

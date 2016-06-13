@@ -90,6 +90,7 @@ class CompetitionQuestionController extends Controller
             $question->user_count       = $request->groupusers;
             $groupuserscount            = $request->groupusers;
             $question->save();
+            $all_user = $request->all_user;
 
             $users = User::all();
 
@@ -100,11 +101,14 @@ class CompetitionQuestionController extends Controller
                 foreach ($users as $i => $user) {
 
                     //Grouping
-                    if(isset($user['tlg_city_address']) && $user['tlg_city_address'])
-                       $group_users[$user['tlg_city_address']][] = $user;
-                    // if(isset($user['username']) && $user['username'])
-                    //    $group_users[$user['username']][] = $user;
-                    
+                    if($all_user){
+                        if(isset($user['username']) && $user['username'])
+                           $group_users[$user['username']][] = $user;
+
+                    }else{
+                        if(isset($user['tlg_city_address']) && $user['tlg_city_address'])
+                           $group_users[$user['tlg_city_address']][] = $user;   
+                    }
                    
                 }
 
@@ -229,6 +233,8 @@ class CompetitionQuestionController extends Controller
             $groupuserscount          =$request->groupusers;
             $question->update();
 
+            $all_user = $request->all_user;
+
             $users = User::all();
 
             if($users){     
@@ -238,10 +244,14 @@ class CompetitionQuestionController extends Controller
                 foreach ($users as $i => $user) {
 
                     //Grouping
-                    if(isset($user['tlg_city_address']) && $user['tlg_city_address'])
-                       $group_users[$user['tlg_city_address']][] = $user;
-                    // if(isset($user['username']) && $user['username'])
-                    //    $group_users[$user['username']][] = $user;
+                    if($all_user){
+                        if(isset($user['username']) && $user['username'])
+                           $group_users[$user['username']][] = $user;
+
+                    }else{
+                        if(isset($user['tlg_city_address']) && $user['tlg_city_address'])
+                           $group_users[$user['tlg_city_address']][] = $user;   
+                    }
                     
                    
                 }

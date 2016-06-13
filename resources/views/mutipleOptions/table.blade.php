@@ -1,6 +1,6 @@
 <table class="table">
     <thead>
-    <th>Mutiple Question Id</th>
+    <th>Multiple Question</th>
 			<th>Option</th>
 			<th>Option Mm</th>
     <th width="50px">Action</th>
