@@ -9,6 +9,8 @@ use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
 use Validator;
 use Auth;
+use App\CompetitionQuestion;
+use App\CompetitionGroupUser;
 
 class UserAPIController extends AppBaseController
 {
@@ -127,6 +129,57 @@ class UserAPIController extends AppBaseController
 		}else{
 			$users['role'] = 'User';
 		}
+		//Check for game
+		$competition_question = CompetitionQuestion::where('start_date','>',date('Y-m-d H:i:s'))->orwhere('end_date','>',date('Y-m-d H:i:s'))->orderBy('id','desc')->first();
+		//return response()->json($competition_question);
+		if($competition_question){
+			$group_user = CompetitionGroupUser::where('competition_question_id',$competition_question->id)->orderBy('id','desc')->first();
+			//dd($group_user);
+			if($competition_question->user_count > 1){
+				$group_user_count = CompetitionGroupUser::where('competition_question_id',$competition_question->id)->where('group_name',$group_user->group_name)->count();
+				if($group_user_count == $competition_question->user_count){
+					//Create New Group
+					$group_name = explode(" - ", $group_user->group_name);
+					if(count($group_name) > 1){
+						$competition_group_user = new CompetitionGroupUser();
+						$competition_group_user->group_name = $group_name[0].' - '.($group_name[1]  + 1);
+						$competition_group_user->group_city = isset($users->tlg_city_address) ? $users->tlg_city_address : '';
+						$competition_group_user->user_id = $users->id;
+						$competition_group_user->username = $users->username;
+						$competition_group_user->phone = $users->phoneNo;
+						$competition_group_user->profile_img = isset($users->user_profile_img) ? $users->user_profile_img : '';
+						$competition_group_user->competition_question_id = $competition_question->id;
+						$competition_group_user->save();
+					}
+				}else{
+					//Create in Existing Group
+					$competition_group_user = new CompetitionGroupUser();
+					$competition_group_user->group_name = $group_user->group_name;
+					$competition_group_user->group_city = isset($users->tlg_city_address) ? $users->tlg_city_address : '';
+					$competition_group_user->user_id = $users->id;
+					$competition_group_user->username = $users->username;
+					$competition_group_user->phone = $users->phoneNo;
+					$competition_group_user->profile_img = isset($users->user_profile_img) ? $users->user_profile_img : '';
+					$competition_group_user->competition_question_id = $competition_question->id;
+					$competition_group_user->save();
+				}
+			}else{
+				$group_name = explode(" - ", $group_user->group_name);
+				if(count($group_name) > 1){
+					$competition_group_user = new CompetitionGroupUser();
+					$competition_group_user->group_name = $group_name[0].' - '.($group_name[1]  + 1);
+					$competition_group_user->group_city = isset($users->tlg_city_address) ? $users->tlg_city_address : '';
+					$competition_group_user->user_id = $users->id;
+					$competition_group_user->username = $users->username;
+					$competition_group_user->phone = $users->phoneNo;
+					$competition_group_user->profile_img = isset($users->user_profile_img) ? $users->user_profile_img : '';
+					$competition_group_user->competition_question_id = $competition_question->id;
+					$competition_group_user->save();
+				}
+			}
+		}
+
+
 		return $this->sendResponse($users->toArray(), "User saved successfully");
 	}
 

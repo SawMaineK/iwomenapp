@@ -88,10 +88,10 @@ Route::group(['prefix' => 'api', 'namespace' => 'API'], function ()
 
 
 
-Route::get('administration',  'LoginController@index');
 
 Route::group(['middleware' => ['web']], function () {
     // Route::auth();
+    Route::get('administration',  'LoginController@index');
 
     Route::post('administration',  'LoginController@postLogin');
         Route::group(['middleware' => ['admin']], function () {

@@ -225,6 +225,7 @@ class CompetitionQuestionController extends Controller
                 $question->start_date = date('Y-m-d H:i:s', strtotime($request->start_date));
             if($request->end_date !='')
                 $question->end_date   = date('Y-m-d H:i:s', strtotime($request->end_date));
+            $question->user_count       = $request->groupusers;
             $groupuserscount          =$request->groupusers;
             $question->update();
 

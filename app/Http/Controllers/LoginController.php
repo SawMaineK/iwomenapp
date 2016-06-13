@@ -4,6 +4,8 @@ use Illuminate\Routing\Controller;
 use Auth;
 use Illuminate\Http\Request;
 use Input;
+use App\Models\Role;
+use Session;
 
 class LoginController extends Controller
 {
@@ -46,9 +48,19 @@ class LoginController extends Controller
         $pass  ='Password';
         
         if(Auth::attempt([$field=>$username, 'password'=>$password])){
-            return redirect('/posts');
+            $user = Auth::user();
+            $role = Role::where('userId',$user->objectId)->first();
+            if($role && $role->name == 'Admin'){
+                return redirect('/posts');
+            }else{
+                Auth::logout();
+                Session::flash('error', 'You are not admin right.'); 
+                return redirect('/administration')->with(['error'=>'You are not admin right.']);
+            }
+            
         } else {
-            return redirect('/administration')->withWarning('Username or Password is wrong.');
+            Session::flash('error', 'Username or Password is wrong.'); 
+            return redirect('/administration')->with(['error'=>'Username or Password is wrong.']);
         }
     }
 

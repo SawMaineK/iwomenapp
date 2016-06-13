@@ -124,8 +124,9 @@ class UserController extends AppBaseController
 
 			return redirect(route('users.index'));
 		}
-
-		$this->userRepository->updateRich($request->all(), $id);
+		$input = $request->all();
+		$input['password'] = bcrypt($input['password']);
+		$this->userRepository->updateRich($input, $id);
 
 		Flash::success('User updated successfully.');
 
