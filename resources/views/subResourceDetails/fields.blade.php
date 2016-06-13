@@ -17,9 +17,22 @@
 </div>
 
 <!-- Isallow Field -->
-<div class="form-group col-sm-6 col-lg-4">
+<!-- <div class="form-group col-sm-6 col-lg-4">
     <div class="checkbox">
 		<label>{!! Form::checkbox('isAllow', 1, true) !!}Isallow</label>
+	</div>
+</div> -->
+<div class="form-group col-sm-4 col-lg-4">
+	<div class="fg-line"> 
+    	<div class="checkbox">
+            <label>
+                {!! Form::checkbox('isAllow', 1, true) !!}
+                <i class="input-helper"></i>
+                Isallow
+            </label>
+        </div>
+
+    	
 	</div>
 </div>
 

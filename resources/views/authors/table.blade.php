@@ -4,8 +4,8 @@
             <th data-column-id="id" data-visible="false">id</th>
             <th data-column-id="objectId" data-visible="false">Objectid</th>
     		<th data-column-id="authorImg" data-formatter="authorImg">Authorimg</th>
-    		<th data-column-id="authorInfoEng">Authorinfoeng</th>
-    		<th data-column-id="authorInfoMM">Authorinfomm</th>
+    		<th data-column-id="authorInfoEng" data-formatter="authorInfoEng">Authorinfoeng</th>
+    		<th data-column-id="authorInfoMM" data-formatter="authorInfoMM">Authorinfomm</th>
     		<th data-column-id="authorName">Authorname</th>
     		<th data-column-id="authorTitleEng">Authortitleeng</th>
     		<th data-column-id="authorTitleMM">Authortitlemm</th>

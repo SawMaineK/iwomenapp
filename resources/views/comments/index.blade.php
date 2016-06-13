@@ -5,6 +5,20 @@
     <style type="text/css">
         .bootgrid-footer .pagination, .bootgrid-footer{display: none}
         .card .row .row{margin: 4px !important;}
+        .scrollbox {
+            width: 100%;
+            min-width: 250px;
+            max-height: 120px;
+            overflow: auto;
+            overflow-x: hidden;
+            border: 1px solid #f2f2f2;
+            box-shadow: 0 0 2px 2px rgba(0,0,0,.1);
+        }
+        .scrollbox-inner{color: #666;
+                font-family: 'Zawgyi-One', sans-serif;
+                font-size: 13px;
+                padding: 7px 9px;
+                margin: 0;}
     </style>
 @endsection
 
@@ -52,14 +66,6 @@
                         iconUp: 'zmdi-expand-less'
                     },
                     formatters: {
-                        "sticker_img_path": function(column, row) {
-                            return '<img class="img-responsive" src="'+row.sticker_img_path+'">';
-                            // return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
-                        },
-                        "user_img_path": function(column, row) {
-                            return '<img class="img-responsive" src="'+row.user_img_path+'">';
-                            // return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
-                        },
                         "commands": function(column, row) {
                             return "<a href='comments/"+row.id+"/edit'><button type=\"button\" class=\"btn btn-icon command-edit\" data-row-id=\"" + row.id + "\"><span class=\"zmdi zmdi-edit\"></span></button></a> " + 
                                 "<a href='comments/"+row.id+"/delete'><button type=\"button\" class=\"btn btn-icon command-delete\" data-row-id=\"" + row.id + "\"><span class=\"zmdi zmdi-delete\"></span></button></a>";
@@ -67,5 +73,5 @@
                     }
                 });
             });
-        </script>
+    </script>
 @endsection

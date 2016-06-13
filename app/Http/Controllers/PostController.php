@@ -116,7 +116,13 @@ class PostController extends AppBaseController
 			return redirect(route('posts.index'));
 		}
 
-		return view('posts.edit')->with('post', $post);
+		$cate_list = array();
+		$categories = Category::all();
+		foreach ($categories as $key => $value) {
+			$cate_list[$value->id] = $value->name;
+		}
+
+		return view('posts.edit')->with(['categories'=>$cate_list, 'post'=>$post]);
 	}
 
 	/**

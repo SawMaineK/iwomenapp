@@ -3,7 +3,7 @@
         <thead>
             <th data-column-id="id" data-visible="false">Id</th>
             <th data-column-id="objectId" data-visible="false">Objectid</th>
-			<th data-column-id="comment_contents">Comment Contents</th>
+			<th data-column-id="comment_contents" data-formatter="comment_contents">Comment Contents</th>
 			<th data-column-id="comment_created_time">Comment Created Time</th>
 			<th data-column-id="postId">Postid</th>
 			<th data-column-id="sticker_img_path" data-formatter="sticker_img_path">Sticker Img Path</th>

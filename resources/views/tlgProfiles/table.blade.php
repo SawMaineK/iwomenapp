@@ -16,13 +16,13 @@
 			<th data-column-id="tlg_group_name">Tlg Group Name</th>
 			<th data-column-id="tlg_group_name_mm">Tlg Group Name Mm</th>
 			<th data-column-id="tlg_group_other_member_no">Tlg Group Other Member No</th>
-			<th data-column-id="tlg_leader_fb_link">Tlg Leader Fb Link</th>
-			<th data-column-id="tlg_leader_img" data-formatter="tlg_leader_img">Tlg Leader Img</th>
+			<th data-column-id="tlg_leader_fb_link" data-visible="false">Tlg Leader Fb Link</th>
+			<th data-column-id="tlg_leader_img" data-formatter="tlg_leader_img" data-visible="false">Tlg Leader Img</th>
 			<th data-column-id="tlg_leader_name">Tlg Leader Name</th>
 			<th data-column-id="tlg_leader_name_mm">Tlg Leader Name Mm</th>
-			<th data-column-id="tlg_leader_ph">Tlg Leader Ph</th>
-			<th data-column-id="tlg_leader_role">Tlg Leader Role</th>
-			<th data-column-id="tlg_member_ph">Tlg Member Ph</th>
+			<th data-column-id="tlg_leader_ph" data-visible="false">Tlg Leader Ph</th>
+			<th data-column-id="tlg_leader_role" data-visible="false">Tlg Leader Role</th>
+			<th data-column-id="tlg_member_ph" data-visible="false">Tlg Member Ph</th>
 			<th data-column-id="tlg_member_ph_no">Tlg Member Ph No</th>
 		    <th data-column-id="commands" data-formatter="commands" data-sortable="false">Action</th>
 	    </thead>

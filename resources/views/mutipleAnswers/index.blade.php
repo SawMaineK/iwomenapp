@@ -10,26 +10,28 @@
 
 @section('content')
 
-    <div class="container">
-
-        @include('flash::message')
-
-        <div class="row">
-            <h1 class="pull-left">MultipleAnswers</h1>
-            <!-- <a class="btn btn-primary pull-right" style="margin-top: 25px" href="{!! route('mutipleAnswers.create') !!}">Add New</a> -->
-            <a href="#" id='btnExportExcel'><button type="submit" class="btn btn-primary btn-sm waves-effect pull-right">Export To Excel</button></a>
+    <div class="card">
+        <div class="card-header ch-alt">
+            <a class="btn btn-primary pull-right" href="{!! route('mutipleAnswers.create') !!}">Add New</a>
+            <h2>MultipleAnswers <small></small></h2>
+            @include('flash::message')
         </div>
 
         <div class="row">
-            @if($mutipleAnswers->isEmpty())
-                <div class="well text-center">No MutipleAnswers found.</div>
-            @else
-                @include('mutipleAnswers.table')
-            @endif
+            <div class="col-md-12 col-xs-12"> 
+                @if($mutipleAnswers->isEmpty())
+                    <div class="well text-center">No mutipleAnswers found.</div>
+                @else
+                    @include('mutipleAnswers.table')
+                @endif
+            </div>
         </div>
-
+       
     </div>
+
+   
 @endsection
+
 @section('scripts')
     <script src="{{Request::root()}}/vendors/bootgrid/jquery.bootgrid.min.js"></script>
     <script type="text/javascript" src="{{Request::root()}}/js/jquery.battatech.excelexport.min.js"></script>
@@ -48,6 +50,33 @@
                 }
                 var filename=$('#filename').html();
                 exporttoexcel('#btnExportExcel', filename, 'data-table-selection');
+
+                $("#data-table-command").bootgrid({
+                    css: {
+                        icon: 'zmdi icon',
+                        iconColumns: 'zmdi-view-module',
+                        iconDown: 'zmdi-expand-more',
+                        iconRefresh: 'zmdi-refresh',
+                        iconUp: 'zmdi-expand-less'
+                    },
+                    formatters: {
+                        "correctanswer": function(column, row) {
+                            if(row.correctornot!="0"){
+                                return "<a href='/admin/competition-answers-uncorrect/"+row.id+"'><button type=\"button\" class=\"btn btn-icon command-edit\" data-row-id=\"" + row.id + "\"><span class=\"zmdi zmdi-close\"></span></button> </a>";
+                            }else{
+                                return "<a href='/admin/competition-answers-correct/"+row.id+"'><button type=\"button\" class=\"btn btn-icon command-edit\" data-row-id=\"" + row.id + "\"><span class=\"zmdi zmdi-check\"></span></button> </a>";
+                                
+                            }
+
+                            /*if(row.id != 0){
+                                 return '<a href="admin/competition-answers-uncorrect/'+row.correctanswer+'"><button type="button" class="btn btn-icon command-edit" data-row-id=""><span class="zmdi zmdi-close"></span></button> </a>';
+                            }else{
+                                return '<a href="admin/competition-answers-correct/'+row.correctanswer+'"><button type="button" class="btn btn-icon command-edit" data-row-id=""><span class="zmdi zmdi-check"></span></button> </a>';
+                            }*/
+                           
+                        }
+                    }
+                });
                 
             });
         </script>

@@ -9,21 +9,21 @@
 			<th data-column-id="image" data-formatter="image">Image</th>
 			<th data-column-id="likes">Likes</th>
 			<th data-column-id="postUploadName">Postuploadname</th>
-			<th data-column-id="postUploadPersonImg" data-formatter="postUploadPersonImg">Postuploadpersonimg</th>
+			<th data-column-id="postUploadPersonImg" data-formatter="postUploadPersonImg" data-visible="false">Postuploadpersonimg</th>
 			<th data-column-id="postUploadedDate">Postuploadeddate</th>
 			<th data-column-id="suggest_section">Suggest Section</th>
-			<th data-column-id="suggest_section_eng">Suggest Section Eng</th>
-			<th data-column-id="title">Title</th>
+			<th data-column-id="suggest_section_eng" data-visible="false">Suggest Section Eng</th>
+			<th data-column-id="title" data-visible="false">Title</th>
 			<th data-column-id="titleMm">Titlemm</th>
-			<th data-column-id="userId">Userid</th>
-			<th data-column-id="userRelation">Userrelation</th>
-			<th data-column-id="videoId">Videoid</th>
-			<th data-column-id="audioFile">Audiofile</th>
+			<th data-column-id="userId" data-visible="false">Userid</th>
+			<th data-column-id="userRelation" data-visible="false">Userrelation</th>
+			<th data-column-id="videoId" data-visible="false">Videoid</th>
+			<th data-column-id="audioFile" data-visible="false">Audiofile</th>
 			<th data-column-id="comment_count">Comment Count</th>
 			<th data-column-id="isAllow">Isallow</th>
-			<th data-column-id="postUploadUserImgPath" data-formatter="postUploadUserImgPath">Postuploaduserimgpath</th>
+			<th data-column-id="postUploadUserImgPath" data-formatter="postUploadUserImgPath" data-visible="false">Postuploaduserimgpath</th>
 			<th data-column-id="share_count">Share Count</th>
-			<th data-column-id="category_id">Category Id</th>
+			<th data-column-id="category_id" data-visible="false">Category Id</th>
 			<th data-column-id="commands" data-formatter="commands" data-sortable="false">Commands</th>
 	    </thead>
 	    <tbody>

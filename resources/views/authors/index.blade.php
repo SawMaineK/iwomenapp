@@ -5,6 +5,21 @@
     <style type="text/css">
         .bootgrid-footer .pagination, .bootgrid-footer{display: none}
         .card .row .row{margin: 4px !important;}
+        .parent-box{height: 150px;height: 200px;overflow: hidden;position: relative;}
+        .desc-content{overflow: auto;position: relative;}
+        .scrollbox {
+            width: 100%;
+            height: 120px;
+            overflow: auto;
+            overflow-x: hidden;
+            border: 1px solid #f2f2f2;
+            box-shadow: 0 0 2px 2px rgba(0,0,0,.1);
+        }
+        .scrollbox-inner{color: #666;
+                font-family: 'Zawgyi-One', sans-serif;
+                font-size: 13px;
+                padding: 7px 9px;
+                margin: 0;}
     </style>
 @endsection
 
@@ -55,6 +70,12 @@
                         "authorImg": function(column, row) {
                             return '<img class="img-responsive" src="'+row.authorImg+'">';
                             // return '<img class="img-responsive" src="../../media/gallery/1.jpg">';
+                        },
+                        "authorInfoEng": function(column, row) {
+                            return '<div class="scrollbox"><div class="scrollbox-inner">'+row.authorInfoEng+'</div></div>';
+                        },
+                        "authorInfoMM": function(column, row) {
+                            return '<div class="scrollbox"><div class="scrollbox-inner">'+row.authorInfoMM+'</div></div>';
                         },
                         "commands": function(column, row) {
                             return "<a href='authors/"+row.id+"/edit'><button type=\"button\" class=\"btn btn-icon command-edit\" data-row-id=\"" + row.id + "\"><span class=\"zmdi zmdi-edit\"></span></button> </a> " + 

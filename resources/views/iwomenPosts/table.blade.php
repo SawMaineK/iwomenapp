@@ -6,9 +6,9 @@
 			<th data-column-id="audioFile" data-visible="false">Audiofile</th>
 			<th data-column-id="authorId" data-visible="false">Authorid</th>
 			<th data-column-id="comment_count" data-visible="false">Comment Count</th>
-			<th data-column-id="content">Content</th>
+			<th data-column-id="content" data-formatter="content">Content</th>
 			<th data-column-id="contentType">Contenttype</th>
-			<th data-column-id="content_mm">Content Mm</th>
+			<th data-column-id="content_mm" data-formatter="content_mm">Content Mm</th>
 			<th data-column-id="credit_link">Credit Link</th>
 			<th data-column-id="credit_link_mm">Credit Link Mm</th>
 			<th data-column-id="credit_logo_url">Credit Logo Url</th>
@@ -17,17 +17,17 @@
 			<th data-column-id="isAllow">Isallow</th>
 			<th data-column-id="likes">Likes</th>
 			<th data-column-id="postUploadName">Postuploadname</th>
-			<th data-column-id="postUploadPersonImg" data-formatter="postUploadPersonImg">Postuploadpersonimg</th>
+			<th data-column-id="postUploadPersonImg" data-formatter="postUploadPersonImg" data-visible="false">Postuploadpersonimg</th>
 			<th data-column-id="postUploadUserImgPath" data-formatter="postUploadUserImgPath">Postuploaduserimgpath</th>
 			<th data-column-id="postUploadedDate">Postuploadeddate</th>
-			<th data-column-id="post_author_role">Post Author Role</th>
-			<th data-column-id="post_author_role_mm">Post Author Role Mm</th>
+			<th data-column-id="post_author_role" data-visible="false">Post Author Role</th>
+			<th data-column-id="post_author_role_mm" data-visible="false">Post Author Role Mm</th>
 			<th data-column-id="share_count">Share Count</th>
-			<th data-column-id="suggest_section_eng">Suggest Section Eng</th>
+			<th data-column-id="suggest_section_eng" data-visible="false">Suggest Section Eng</th>
 			<th data-column-id="title">Title</th>
 			<th data-column-id="titleMm">Titlemm</th>
-			<th data-column-id="userId">Userid</th>
-			<th data-column-id="videoId">Videoid</th>
+			<th data-column-id="userId" data-visible="false">Userid</th>
+			<th data-column-id="videoId" data-visible="false">Videoid</th>
 	    	<th data-column-id="commands" data-formatter="commands" data-sortable="false">Action</th>
 	    </thead>
 	    <tbody>

@@ -1,22 +1,25 @@
-<table class="table">
+<div class="table-responsive">
+    <table id="data-table-command" class="table table-striped table-vmiddle">
     <thead>
-    <th>UserId</th>
-    <th>Objectid</th>
-	<th>Title</th>
-	<th>Title Mm</th>
-	<th>Description</th>
-	<th>Description Mm</th>
-	<th>Location</th>
-	<th>Location Mm</th>
-	<th>Start Date</th>
-	<th>End Date</th>
-	<th>Start Time</th>
-	<th>End Time</th>
-    <th width="50px">Action</th>
+        <th data-column-id="id" data-visible="false">Id</th>
+	    <th data-column-id="UserId" data-visible="false">UserId</th>
+	    <th data-column-id="Objectid" data-visible="false">Objectid</th>
+		<th data-column-id="Title">Title</th>
+		<th data-column-id="Titlemm">Title Mm</th>
+		<th data-column-id="descriptioin">Description</th>
+		<th data-column-id="descriptionmm">Description Mm</th>
+		<th data-column-id="location">Location</th>
+		<th data-column-id="locationmm">Location Mm</th>
+		<th data-column-id="startdate">Start Date</th>
+		<th data-column-id="enddate">End Date</th>
+		<th data-column-id="starttime">Start Time</th>
+		<th data-column-id="endtime">End Time</th>
+        <th data-column-id="commands" data-formatter="commands" data-sortable="false">Action</th>
     </thead>
     <tbody>
     @foreach($calendars as $calendar)
         <tr>
+            <td>{!! $calendar->id !!}</td>
             <td>{!! $calendar->userId !!}</td>
             <td>{!! $calendar->objectId !!}</td>
 			<td>{!! $calendar->title !!}</td>
@@ -37,3 +40,5 @@
     @endforeach
     </tbody>
 </table>
+
+</div>
