@@ -4,6 +4,7 @@ use App\Http\Requests;
 use App\Libraries\Repositories\ShareUserRepository;
 use App\Models\ShareUser;
 use App\Models\User;
+use App\Models\Role;
 use Illuminate\Http\Request;
 use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
