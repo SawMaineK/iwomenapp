@@ -2,7 +2,7 @@
 
 @section('title', 'Competition Question Update')
 
-@section('style')
+@section('styles')
 	<link href="{{Request::root()}}/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
 	<link href="{{Request::root()}}/vendors/bower_components/summernote/dist/summernote.css" rel="stylesheet">
 	<link href="{{Request::root()}}/vendors/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
@@ -186,9 +186,9 @@
 
 		                        <div class="col-sm-4">
 		                            <div class="input-group form-group">
-		                                <span class="input-group-addon"><i class="zmdi zmdi-accounts"></i> Group Users  </span>
+		                                <span class="input-group-addon"><i class="zmdi zmdi-accounts"></i> Group Users </span>
 		                                    <div class="dtp-container fg-line">
-		                                    <input type='number' class="form-control" value="{{$question->competitiongroupusers->count()}}" name="groupusers" placeholder="">
+		                                    <input type='number' class="form-control" value="{{$question->user_count}}" name="groupusers" placeholder="">
 		                                </div>
 		                            </div>
 		                        </div>
@@ -211,7 +211,7 @@
 </section>
 @endsection
 
-@section('script')
+@section('scripts')
     <!-- @parent -->
     <script src="{{Request::root()}}/vendors/bower_components/summernote/dist/summernote.min.js"></script>
     <script src="{{Request::root()}}/vendors/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
@@ -231,13 +231,6 @@
 	     	$('#save').click(function(){
 	     		alert($('.html-editor-question').code()[0]);
 	     	});
-	     	/*$('.html-editor-question').summernote({
-	     		onChange: function(e){
-	     			$('#question').val($('.html-editor-question').code()[0]);
-	     		},
-	     		height:300
-	     	});*/
-
 	     });
     </script>
 @endsection

@@ -205,11 +205,14 @@
                             </ul>
                         </li>
                         <li> <a href="/admin/competition-question"><i class="zmdi zmdi zmdi zmdi-collection-text"></i>Competition Questions</a></li>
+                        <li> <a href="/mutipleQuestions"><i class="zmdi zmdi zmdi zmdi-collection-text"></i>Multiple Questions</a></li>
+                        <li> <a href="/mutipleOptions"><i class="zmdi zmdi zmdi zmdi-collection-text"></i>Multiple Options</a></li>
+
                         <li class="sub-menu @if(isset($title)) toggled @endif">
                             <a href="#"><i class="zmdi zmdi zmdi zmdi-layers"></i>Competition Answers</a>
 
-                            <ul @if(isset($title)) style="display: block;" @endif>
-                                <li><a @if(isset($title) && $title=='Competition Answer List (Submitted)') class="active" @endif href="/mutipleAnswers">Submitted Answers</a></li>
+                            <ul>
+                                <li><a href="/mutipleAnswers">Submitted Answers</a></li>
                             </ul>
                         </li>
                         <li><a href="/admin/group-users"><i class="zmdi zmdi zmdi zmdi-accounts-add"></i>Competition Group Users</a></li>
@@ -303,7 +306,7 @@
         @yield('scripts')
         
         
-        <script src="{{Request::root()}}/js//functions.js"></script>
+        <script src="{{Request::root()}}/js/functions.js"></script>
         <!-- 
         <script src="{{Request::root()}}/js//demo.js"></script>
          -->

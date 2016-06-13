@@ -68,7 +68,7 @@ class ShareUserAPIController extends AppBaseController
 				$alreadyShared = ShareUser::where('share_objectId', $input['share_objectId'])->wherein('user_id', $shared_with_other_account)->get();
 
 				if(count($alreadyShared) > 0){
-					return response()->json("The share object id has already been taken.", 400);
+					return response()->json("The share object id has already been taken.", 403);
 				}
 
 			}
@@ -81,8 +81,14 @@ class ShareUserAPIController extends AppBaseController
 
 				$user->shared = true;
 				$user->update();
+
+				$role = Role::where('userId', $user->objectId)->first();
+            	if($role)
+            		$user['role'] = $role->name;
+            	else
+            		$user['role'] = 'User';
 			}
-			return $this->sendResponse($shareUsers->toArray(), "ShareUser saved successfully");
+			return $this->sendResponse($user->toArray(), "ShareUser saved successfully");
 		}
 		
 	}

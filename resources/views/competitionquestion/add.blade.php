@@ -2,10 +2,14 @@
 
 @section('title', 'Competition Question Create')
 
-@section('style')
-	<link href="{{Request::root()}}/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
-	<link href="{{Request::root()}}/vendors/bower_components/summernote/dist/summernote.css" rel="stylesheet">
-	<link href="{{Request::root()}}/vendors/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+@section('styles')
+	<link href="{{Request::root()}}/vendors/bower_components/bootstrap-select/dist/css/bootstrap-select.css" rel="stylesheet">
+    <link href="{{Request::root()}}/vendors/bower_components/nouislider/distribute/jquery.nouislider.min.css" rel="stylesheet">
+    <link href="{{Request::root()}}/vendors/bower_components/summernote/dist/summernote.css" rel="stylesheet">
+    <link href="{{Request::root()}}/vendors/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="{{Request::root()}}/vendors/farbtastic/farbtastic.css" rel="stylesheet">
+    <link href="{{Request::root()}}/vendors/chosen_v1.4.2/chosen.min.css" rel="stylesheet">
+    <link href="{{Request::root()}}/vendors/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
 @endsection
 
 @section('content')
@@ -212,35 +216,14 @@
 </section>
 @endsection
 
-@section('script')
+@section('scripts')
     <!-- @parent -->
-    <script src="{{Request::root()}}/vendors/bower_components/summernote/dist/summernote.min.js"></script>
+    <script src="{{Request::root()}}/vendors/chosen_v1.4.2/chosen.jquery.min.js"></script>
+    <script src="{{Request::root()}}/vendors/bower_components/bootstrap-select/dist/js/bootstrap-select.js"></script>
+    <script src="{{Request::root()}}/vendors/fileinput/fileinput.min.js"></script>
+    <script src="{{Request::root()}}/vendors/input-mask/input-mask.min.js"></script>
+    <script src="{{Request::root()}}/vendors/farbtastic/farbtastic.min.js"></script>
     <script src="{{Request::root()}}/vendors/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
-    
-    <script src="{{Request::root()}}/vendors/bower_components/moment/min/moment.min.js"></script>
-	<script src="{{Request::root()}}/vendors/bower_components/bootstrap-select/dist/js/bootstrap-select.js"></script>
-	<script src="{{Request::root()}}/vendors/bower_components/nouislider/distribute/jquery.nouislider.all.min.js"></script>
-	<script src="{{Request::root()}}/vendors/bower_components/summernote/dist/summernote.min.js"></script>
-	<script src="{{Request::root()}}/vendors/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
-
-    <script type="text/javascript">
-	     (function(){
-	     	('.date-time-picker').datetimepicker();
-	     	$('#html-editor').summernote({
-	            height: 150
-	        });
-	     	$('#save').click(function(){
-	     		alert($('.html-editor-question').code()[0]);
-	     	});
-	     	/*$('.html-editor-question').summernote({
-	     		onChange: function(e){
-	     			$('#question').val($('.html-editor-question').code()[0]);
-	     		},
-	     		height:300
-	     	});*/
-
-	     });
-    </script>
 @endsection
 
 

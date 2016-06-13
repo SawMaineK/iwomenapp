@@ -2,11 +2,16 @@
 
 @section('title', 'Competition Question List')
 
+@section('styles')
+    <link href="{{Request::root()}}/vendors/bootgrid/jquery.bootgrid.min.css" rel="stylesheet">
+    <style type="text/css">
+        .bootgrid-footer .pagination, .bootgrid-footer{display: none}
+        .card .row .row{margin: 4px !important;}
+        #scrollbox{ width:100%;min-width: 200px; height:60px;  overflow:auto; overflow-x:hidden; border:1px solid #f2f2f2;  box-shadow: 0 0 2px 2px #ddd;}
+        #scrollbox > p{color:#666; font-family:'Zawgyi-One', sans-serif; font-size:13px; padding:7px 9px; margin:0; }
+    </style>
+@endsection
 @section('content')
-<style type="text/css">
-    #scrollbox{ width:100%;min-width: 200px; height:60px;  overflow:auto; overflow-x:hidden; border:1px solid #f2f2f2;  box-shadow: 0 0 2px 2px #ddd;}
-    #scrollbox > p{color:#666; font-family:'Zawgyi-One', sans-serif; font-size:13px; padding:7px 9px; margin:0; }
-</style>
     <section id="content">
             <div class="container">
                 <div class="card">
@@ -42,8 +47,6 @@
                         <table id="data-table-selection" class="table table-striped">
                             <thead>
                                 <tr>
-                                    <!-- <th data-column-id="id" data-type="numeric" data-identifier="true">ID</th> -->
-                                    <!-- <th data-column-id="id" data-identifier="false">ID</th> -->
                                     <th data-column-id="id" data-visible="false">ID</th>
                                     <th data-column-id="question" data-formatter="question">Question</th>
                                     <th data-column-id="description" data-formatter="description" data-order="desc">Description</th>
@@ -51,7 +54,6 @@
                                     <th data-column-id="groupdescription" data-formatter="groupdescription" data-visible="false">Group Description</th>
                                     <th data-column-id="answerdescription" data-formatter="answerdescription" data-visible="false">Answer Submit Desc</th>
                                     <th data-column-id="duration" data-css-class="elipsis" data-order="desc">Duration</th>
-                                    <th data-column-id="status" data-order="desc">Status</th>
                                     <th data-column-id="commands" data-formatter="commands" data-sortable="false">Commands</th>
                                 </tr>
                             </thead>
@@ -59,13 +61,12 @@
                                 @foreach($questions as $question)
                                 <tr data-row-id="{{$question->id}}">
                                     <td>{{$question->id}}</td>
-                                    <td><p>{{$question->question}} {{$question->question_mm}}</p></td>
-                                    <td>{{$question->description}} {{$question->description_mm}}</td>
-                                    <td>{{$question->instruction_about_game}} {{$question->instruction_about_game_mm}}</td>
-                                    <td>{{$question->group_description}} <hr>{{$question->group_description_mm}}</td>
-                                    <td>{{$question->answer_submit_description}} <hr>{{$question->answer_submit_description_mm}}</td>
-                                    <td>{{date('d-M-Y h:i A', strtotime($question->start_date)). ' To '. date('d-M-Y h:i A', strtotime($question->end_date))}}</td>
-                                    <td>{{$question->status}}</td>
+                                    <td><p style="width:300px;max-height:200px; overflow-y:scroll;">{{$question->question}} {{$question->question_mm}}</p></td>
+                                    <td><p style="width:300px;max-height:200px; overflow-y:scroll;">{!!$question->description!!} {!!$question->description_mm!!}</p></td>
+                                    <td><p style="width:300px;max-height:200px; overflow-y:scroll;">{!!$question->instruction_about_game!!} <br> {!!$question->instruction_about_game_mm!!}</p></td>
+                                    <td><p style="width:300px;max-height:200px; overflow-y:scroll;">{!!$question->group_description!!} <br> {!!$question->group_description_mm!!}</p></td>
+                                    <td><p style="width:300px;max-height:200px; overflow-y:scroll;">{!!$question->answer_submit_description!!} <br>{!!$question->answer_submit_description_mm!!}</p></td>
+                                    <td><p style="width:300px;">{!!date('d-M-Y h:i A', strtotime($question->start_date)). ' To '. date('d-M-Y h:i A', strtotime($question->end_date))!!}</p></td>
                                     <td></td>
 
                                 </tr>
@@ -80,9 +81,8 @@
         </section>
 @endsection
 
-@section('script')
-    @parent
-
+@section('scripts')
+    <script src="{{Request::root()}}/vendors/bootgrid/jquery.bootgrid.min.js"></script>
     <script type="text/javascript">
             $(document).ready(function(){
                 //Selection
