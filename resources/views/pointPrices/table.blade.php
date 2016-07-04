@@ -1,5 +1,5 @@
 <div class="table-responsive">
-    <table class="table table-striped table-vmiddle">
+    <table id="data-table-command" class="table table-striped table-vmiddle">
         <thead>
             <th data-column-id="id" data-visible="false">Id</th>
             <th data-column-id="Point">Point</th>
@@ -10,6 +10,7 @@
         <tbody>
         @foreach($pointPrices as $pointPrice)
             <tr>
+                <td>{!! $pointPrice->id !!}</td>
                 <td>{!! $pointPrice->point !!}</td>
                 <td>{!! $pointPrice->price !!}</td>
     			<td>{!! $pointPrice->price_mm !!}</td>
