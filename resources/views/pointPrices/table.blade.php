@@ -1,5 +1,5 @@
 <div class="table-responsive">
-    <table id="data-table-command" class="table table-striped table-vmiddle">
+    <table class="table table-striped table-vmiddle">
         <thead>
             <th data-column-id="id" data-visible="false">Id</th>
             <th data-column-id="Point">Point</th>
