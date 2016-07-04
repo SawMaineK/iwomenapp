@@ -14,7 +14,8 @@ class PointPrice extends Model
 
 	public $fillable = [
 	    "point",
-		"price"
+		"price",
+		"price_mm"
 	];
 
     /**
@@ -24,7 +25,8 @@ class PointPrice extends Model
      */
     protected $casts = [
         "point" => "integer",
-		"price" => "string"
+		"price" => "string",
+		"price_mm" => "string"
     ];
 
 	public static $rules = [

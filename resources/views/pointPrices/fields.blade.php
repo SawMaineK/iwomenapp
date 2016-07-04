@@ -10,6 +10,12 @@
 	{!! Form::text('price', null, ['class' => 'form-control']) !!}
 </div>
 
+<!-- Price Field -->
+<div class="form-group col-sm-6 col-lg-4">
+    {!! Form::label('price_mm', 'Price MM:') !!}
+	{!! Form::text('price_mm', null, ['class' => 'form-control']) !!}
+</div>
+
 
 <!-- Submit Field -->
 <div class="form-group col-sm-12">
