@@ -42,8 +42,7 @@ class GcmMessageController extends AppBaseController
 	 */
 	public function create()
 	{
-		$users = User::limit(10)->get();
-		dd(count($users));
+		$users = User::orderBy('id','desc')->limit(100)->get();
 		return view('gcmMessages.create')->with(['users'=>$users]);
 	}
 
@@ -128,7 +127,7 @@ class GcmMessageController extends AppBaseController
 			return redirect(route('gcmMessages.index'));
 		}
 
-		$users = User::all();
+		$users = User::orderBy('id','desc')->limit(100)->get();
 
 		return view('gcmMessages.edit')->with(['gcmMessage' => $gcmMessage, 'users'=>$users]);
 	}
