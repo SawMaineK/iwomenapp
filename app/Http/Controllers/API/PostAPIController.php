@@ -113,9 +113,13 @@ class PostAPIController extends AppBaseController
 			foreach ($gcm as $key => $value) {
 				$device_list[] = PushNotification::Device($value->reg_id);
 	  		}
+	  		if($posts->category_id == 'MqLh2pZShc'){
+	  			$message['title'] = 'Market';
+	  		}else{
+	  			$message['title'] = 'Q&A';
+	  		}
 	  		
-	  		$message['title'] = $input['title'];
-	  		$message['message'] = $input['content'];
+	  		$message['message'] = if($input['content']) ? $input['content']: $input['content_mm'];
 			$devices = PushNotification::DeviceCollection($device_list);
 			$message = PushNotification::Message(json_encode($message),array());
 
