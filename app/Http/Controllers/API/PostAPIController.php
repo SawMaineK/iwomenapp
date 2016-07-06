@@ -114,9 +114,9 @@ class PostAPIController extends AppBaseController
 				$device_list[] = PushNotification::Device($value->reg_id);
 	  		}
 	  		if($posts->category_id == 'MqLh2pZShc'){
-	  			$message['title'] = 'Market';
+	  			$message['title'] = $input['content'] ? 'Market' : 'အေရာင္း / အ၀ယ္';
 	  		}else{
-	  			$message['title'] = 'Q&A';
+	  			$message['title'] = $input['content'] ? 'Q&A' ? 'အေမးအေျဖ';
 	  		}
 	  		
 	  		$message['message'] = $input['content'] ? $input['content']: $input['content_mm'];
