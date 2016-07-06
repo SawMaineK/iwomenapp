@@ -42,8 +42,8 @@ class GcmMessageController extends AppBaseController
 	 */
 	public function create()
 	{
-		dd('hi');
 		$users = User::all();
+		dd(count($users));
 		return view('gcmMessages.create')->with(['users'=>$users]);
 	}
 
