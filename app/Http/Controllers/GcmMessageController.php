@@ -127,7 +127,9 @@ class GcmMessageController extends AppBaseController
 			return redirect(route('gcmMessages.index'));
 		}
 
-		return view('gcmMessages.edit')->with('gcmMessage', $gcmMessage);
+		$users = User::all();
+
+		return view('gcmMessages.edit')->with(['gcmMessage' => $gcmMessage, 'users'=>$users]);
 	}
 
 	/**

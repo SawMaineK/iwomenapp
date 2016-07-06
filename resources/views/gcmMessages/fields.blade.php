@@ -16,7 +16,9 @@
     <select name="user_id" class="form-control">
 	    <option value="All">All</option>
 	   	@foreach($users as $row)
+	   		@if($row)
 	    	<option value="{!! $row->objectId !!}">{!!$row['username']!!}</option>
+	    	@endif
 	    @endforeach
     </select>
 </div>
