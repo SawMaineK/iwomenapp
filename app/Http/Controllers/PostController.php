@@ -8,6 +8,8 @@ use Flash;
 use App\Models\Category;
 use Mitul\Controller\AppBaseController as AppBaseController;
 use Response;
+use App\Models\Gcm;
+use PushNotification;
 
 class PostController extends AppBaseController
 {
@@ -71,6 +73,21 @@ class PostController extends AppBaseController
 		}
 
 		$post = $this->postRepository->create($input);
+
+		$device_list = [];
+		$gcm = Gcm::all();
+		foreach ($gcm as $key => $value) {
+			$device_list[] = PushNotification::Device($value->reg_id);
+  		}
+  		
+  		$message['title'] = $input['title'];
+  		$message['message'] = $input['content'];
+		$devices = PushNotification::DeviceCollection($device_list);
+		$message = PushNotification::Message(json_encode($message),array());
+
+		$collection = PushNotification::app('appNameAndroid')
+		    ->to($devices)
+		    ->send($message);
 
 		Flash::success('Post saved successfully.');
 
