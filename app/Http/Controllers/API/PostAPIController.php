@@ -119,7 +119,7 @@ class PostAPIController extends AppBaseController
 	  			$message['title'] = 'Q&A';
 	  		}
 	  		
-	  		$message['message'] = if($input['content']) ? $input['content']: $input['content_mm'];
+	  		$message['message'] = $input['content'] ? $input['content']: $input['content_mm'];
 			$devices = PushNotification::DeviceCollection($device_list);
 			$message = PushNotification::Message(json_encode($message),array());
 
