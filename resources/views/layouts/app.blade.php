@@ -151,6 +151,15 @@
                         </li>
 
                         <li class="sub-menu">
+                            <a href="#"><i class="zmdi zmdi-view-list"></i> GCM Messages</a>
+
+                            <ul>
+                                <li><a href="/gcmMessages"> List</a></li>
+                                <li><a href="/gcmMessages/create">Create New GCM Messages</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="sub-menu">
                             <a href="#"><i class="zmdi zmdi-view-list"></i> Sister Download Apps</a>
 
                             <ul>

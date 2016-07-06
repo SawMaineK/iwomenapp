@@ -5,7 +5,7 @@
 
     @include('common.errors')
 
-    {!! Form::model($gcmMessage, ['route' => ['gcmMessages.update', $gcmMessage->id], 'method' => 'patch']) !!}
+    {!! Form::model($gcmMessage, ['route' => ['gcmMessages.update', $gcmMessage->id], 'method' => 'patch', 'enctype'=>'multipart/form-data']) !!}
 
         @include('gcmMessages.fields')
 
