@@ -10,14 +10,6 @@
 	{!! Form::text('message', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- User Id Field -->
-
-<!-- Image Field -->
-<div class="form-group col-sm-6 col-lg-4">
-    {!! Form::label('image', 'Image:') !!}
-	{!! Form::file('image') !!}
-</div>
-
 
 <!-- Submit Field -->
 <div class="form-group col-sm-12">
