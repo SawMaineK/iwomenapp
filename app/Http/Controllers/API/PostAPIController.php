@@ -8,6 +8,8 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
 use Validator;
+use App\Models\Gcm;
+use PushNotification;
 
 class PostAPIController extends AppBaseController
 {
@@ -104,6 +106,21 @@ class PostAPIController extends AppBaseController
 		$input['objectId'] = 'Post'.str_random(10);
 
 		$posts = $this->postRepository->create($input);
+
+		$device_list = [];
+		$gcm = Gcm::all();
+		foreach ($gcm as $key => $value) {
+			$device_list[] = PushNotification::Device($value->reg_id);
+  		}
+  		
+  		$message['title'] = $input['title'];
+  		$message['message'] = $input['content'];
+		$devices = PushNotification::DeviceCollection($device_list);
+		$message = PushNotification::Message(json_encode($message),array());
+
+		$collection = PushNotification::app('appNameAndroid')
+		    ->to($devices)
+		    ->send($message);
 
 		return $this->sendResponse($posts->toArray(), "Post saved successfully");
 	}
