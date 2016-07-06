@@ -116,7 +116,7 @@ class PostAPIController extends AppBaseController
 	  		if($posts->category_id == 'MqLh2pZShc'){
 	  			$message['title'] = $input['content'] ? 'Market' : 'အေရာင္း / အ၀ယ္';
 	  		}else{
-	  			$message['title'] = $input['content'] ? 'Q&A' ? 'အေမးအေျဖ';
+	  			$message['title'] = $input['content'] ? 'Q&A' : 'အေမးအေျဖ';
 	  		}
 	  		
 	  		$message['message'] = $input['content'] ? $input['content']: $input['content_mm'];
