@@ -114,12 +114,12 @@ class PostAPIController extends AppBaseController
 				$device_list[] = PushNotification::Device($value->reg_id);
 	  		}
 	  		if($posts->category_id == 'MqLh2pZShc'){
-	  			$message['title'] = $input['content'] ? 'Market' : 'အေရာင္း / အ၀ယ္';
+	  			$message['title'] = isset($input['content']) ? 'Market' : 'အေရာင္း / အ၀ယ္';
 	  		}else{
-	  			$message['title'] = $input['content'] ? 'Q&A' : 'အေမးအေျဖ';
+	  			$message['title'] = isset($input['content']) ? 'Q&A' : 'အေမးအေျဖ';
 	  		}
 	  		
-	  		$message['message'] = $input['content'] ? $input['content']: $input['content_mm'];
+	  		$message['message'] = isset($input['content']) ? $input['content']: $input['content_mm'];
 			$devices = PushNotification::DeviceCollection($device_list);
 			$message = PushNotification::Message(json_encode($message),array());
 
