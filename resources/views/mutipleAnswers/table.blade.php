@@ -1,4 +1,4 @@
-<div class="table-responsive">
+<div  class="table-responsive">
     <table id="data-table-command" class="table table-striped table-vmiddle">
         <thead>
             <th data-column-id="id" data-visible="false">Id</th>

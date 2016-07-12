@@ -12,8 +12,8 @@
 
     <div class="card">
         <div class="card-header ch-alt">
-            <h2>MultipleAnswers <small></small></h2>
             <a href="#" id='btnExportExcel'><button type="submit" class="btn btn-primary btn-sm waves-effect pull-right">Export To Excel</button></a>
+            <h2>MultipleAnswers <small></small></h2>
             @include('flash::message')
         </div>
 
@@ -49,8 +49,8 @@
                          $(this).attr('download', filename+'.xls').attr('href', uri).attr('target', '_blank');
                       });
                 }
-                var filename=$('#filename').html();
-                exporttoexcel('#btnExportExcel', filename, 'data-table-selection');
+                var filename= "submitted_answer";
+                exporttoexcel('#btnExportExcel', filename, 'data-table-command');
 
                 $("#data-table-command").bootgrid({
                     css: {
