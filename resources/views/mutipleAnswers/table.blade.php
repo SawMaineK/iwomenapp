@@ -3,7 +3,7 @@
         <thead>
             <th data-column-id="id" data-visible="false">Id</th>
             <th data-column-id="competitionid" width="150px">Competition ID</th>
-            <th data-column-id="answer" width="300px">Question</th>
+            <th data-column-id="question" width="300px">Question</th>
         	<th data-column-id="answer" width="300px">Answer</th>
             <th data-column-id="group">Group</th>
             <th data-column-id="user">User</th>

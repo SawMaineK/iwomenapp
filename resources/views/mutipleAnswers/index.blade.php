@@ -12,7 +12,8 @@
 
     <div class="card">
         <div class="card-header ch-alt">
-            <a class="btn btn-primary pull-right" href="{!! route('mutipleAnswers.create') !!}">Add New</a>
+            <!-- <a class="btn btn-primary pull-right" href="{!! route('mutipleAnswers.create') !!}">Add New</a> -->
+            <button id="btnExportExcel" class="btn btn-primary pull-right">Export to Excel</button>
             <h2>MultipleAnswers <small></small></h2>
             @include('flash::message')
         </div>
