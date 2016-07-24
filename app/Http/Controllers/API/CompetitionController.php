@@ -79,8 +79,10 @@ class CompetitionController extends Controller
         		$competition_question['correct_answer'] = $answer_list;
         		return response()->json($competition_question);
         	}
-        	return response()->json('Hello, Competition is not started.', 403);
 
+            $game_msg['error'] = 'The next game will start on 28 July';
+            $game_msg['error_mm'] = 'The next game will start on 28 July';
+        	return response()->json($game_msg, 403);
         }
     }
 
