@@ -30,14 +30,14 @@ class CompetitionController extends Controller
     public function index(Request $request)
     {
         $today = date("Y-m-d H:i:s",strtotime(date("Y-m-d H:i:s")) + ((60*60) * 6.5));
-    	$validator = Validator::make($request->all(), [
+    	/*$validator = Validator::make($request->all(), [
             'user_id'  => 'required|exists:competition_group_users,user_id',
         ]);
 
         if ($validator->fails()) {
             if($validator->errors()->has('user_id'))
                 return response()->json("You are not TLG member.", 400);
-        }
+        }*/
 
         $competition_question = CompetitionQuestion::where('start_date','<=',$today)->where('end_date','>=',$today)->orderBy('id','desc')->first();
 
