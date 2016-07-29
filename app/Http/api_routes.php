@@ -90,3 +90,5 @@ Route::resource("shareUsers", "ShareUserAPIController");
 Route::resource("pointPrices", "PointPriceAPIController");
 
 Route::resource("subResourceDetailLikes", "SubResourceDetailLikeAPIController");
+
+Route::post("subResourceDetailLikes/check", "SubResourceDetailLikeAPIController@chkUserLike");

@@ -59,12 +59,21 @@ class SubResourceDetailLikeAPIController extends AppBaseController
 		$subResourceDetailLikes = $this->subResourceDetailLikeRepository->create($input);
 
 		$liked = SubResourceDetail::find($input['postId']);
-		if($post){
-			$post->likes = $post->likes + 1;
-			$post->update();
+		if($liked){
+			$liked->likes = $post->likes + 1;
+			$liked->update();
 		}
 
 		return $this->sendResponse($subResourceDetailLikes->toArray(), "SubResourceDetailLike saved successfully");
+	}
+
+	public function chkUserLike(Request $request)
+	{
+		$liked = SubResourceDetailLike::where('postId', $request->postId)->where('userId', $request->userId)->first();
+		if($liked){
+			return response()->json(true);
+		}
+		return response()->json(false);
 	}
 
 	/**
