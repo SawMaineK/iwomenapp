@@ -292,3 +292,11 @@ Route::get('pointPrices/{id}/delete', [
     'as' => 'pointPrices.delete',
     'uses' => 'PointPriceController@destroy',
 ]);
+
+
+Route::resource('subResourceDetailLikes', 'SubResourceDetailLikeController');
+
+Route::get('subResourceDetailLikes/{id}/delete', [
+    'as' => 'subResourceDetailLikes.delete',
+    'uses' => 'SubResourceDetailLikeController@destroy',
+]);

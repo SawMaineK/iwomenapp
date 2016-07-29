@@ -5,7 +5,7 @@
         "validations": ""
     },
     {
-        "field":"subResourceDetailId:integer",
+        "field":"postId:integer",
         "type":"text",
         "validations":""
     },

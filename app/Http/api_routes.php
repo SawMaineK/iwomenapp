@@ -88,3 +88,5 @@ Route::resource("emails", "EmailAPIController");
 Route::resource("shareUsers", "ShareUserAPIController");
 
 Route::resource("pointPrices", "PointPriceAPIController");
+
+Route::resource("subResourceDetailLikes", "SubResourceDetailLikeAPIController");
