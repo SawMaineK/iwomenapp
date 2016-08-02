@@ -151,7 +151,7 @@
 	<div class="input-group form-group">
         <span class="input-group-addon"><i class="zmdi zmdi-calendar"></i></span>
             <div class="dtp-container fg-line">
-            <input type='text' name="postUploadedDate" class="form-control date-picker" placeholder="dd/mm/yyyy">
+            <input type='text' name="postUploadedDate" class="form-control date-picker" placeholder="yyyy-mm-dd">
         </div>
     </div>
 </div>
