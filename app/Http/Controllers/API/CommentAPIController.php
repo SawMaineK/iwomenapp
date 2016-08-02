@@ -5,6 +5,8 @@ use App\Libraries\Repositories\CommentRepository;
 use App\Models\Comment;
 use App\Models\Post;
 use App\Models\IwomenPost;
+use App\Models\SubResourceDetail;
+use App\Models\Resources;
 use Illuminate\Http\Request;
 use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
@@ -86,8 +88,20 @@ class CommentAPIController extends AppBaseController
 				$post->comment_count = $post->comment_count + 1;
 				$post->update();
 			}
-		}else{
+		}else if(isset($input['postType']) && $input['postType'] == 'Post'){
 			$post = Post::where('objectId',$input['postId'])->first();
+			if($post){
+				$post->comment_count = $post->comment_count + 1;
+				$post->update();
+			}
+		}else if(isset($input['postType']) && $input['postType'] == 'SubResourceDetail'){
+			$post = SubResourceDetail::where('objectId',$input['postId'])->first();
+			if($post){
+				$post->comment_count = $post->comment_count + 1;
+				$post->update();
+			}
+		}else if(isset($input['postType']) && $input['postType'] == 'Resources'){
+			$post = Resources::where('objectId',$input['postId'])->first();
 			if($post){
 				$post->comment_count = $post->comment_count + 1;
 				$post->update();

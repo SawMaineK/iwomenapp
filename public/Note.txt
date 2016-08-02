@@ -1,1 +1,1 @@
-php artisan mitul.generator:scaffold_api SubResourceDetailLike --paginate=10 --softDelete --fieldsFile="public/database/tbl_sub_resource_detail_like.json.json"
+php artisan mitul.generator:scaffold_api ResourceLike --paginate=10 --softDelete --fieldsFile="public/database/tbl_resource_like.json"

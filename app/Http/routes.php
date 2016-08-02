@@ -300,3 +300,11 @@ Route::get('subResourceDetailLikes/{id}/delete', [
     'as' => 'subResourceDetailLikes.delete',
     'uses' => 'SubResourceDetailLikeController@destroy',
 ]);
+
+
+Route::resource('resourceLikes', 'ResourceLikeController');
+
+Route::get('resourceLikes/{id}/delete', [
+    'as' => 'resourceLikes.delete',
+    'uses' => 'ResourceLikeController@destroy',
+]);
