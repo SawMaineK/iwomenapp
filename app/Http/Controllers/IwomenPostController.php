@@ -26,7 +26,7 @@ class IwomenPostController extends AppBaseController
 	 */
 	public function index()
 	{
-		$iwomenPosts = $this->iwomenPostRepository->paginate(10);
+		$iwomenPosts = $this->iwomenPostRepository->paginate(100);
 
 		return view('iwomenPosts.index')
 			->with('iwomenPosts', $iwomenPosts);

@@ -26,7 +26,7 @@ class ResourcesController extends AppBaseController
 	 */
 	public function index()
 	{
-		$resources = $this->resourcesRepository->paginate(10);
+		$resources = $this->resourcesRepository->paginate(100);
 
 		return view('resources.index')
 			->with('resources', $resources);
@@ -53,7 +53,7 @@ class ResourcesController extends AppBaseController
 	{
 		$input = $request->all();
 
-		$input['objectId'] = str_random(10);
+		$input['objectId'] = 'Reses'.str_random(10);
 
 		if($request->file('author_img_path')){
 			$image = $this->uploadImage($request->file('author_img_path'),'/authors_photo/');

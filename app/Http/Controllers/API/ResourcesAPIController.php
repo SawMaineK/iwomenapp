@@ -68,7 +68,7 @@ class ResourcesAPIController extends AppBaseController
 
 		$input = $request->all();
 
-		$input['objectId'] = str_random(10);
+		$input['objectId'] = 'Reses'.str_random(10);
 
 		$resources = $this->resourcesRepository->create($input);
 

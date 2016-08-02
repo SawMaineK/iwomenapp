@@ -53,7 +53,7 @@ class SubResourceDetailController extends AppBaseController
 	{
 		$input = $request->all();
 
-		$input['objectId'] = str_random(10);
+		$input['objectId'] = 'SubResDetail'.str_random(100);
 
 		$subResourceDetail = $this->subResourceDetailRepository->create($input);
 
