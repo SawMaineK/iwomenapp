@@ -99,6 +99,6 @@ Route::post("resourceLikes/check", "ResourceLikeAPIController@chkUserLike");
 
 Route::get("iwomenPost/weekContent", "IwomenPostAPIController@thisContent");
 
-Route::get("resources/weekContent", "ResourceLikeAPIController@thisContent");
+Route::get("resources/weekContent", "ResourcesAPIController@thisContent");
 
 Route::get("share/{id}", "PostAPIController@share");
