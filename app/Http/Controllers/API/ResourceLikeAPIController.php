@@ -62,9 +62,11 @@ class ResourceLikeAPIController extends AppBaseController
 		if($resource){
 			$resource->likes = $resource->likes + 1;
 			$resource->update();
+		}else{
+			return response()->json("Invalid Resources Id!",400);
 		}
 
-		return $this->sendResponse($resourceLikes->toArray(), "ResourceLike saved successfully");
+		return response()->json($resource->likes);
 	}
 
 	public function chkUserLike(Request $request)

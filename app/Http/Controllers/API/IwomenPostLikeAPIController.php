@@ -62,9 +62,11 @@ class IwomenPostLikeAPIController extends AppBaseController
 		if($post){
 			$post->likes = $post->likes + 1;
 			$post->update();
+		}else{
+			return response()->json("Invalid iWomen Post Id!",400);
 		}
 
-		return $this->sendResponse($iwomenPostLikes->toArray(), "IwomenPostLike saved successfully");
+		return response()->json($post->likes);
 	}
 
 	public function chkUserLike(Request $request)
