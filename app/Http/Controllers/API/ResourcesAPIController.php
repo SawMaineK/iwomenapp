@@ -39,7 +39,7 @@ class ResourcesAPIController extends AppBaseController
 		return response()->json($resources);
 	}
 
-	public function thisContent()
+	public function thisWeekContent()
 	{
 		$resources = Resources::where('week_content',1)->first();
 		return response()->json($resources);
