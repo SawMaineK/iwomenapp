@@ -89,6 +89,7 @@ class PostAPIController extends AppBaseController
 				if($post){
 					$post->share_count = $post->share_count + 1;
 					$post->update();
+					return response()->json($post->share_count);
 				}
 				break;
 
@@ -97,6 +98,7 @@ class PostAPIController extends AppBaseController
 				if($post){
 					$post->share_count = $post->share_count + 1;
 					$post->update();
+					return response()->json($post->share_count);
 				}
 				break;
 
@@ -105,6 +107,7 @@ class PostAPIController extends AppBaseController
 				if($post){
 					$post->share_count = $post->share_count + 1;
 					$post->update();
+					return response()->json($post->share_count);
 				}
 				break;
 
@@ -113,6 +116,7 @@ class PostAPIController extends AppBaseController
 				if($post){
 					$post->share_count = $post->share_count + 1;
 					$post->update();
+					return response()->json($post->share_count);
 				}
 				break;
 			
