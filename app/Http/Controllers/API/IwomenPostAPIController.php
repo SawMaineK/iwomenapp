@@ -67,6 +67,12 @@ class IwomenPostAPIController extends AppBaseController
 		return response()->json($posts);
 	}
 
+	public function thisContent()
+	{
+		$post = IwomenPost::where('week_content',1)->first();
+		return response()->json($post);
+	}
+
 	/**
 	 * Show the form for creating a new IwomenPost.
 	 * GET|HEAD /iwomenPosts/create

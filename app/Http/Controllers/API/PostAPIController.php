@@ -4,6 +4,8 @@ use App\Http\Requests;
 use App\Libraries\Repositories\PostRepository;
 use App\Models\Post;
 use App\Models\IwomenPost;
+use App\Models\Resources;
+use App\Models\SubResourceDetail;
 use Illuminate\Http\Request;
 use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
@@ -76,6 +78,49 @@ class PostAPIController extends AppBaseController
 								->orderBy('postUploadedDate','desc')
 								->offset($offset)->limit($limit)->get();
 		return response()->json($posts);
+	}
+
+	public function share($id, Request $request)
+	{
+		$post_type = $request->input('postType');
+		switch ($post_type) {
+			case 'Post':
+				$post = Post::find($id);
+				if($post){
+					$post->share_count = $post->share_count + 1;
+					$post->update();
+				}
+				break;
+
+			case 'iWomenPost':
+				$post = IwomenPost::find($id);
+				if($post){
+					$post->share_count = $post->share_count + 1;
+					$post->update();
+				}
+				break;
+
+			case 'Resources':
+				$post = Resources::find($id);
+				if($post){
+					$post->share_count = $post->share_count + 1;
+					$post->update();
+				}
+				break;
+
+			case 'SubResourceDetail':
+				$post = SubResourceDetail::find($id);
+				if($post){
+					$post->share_count = $post->share_count + 1;
+					$post->update();
+				}
+				break;
+			
+			default:
+				# code...
+				break;
+		}
+		return response()->json("Successfully shared your post!");
 	}
 
 	/**

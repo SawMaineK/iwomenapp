@@ -39,6 +39,12 @@ class ResourcesAPIController extends AppBaseController
 		return response()->json($resources);
 	}
 
+	public function thisContent()
+	{
+		$resources = Resources::where('week_content',1)->first();
+		return response()->json($resources);
+	}
+
 	/**
 	 * Show the form for creating a new Resources.
 	 * GET|HEAD /resources/create
