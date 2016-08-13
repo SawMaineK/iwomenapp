@@ -24,6 +24,7 @@ class IwomenPost extends Model
 		"credit_link_mm",
 		"credit_logo_url",
 		"credit_name",
+		"credit_name_mm",
 		"image",
 		"isAllow",
 		"likes",
