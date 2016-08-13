@@ -28,6 +28,7 @@ class IwomenPost extends Model
 		"isAllow",
 		"likes",
 		"postUploadName",
+		"postUploadNameMM",
 		"postUploadPersonImg",
 		"postUploadUserImgPath",
 		"postUploadedDate",

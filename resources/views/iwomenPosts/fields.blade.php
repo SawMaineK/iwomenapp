@@ -72,6 +72,12 @@
 	{!! Form::text('credit_name', null, ['class' => 'form-control']) !!}
 </div>
 
+<!-- Credit Name Field -->
+<div class="form-group col-sm-6 col-lg-4">
+    {!! Form::label('credit_name_mm', 'Credit Name MM:') !!}
+    {!! Form::text('credit_name_mm', null, ['class' => 'form-control']) !!}
+</div>
+
 <!-- Image Field -->
 <div class="form-group col-sm-6 col-lg-4">
     {!! Form::label('image', 'Image:') !!}
@@ -109,6 +115,12 @@
 <div class="form-group col-sm-6 col-lg-4">
     {!! Form::label('postUploadName', 'Postuploadname:') !!}
 	{!! Form::text('postUploadName', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Postuploadname Field -->
+<div class="form-group col-sm-6 col-lg-4">
+    {!! Form::label('postUploadNameMM', 'Postuploadname MM:') !!}
+    {!! Form::text('postUploadNameMM', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Postuploadpersonimg Field -->
