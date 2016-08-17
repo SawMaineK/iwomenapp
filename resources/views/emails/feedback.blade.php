@@ -1,7 +1,7 @@
 @extends('emails/default')
 
 @section('content')
-<p><b>Hi, There is a new message from your user.</b></p>
+<p><b>Hi, There is a new message from iWomen Website.</b></p>
 
 <p><b>Name</b>: {!!$user_name!!} </p>
 

@@ -6,6 +6,7 @@ use App\Models\Email;
 use Illuminate\Http\Request;
 use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
+use Mail;
 
 class EmailAPIController extends AppBaseController
 {
@@ -56,6 +57,21 @@ class EmailAPIController extends AppBaseController
 		$input = $request->all();
 
 		$emails = $this->emailRepository->create($input);
+
+		// Data to be used on the email view
+        $data = array(
+            'fromName'    => $emails->name,
+            'fromEmail'        => $emails->email,
+            'feedbackMessage'       => $emails->message
+        );
+        
+        // Send the activation code through email
+        Mail::send('emails.feedback', $data, function ($m){
+            $m->to('sawmainek90@gmail.com', 'Developers');
+            /*if(isset($errorReport->send_email_1))
+            	$m->to($errorReport->send_email_1, 'Developers');*/
+            $m->subject('Website Feedback');
+        });
 
 		return $this->sendResponse($emails->toArray(), "Email saved successfully");
 	}
