@@ -67,9 +67,8 @@ class EmailAPIController extends AppBaseController
         
         // Send the activation code through email
         Mail::send('emails.feedback', $data, function ($m){
-            $m->to('sawmainek90@gmail.com', 'Developers');
-            /*if(isset($errorReport->send_email_1))
-            	$m->to($errorReport->send_email_1, 'Developers');*/
+            $m->to('iwomenapp@gmail.com', 'iWomen Team');
+            $m->to('gatti.eleonora@gmail.com', 'iWomen Team');
             $m->subject('Website Feedback');
         });
 
