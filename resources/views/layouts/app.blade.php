@@ -80,6 +80,9 @@
 
                     <ul class="main-menu">
                         <li class="active"><a href="/"><i class="zmdi zmdi-home"></i> Home</a></li>
+                        <li>
+                            <a href="/emails"><i class="zmdi zmdi-view-list"></i> Website Feedback</a>
+                        </li>
                         <li class="sub-menu">
                             <a href="#"><i class="zmdi zmdi-view-list"></i> Posts</a>
 
