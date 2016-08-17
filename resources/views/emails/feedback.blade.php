@@ -3,11 +3,11 @@
 @section('content')
 <p><b>Hi, There is a new message from iWomen Website.</b></p>
 
-<p><b>Name</b>: {!!$user_name!!} </p>
+<p><b>Name</b>: {!!$fromName!!} </p>
 
-<p><b>Email</b>: {!!$user_email!!} </p>
+<p><b>Email</b>: {!!$fromEmail!!} </p>
 
-<p><b>Message</b>: {!!$user_message!!} </p>
+<p><b>Message</b>: {!!$feedbackMessage!!} </p>
 
 <p><b>Best regards,</b></p>
 
