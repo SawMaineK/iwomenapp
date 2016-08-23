@@ -21,6 +21,7 @@ class Author extends Model
 		"authorInfoEng",
 		"authorInfoMM",
 		"authorName",
+		"authorNameMM",
 		"authorTitleEng",
 		"authorTitleMM"
 	];
@@ -38,6 +39,7 @@ class Author extends Model
 		"authorInfoEng" => "string",
 		"authorInfoMM" => "string",
 		"authorName" => "string",
+		"authorNameMM" => "string",
 		"authorTitleEng" => "string",
 		"authorTitleMM" => "string"
     ];

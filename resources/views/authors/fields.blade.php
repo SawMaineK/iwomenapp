@@ -49,6 +49,12 @@
 	{!! Form::text('authorName', null, ['class' => 'form-control']) !!}
 </div>
 
+<!-- Authorname MM Field -->
+<div class="form-group col-sm-6 col-lg-4">
+    {!! Form::label('authorNameMM', 'Authorname MM:') !!}
+    {!! Form::text('authorNameMM', null, ['class' => 'form-control']) !!}
+</div>
+
 <!-- Authortitleeng Field -->
 <div class="form-group col-sm-6 col-lg-4">
     {!! Form::label('authorTitleEng', 'Authortitleeng:') !!}
