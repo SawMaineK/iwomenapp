@@ -6,7 +6,8 @@
     		<th data-column-id="authorImg" data-formatter="authorImg">Authorimg</th>
     		<th data-column-id="authorInfoEng" data-formatter="authorInfoEng">Authorinfoeng</th>
     		<th data-column-id="authorInfoMM" data-formatter="authorInfoMM">Authorinfomm</th>
-    		<th data-column-id="authorName">Authorname</th>
+            <th data-column-id="authorName">Authorname</th>
+    		<th data-column-id="authorNameMM">Authorname MM</th>
     		<th data-column-id="authorTitleEng">Authortitleeng</th>
     		<th data-column-id="authorTitleMM">Authortitlemm</th>
             <th data-column-id="commands" data-formatter="commands" data-sortable="false">Action</th>
@@ -19,7 +20,8 @@
     			<td>{!! $author->authorImg !!}</td>
     			<td>{!! $author->authorInfoEng !!}</td>
     			<td>{!! $author->authorInfoMM !!}</td>
-    			<td>{!! $author->authorName !!}</td>
+                <td>{!! $author->authorName !!}</td>
+    			<td>{!! $author->authorNameMM !!}</td>
     			<td>{!! $author->authorTitleEng !!}</td>
     			<td>{!! $author->authorTitleMM !!}</td>
                 <td>
