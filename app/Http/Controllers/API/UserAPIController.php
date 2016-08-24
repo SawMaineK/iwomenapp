@@ -244,8 +244,9 @@ class UserAPIController extends AppBaseController
 		/** @var User $user */
 		$user = $this->userRepository->apiFindOrFail($id);
 
-		if($input['password'])
+		if(isset($input['password']) && $input['password']){
 			$input['password'] = bcrypt($input['password']);
+		}
 
 		$result = $this->userRepository->updateRich($input, $id);
 
