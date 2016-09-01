@@ -20,6 +20,7 @@ class Post extends Model
 		"image",
 		"likes",
 		"postUploadName",
+		"postUploadNameMM",
 		"postUploadPersonImg",
 		"postUploadedDate",
 		"suggest_section",

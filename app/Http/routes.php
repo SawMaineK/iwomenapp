@@ -11,6 +11,16 @@
 |
 */
 
+Route::get('copy_col_data', function(){
+    $posts = App\Models\Post::all();
+    foreach ($posts as $key => $value) {
+        $post = App\Models\Post::find($value->id);
+        $post->postUploadNameMM = $value->postUploadName;
+        $post->update();
+    }
+    echo 'Success';
+});
+
 Route::get('/', function () {
     return redirect('/administration');
 });

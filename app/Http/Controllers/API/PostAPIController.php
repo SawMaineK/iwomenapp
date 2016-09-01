@@ -153,6 +153,7 @@ class PostAPIController extends AppBaseController
 		$input = $request->all();
 
 		$input['objectId'] = 'Post'.str_random(10);
+		$input['postUploadNameMM'] = $input["postUploadName"];
 
 		$posts = $this->postRepository->create($input);
 
