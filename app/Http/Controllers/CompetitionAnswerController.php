@@ -103,7 +103,7 @@ class CompetitionAnswerController extends Controller
             $competitionAnswer->answer_mm = $multipleAnswer->answer;
             $competitionAnswer->status = 1;
             $competitionAnswer->correct = 1;
-            $competitionAnswer->update();
+            $competitionAnswer->save();
 
             return redirect(URL::previous());
         }
