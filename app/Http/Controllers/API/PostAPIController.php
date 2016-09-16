@@ -154,8 +154,8 @@ class PostAPIController extends AppBaseController
 
 		$input['objectId'] = 'Post'.str_random(10);
 		$input['postUploadNameMM'] = $input["postUploadName"];
-		$input['content'] = $input['content'] ? $input['content'] : 'This content is currently only available in Myanmar language.';
-		$input['content_mm'] = $input['content_mm'] ? $input['content_mm'] : 'အဂၤလိပ္ ဘာသာစကားၿဖင့္သာ လက္ရွိတြင္ ေပးပိုု ့ထားပါသည္။';
+		$input['content'] = isset($input['content']) && $input['content']? $input['content'] : 'This content is currently only available in Myanmar language.';
+		$input['content_mm'] = isset($input['content_mm']) && $input['content_mm'] ? $input['content_mm'] : 'အဂၤလိပ္ ဘာသာစကားၿဖင့္သာ လက္ရွိတြင္ ေပးပိုု ့ထားပါသည္။';
 
 		$posts = $this->postRepository->create($input);
 
@@ -171,7 +171,7 @@ class PostAPIController extends AppBaseController
 	  			$message['title'] = isset($input['content']) ? 'Q&A' : 'အေမးအေျဖ';
 	  		}
 	  		
-	  		$message['message'] = isset($input['content']) ? $input['content']: $input['content_mm'];
+	  		$message['message'] = isset($input['content']) && $input['content'] ? $input['content']: $input['content_mm'];
 			$devices = PushNotification::DeviceCollection($device_list);
 			$message = PushNotification::Message(json_encode($message),array());
 
