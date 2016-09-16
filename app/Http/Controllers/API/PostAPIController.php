@@ -154,6 +154,8 @@ class PostAPIController extends AppBaseController
 
 		$input['objectId'] = 'Post'.str_random(10);
 		$input['postUploadNameMM'] = $input["postUploadName"];
+		$input['content'] = $input['content'] ? $input['content'] : 'This content is currently only available in Myanmar language.';
+		$input['content_mm'] = $input['content_mm'] ? $input['content_mm'] : 'အဂၤလိပ္ ဘာသာစကားၿဖင့္သာ လက္ရွိတြင္ ေပးပိုု ့ထားပါသည္။';
 
 		$posts = $this->postRepository->create($input);
 

@@ -10,6 +10,8 @@ use App\Models\Resources;
 use Illuminate\Http\Request;
 use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
+use App\Models\Gcm;
+use PushNotification;
 
 class CommentAPIController extends AppBaseController
 {
@@ -105,6 +107,27 @@ class CommentAPIController extends AppBaseController
 			if($post){
 				$post->comment_count = $post->comment_count + 1;
 				$post->update();
+			}
+		}
+
+		if((isset($input['postType']) && $input['postType'] == 'Post') || (isset($input['postType']) && $input['postType'] == 'SubResourceDetail') || (isset($input['postType']) && $input['postType'] == 'Resources')){
+
+			if(isset($post) && $post){
+				
+				$device_list = [];
+				$gcm = Gcm::where('user_id',$post->userId)->first();
+				
+				if($gcm){
+					$device_list[] = PushNotification::Device($gcm->reg_id);
+			  		$message['title'] = 'New Comment';
+			  		$message['message'] = $comments->comment_contents;
+					$devices = PushNotification::DeviceCollection($device_list);
+					$message = PushNotification::Message(json_encode($message),array());
+
+					$collection = PushNotification::app('appNameAndroid')
+					    ->to($devices)
+					    ->send($message);
+				}
 			}
 		}
 		
