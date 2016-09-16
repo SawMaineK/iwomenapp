@@ -151,7 +151,7 @@ class PostAPIController extends AppBaseController
 			$this->validateRequestOrFail($request, Post::$rules);
 
 		$input = $request->all();
-
+		$message['message'] = isset($input['content']) && $input['content'] ? $input['content']: $input['content_mm'];
 		$input['objectId'] = 'Post'.str_random(10);
 		$input['postUploadNameMM'] = $input["postUploadName"];
 		$input['content'] = isset($input['content']) && $input['content']? $input['content'] : 'This content is currently only available in Myanmar language.';
@@ -170,8 +170,7 @@ class PostAPIController extends AppBaseController
 	  		}else{
 	  			$message['title'] = isset($input['content']) ? 'Q&A' : 'အေမးအေျဖ';
 	  		}
-	  		
-	  		$message['message'] = isset($input['content']) && $input['content'] ? $input['content']: $input['content_mm'];
+	  	
 			$devices = PushNotification::DeviceCollection($device_list);
 			$message = PushNotification::Message(json_encode($message),array());
 
