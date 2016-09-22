@@ -66,7 +66,7 @@ class PostLikeAPIController extends AppBaseController
 			return response()->json("Invalid Post Id!",400);
 		}
 
-		return response()->json($post->likes);
+		return response()->json($postLikes);
 	}
 
 	public function chkUserLike(Request $request)
