@@ -8,6 +8,7 @@ use Flash;
 use Mitul\Controller\AppBaseController as AppBaseController;
 use Response;
 use App\Models\MutipleAnswer;
+use App\Models\MultipleQuestion;
 use App\CompetitionQuestion;
 
 class MutipleAnswerController extends AppBaseController
