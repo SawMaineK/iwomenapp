@@ -8,7 +8,7 @@ use Flash;
 use Mitul\Controller\AppBaseController as AppBaseController;
 use Response;
 use App\Models\MutipleAnswer;
-use App\Models\MultipleQuestion;
+use App\Models\MutipleQuestion;
 use App\CompetitionQuestion;
 
 class MutipleAnswerController extends AppBaseController
@@ -32,7 +32,7 @@ class MutipleAnswerController extends AppBaseController
 		$mutipleAnswers = [];
 		$competition_question = CompetitionQuestion::orderBy('id','desc')->first();
 		if($competition_question){
-			$multipleQuestionId = MultipleQuestion::where('question_id', $competition_question->id)->lists('id');
+			$multipleQuestionId = MutipleQuestion::where('question_id', $competition_question->id)->lists('id');
 			if(count($multipleQuestionId) > 0){
 				$mutipleAnswers = MutipleAnswer::with(['user','competitionAnswers','multipleQuestion'])->wherein('mutiple_question_id', $multipleQuestionId)->get();
 			}
