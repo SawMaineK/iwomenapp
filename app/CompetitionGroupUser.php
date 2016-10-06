@@ -12,4 +12,12 @@ class CompetitionGroupUser extends Model
     {
         return $this->hasMany('App\Models\MutipleAnswer', 'user_id');
     }
+
+    /**
+	 * Get the shop object.
+	 */
+	public function user()
+	{
+	    return $this->belongsTo('App\Models\User','user_id');
+	}
 }

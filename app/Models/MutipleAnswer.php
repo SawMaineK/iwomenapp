@@ -37,7 +37,7 @@ class MutipleAnswer extends Model
 	/**
 	 * Get the shop object.
 	 */
-	public function user()
+	public function groupUser()
 	{
 	    return $this->belongsTo('App\CompetitionGroupUser','user_id');
 	}

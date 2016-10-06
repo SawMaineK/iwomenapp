@@ -29,12 +29,14 @@ class MutipleAnswerController extends AppBaseController
 	 */
 	public function index()
 	{
-		$mutipleAnswers = [];
+		$mutipleAnswers = null;
 		$competition_question = CompetitionQuestion::orderBy('id','desc')->first();
 		if($competition_question){
 			$multipleQuestionId = MutipleQuestion::where('question_id', $competition_question->id)->lists('id');
 			if(count($multipleQuestionId) > 0){
-				$mutipleAnswers = MutipleAnswer::with(['user','competitionAnswers','multipleQuestion'])->wherein('mutiple_question_id', $multipleQuestionId)->get();
+				$mutipleAnswers = MutipleAnswer::with(['groupUser.user','competitionAnswers','multipleQuestion'])->wherein('mutiple_question_id', $multipleQuestionId)->get();
+			}else{
+				$mutipleAnswers = MutipleAnswer::with(['groupUser.user','competitionAnswers','multipleQuestion'])->get();
 			}
 			return view('mutipleAnswers.index')
 				->with('mutipleAnswers', $mutipleAnswers);
