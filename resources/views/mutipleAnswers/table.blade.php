@@ -8,7 +8,11 @@
             <th data-column-id="group">Group</th>
             <th data-column-id="user">User</th>
             <th data-column-id="tlgaddress" width="300px">TLG Address</th>
-            <th data-column-id="tlgcity" width="300px">TLG City</th>
+            <th data-column-id="user_id" width="300px" data-visible="false">User Id</th>
+            <th data-column-id="phone" width="300px" data-visible="false">Phone</th>
+            <th data-column-id="is_pactworld" width="300px" data-visible="false">isPactWorld</th>
+            <th data-column-id="tlg_city" width="300px" data-visible="false">TLG City</th>
+            <th data-column-id="tlg_country" width="300px" data-visible="false">TLG Country</th>
             <th data-column-id="createdat">Created At</th>
             <th data-column-id="correctornot" data-visible="false">Status</th>
             <th data-column-id="correctanswer" data-formatter="correctanswer">Correct Answer</th>
@@ -24,7 +28,11 @@
                 <td>{!! $mutipleAnswer['groupUser']['group_name'] !!}</td>
                 <td>{!! $mutipleAnswer['groupUser']['username'] !!}</td>
                 <td>{!! $mutipleAnswer['groupUser']['group_city'] !!}</td>
+                <td>{!! $mutipleAnswer['groupUser']['user']['id'] !!}</td>
+                <td>{!! $mutipleAnswer['groupUser']['user']['phoneNo'] !!}</td>
+                <td>{!! $mutipleAnswer['groupUser']['user']['isPactWorld'] !!}</td>
                 <td>{!! $mutipleAnswer['groupUser']['user']['tlg_city'] !!}</td>
+                <td>{!! $mutipleAnswer['groupUser']['user']['tlg_country'] !!}</td>
                 <td>{!! date('Y-m-d h:i:s', strtotime($mutipleAnswer->created_at) - ((60*60) * 6.5))!!}</td>
                 <td>{!! count($mutipleAnswer['competitionAnswers']) !!}</td>
                 <td>
