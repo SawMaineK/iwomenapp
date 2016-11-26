@@ -6,6 +6,7 @@ use App\Models\MutipleAnswer;
 use Illuminate\Http\Request;
 use App\Http\Controllers\AppBaseController as AppBaseController;
 use App\Http\Controllers\MCrypt as MCrypt;
+use App\CompetitionGroupUser;
 use Response;
 use DB;
 
@@ -69,6 +70,14 @@ class MutipleAnswerAPIController extends AppBaseController
 					$data['answer'] = $value->answer;
 					$data['user_id'] = $request->user_id;
 					$mutipleAnswers = $this->mutipleAnswerRepository->create($data);
+
+					$question = CompetitionGroupUser::where('id',$request->user_id)->first();
+					if($question)
+					{
+						$question->status = true;
+						$question->update();
+					}
+
 				}
 				
 			} catch (Exception $e) {
