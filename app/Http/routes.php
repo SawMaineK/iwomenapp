@@ -11,12 +11,15 @@
 |
 */
 
-Route::get('copy_col_data', function(){
-    $posts = App\Models\Post::all();
-    foreach ($posts as $key => $value) {
-        $post = App\Models\Post::find($value->id);
-        $post->postUploadNameMM = $value->postUploadName;
-        $post->update();
+Route::get('fadecode', function(){
+    $users = App\CompetitionGroupUser::where('competition_question_id', 101)->get();
+    foreach ($users as $key => $value) {
+        $answers = App\Models\MutipleAnswer::where('user_id',$value->id)->count();
+        if($answers > 0){
+            $user = App\CompetitionGroupUser::find($value->id);
+            $user->status = true;
+            $user->update();
+        }
     }
     echo 'Success';
 });
