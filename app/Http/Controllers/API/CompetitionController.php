@@ -47,6 +47,11 @@ class CompetitionController extends Controller
             if(!$check){
                 return response()->json("You are not TLG member.", 400);
             }
+
+            $submitted = CompetitionGroupUser::where('competition_question_id', $competition_question->id)->where('user_id', $request->input('user_id'))->where('status', true)->first();
+            if($submitted){
+                return response()->json("You are already submitted answers.", 400);
+            }
             
             $multiple_question = MutipleQuestion::where('question_id', $competition_question->id)->get();
             foreach ($multiple_question as $key => $value) {
