@@ -211,6 +211,10 @@ class CompetitionController extends Controller
     }
 
     public function getUserAnswer($id){
+        $user = CompetitionGroupUser::where('id',$id)->where('status',true)->first();
+        if($user){
+            return response()->json("You are already submitted answers", 400);
+        }
     	$answer = MutipleAnswer::where('user_id', $id)->get();
     	return response()->json($answer);
 
