@@ -27,7 +27,7 @@ class MutipleAnswerController extends AppBaseController
 	 *
 	 * @return Response
 	 */
-	public function index(CreateMutipleAnswerRequest $request)
+	public function index(Requests $request)
 	{
 		$mutipleAnswers = null;
 		$competition_id = $request->input('competition_id') ? $request->input('competition_id') : 0;
