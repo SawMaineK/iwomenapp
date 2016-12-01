@@ -30,7 +30,7 @@ class MutipleAnswerController extends AppBaseController
 	public function index(CreateMutipleAnswerRequest $request)
 	{
 		$mutipleAnswers = null;
-		$competition_id = isset($request->input('competition_id')) ? $request->input('competition_id') : 0;
+		$competition_id = $request->input('competition_id') ? $request->input('competition_id') : 0;
 		if($competition_id > 0){
 			$competition_question = CompetitionQuestion::orderBy('id','desc')->find($competition_id);
 		}else{
