@@ -7,6 +7,7 @@ use App\Libraries\Repositories\MutipleAnswerRepository;
 use Flash;
 use Mitul\Controller\AppBaseController as AppBaseController;
 use Response;
+use Illuminate\Http\Request;
 use App\Models\MutipleAnswer;
 use App\Models\MutipleQuestion;
 use App\CompetitionQuestion;
@@ -27,7 +28,7 @@ class MutipleAnswerController extends AppBaseController
 	 *
 	 * @return Response
 	 */
-	public function index(Requests $request)
+	public function index(Request $request)
 	{
 		$mutipleAnswers = null;
 		$competition_id = $request->input('competition_id') ? $request->input('competition_id') : 0;
