@@ -15,6 +15,7 @@ class Comment extends Model
 
 	public $fillable = [
 	    "objectId",
+	    "postType",
 		"comment_contents",
 		"comment_created_time",
 		"postId",
@@ -31,6 +32,7 @@ class Comment extends Model
      */
     protected $casts = [
         "objectId" => "string",
+        "postType" => "string",
 		"comment_contents" => "string",
 		"postId" => "string",
 		"sticker_img_path" => "string",
