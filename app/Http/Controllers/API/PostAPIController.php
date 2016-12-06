@@ -40,6 +40,7 @@ class PostAPIController extends AppBaseController
 		$limit   = $request->limit ? $request->limit : 12;
 		$category = $request->category;
 		$isAllow = $request->isAllow ? $request->isAllow : '';
+		$userId = $request->userId ? $request->userId : 0;
 		
 		$offset  = ($offset - 1) * $limit;
 		if($category){
@@ -47,6 +48,12 @@ class PostAPIController extends AppBaseController
 				$posts = Post::where('isAllow',$isAllow)->where('category_id', $category)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
 			}else{
 				$posts = Post::where('category_id', $category)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
+			}
+		}elseif($userId > 0){
+			if($isAllow && $isAllow != ''){
+				$posts = Post::where('isAllow',$isAllow)->where('userId', $userId)->orderBy('created_at','desc')->offset($offset)->limit($limit)->get();
+			}else{
+				$posts = Post::where('userId', $userId)->orderBy('created_at','desc')->offset($offset)->limit($limit)->get();
 			}
 		}else{
 			if($isAllow && $isAllow != ''){
