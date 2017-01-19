@@ -177,7 +177,8 @@ class PostAPIController extends AppBaseController
 	  		}else{
 	  			$message['title'] = isset($input['content']) ? 'Q&A' : 'အေမးအေျဖ';
 	  		}
-	  	
+	  		
+	  		$message['postId'] = $posts->id;
 			$devices = PushNotification::DeviceCollection($device_list);
 			$message = PushNotification::Message(json_encode($message),array());
 
