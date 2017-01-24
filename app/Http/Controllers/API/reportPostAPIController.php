@@ -78,6 +78,7 @@ class reportPostAPIController extends AppBaseController
 				return response()->json("The report has already been taken.", 403);
 			}
 		}
+		return response()->json("Invalid user id.", 403);
 
 		
 	}
