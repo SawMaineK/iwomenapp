@@ -1,0 +1,19 @@
+[
+
+    {
+        "field":"postId:integer",
+        "type":"file",
+        "validations": ""
+    },
+    {
+        "field":"userId:integer",
+        "type":"text",
+        "validations": ""
+    },
+    {
+        "field":"point:integer",
+        "type":"text",
+        "validations": ""
+    }
+
+]	

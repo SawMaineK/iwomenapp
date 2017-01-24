@@ -321,3 +321,11 @@ Route::get('resourceLikes/{id}/delete', [
     'as' => 'resourceLikes.delete',
     'uses' => 'ResourceLikeController@destroy',
 ]);
+
+
+Route::resource('reportPosts', 'reportPostController');
+
+Route::get('reportPosts/{id}/delete', [
+    'as' => 'reportPosts.delete',
+    'uses' => 'reportPostController@destroy',
+]);

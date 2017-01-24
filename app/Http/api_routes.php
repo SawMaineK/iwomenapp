@@ -102,3 +102,5 @@ Route::get("iwomenPost/weekContent", "IwomenPostAPIController@thisContent");
 Route::get("resourcesWeekContents", "ResourcesAPIController@thisWeekContent");
 
 Route::post("share/{id}", "PostAPIController@share");
+
+Route::resource("reportPosts", "reportPostAPIController");
