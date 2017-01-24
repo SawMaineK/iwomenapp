@@ -4,6 +4,7 @@ use App\Http\Requests;
 use App\Libraries\Repositories\reportPostRepository;
 use App\Models\reportPost;
 use Illuminate\Http\Request;
+use App\Models\User;
 use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
 
@@ -60,7 +61,7 @@ class reportPostAPIController extends AppBaseController
 		if($user){
 			$report = reportPost::where('postId', $input['postId'])->where('userId', $input['userId'])->first();
 			if(!$report){
-				
+
 				$input['point'] = reportPost::where('postId', $input['postId'])->count() + 1;
 				
 				$reportPosts = $this->reportPostRepository->create($input);
