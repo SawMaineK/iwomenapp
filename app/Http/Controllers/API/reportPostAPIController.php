@@ -5,6 +5,7 @@ use App\Libraries\Repositories\reportPostRepository;
 use App\Models\reportPost;
 use Illuminate\Http\Request;
 use App\Models\User;
+use App\Models\Post;
 use App\Http\Controllers\AppBaseController as AppBaseController;
 use Response;
 
@@ -65,6 +66,12 @@ class reportPostAPIController extends AppBaseController
 				$input['point'] = reportPost::where('postId', $input['postId'])->count() + 1;
 				
 				$reportPosts = $this->reportPostRepository->create($input);
+
+				if($reportPosts->point >= 10){
+					$post = Post::where('id', $reportPosts->postId)->first();
+					$post->isAllow = false;
+					$post->update();
+				}
 
 				return $this->sendResponse($reportPosts->toArray(), "reportPost saved successfully");
 			}else{
