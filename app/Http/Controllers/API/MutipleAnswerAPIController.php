@@ -86,7 +86,7 @@ class MutipleAnswerAPIController extends AppBaseController
 			}			
 		}
 		DB::commit();
-		return response()->json("Your answers saved successfully");
+		return response()->json("Your answer has been submitted");
 	}
 
 	/**
