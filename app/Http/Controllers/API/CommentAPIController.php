@@ -38,7 +38,7 @@ class CommentAPIController extends AppBaseController
 		$offset  = ($offset - 1) * $limit;
 		
 		if($post_id){
-			$posts = Comment::where('postId', $post_id)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
+			$posts = Comment::where('postId', $post_id)->orderBy('id','desc')->get();
 			foreach ($posts as $key => $value) {
 				$posts[$key]['human_created_at'] = $value->created_at->diffForHumans();
 				$posts[$key]['human_updated_at'] = $value->updated_at->diffForHumans();
