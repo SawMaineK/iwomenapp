@@ -220,11 +220,13 @@ class PostAPIController extends AppBaseController
 	 *
 	 * @return Response
 	 */
-	public function show($id)
+	public function show($id, Request $request)
 	{
-		$post = $this->postRepository->apiFindOrFail($id);
-
-		return $this->sendResponse($post->toArray(), "Post retrieved successfully");
+		if($request->isAllow != null)
+			$post = Post::where('id', $id)->where('isAllow', $request->isAllow)->first();
+		else
+			$post = Post::where('id', $id)->first();
+		return response()->json($post);
 	}
 
 	/**

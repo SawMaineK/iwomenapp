@@ -117,11 +117,13 @@ class IwomenPostAPIController extends AppBaseController
 	 *
 	 * @return Response
 	 */
-	public function show($id)
+	public function show($id, Request $request)
 	{
-		$iwomenPost = $this->iwomenPostRepository->apiFindOrFail($id);
-
-		return $this->sendResponse($iwomenPost->toArray(), "IwomenPost retrieved successfully");
+		if($request->isAllow != null)
+			$post = IwomenPost::where('id', $id)->where('isAllow', $request->isAllow)->first();
+		else
+			$post = IwomenPost::where('id', $id)->first();
+		return response()->json($post);
 	}
 
 	/**
