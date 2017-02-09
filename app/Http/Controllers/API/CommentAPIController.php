@@ -32,13 +32,13 @@ class CommentAPIController extends AppBaseController
 	public function index(Request $request)
 	{
 		$offset  = $request->page ? $request->page : 1;
-		$limit   = $request->limit ? $request->limit : 12;
+		$limit   = $request->limit ? $request->limit : 20;
 		$post_id = $request->post_id;
 
 		$offset  = ($offset - 1) * $limit;
 		
 		if($post_id){
-			$posts = Comment::where('postId', $post_id)->orderBy('id','desc')->get();
+			$posts = Comment::where('postId', $post_id)->orderBy('id','desc')->offset($offset)->limit($limit)->get();
 			foreach ($posts as $key => $value) {
 				$posts[$key]['human_created_at'] = $value->created_at->diffForHumans();
 				$posts[$key]['human_updated_at'] = $value->updated_at->diffForHumans();
