@@ -64,7 +64,15 @@ class IwomenPostAPIController extends AppBaseController
 								->where('isAllow',$isAllow)
 								->orderBy('postUploadedDate','desc')
 								->offset($offset)->limit($limit)->get();
-		return response()->json($posts);
+		$results = [];
+		if(count($posts) > 0){
+			foreach ($posts as $post) {
+				if($post->isAllow == 1){
+					$results[] = $post;
+				}
+			}
+		}
+		return response()->json($results);
 	}
 
 	public function thisContent()
