@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-
+use App\CompetitionGroupUser;
 use App\CompetitionAnswer;
 use App\Models\MutipleAnswer;
 use App\Models\MutipleQuestion;
@@ -28,7 +28,7 @@ class CompetitionAnswerController extends Controller
             $title="Competition Answer List (Unsubmitted)";
             $status=0;
         }
-        $answerslist =CompetitionAnswer::where('status',$status)->with('competitiongroupuser')->orderBy('updated_at','asc')->get();
+        $answerslist =CompetitionAnswer::where('status',$status)->with('competitiongroupuser')->orderBy('updated_at','desc')->get();
         $answers=array();
         if($answerslist){
             $grouparray=array();
@@ -72,7 +72,8 @@ class CompetitionAnswerController extends Controller
      */
     public function show($id)
     {
-        //
+         $answer=CompetitionAnswer::with('competitiongroupuser')->where('id',$id)->first();
+         return view('competitionanswer.edit', compact('answer'));
     }
 
     /**
@@ -81,7 +82,7 @@ class CompetitionAnswerController extends Controller
      * @param  int  $id
      * @return Response
      */
-    public function edit($id)
+    public function edit($id, Request $request)
     {
         $objanswer=CompetitionAnswer::find($id);
         $objanswer->correct=1;
@@ -129,7 +130,19 @@ class CompetitionAnswerController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $objanswer=CompetitionAnswer::find($id);
+        $objanswer->answer= $request->answer;
+        $objanswer->answer_mm= $request->answer_mm;
+        $objanswer->update();
+
+        $group = CompetitionGroupUser::find($objanswer->competition_group_user_id);
+        if($group){
+            $group->group_name = $request->group_name;
+            $group->group_name_mm = $request->group_name_mm;
+            $group->update();
+        }
         
+        return redirect(URL::previous());
     }
 
     /**

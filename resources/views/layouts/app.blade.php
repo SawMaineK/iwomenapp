@@ -234,6 +234,7 @@
 
                             <ul>
                                 <li><a href="/mutipleAnswers">Submitted Answers</a></li>
+                                <li><a href="/admin/competition-answers">Correct Answers</a></li>
                             </ul>
                         </li>
                         <li><a href="/admin/group-users"><i class="zmdi zmdi zmdi zmdi-accounts-add"></i>Competition Group Users</a></li>

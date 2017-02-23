@@ -63,6 +63,7 @@ Route::group(['middleware' => 'web', 'prefix' => 'admin'], function () {
     Route::get('competition-question/{id}/delete',      'CompetitionQuestionController@destroy');
 
     Route::resource('competition-answers',              'CompetitionAnswerController');
+    Route::post('competition-answer/{id}/update',      'CompetitionAnswerController@update');
     Route::get('competition-answers-correct/{id}',      'CompetitionAnswerController@correct');
     Route::get('competition-answers-uncorrect/{id}',    'CompetitionAnswerController@uncorrect');
 

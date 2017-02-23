@@ -50,11 +50,12 @@
                                     <!-- <th data-column-id="id" data-identifier="false">ID</th> -->
                                     <th data-column-id="id" data-visible='false' data-sortable="false">ID</th>
                                     <th data-column-id="group" data-sortable="false" data-formatter="group">Group</th>
+                                    <th data-column-id="group_mm" data-visible='false' data-sortable="false" data-formatter="groupmm">Group MM</th>
                                     <th data-column-id="username" data-sortable="false" data-formatter="username">User Name</th>
                                     <th data-column-id="answer" data-sortable="false" data-formatter="answer">Answer</th>
                                     <th data-column-id="answer_mm" data-visible='false' data-sortable="false" data-formatter="answer_mm">Answer_MM</th>
-                                    <th data-column-id="date_time" data-sortable="false">Date Time</th>
-                                    <th data-column-id="correct" data-sortable="false">Correct</th>
+                                    <th data-column-id="date_time" data-visible='false' data-sortable="false">Date Time</th>
+                                    <th data-column-id="correct" data-visible='false' data-sortable="false">Correct</th>
                                     <th data-column-id="commands" data-formatter="commands" data-sortable="false">Commands</th>
                                 </tr>
                             </thead>
@@ -69,15 +70,17 @@
                                         <td></td>
                                         <td></td>
                                         <td></td>
+                                        <td></td>
                                     </tr>
 
                                     @foreach($answerlist as $answer)
                                         <tr data-row-id="{{$answer['id']}}">
                                             <td>{{$answer['id']}}</td>
                                             <td>{{@$answer['competitiongroupuser']['group_name']}}</td>
+                                            <td>{{@$answer['competitiongroupuser']['group_name_mm']}}</td>
                                             <td>{{@$answer['competitiongroupuser']['username']}}</td>
                                             <td>{{$answer['answer']}}</td>
-                                            <td>{{$answer['answer']}}</td>
+                                            <td>{{$answer['answer_mm']}}</td>
                                             <td><p>{{date('d-M-Y h:i A',strtotime($answer['updated_at']) + ((60*60) * 6.5))}}</p></td>
                                             <td>@if($answer['correct']==1) TRUE @else FALSE @endif</td>
                                             <td></td>
@@ -94,9 +97,10 @@
         </section>
 @endsection
 
-@section('script')
+@section('scripts')
     @parent
-    <script type="text/javascript" src="{{Request::root()}}/js/jquery.battatech.excelexport.min.js"></script>
+    <script src="{{Request::root()}}/vendors/bootgrid/jquery.bootgrid.min.js"></script>
+    <script src="{{Request::root()}}/js/jquery.battatech.excelexport.min.js"></script>
 
     <script type="text/javascript">
             $(document).ready(function(){
@@ -117,7 +121,14 @@
                     formatters: {
                         "group": function(columns, rows) {
                             if(rows.answer_mm ===''){
-                                return "<b class='red-color'>"+rows.group+"</b>";
+                                return "<b class='red-color'><p style='width:300px;'>"+rows.group+"</p></b>";
+                            }else{
+                                return rows.group;
+                            }
+                        },
+                        "groupmm": function(columns, rows) {
+                            if(rows.answer_mm ===''){
+                                return "<b class='red-color'><p style='width:300px;'>"+rows.group_mm+"</p></b>";
                             }else{
                                 return rows.group;
                             }
@@ -149,9 +160,9 @@
                             }
 
                             if(row.correct==" TRUE "){
-                                return "<a href='/admin/competition-answers-uncorrect/"+row.id+"'><button type=\"button\" class=\"btn btn-icon command-edit\" data-row-id=\"" + row.id + "\"><span class=\"zmdi zmdi-close\"></span></button> </a>";
+                                return "<a href='/admin/competition-answers-uncorrect/"+row.id+"'><button type=\"button\" class=\"btn btn-icon command-edit\" data-row-id=\"" + row.id + "\"><span class=\"zmdi zmdi-close\"></span></button> </a><a href='/admin/competition-answers/"+row.id+"'><button type=\"button\" class=\"btn btn-icon command-edit\" data-row-id=\"" + row.id + "\"><span class=\"zmdi zmdi-edit\"></span></button> </a>";
                             }else{
-                                return "<a href='/admin/competition-answers-correct/"+row.id+"'><button type=\"button\" class=\"btn btn-icon command-edit\" data-row-id=\"" + row.id + "\"><span class=\"zmdi zmdi-check\"></span></button> </a>";
+                                return "<a href='/admin/competition-answers-correct/"+row.id+"'><button type=\"button\" class=\"btn btn-icon command-edit\" data-row-id=\"" + row.id + "\"><span class=\"zmdi zmdi-check\"></span></button> </a><a href='/admin/competition-answers/"+row.id+"'><button type=\"button\" class=\"btn btn-icon command-edit\" data-row-id=\"" + row.id + "\"><span class=\"zmdi zmdi-edit\"></span></button> </a>";
                                 
                             }
                         }
