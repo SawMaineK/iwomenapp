@@ -49,12 +49,12 @@ class CompetitionQuestionController extends Controller
     {
         // create the validation rules ------------------------
         $rules = array(
-            'question'                  => 'required|min:20',                        // just a normal required validation
-            'question_mm'               => 'required|min:20',         // required and must be unique in the user table
-            'description'               => 'required|min:20',
-            'description_mm'            => 'required|min:20',
-            'instruction'               => 'required|min:20',         
-            'instruction_mm'            => 'required|min:20',         
+            'question'                  => 'required',                        // just a normal required validation
+            'question_mm'               => 'required',         // required and must be unique in the user table
+            'description'               => 'required',
+            'description_mm'            => 'required',
+            'instruction'               => 'required',         
+            'instruction_mm'            => 'required',         
             'start_date'                => 'required',         
             'end_date'                  => 'required',         
             'groupusers'                => 'required',         
@@ -190,12 +190,12 @@ class CompetitionQuestionController extends Controller
     {
         // create the validation rules ------------------------
         $rules = array(
-            'question'                  => 'required|min:20',                        // just a normal required validation
-            'question_mm'               => 'required|min:20',         // required and must be unique in the user table
-            'description'               => 'required|min:20',
-            'description_mm'            => 'required|min:20',
-            'instruction'               => 'required|min:20',         
-            'instruction_mm'            => 'required|min:20',         
+            'question'                  => 'required',                        // just a normal required validation
+            'question_mm'               => 'required',         // required and must be unique in the user table
+            'description'               => 'required',
+            'description_mm'            => 'required',
+            'instruction'               => 'required',         
+            'instruction_mm'            => 'required',         
             'groupusers'                => 'required',         
         );
         // do the validation ----------------------------------
