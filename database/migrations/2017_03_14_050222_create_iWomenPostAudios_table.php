@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateResourceLikesTable extends Migration
+class CreateIWomenPostAudiosTable extends Migration
 {
 
 	/**
@@ -13,12 +13,15 @@ class CreateResourceLikesTable extends Migration
 	 */
 	public function up()
 	{
-		Schema::create('resourceLikes', function(Blueprint $table)
+		Schema::create('iWomenPostAudios', function(Blueprint $table)
 		{
 			$table->increments('id');
-			$table->string('objectId');
-			$table->integer('postId');
-			$table->integer('userId');
+			$table->string('post_id');
+			$table->string('name');
+			$table->string('name_mm');
+			$table->string('links_path');
+			$table->string('uploaded_date');
+			$table->boolean('isAllow');
 			$table->timestamps();
 			$table->softDeletes();
 		});
@@ -31,7 +34,7 @@ class CreateResourceLikesTable extends Migration
 	 */
 	public function down()
 	{
-		Schema::drop('resourceLikes');
+		Schema::drop('iWomenPostAudios');
 	}
 
 }

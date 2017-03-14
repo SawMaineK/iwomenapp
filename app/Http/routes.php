@@ -330,3 +330,19 @@ Route::get('reportPosts/{id}/delete', [
     'as' => 'reportPosts.delete',
     'uses' => 'reportPostController@destroy',
 ]);
+
+
+Route::resource('resourceLikes', 'ResourceLikeController');
+
+Route::get('resourceLikes/{id}/delete', [
+    'as' => 'resourceLikes.delete',
+    'uses' => 'ResourceLikeController@destroy',
+]);
+
+
+Route::resource('iWomenPostAudios', 'IWomenPostAudioController');
+
+Route::get('iWomenPostAudios/{id}/delete', [
+    'as' => 'iWomenPostAudios.delete',
+    'uses' => 'IWomenPostAudioController@destroy',
+]);

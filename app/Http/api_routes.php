@@ -104,3 +104,5 @@ Route::get("resourcesWeekContents", "ResourcesAPIController@thisWeekContent");
 Route::post("share/{id}", "PostAPIController@share");
 
 Route::resource("reportPosts", "reportPostAPIController");
+
+Route::resource("iWomenPostAudios", "IWomenPostAudioAPIController");

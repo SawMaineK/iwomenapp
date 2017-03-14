@@ -43,6 +43,7 @@ class MutipleAnswerController extends AppBaseController
 			if(count($multipleQuestionId) > 0){
 				$mutipleAnswers = MutipleAnswer::with(['groupUser.user','competitionAnswers','multipleQuestion'])->wherein('mutiple_question_id', $multipleQuestionId)->get();
 			}else{
+
 				$mutipleAnswers = MutipleAnswer::with(['groupUser.user','competitionAnswers','multipleQuestion'])->get();
 			}
 			return view('mutipleAnswers.index')

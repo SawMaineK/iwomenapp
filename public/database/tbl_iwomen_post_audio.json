@@ -1,0 +1,32 @@
+[
+    {
+        "field":"post_id:string",
+        "type":"text",
+        "validations": "required"
+    },
+    {
+        "field":"name:string",
+        "type":"text",
+        "validations": "required"
+    },
+    {
+        "field":"name_mm:string",
+        "type":"text",
+        "validations": "required"
+    },
+    {
+        "field":"links_path:string",
+        "type":"file",
+        "validations": "required"
+    },
+    {
+        "field":"uploaded_date:string",
+        "type":"text",
+        "validations": "required"
+    },
+    {
+        "field":"isAllow:boolean",
+        "type":"text",
+        "validations": ""
+    }
+]
