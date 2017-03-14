@@ -62,7 +62,7 @@ class reportPostAPIController extends AppBaseController
 		if($user){
 			$report = reportPost::where('postId', $input['postId'])->where('userId', $input['userId'])->first();
 			if(!$report){
-
+				$input['report_count'] = 10;
 				$input['point'] = reportPost::where('postId', $input['postId'])->count() + 1;
 				
 				$reportPosts = $this->reportPostRepository->create($input);
@@ -72,7 +72,6 @@ class reportPostAPIController extends AppBaseController
 					$post->isAllow = false;
 					$post->update();
 				}
-
 				return $this->sendResponse($reportPosts->toArray(), "reportPost saved successfully");
 			}else{
 				return response()->json("The report has already been taken.", 403);

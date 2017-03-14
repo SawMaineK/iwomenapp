@@ -15,7 +15,8 @@ class reportPost extends Model
 	public $fillable = [
 	    "postId",
 		"userId",
-		"point"
+		"point",
+		"report_count"
 	];
 
     /**
@@ -26,7 +27,8 @@ class reportPost extends Model
     protected $casts = [
         "postId" => "integer",
 		"userId" => "integer",
-		"point" => "integer"
+		"point" => "integer",
+		"report_count" => "integer"
     ];
 
 	public static $rules = [
