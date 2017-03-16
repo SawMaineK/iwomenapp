@@ -23,11 +23,21 @@ class IWomenPostAudioAPIController extends AppBaseController
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function index(Request $request)
 	{
-		$iWomenPostAudios = $this->iWomenPostAudioRepository->all();
 
-		return $this->sendResponse($iWomenPostAudios->toArray(), "IWomenPostAudios retrieved successfully");
+		$offset  = $request->page ? $request->page : 1;
+		$limit   = $request->limit ? $request->limit : 12;
+		$sorting = $request->sorting ? $request->sorting : 'asc';
+		$isAllow = $request->isAllow ? $request->isAllow : '';
+		
+		$offset  = ($offset - 1) * $limit;
+		if($isAllow && $isAllow != '')
+			$postAudio = IWomenPostAudio::where('isAllow',$isAllow)->orderBy('uploaded_date', $sorting)->offset($offset)->limit($limit)->get();
+		else
+			$postAudio = IWomenPostAudio::orderBy('uploaded_date', $sorting)->offset($offset)->limit($limit)->get();
+		
+		return response()->json($postAudio);
 	}
 
 	/**
