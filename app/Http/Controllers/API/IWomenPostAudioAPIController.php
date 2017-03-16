@@ -30,12 +30,22 @@ class IWomenPostAudioAPIController extends AppBaseController
 		$limit   = $request->limit ? $request->limit : 12;
 		$sorting = $request->sorting ? $request->sorting : 'asc';
 		$isAllow = $request->isAllow ? $request->isAllow : '';
+		$postId = $request->post_id ? $request->post_id : '';
 		
 		$offset  = ($offset - 1) * $limit;
-		if($isAllow && $isAllow != '')
-			$postAudio = IWomenPostAudio::where('isAllow',$isAllow)->orderBy('uploaded_date', $sorting)->offset($offset)->limit($limit)->get();
-		else
-			$postAudio = IWomenPostAudio::orderBy('uploaded_date', $sorting)->offset($offset)->limit($limit)->get();
+		if($postId != '')
+		{
+			if($isAllow && $isAllow != '')
+				$postAudio = IWomenPostAudio::where('post_id', $postId)->where('isAllow',$isAllow)->orderBy('uploaded_date', $sorting)->offset($offset)->limit($limit)->get();
+			else
+				$postAudio = IWomenPostAudio::where('post_id', $postId)->orderBy('uploaded_date', $sorting)->offset($offset)->limit($limit)->get();
+		}else{
+			if($isAllow && $isAllow != '')
+				$postAudio = IWomenPostAudio::where('isAllow',$isAllow)->orderBy('uploaded_date', $sorting)->offset($offset)->limit($limit)->get();
+			else
+				$postAudio = IWomenPostAudio::orderBy('uploaded_date', $sorting)->offset($offset)->limit($limit)->get();
+		}
+		
 		
 		return response()->json($postAudio);
 	}
