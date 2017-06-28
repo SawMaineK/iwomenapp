@@ -67,7 +67,12 @@ class GcmMessageController extends AppBaseController
 		$device_list = [];
 		if($input['user_id'] != 'All'){
 			$gcm = Gcm::where('user_id', $input['user_id'])->first();
-			$device_list[] = PushNotification::Device($gcm->reg_id);
+			if($gcm) {
+				$device_list[] = PushNotification::Device($gcm->reg_id);
+			}else{
+				Flash::error('No registered gcm device user.');
+				return redirect(route('gcmMessages.index'));
+			}
 			
 		}else{
 			$gcm = Gcm::all();
