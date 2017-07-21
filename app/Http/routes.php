@@ -346,3 +346,11 @@ Route::get('iWomenPostAudios/{id}/delete', [
     'as' => 'iWomenPostAudios.delete',
     'uses' => 'IWomenPostAudioController@destroy',
 ]);
+
+
+Route::resource('subResourceDetailAudios', 'SubResourceDetailAudioController');
+
+Route::get('subResourceDetailAudios/{id}/delete', [
+    'as' => 'subResourceDetailAudios.delete',
+    'uses' => 'SubResourceDetailAudioController@destroy',
+]);
