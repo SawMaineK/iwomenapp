@@ -25,9 +25,29 @@ class SubResourceDetailAudioAPIController extends AppBaseController
 	 */
 	public function index()
 	{
-		$subResourceDetailAudios = $this->subResourceDetailAudioRepository->all();
-
-		return $this->sendResponse($subResourceDetailAudios->toArray(), "SubResourceDetailAudios retrieved successfully");
+		$offset  = $request->page ? $request->page : 1;
+		$limit   = $request->limit ? $request->limit : 12;
+		$sorting = $request->sorting ? $request->sorting : 'asc';
+		$isAllow = $request->isAllow ? $request->isAllow : '';
+		$postId = $request->post_id ? $request->post_id : '';
+		
+		$offset  = ($offset - 1) * $limit;
+		if($postId != '')
+		{
+			if($isAllow && $isAllow != '')
+				$postAudio = SubResourceDetailAudio::where('post_id', $postId)->where('isAllow',$isAllow)->orderBy('uploaded_date', $sorting)->offset($offset)->limit($limit)->get();
+			else
+				$postAudio = SubResourceDetailAudio::where('post_id', $postId)->orderBy('uploaded_date', $sorting)->offset($offset)->limit($limit)->get();
+		}else{
+			if($isAllow && $isAllow != '')
+				$postAudio = SubResourceDetailAudio::where('isAllow',$isAllow)->orderBy('uploaded_date', $sorting)->offset($offset)->limit($limit)->get();
+			else
+				$postAudio = SubResourceDetailAudio::orderBy('uploaded_date', $sorting)->offset($offset)->limit($limit)->get();
+		}
+		
+		
+		return response()->json($postAudio);
+	
 	}
 
 	/**
