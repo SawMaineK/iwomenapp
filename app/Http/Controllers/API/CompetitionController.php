@@ -86,8 +86,8 @@ class CompetitionController extends Controller
         		return response()->json($competition_question);
         	}
 
-            $game_msg['error'] = 'The next game will start on January.';
-            $game_msg['error_mm'] = 'ေနာက္ ဂိမ္းကို ဇန္နဝါရီ တြင္ စပါမည္။';
+            $game_msg['error'] = 'The next game will start on next month.';
+            $game_msg['error_mm'] = 'ဂိမ္းအသစ္ကို ေနာက္လတြင္ စတင္ပါမည္';
         	return response()->json($game_msg, 403);
         }
     }
